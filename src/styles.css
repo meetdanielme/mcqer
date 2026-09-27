@@ -8,3 +8,5 @@
 .import-panel pre{white-space:pre-wrap;overflow-wrap:anywhere}
 
 .course-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:20px}.button.danger{background:#a32222;color:#fff;border:1px solid #a32222}.button.danger:hover{background:#8b1c1c}@media(max-width:700px){.course-heading{align-items:flex-start}.course-heading>.button{font-size:11px;padding:7px 8px;min-height:36px}}
+
+.shared-hint{margin:12px 0 0;color:#4e6b82;font-size:13px;max-width:560px}.catalog-error{border-left:4px solid #a32222;background:#fff0f0;color:#7d2020;padding:12px 15px;margin-bottom:20px;font-size:13px}

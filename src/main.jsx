@@ -1,21 +1,41 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import { BookOpen, Check, ChevronLeft, ChevronRight, CircleHelp, Download, GraduationCap, Plus, RotateCcw, Upload, X } from 'lucide-react';
 import { loadCourses, mergeBackup, mergeImport, questionCount, STORAGE_KEY, validateBackup, validateImport } from './data.js';
+import { loadPublishedDocuments, mergePublishedCourses } from './published.js';
 import './styles.css';
 
 function App() {
-  const [courses, setCourses] = useState(loadCourses);
-  const [selectedId, setSelectedId] = useState(null);
+  const [localCourses, setLocalCourses] = useState(loadCourses);
+  const [publishedDocuments, setPublishedDocuments] = useState([]);
+  const [catalogLoading, setCatalogLoading] = useState(true);
+  const [catalogError, setCatalogError] = useState('');
+  const [selectedCode, setSelectedCode] = useState(null);
   const [modal, setModal] = useState(null);
   const [notice, setNotice] = useState('');
   const [practice, setPractice] = useState(null);
   const fileRef = useRef(null);
   const backupRef = useRef(null);
-  const course = courses.find(item => item.id === selectedId) || courses[0];
-  useEffect(() => { localStorage.setItem(STORAGE_KEY, JSON.stringify(courses)); }, [courses]);
+  const courses = useMemo(() => mergePublishedCourses(localCourses, publishedDocuments), [localCourses, publishedDocuments]);
+  const publishedCodes = useMemo(() => new Set(publishedDocuments.map(item => item.course.code.trim().toLowerCase())), [publishedDocuments]);
+  const course = courses.find(item => item.code.toLowerCase() === selectedCode?.toLowerCase()) || courses[0];
+  const isPublished = Boolean(course && publishedCodes.has(course.code.toLowerCase()));
+  useEffect(() => { localStorage.setItem(STORAGE_KEY, JSON.stringify(localCourses)); }, [localCourses]);
+  useEffect(() => {
+    let active = true;
+    loadPublishedDocuments(import.meta.env.BASE_URL).then(documents => {
+      if (active) { setPublishedDocuments(documents); setCatalogLoading(false); }
+    }).catch(error => {
+      if (active) { setCatalogError(error.message); setCatalogLoading(false); }
+    });
+    return () => { active = false; };
+  }, []);
   useEffect(() => { if (notice) { const timer = setTimeout(() => setNotice(''), 6000); return () => clearTimeout(timer); } }, [notice]);
-  const updateCourse = updated => setCourses(current => current.map(item => item.id === updated.id ? updated : item));
+  const updateCourse = updated => setLocalCourses(current => {
+    const index = current.findIndex(item => item.code.toLowerCase() === updated.code.toLowerCase());
+    if (index < 0) return [...current, updated];
+    const next = [...current]; next[index] = updated; return next;
+  });
 
   function saveCourse(event) {
     event.preventDefault();
@@ -24,7 +44,7 @@ function App() {
     const title = String(form.get('title')).trim();
     if (courses.some(item => item.code.toLowerCase() === code.toLowerCase())) { setNotice('A course with that code already exists.'); return; }
     const created = { id: crypto.randomUUID(), code, title, chapters: [] };
-    setCourses([...courses, created]); setSelectedId(created.id); setModal(null);
+    setLocalCourses([...localCourses, created]); setSelectedCode(created.code); setModal(null);
   }
   function saveChapter(event) {
     event.preventDefault();
@@ -43,8 +63,9 @@ function App() {
     updateCourse({ ...course, chapters: course.chapters.map(chapter => chapter.id === chapterId ? { ...chapter, questions: [...chapter.questions, question] } : chapter) }); setModal(null);
   }
   function deleteCourse() {
-    setCourses(current => current.filter(item => item.id !== course.id));
-    setSelectedId(null); setPractice(null); setModal(null);
+    if (isPublished) return;
+    setLocalCourses(current => current.filter(item => item.code.toLowerCase() !== course.code.toLowerCase()));
+    setSelectedCode(null); setPractice(null); setModal(null);
     setNotice('Course deleted.');
   }
   async function importFile(event) {
@@ -55,8 +76,8 @@ function App() {
     try { input = JSON.parse(await file.text()); } catch { setModal({ type: 'errors', errors: ['The file is not valid JSON.'] }); return; }
     const errors = validateImport(input);
     if (errors.length) { setModal({ type: 'errors', errors }); return; }
-    const result = mergeImport(courses, input);
-    setCourses(result.courses); setSelectedId(result.courseId); setPractice(null);
+    const result = mergeImport(localCourses, input);
+    setLocalCourses(result.courses); setSelectedCode(input.course.code.trim()); setPractice(null);
     setNotice('Imported ' + result.added + ' new and updated ' + result.updated + ' questions.');
   }
   async function restoreBackup(event) {
@@ -67,8 +88,8 @@ function App() {
     try { data = JSON.parse(await file.text()); } catch { setModal({ type: 'errors', errors: ['The backup is not valid JSON.'] }); return; }
     const errors = validateBackup(data);
     if (errors.length) { setModal({ type: 'errors', errors }); return; }
-    const result = mergeBackup(courses, data);
-    setCourses(result.courses); setPractice(null);
+    const result = mergeBackup(localCourses, data);
+    setLocalCourses(result.courses); setPractice(null);
     setNotice('Backup merged: ' + result.added + ' new and ' + result.updated + ' updated questions.');
   }
   function exportData() {
@@ -86,14 +107,15 @@ function App() {
 
   return <div className="app-shell">
     <a className="skip-link" href="#main">Skip to content</a>
-    <header className="topbar"><div className="topbar-brand"><span className="brand-name">MCQer</span><span className="brand-divider"/><span className="brand-subtitle">Question bank</span></div><span className="topbar-note">Local-first · Your questions stay on this device</span></header>
+    <header className="topbar"><div className="topbar-brand"><span className="brand-name">MCQer</span><span className="brand-divider"/><span className="brand-subtitle">Question bank</span></div></header>
     <div className="workspace">
       <aside className="sidebar" aria-label="Courses">
         <div className="sidebar-heading"><h2>Your courses</h2><button className="button small secondary" onClick={() => setModal({ type: 'course' })}><Plus size={16}/> Create course</button></div>
-        {courses.length ? <nav className="course-list">{courses.map(item => <button key={item.id} className={'course-item ' + (course?.id === item.id ? 'active' : '')} onClick={() => { setSelectedId(item.id); setPractice(null); }}><GraduationCap size={22}/><span><strong>{item.title}</strong><small>{item.chapters.length} {item.chapters.length === 1 ? 'chapter' : 'chapters'} · {questionCount(item)} {questionCount(item) === 1 ? 'question' : 'questions'}</small></span></button>)}</nav> : <div className="sidebar-empty">Create your first course or import a JSON file to begin.</div>}
+        {courses.length ? <nav className="course-list">{courses.map(item => <button key={item.code} className={'course-item ' + (course?.code === item.code ? 'active' : '')} onClick={() => { setSelectedCode(item.code); setPractice(null); }}><GraduationCap size={22}/><span><strong>{item.title}</strong><small>{item.chapters.length} {item.chapters.length === 1 ? 'chapter' : 'chapters'} · {questionCount(item)} {questionCount(item) === 1 ? 'question' : 'questions'}{publishedCodes.has(item.code.toLowerCase()) ? ' · Shared' : ''}</small></span></button>)}</nav> : <div className="sidebar-empty">{catalogLoading ? 'Loading shared questions…' : 'Create your first course or import a JSON file to begin.'}</div>}
         <div className="sidebar-bottom"><button className="plain-link" onClick={exportData} disabled={!courses.length}><Download size={17}/> Download backup</button><button className="plain-link" onClick={() => backupRef.current?.click()}><Upload size={17}/> Restore backup</button></div>
       </aside>
       <main id="main" className="main-content">
+        {catalogError && <div className="catalog-error" role="alert">Shared questions could not load: {catalogError} Reload the page to try again.</div>}
         {practice ? <>
           <button className="back-link" onClick={() => setPractice(null)}><ChevronLeft size={18}/> Back to {course?.title}</button>
           <div className="practice-heading"><div><p className="eyeline">{practice.chapter.title}</p><h1>{finished ? 'Practice complete' : 'Question ' + (practice.index + 1) + ' of ' + questions.length}</h1></div><span className="progress-label">{finished ? score + '/' + questions.length + ' correct' : Math.round((practice.index / questions.length) * 100) + '% complete'}</span></div>
@@ -101,14 +123,14 @@ function App() {
           <section className="question-panel"><div className="question-count">{practice.index + 1} / {questions.length}</div><h2>{currentQuestion.stem}</h2><div className="answer-list">{currentQuestion.options.map(option => { const correct = option.id === currentQuestion.correctOptionId; const chosen = option.id === selectedAnswer; return <button key={option.id} disabled={practice.revealed} className={'answer-option ' + (chosen ? 'chosen ' : '') + (practice.revealed && correct ? 'correct ' : '') + (practice.revealed && chosen && !correct ? 'incorrect' : '')} onClick={() => setPractice({ ...practice, answers: { ...practice.answers, [currentQuestion.id]: option.id } })}><span className="option-letter">{option.id}</span><span>{option.text}</span>{practice.revealed && correct && <Check size={19}/>}</button>; })}</div>{practice.revealed && <div className="explanation"><strong>{selectedAnswer === currentQuestion.correctOptionId ? 'Correct' : 'Review this answer'}</strong><p>{currentQuestion.explanation}</p>{currentQuestion.source && <small>Source: {currentQuestion.source}</small>}</div>}<div className="question-footer"><button className="button secondary" disabled={!practice.index} onClick={() => setPractice({ ...practice, index: practice.index - 1, revealed: false })}><ChevronLeft size={17}/> Previous</button>{practice.revealed ? <button className="button primary" onClick={() => setPractice({ ...practice, index: practice.index + 1, revealed: false })}>{practice.index === questions.length - 1 ? 'View results' : 'Next question'} <ChevronRight size={17}/></button> : <button className="button primary" disabled={!selectedAnswer} onClick={() => setPractice({ ...practice, revealed: true })}>Check answer</button>}</div></section>}
         </> : course ? <>
           <div className="breadcrumb">Courses <ChevronRight size={15}/> {course.title}</div>
-          <div className="course-heading"><div><h1>{course.title}</h1><p>{course.code} · {course.chapters.length} {course.chapters.length === 1 ? 'chapter' : 'chapters'} / {questionCount(course)} {questionCount(course) === 1 ? 'question' : 'questions'}</p></div><button className="button secondary" onClick={() => setModal({ type: 'delete-course' })}>Delete course</button></div>
+          <div className="course-heading"><div><h1>{course.title}</h1><p>{course.code} · {course.chapters.length} {course.chapters.length === 1 ? 'chapter' : 'chapters'} / {questionCount(course)} {questionCount(course) === 1 ? 'question' : 'questions'}</p>{isPublished && <p className="shared-hint">Shared with classmates. Questions added in the app stay in this browser until published to the repo.</p>}</div>{!isPublished && <button className="button secondary" onClick={() => setModal({ type: 'delete-course' })}>Delete course</button>}</div>
           <div className="section-heading"><div><h2>Chapters</h2><p>Practice by chapter, or add more content to your question bank.</p></div><button className="button primary" onClick={() => setModal({ type: 'chapter' })}><Plus size={19}/> Add chapter</button></div>
           {course.chapters.length ? <div className="chapter-list">{course.chapters.map((chapter, index) => <article className="chapter-row" key={chapter.id}><span className="chapter-number">{index + 1}</span><div className="chapter-text"><h3>{chapter.title}</h3><p>{chapter.description || 'Questions for this chapter'}</p><button className="text-action" onClick={() => setModal({ type: 'question', chapterId: chapter.id })}><Plus size={15}/> Add question</button></div><span className="question-total">{chapter.questions.length} {chapter.questions.length === 1 ? 'question' : 'questions'}</span><button className="button secondary" disabled={!chapter.questions.length} onClick={() => startPractice(chapter)}>Start practice <ChevronRight size={16}/></button></article>)}</div> : <div className="empty-main"><BookOpen size={33}/><h3>No chapters yet</h3><p>Add a chapter or import questions generated from your lecture materials.</p><button className="button primary" onClick={() => setModal({ type: 'chapter' })}><Plus size={17}/> Add chapter</button></div>}
-        </> : <div className="welcome"><BookOpen size={35}/><h1>Build your question bank</h1><p>Create a course, add chapters, and practice MCQs from your lecture material. You can also import a JSON file prepared by your Notion AI agent.</p><div className="row-actions"><button className="button primary" onClick={() => setModal({ type: 'course' })}><Plus size={18}/> Create course</button><button className="button secondary" onClick={() => fileRef.current?.click()}><Upload size={18}/> Import JSON</button></div></div>}
+        </> : <div className="welcome"><BookOpen size={35}/><h1>Build your question bank</h1><p>Shared courses will appear here when published to the repository. You can also create a course or import JSON from your Notion AI agent for your own practice.</p><div className="row-actions"><button className="button primary" onClick={() => setModal({ type: 'course' })}><Plus size={18}/> Create course</button><button className="button secondary" onClick={() => fileRef.current?.click()}><Upload size={18}/> Import JSON</button></div></div>}
       </main>
-      <aside className="info-sidebar"><div className="import-panel"><h2>Import questions</h2><p>Add MCQs from a JSON file. Everything stays on this device.</p><button className="button secondary import-button" onClick={() => fileRef.current?.click()}><Upload size={18}/> Import JSON file</button><hr/><h3>Expected file structure</h3><p>One course with one or more chapters. Each question has choices, a correct answer, and an explanation.</p><pre>{'{\n  "version": 1,\n  "course": {\n    "code": "EC2204",\n    "title": "Economics"\n  },\n  "chapters": [\n    { "title": "Markets",\n      "questions": [ ... ] }\n  ]\n}'}</pre><a className="guide-link" href={import.meta.env.BASE_URL + 'IMPORT_FORMAT.md'} target="_blank" rel="noreferrer"><CircleHelp size={17}/> View full format guide</a></div></aside>
+      <aside className="info-sidebar"><div className="import-panel"><h2>Import questions</h2><p>Import a JSON file for your own practice. To share it with classmates, add the file to the repository.</p><button className="button secondary import-button" onClick={() => fileRef.current?.click()}><Upload size={18}/> Import JSON file</button><hr/><h3>Expected file structure</h3><p>One course with one or more chapters. Each question has choices, a correct answer, and an explanation.</p><pre>{'{\n  "version": 1,\n  "course": {\n    "code": "EC2204",\n    "title": "Economics"\n  },\n  "chapters": [\n    { "title": "Markets",\n      "questions": [ ... ] }\n  ]\n}'}</pre><a className="guide-link" href={import.meta.env.BASE_URL + 'IMPORT_FORMAT.md'} target="_blank" rel="noreferrer"><CircleHelp size={17}/> Import and publish guide</a></div></aside>
     </div>
-    <footer><strong>MCQer</strong><span>A local-first study tool</span><span className="footer-end">Built for better practice</span></footer>
+    <footer><strong>MCQer</strong><span>A question bank for courses and chapters</span><span className="footer-end">Built for better practice</span></footer>
     <input ref={fileRef} type="file" accept=".json,application/json" hidden onChange={importFile}/>
     <input ref={backupRef} type="file" accept=".json,application/json" hidden onChange={restoreBackup}/>
     {notice && <div className="toast" role="status">{notice}</div>}

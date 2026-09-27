@@ -33,6 +33,8 @@ jobs:
         run: pnpm install --frozen-lockfile
       - name: Test
         run: pnpm test
+      - name: Validate published questions
+        run: pnpm validate:questions
       - name: Build for GitHub Pages
         run: pnpm build --base /mcqer/
       - name: Upload Pages artifact

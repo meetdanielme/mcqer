@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "course": { "code": "DEMO101", "title": "Example Course" },
+  "chapters": [
+    {
+      "title": "Introduction",
+      "description": "A sample chapter for trying the import and practice flow.",
+      "questions": [
+        {
+          "id": "DEMO101-INTRO-001",
+          "stem": "Which field identifies the correct choice in an MCQer import?",
+          "options": [
+            { "id": "A", "text": "course.code" },
+            { "id": "B", "text": "correctOptionId" },
+            { "id": "C", "text": "source" },
+            { "id": "D", "text": "description" }
+          ],
+          "correctOptionId": "B",
+          "explanation": "correctOptionId matches the ID of one option in that question.",
+          "source": "MCQer import guide"
+        }
+      ]
+    }
+  ]
+}

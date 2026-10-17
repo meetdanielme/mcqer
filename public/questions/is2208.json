@@ -1,0 +1,5575 @@
+{
+  "version": 1,
+  "course": {
+    "code": "IS2208",
+    "title": "Test Driven Development"
+  },
+  "chapters": [
+    {
+      "title": "Why Software Testing Matters",
+      "description": "Testing as evidence, failure risks and lessons from major incidents.",
+      "questions": [
+        {
+          "id": "IS2208-TESTING-001",
+          "stem": "What is the strongest general purpose of software testing?",
+          "options": [
+            {
+              "id": "A",
+              "text": "To prove a program can never fail"
+            },
+            {
+              "id": "B",
+              "text": "To gather evidence that software behaves as intended under specified conditions"
+            },
+            {
+              "id": "C",
+              "text": "To replace requirements"
+            },
+            {
+              "id": "D",
+              "text": "To eliminate the need for design"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Tests provide evidence about conformance and behaviour; they cannot prove the absence of every possible defect.",
+          "source": "IS2208 Lecture 1 notes"
+        },
+        {
+          "id": "IS2208-TESTING-002",
+          "stem": "Why can software defects be especially serious in safety-critical systems?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They affect only screen colours"
+            },
+            {
+              "id": "B",
+              "text": "They can cause financial loss, injury or death"
+            },
+            {
+              "id": "C",
+              "text": "They always remain isolated to one user"
+            },
+            {
+              "id": "D",
+              "text": "They are corrected automatically"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Software can control physical and organisational processes, so failure consequences can extend beyond the program.",
+          "source": "IS2208 Lecture 1 notes"
+        },
+        {
+          "id": "IS2208-TESTING-003",
+          "stem": "What triggered the Ariane 5 guidance failure discussed in class?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A 16-bit integer was converted to a 64-bit float"
+            },
+            {
+              "id": "B",
+              "text": "A 64-bit floating-point value overflowed when converted to a 16-bit integer"
+            },
+            {
+              "id": "C",
+              "text": "A network cable was unplugged"
+            },
+            {
+              "id": "D",
+              "text": "The rocket ran out of fuel"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "A value exceeded the range of the smaller integer representation, causing an unhandled overflow.",
+          "source": "IS2208 Lecture 1 notes"
+        },
+        {
+          "id": "IS2208-TESTING-004",
+          "stem": "Why did Ariane 5’s backup system not save the mission?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It used the same software and failed in the same way."
+            },
+            {
+              "id": "B",
+              "text": "It had no access to the rocket."
+            },
+            {
+              "id": "C",
+              "text": "It used an unrelated programming language."
+            },
+            {
+              "id": "D",
+              "text": "It was switched off before launch by design."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Identical redundant software can reproduce the same design fault, so redundancy alone did not provide independence.",
+          "source": "IS2208 Lecture 1 notes"
+        },
+        {
+          "id": "IS2208-TESTING-005",
+          "stem": "What testing gap was central to the Ariane 5 case?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The launch environment and high-speed trajectory values were not adequately simulated."
+            },
+            {
+              "id": "B",
+              "text": "No spelling checker was used."
+            },
+            {
+              "id": "C",
+              "text": "Only the user interface was tested."
+            },
+            {
+              "id": "D",
+              "text": "The fuel tank was tested too often."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Testing under the target flight profile could have exposed the out-of-range value before launch.",
+          "source": "IS2208 Lecture 1 notes"
+        },
+        {
+          "id": "IS2208-TESTING-006",
+          "stem": "What broader lesson follows from the Boeing MCAS example?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A technically narrow test is always enough."
+            },
+            {
+              "id": "B",
+              "text": "Safety depends on software, sensors, organisational decisions and oversight together."
+            },
+            {
+              "id": "C",
+              "text": "Single-sensor designs are always safer."
+            },
+            {
+              "id": "D",
+              "text": "Regulation has no relationship to testing."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "System safety includes component design, sensor redundancy, operational assumptions and organisational governance.",
+          "source": "IS2208 Lecture 1 notes"
+        },
+        {
+          "id": "IS2208-TESTING-007",
+          "stem": "What caused the Patriot timing failure discussed in the lecture?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Accumulated clock drift reduced tracking accuracy."
+            },
+            {
+              "id": "B",
+              "text": "A web route returned 404."
+            },
+            {
+              "id": "C",
+              "text": "A database key was duplicated."
+            },
+            {
+              "id": "D",
+              "text": "A screen resolution was unsupported."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Small numerical timing errors accumulated over time and affected target tracking.",
+          "source": "IS2208 Lecture 1 notes"
+        },
+        {
+          "id": "IS2208-TESTING-008",
+          "stem": "What lesson does the CrowdStrike update example support?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Production-wide updates need representative testing and controlled rollout."
+            },
+            {
+              "id": "B",
+              "text": "Updates should never be automated."
+            },
+            {
+              "id": "C",
+              "text": "Only syntax errors matter."
+            },
+            {
+              "id": "D",
+              "text": "A successful build guarantees safe deployment."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "A defective update can scale failure rapidly, so staged validation and rollback matter.",
+          "source": "IS2208 Lecture 1 notes"
+        },
+        {
+          "id": "IS2208-TESTING-009",
+          "stem": "What does the Rescue 117 case illustrate?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Correct code always guarantees correct outcomes."
+            },
+            {
+              "id": "B",
+              "text": "Software can fail operationally when its underlying data is stale or incomplete."
+            },
+            {
+              "id": "C",
+              "text": "Maps are unnecessary in aviation."
+            },
+            {
+              "id": "D",
+              "text": "Testing cannot include data quality."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "A system may execute as coded yet still mislead users if critical terrain data is missing or outdated.",
+          "source": "IS2208 Lecture 1 notes"
+        },
+        {
+          "id": "IS2208-TESTING-010",
+          "stem": "Which claim about testing is most defensible?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Passing tests proves perfection."
+            },
+            {
+              "id": "B",
+              "text": "Testing reduces uncertainty but depends on the quality and coverage of the tests."
+            },
+            {
+              "id": "C",
+              "text": "Testing matters only after release."
+            },
+            {
+              "id": "D",
+              "text": "Failures are caused only by programmers."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Tests are evidence bounded by their assumptions, data and coverage.",
+          "source": "IS2208 Lecture 1 notes"
+        },
+        {
+          "id": "IS2208-TESTING-011",
+          "stem": "Why is testing only normal inputs inadequate?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Unexpected and boundary inputs often reveal failures hidden by typical cases."
+            },
+            {
+              "id": "B",
+              "text": "Normal inputs are always invalid."
+            },
+            {
+              "id": "C",
+              "text": "Boundary values cannot occur."
+            },
+            {
+              "id": "D",
+              "text": "Testing one case proves all cases."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Robustness requires cases beyond the happy path.",
+          "source": "IS2208 Lecture 1 notes"
+        },
+        {
+          "id": "IS2208-TESTING-012",
+          "stem": "What is common-mode failure in redundant software?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Two tests use different data."
+            },
+            {
+              "id": "B",
+              "text": "Independent-looking backups fail from the same shared defect."
+            },
+            {
+              "id": "C",
+              "text": "One backup runs faster than another."
+            },
+            {
+              "id": "D",
+              "text": "A user repeats a request."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Redundancy is weak when copies share design, code or assumptions.",
+          "source": "IS2208 Lecture 1 notes"
+        },
+        {
+          "id": "IS2208-TESTING-013",
+          "stem": "Why should operational data be part of system assurance?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Data quality matters only to databases."
+            },
+            {
+              "id": "B",
+              "text": "Tests cannot inspect data."
+            },
+            {
+              "id": "C",
+              "text": "Fresh data guarantees flawless code."
+            },
+            {
+              "id": "D",
+              "text": "Correct algorithms can still produce unsafe outputs from incomplete or stale data."
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Software behaviour depends on both logic and the information supplied.",
+          "source": "IS2208 Lecture 1 notes"
+        },
+        {
+          "id": "IS2208-TESTING-014",
+          "stem": "What does a staged deployment reduce?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The need for rollback."
+            },
+            {
+              "id": "B",
+              "text": "The value of monitoring."
+            },
+            {
+              "id": "C",
+              "text": "The number of requirements."
+            },
+            {
+              "id": "D",
+              "text": "The blast radius of a defective release."
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Releasing gradually limits exposure while evidence is gathered.",
+          "source": "IS2208 Lecture 1 notes"
+        },
+        {
+          "id": "IS2208-TESTING-015",
+          "stem": "Which result would most justify stopping a release?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A compiler warning unrelated to behaviour."
+            },
+            {
+              "id": "B",
+              "text": "One user preference not in scope."
+            },
+            {
+              "id": "C",
+              "text": "A repeatable failure on a critical acceptance condition."
+            },
+            {
+              "id": "D",
+              "text": "A passing cosmetic test."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Critical failed requirements outweigh less relevant passing checks.",
+          "source": "IS2208 Lecture 1 notes"
+        },
+        {
+          "id": "IS2208-TESTING-016",
+          "stem": "Why is relying on a single sensor dangerous in a safety-critical control system?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A single sensor always reports too slowly"
+            },
+            {
+              "id": "B",
+              "text": "Multiple sensors make software unnecessary"
+            },
+            {
+              "id": "C",
+              "text": "Sensors cannot be tested"
+            },
+            {
+              "id": "D",
+              "text": "One faulty reading can become a single point of failure"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Without independent corroboration, one bad signal can drive a hazardous decision.",
+          "source": "IS2208 Lectures 1–2 and reviewed case notes"
+        },
+        {
+          "id": "IS2208-TESTING-017",
+          "stem": "What does defence in depth mean for software assurance?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Test only the most likely input"
+            },
+            {
+              "id": "B",
+              "text": "Replace all software with manual work"
+            },
+            {
+              "id": "C",
+              "text": "Use multiple independent controls so one failure does not directly cause disaster"
+            },
+            {
+              "id": "D",
+              "text": "Run the same faulty code twice"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Layered and sufficiently independent safeguards reduce dependence on any single control.",
+          "source": "IS2208 Lectures 1–2 and reviewed case notes"
+        },
+        {
+          "id": "IS2208-TESTING-018",
+          "stem": "What is a fail-safe response?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The system hides the error from operators"
+            },
+            {
+              "id": "B",
+              "text": "The system always maximises throughput"
+            },
+            {
+              "id": "C",
+              "text": "On detecting an unsafe condition, the system moves towards a safer state"
+            },
+            {
+              "id": "D",
+              "text": "The system continues unchanged after every error"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Fail-safe behaviour prioritises safety when normal operation cannot be trusted.",
+          "source": "IS2208 Lectures 1–2 and reviewed case notes"
+        },
+        {
+          "id": "IS2208-TESTING-019",
+          "stem": "A primary guidance computer and its backup use identical faulty assumptions. Why might both fail under the same unusual input?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A second computer removes every software defect"
+            },
+            {
+              "id": "B",
+              "text": "Redundancy makes operating conditions irrelevant"
+            },
+            {
+              "id": "C",
+              "text": "The backup necessarily uses a different specification"
+            },
+            {
+              "id": "D",
+              "text": "They share a common-mode software defect"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Identical assumptions can defeat apparently redundant hardware.",
+          "source": "IS2208 Lecture 1, Ariane 5 example"
+        },
+        {
+          "id": "IS2208-TESTING-020",
+          "stem": "Why should a test environment use the new system’s expected operating profile?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only source-code review can reveal overflow"
+            },
+            {
+              "id": "B",
+              "text": "Operating profiles do not affect software"
+            },
+            {
+              "id": "C",
+              "text": "Old-profile inputs may miss values and timing that occur in the new system"
+            },
+            {
+              "id": "D",
+              "text": "Realistic inputs make tests less repeatable by definition"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "A reused component may face ranges and conditions not present in its original context.",
+          "source": "IS2208 Lectures 1–2 and reviewed case notes"
+        },
+        {
+          "id": "IS2208-TESTING-021",
+          "stem": "What assurance practice would have reduced the risk of a faulty update reaching every machine at once?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A staged rollout with monitoring and rollback"
+            },
+            {
+              "id": "B",
+              "text": "A simultaneous global deployment"
+            },
+            {
+              "id": "C",
+              "text": "Removing all automated tests"
+            },
+            {
+              "id": "D",
+              "text": "Disabling logs"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Staging limits the blast radius and provides evidence before wider release.",
+          "source": "IS2208 Lectures 1–2 and reviewed case notes"
+        },
+        {
+          "id": "IS2208-TESTING-022",
+          "stem": "Why can a tiny clock error become serious over many hours?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Repeated error accumulates into a large timing drift"
+            },
+            {
+              "id": "B",
+              "text": "Clock errors automatically cancel"
+            },
+            {
+              "id": "C",
+              "text": "Long operation reduces numerical error to zero"
+            },
+            {
+              "id": "D",
+              "text": "Timing is unrelated to tracking"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Small per-interval errors can accumulate until calculations are materially wrong.",
+          "source": "IS2208 Lectures 1–2 and reviewed case notes"
+        },
+        {
+          "id": "IS2208-TESTING-023",
+          "stem": "What does stale terrain data demonstrate about system quality?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Old data are always safer than live data"
+            },
+            {
+              "id": "B",
+              "text": "Data quality matters only in finance"
+            },
+            {
+              "id": "C",
+              "text": "Correct software can still produce unsafe results when operational data are outdated"
+            },
+            {
+              "id": "D",
+              "text": "Testing source code guarantees current data"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Assurance must cover data currency and accuracy as well as program logic.",
+          "source": "IS2208 Lectures 1–2 and reviewed case notes"
+        },
+        {
+          "id": "IS2208-TESTING-024",
+          "stem": "What is the key risk when reusing software in a new system?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Assumptions valid in the old context may not hold in the new one"
+            },
+            {
+              "id": "B",
+              "text": "Reused software cannot compile"
+            },
+            {
+              "id": "C",
+              "text": "Reuse always doubles performance"
+            },
+            {
+              "id": "D",
+              "text": "Reused code needs no further testing"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Reuse saves effort but requires revalidation against the new environment and requirements.",
+          "source": "IS2208 Lectures 1–2 and reviewed case notes"
+        },
+        {
+          "id": "IS2208-TESTING-025",
+          "stem": "Which management decision is part of software quality, not separate from it?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Choosing whether evidence is strong enough to release"
+            },
+            {
+              "id": "B",
+              "text": "Selecting only the programming font"
+            },
+            {
+              "id": "C",
+              "text": "Avoiding all documentation"
+            },
+            {
+              "id": "D",
+              "text": "Ignoring known defects because tests are technical"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Release pressure, oversight and response plans affect whether technical risk reaches users.",
+          "source": "IS2208 Lectures 1–2 and reviewed case notes"
+        }
+      ]
+    },
+    {
+      "title": "Test-First Thinking, Requirements & Evidence",
+      "description": "Tests as executable specifications, test quality and iterative validation.",
+      "questions": [
+        {
+          "id": "IS2208-TESTFIRST-001",
+          "stem": "What distinguishes a test-first approach?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Implementation is completed before requirements are considered."
+            },
+            {
+              "id": "B",
+              "text": "Tests expressing expected behaviour are written before the implementation."
+            },
+            {
+              "id": "C",
+              "text": "Testing is delegated only to users."
+            },
+            {
+              "id": "D",
+              "text": "Only manual inspection is permitted."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Test-first development turns requirements into tests before code is written to satisfy them.",
+          "source": "IS2208 Lecture 2 notes"
+        },
+        {
+          "id": "IS2208-TESTFIRST-002",
+          "stem": "Why can a system pass tests and still be wrong?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Tests may encode an incorrect standard or omit important behaviour."
+            },
+            {
+              "id": "B",
+              "text": "Passing automatically changes the requirements."
+            },
+            {
+              "id": "C",
+              "text": "Compilers ignore every test."
+            },
+            {
+              "id": "D",
+              "text": "A passing result means the code did not run."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Test results are only as trustworthy as the test design, oracle and coverage.",
+          "source": "IS2208 Lecture 2 notes"
+        },
+        {
+          "id": "IS2208-TESTFIRST-003",
+          "stem": "What did the Hubble mirror case demonstrate?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Accurate manufacturing makes tests unnecessary."
+            },
+            {
+              "id": "B",
+              "text": "A faulty test instrument can certify a faulty product."
+            },
+            {
+              "id": "C",
+              "text": "Space hardware cannot be tested."
+            },
+            {
+              "id": "D",
+              "text": "Independent checks always agree."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The mirror matched a miscalibrated reference, so it passed the wrong standard.",
+          "source": "IS2208 Lecture 2 notes"
+        },
+        {
+          "id": "IS2208-TESTFIRST-004",
+          "stem": "What makes a requirement testable?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It states an observable condition that can be checked."
+            },
+            {
+              "id": "B",
+              "text": "It uses vague words such as “good”."
+            },
+            {
+              "id": "C",
+              "text": "It avoids measurable outcomes."
+            },
+            {
+              "id": "D",
+              "text": "It depends on the tester’s mood."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "A testable requirement defines behaviour or acceptance conditions that evidence can verify.",
+          "source": "IS2208 Lecture 2 notes"
+        },
+        {
+          "id": "IS2208-TESTFIRST-005",
+          "stem": "If direct testing of a requirement is impossible, what is the best course?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ignore the requirement."
+            },
+            {
+              "id": "B",
+              "text": "Use justified indirect evidence or a proxy and state its limits."
+            },
+            {
+              "id": "C",
+              "text": "Declare the feature correct."
+            },
+            {
+              "id": "D",
+              "text": "Replace it with an unrelated test."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Indirect evidence can support a claim when direct observation is impossible, but its assumptions must be explicit.",
+          "source": "IS2208 Lecture 2 notes"
+        },
+        {
+          "id": "IS2208-TESTFIRST-006",
+          "stem": "In the shooting-project example, why was real field data important?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It exposed differences between assumptions and actual operating conditions."
+            },
+            {
+              "id": "B",
+              "text": "It eliminated the need for tests."
+            },
+            {
+              "id": "C",
+              "text": "It guaranteed every future shot."
+            },
+            {
+              "id": "D",
+              "text": "It made implementation unnecessary."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Real observations help refine both the model and the tests when laboratory assumptions are incomplete.",
+          "source": "IS2208 Lecture 2 notes"
+        },
+        {
+          "id": "IS2208-TESTFIRST-007",
+          "stem": "What is the value of iterating from data to tests to implementation and back to field validation?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Each cycle can reveal faulty assumptions and improve the specification."
+            },
+            {
+              "id": "B",
+              "text": "It prevents requirements from changing."
+            },
+            {
+              "id": "C",
+              "text": "It replaces evidence with intuition."
+            },
+            {
+              "id": "D",
+              "text": "It ensures the first design is retained."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Iterative validation allows the model, tests and code to improve in response to evidence.",
+          "source": "IS2208 Lecture 2 notes"
+        },
+        {
+          "id": "IS2208-TESTFIRST-008",
+          "stem": "What problem can “backwards logic” create in a detection system?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It can make the system appear successful by interpreting outcomes through the desired conclusion."
+            },
+            {
+              "id": "B",
+              "text": "It always reduces false positives."
+            },
+            {
+              "id": "C",
+              "text": "It guarantees causal evidence."
+            },
+            {
+              "id": "D",
+              "text": "It removes the need for thresholds."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Reasoning from a desired answer can produce circular validation and false positives.",
+          "source": "IS2208 Lecture 2 notes"
+        },
+        {
+          "id": "IS2208-TESTFIRST-009",
+          "stem": "Which is the best test oracle?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A clearly specified expected result"
+            },
+            {
+              "id": "B",
+              "text": "The implementation’s current output"
+            },
+            {
+              "id": "C",
+              "text": "A random value"
+            },
+            {
+              "id": "D",
+              "text": "The most recent user guess"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "An oracle states what the correct outcome should be independently of the code under test.",
+          "source": "IS2208 Lecture 2 notes"
+        },
+        {
+          "id": "IS2208-TESTFIRST-010",
+          "stem": "Why should tests be reviewed like production code?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Defects in tests can conceal defects in the implementation."
+            },
+            {
+              "id": "B",
+              "text": "Tests cannot contain logic."
+            },
+            {
+              "id": "C",
+              "text": "Reviewing tests slows all learning."
+            },
+            {
+              "id": "D",
+              "text": "Only production code affects quality."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Incorrect assertions, data or assumptions can give false confidence.",
+          "source": "IS2208 Lecture 2 notes"
+        },
+        {
+          "id": "IS2208-TESTFIRST-011",
+          "stem": "Which requirement is most testable?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The code should be modern."
+            },
+            {
+              "id": "B",
+              "text": "The response is returned within two seconds for the stated workload."
+            },
+            {
+              "id": "C",
+              "text": "The system should be very fast."
+            },
+            {
+              "id": "D",
+              "text": "The interface should feel nice."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "A measurable threshold and conditions define observable acceptance.",
+          "source": "IS2208 Lecture 2 notes"
+        },
+        {
+          "id": "IS2208-TESTFIRST-012",
+          "stem": "What is a false positive in a detection system?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The system reports a target when none is present."
+            },
+            {
+              "id": "B",
+              "text": "The system misses a real target."
+            },
+            {
+              "id": "C",
+              "text": "A test fails before implementation."
+            },
+            {
+              "id": "D",
+              "text": "A compiler rejects invalid syntax."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "A positive detection is false when the claimed condition is absent.",
+          "source": "IS2208 Lecture 2 notes"
+        },
+        {
+          "id": "IS2208-TESTFIRST-013",
+          "stem": "What is a false negative?",
+          "options": [
+            {
+              "id": "A",
+              "text": "An input is converted to an integer."
+            },
+            {
+              "id": "B",
+              "text": "The system fails to report a condition that is present."
+            },
+            {
+              "id": "C",
+              "text": "The system reports a condition that is absent."
+            },
+            {
+              "id": "D",
+              "text": "Every test passes."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "A negative result is false when the real condition exists.",
+          "source": "IS2208 Lecture 2 notes"
+        },
+        {
+          "id": "IS2208-TESTFIRST-014",
+          "stem": "Why should an expected result be independent of the implementation?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Otherwise the test may repeat the same mistake as the code."
+            },
+            {
+              "id": "B",
+              "text": "Implementations cannot produce outputs."
+            },
+            {
+              "id": "C",
+              "text": "Independent results are always random."
+            },
+            {
+              "id": "D",
+              "text": "Tests must avoid requirements."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "An oracle derived from the code can create circular validation.",
+          "source": "IS2208 Lecture 2 notes"
+        },
+        {
+          "id": "IS2208-TESTFIRST-015",
+          "stem": "What should happen when field evidence contradicts a passing test suite?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Revisit the assumptions, requirements and tests as well as the implementation."
+            },
+            {
+              "id": "B",
+              "text": "Ignore the field evidence."
+            },
+            {
+              "id": "C",
+              "text": "Declare the environment invalid automatically."
+            },
+            {
+              "id": "D",
+              "text": "Delete the failing observations."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Real evidence can reveal gaps in the model or coverage.",
+          "source": "IS2208 Lecture 2 notes"
+        },
+        {
+          "id": "IS2208-TESTFIRST-016",
+          "stem": "In test-first development, what should exist before the production behaviour is implemented?",
+          "options": [
+            {
+              "id": "A",
+              "text": "An executable example of the expected behaviour"
+            },
+            {
+              "id": "B",
+              "text": "A completed user interface"
+            },
+            {
+              "id": "C",
+              "text": "A deployment to all users"
+            },
+            {
+              "id": "D",
+              "text": "A performance optimisation plan"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Writing the test first clarifies the requirement and defines evidence of success.",
+          "source": "IS2208 Lecture 2 and reviewed project notes"
+        },
+        {
+          "id": "IS2208-TESTFIRST-017",
+          "stem": "Why is “the system should be user-friendly” a weak test requirement?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is too numerical"
+            },
+            {
+              "id": "B",
+              "text": "It names a system user"
+            },
+            {
+              "id": "C",
+              "text": "It can be compiled"
+            },
+            {
+              "id": "D",
+              "text": "It lacks a measurable condition and agreed success criterion"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Vague qualities need operational definitions before they can be tested consistently.",
+          "source": "IS2208 Lecture 2 and reviewed project notes"
+        },
+        {
+          "id": "IS2208-TESTFIRST-018",
+          "stem": "Which is the most testable rewrite of “the page should be fast”?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The page should feel reasonably quick"
+            },
+            {
+              "id": "B",
+              "text": "The page should use modern code"
+            },
+            {
+              "id": "C",
+              "text": "The page should never wait"
+            },
+            {
+              "id": "D",
+              "text": "The page should return the specified response within 500 ms under the stated test load"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "A threshold plus defined conditions creates an observable pass/fail rule.",
+          "source": "IS2208 Lecture 2 and reviewed project notes"
+        },
+        {
+          "id": "IS2208-TESTFIRST-019",
+          "stem": "A developer copies a flawed calculation into both production code and the expected-value expression. What can a passing test conceal?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The same mistake in both the implementation and test"
+            },
+            {
+              "id": "B",
+              "text": "A complete absence of executable assertions"
+            },
+            {
+              "id": "C",
+              "text": "A guaranteed failure of every correct function"
+            },
+            {
+              "id": "D",
+              "text": "A proof that the requirement was satisfied"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "An independent expected value reduces the risk of shared implementation mistakes.",
+          "source": "IS2208 Lecture 9, independent expectations"
+        },
+        {
+          "id": "IS2208-TESTFIRST-020",
+          "stem": "What is direct evidence that an age rule “21 or older is allowed” works?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Tests at 20, 21 and 22 produce the specified decisions"
+            },
+            {
+              "id": "B",
+              "text": "The function name contains age"
+            },
+            {
+              "id": "C",
+              "text": "A developer says the code looks right"
+            },
+            {
+              "id": "D",
+              "text": "The program starts without syntax errors"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Observed boundary behaviour directly checks the rule.",
+          "source": "IS2208 Lecture 2 and reviewed project notes"
+        },
+        {
+          "id": "IS2208-TESTFIRST-021",
+          "stem": "When direct measurement is impossible, what makes indirect evidence credible?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A colourful report"
+            },
+            {
+              "id": "B",
+              "text": "Use of the same code as the implementation"
+            },
+            {
+              "id": "C",
+              "text": "A justified chain linking the proxy measurement to the requirement"
+            },
+            {
+              "id": "D",
+              "text": "A large number of unrelated tests"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Indirect evidence must show why the proxy genuinely supports the claim.",
+          "source": "IS2208 Lecture 2 and reviewed project notes"
+        },
+        {
+          "id": "IS2208-TESTFIRST-022",
+          "stem": "Why was calibrated test equipment central to the Hubble lesson?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Multiple measurements are always independent"
+            },
+            {
+              "id": "B",
+              "text": "A wrong measuring instrument can validate a wrongly manufactured component"
+            },
+            {
+              "id": "C",
+              "text": "Calibration affects only software speed"
+            },
+            {
+              "id": "D",
+              "text": "The mirror had no requirement"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "If the reference itself is wrong, repeated agreement can still support the wrong conclusion.",
+          "source": "IS2208 Lecture 2 and reviewed project notes"
+        },
+        {
+          "id": "IS2208-TESTFIRST-023",
+          "stem": "A detector raises many alarms for harmless events. Which quality problem is dominant?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A high false-positive rate"
+            },
+            {
+              "id": "B",
+              "text": "A high false-negative rate"
+            },
+            {
+              "id": "C",
+              "text": "A syntax error"
+            },
+            {
+              "id": "D",
+              "text": "A missing route"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "False positives label normal cases as detections and can make the system unusable.",
+          "source": "IS2208 Lecture 2 and reviewed project notes"
+        },
+        {
+          "id": "IS2208-TESTFIRST-024",
+          "stem": "A detector misses real events but rarely raises false alarms. Which quality problem is dominant?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A high false-positive rate"
+            },
+            {
+              "id": "B",
+              "text": "Excessive code comments"
+            },
+            {
+              "id": "C",
+              "text": "A dependency conflict"
+            },
+            {
+              "id": "D",
+              "text": "A high false-negative rate"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "False negatives occur when actual target events are not detected.",
+          "source": "IS2208 Lecture 2 and reviewed project notes"
+        },
+        {
+          "id": "IS2208-TESTFIRST-025",
+          "stem": "What should happen when a requirement changes?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Delete the whole test suite"
+            },
+            {
+              "id": "B",
+              "text": "Change only the test result labels"
+            },
+            {
+              "id": "C",
+              "text": "Update the relevant tests and implementation while preserving evidence for unchanged behaviour"
+            },
+            {
+              "id": "D",
+              "text": "Keep old tests and ignore the new requirement"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Tests act as an executable specification and must evolve deliberately with requirements.",
+          "source": "IS2208 Lecture 2 and reviewed project notes"
+        }
+      ]
+    },
+    {
+      "title": "Components, Integration & System Testing",
+      "description": "Testing levels, the S-Plan heating example and diagnostic strategy.",
+      "questions": [
+        {
+          "id": "IS2208-LEVELS-001",
+          "stem": "What does component testing focus on?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Individual units or parts in isolation"
+            },
+            {
+              "id": "B",
+              "text": "The complete organisation"
+            },
+            {
+              "id": "C",
+              "text": "Only live customers"
+            },
+            {
+              "id": "D",
+              "text": "Unrelated external systems"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Component tests check the behaviour of a single part before relying on its interactions.",
+          "source": "IS2208 Lecture 3 notes"
+        },
+        {
+          "id": "IS2208-LEVELS-002",
+          "stem": "What does integration testing focus on?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Whether connected components work together correctly"
+            },
+            {
+              "id": "B",
+              "text": "Whether one function compiles"
+            },
+            {
+              "id": "C",
+              "text": "Only user satisfaction"
+            },
+            {
+              "id": "D",
+              "text": "Only hardware temperature"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Integration testing examines interfaces and collaborations between components.",
+          "source": "IS2208 Lecture 3 notes"
+        },
+        {
+          "id": "IS2208-LEVELS-003",
+          "stem": "What does system testing focus on?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The complete assembled system against its intended behaviour"
+            },
+            {
+              "id": "B",
+              "text": "One variable in one function only"
+            },
+            {
+              "id": "C",
+              "text": "The spelling of class names"
+            },
+            {
+              "id": "D",
+              "text": "Individual components without interaction"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "System tests assess end-to-end behaviour of the whole system.",
+          "source": "IS2208 Lecture 3 notes"
+        },
+        {
+          "id": "IS2208-LEVELS-004",
+          "stem": "In the S-Plan heating example, when should a zone valve open?",
+          "options": [
+            {
+              "id": "A",
+              "text": "When the timer is on and the thermostat calls for heat"
+            },
+            {
+              "id": "B",
+              "text": "Whenever the boiler is off"
+            },
+            {
+              "id": "C",
+              "text": "Only when every thermostat is satisfied"
+            },
+            {
+              "id": "D",
+              "text": "Whenever a browser route is requested"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The controls combine schedule and temperature demand before opening the relevant flow path.",
+          "source": "IS2208 Lecture 3 notes"
+        },
+        {
+          "id": "IS2208-LEVELS-005",
+          "stem": "Why is a flow-path interlock important before starting the boiler and pump?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It helps prevent operation without a valid route for water flow."
+            },
+            {
+              "id": "B",
+              "text": "It increases the web-server port."
+            },
+            {
+              "id": "C",
+              "text": "It hides error messages."
+            },
+            {
+              "id": "D",
+              "text": "It converts strings to integers."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The interlock is a safety condition confirming that the system can circulate water.",
+          "source": "IS2208 Lecture 3 notes"
+        },
+        {
+          "id": "IS2208-LEVELS-006",
+          "stem": "When building a known system from parts, what is a sensible testing sequence?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Component, then integration, then system testing"
+            },
+            {
+              "id": "B",
+              "text": "System testing only"
+            },
+            {
+              "id": "C",
+              "text": "Deployment, then requirements"
+            },
+            {
+              "id": "D",
+              "text": "Random testing with no component checks"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Testing builds confidence progressively from parts to interactions and the complete system.",
+          "source": "IS2208 Lecture 3 notes"
+        },
+        {
+          "id": "IS2208-LEVELS-007",
+          "stem": "When diagnosing an unfamiliar failed system, why might testing start at the whole-system level?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A broad symptom can identify which subsystem should be isolated next."
+            },
+            {
+              "id": "B",
+              "text": "Component tests are illegal."
+            },
+            {
+              "id": "C",
+              "text": "The architecture never matters."
+            },
+            {
+              "id": "D",
+              "text": "Whole-system tests reveal every internal line automatically."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Troubleshooting may begin with the observed failure and narrow down to components.",
+          "source": "IS2208 Lecture 3 notes"
+        },
+        {
+          "id": "IS2208-LEVELS-008",
+          "stem": "What is black-box testing?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Testing behaviour through inputs and outputs without relying on internal implementation"
+            },
+            {
+              "id": "B",
+              "text": "Inspecting only source-code style"
+            },
+            {
+              "id": "C",
+              "text": "Testing with the screen turned off"
+            },
+            {
+              "id": "D",
+              "text": "Running no test data"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Black-box tests evaluate externally visible behaviour against a specification.",
+          "source": "IS2208 Lecture 3 notes"
+        },
+        {
+          "id": "IS2208-LEVELS-009",
+          "stem": "Why can architecture knowledge improve testing even when black-box tests are used?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It helps identify interfaces, states and combinations likely to fail."
+            },
+            {
+              "id": "B",
+              "text": "It makes expected results unnecessary."
+            },
+            {
+              "id": "C",
+              "text": "It proves implementation correctness."
+            },
+            {
+              "id": "D",
+              "text": "It prevents system testing."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Knowledge of structure guides coverage and diagnosis without replacing behavioural checks.",
+          "source": "IS2208 Lecture 3 notes"
+        },
+        {
+          "id": "IS2208-LEVELS-010",
+          "stem": "Why are both component and whole-system tests necessary?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Parts can pass alone yet fail when combined, while whole-system tests may not localise defects."
+            },
+            {
+              "id": "B",
+              "text": "They always test identical behaviour."
+            },
+            {
+              "id": "C",
+              "text": "System tests make interfaces irrelevant."
+            },
+            {
+              "id": "D",
+              "text": "Component tests cover every environment."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The levels answer different questions and complement each other.",
+          "source": "IS2208 Lecture 3 notes"
+        },
+        {
+          "id": "IS2208-LEVELS-011",
+          "stem": "Two components pass alone but fail when connected. Which test level exposed the issue?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Static formatting"
+            },
+            {
+              "id": "B",
+              "text": "Requirements elicitation only"
+            },
+            {
+              "id": "C",
+              "text": "Integration testing"
+            },
+            {
+              "id": "D",
+              "text": "Component testing only"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The defect lies in their interface or interaction.",
+          "source": "IS2208 Lecture 3 notes"
+        },
+        {
+          "id": "IS2208-LEVELS-012",
+          "stem": "A complete heating system reaches the wrong room temperature despite working components. Which test is most relevant?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Package installation"
+            },
+            {
+              "id": "B",
+              "text": "One isolated valve test only"
+            },
+            {
+              "id": "C",
+              "text": "System testing"
+            },
+            {
+              "id": "D",
+              "text": "A syntax check"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "End-to-end behaviour must be checked against the system requirement.",
+          "source": "IS2208 Lecture 3 notes"
+        },
+        {
+          "id": "IS2208-LEVELS-013",
+          "stem": "Why can a system test be poor at locating a defect?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It tests only one function."
+            },
+            {
+              "id": "B",
+              "text": "It provides no expected result."
+            },
+            {
+              "id": "C",
+              "text": "It observes a broad failure involving many possible components."
+            },
+            {
+              "id": "D",
+              "text": "It never executes code."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Whole-system evidence confirms failure but often needs narrower tests for diagnosis.",
+          "source": "IS2208 Lecture 3 notes"
+        },
+        {
+          "id": "IS2208-LEVELS-014",
+          "stem": "What is white-box testing?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Testing only visible outputs without implementation knowledge."
+            },
+            {
+              "id": "B",
+              "text": "Reviewing user colours."
+            },
+            {
+              "id": "C",
+              "text": "Running production without tests."
+            },
+            {
+              "id": "D",
+              "text": "Designing tests with knowledge of internal paths and structure."
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "White-box coverage uses internal implementation information.",
+          "source": "IS2208 Lecture 3 notes"
+        },
+        {
+          "id": "IS2208-LEVELS-015",
+          "stem": "What is an interface contract?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A replacement for system requirements."
+            },
+            {
+              "id": "B",
+              "text": "An agreed format and behaviour governing component interaction."
+            },
+            {
+              "id": "C",
+              "text": "A licence to sell hardware."
+            },
+            {
+              "id": "D",
+              "text": "A user-interface colour guide only."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Integration depends on components sharing compatible expectations.",
+          "source": "IS2208 Lecture 3 notes"
+        },
+        {
+          "id": "IS2208-LEVELS-016",
+          "stem": "In the S-Plan example, what two conditions normally create a call for heat in a zone?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The timer permits heating and the thermostat detects demand"
+            },
+            {
+              "id": "B",
+              "text": "The pump is off and the bypass is closed"
+            },
+            {
+              "id": "C",
+              "text": "Both zone valves are permanently open"
+            },
+            {
+              "id": "D",
+              "text": "The boiler is already hot"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The schedule and temperature requirement jointly determine whether the zone should request heat.",
+          "source": "IS2208 Lecture 3 and S-Plan heating example"
+        },
+        {
+          "id": "IS2208-LEVELS-017",
+          "stem": "What confirms that a motorised zone valve has opened before the boiler and pump run?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The room colour"
+            },
+            {
+              "id": "B",
+              "text": "The database schema"
+            },
+            {
+              "id": "C",
+              "text": "The thermostat battery label"
+            },
+            {
+              "id": "D",
+              "text": "Its end-switch signal"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The valve end switch provides evidence that a flow path is open.",
+          "source": "IS2208 Lecture 3 and S-Plan heating example"
+        },
+        {
+          "id": "IS2208-LEVELS-018",
+          "stem": "Why is a bypass path useful in a heating system?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It protects flow when normal zone paths are restricted or closing"
+            },
+            {
+              "id": "B",
+              "text": "It increases every thermostat setting"
+            },
+            {
+              "id": "C",
+              "text": "It replaces the boiler controller"
+            },
+            {
+              "id": "D",
+              "text": "It guarantees perfect room temperature"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "A bypass helps maintain safe circulation rather than forcing the pump against closed paths.",
+          "source": "IS2208 Lecture 3 and S-Plan heating example"
+        },
+        {
+          "id": "IS2208-LEVELS-019",
+          "stem": "A thermostat passes its bench test, but the valve never opens when heat is requested. What should be tested next?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The interface and control path between thermostat and valve"
+            },
+            {
+              "id": "B",
+              "text": "Only the boiler fuel supply"
+            },
+            {
+              "id": "C",
+              "text": "The room paint colour"
+            },
+            {
+              "id": "D",
+              "text": "The thermostat again with the same isolated setup"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The defect may lie in wiring, signals or interaction rather than either component alone.",
+          "source": "IS2208 Lecture 3 and S-Plan heating example"
+        },
+        {
+          "id": "IS2208-LEVELS-020",
+          "stem": "Why can all components pass individually while the system fails?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Component tests prove every interaction"
+            },
+            {
+              "id": "B",
+              "text": "System tests are unnecessary"
+            },
+            {
+              "id": "C",
+              "text": "Interfaces cannot contain defects"
+            },
+            {
+              "id": "D",
+              "text": "Correct parts can still interact through incorrect signals, timing or configuration"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Integration behaviour depends on connections and coordination that isolated tests do not exercise.",
+          "source": "IS2208 Lecture 3 and S-Plan heating example"
+        },
+        {
+          "id": "IS2208-LEVELS-021",
+          "stem": "Which is an acceptance-style system test for the heating example?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A wire has continuity"
+            },
+            {
+              "id": "B",
+              "text": "The thermostat display lights"
+            },
+            {
+              "id": "C",
+              "text": "Under stated room and timer conditions, the correct zones reach the required temperatures safely"
+            },
+            {
+              "id": "D",
+              "text": "The valve motor rotates on a bench"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "A system-level test checks the complete user-visible outcome under realistic conditions.",
+          "source": "IS2208 Lecture 3 and S-Plan heating example"
+        },
+        {
+          "id": "IS2208-LEVELS-022",
+          "stem": "When troubleshooting an unfamiliar installed system, why might a top-down approach be efficient?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Every component must be replaced first"
+            },
+            {
+              "id": "B",
+              "text": "Architecture knowledge is harmful"
+            },
+            {
+              "id": "C",
+              "text": "System behaviour never reveals location clues"
+            },
+            {
+              "id": "D",
+              "text": "A failing whole-system symptom can narrow which subsystem needs investigation"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Starting from symptoms and tracing inward avoids testing unrelated parts blindly.",
+          "source": "IS2208 Lecture 3 and S-Plan heating example"
+        },
+        {
+          "id": "IS2208-LEVELS-023",
+          "stem": "What is combinatorial explosion in system testing?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Components physically explode under load"
+            },
+            {
+              "id": "B",
+              "text": "Every test returns the same result"
+            },
+            {
+              "id": "C",
+              "text": "Testing one case generates all other cases automatically"
+            },
+            {
+              "id": "D",
+              "text": "The number of possible state and input combinations grows too large to test exhaustively"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Interactions among many variables create far more combinations than practical test time allows.",
+          "source": "IS2208 Lecture 3 and S-Plan heating example"
+        },
+        {
+          "id": "IS2208-LEVELS-024",
+          "stem": "How should risk guide selection when exhaustive testing is impossible?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ignore rare but catastrophic failures"
+            },
+            {
+              "id": "B",
+              "text": "Prioritise high-impact failures, likely scenarios and critical interfaces"
+            },
+            {
+              "id": "C",
+              "text": "Test only the easiest path"
+            },
+            {
+              "id": "D",
+              "text": "Choose cases alphabetically"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Risk-based testing allocates effort where failure would matter most.",
+          "source": "IS2208 Lecture 3 and S-Plan heating example"
+        },
+        {
+          "id": "IS2208-LEVELS-025",
+          "stem": "What does white-box knowledge add to black-box testing?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It removes the need for requirements"
+            },
+            {
+              "id": "B",
+              "text": "It limits tests to user-interface colours"
+            },
+            {
+              "id": "C",
+              "text": "It helps choose cases that exercise important branches, states and interfaces"
+            },
+            {
+              "id": "D",
+              "text": "It guarantees the absence of defects"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Internal knowledge can improve coverage while outcomes are still checked externally.",
+          "source": "IS2208 Lecture 3 and S-Plan heating example"
+        }
+      ]
+    },
+    {
+      "title": "Python, Environments & Flask Basics",
+      "description": "Python setup, virtual environments, Flask applications and routes.",
+      "questions": [
+        {
+          "id": "IS2208-FLASK-001",
+          "stem": "What does it mean that Python is interpreted in the course context?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Code can be executed interactively without a separate manual compile step."
+            },
+            {
+              "id": "B",
+              "text": "Python code never has syntax rules."
+            },
+            {
+              "id": "C",
+              "text": "Python is always faster than native code."
+            },
+            {
+              "id": "D",
+              "text": "Python cannot use libraries."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The interpreter supports quick execution and experimentation, though performance can differ from compiled code.",
+          "source": "IS2208 Lecture 4 notes"
+        },
+        {
+          "id": "IS2208-FLASK-002",
+          "stem": "Which command checks the installed Python version?",
+          "options": [
+            {
+              "id": "A",
+              "text": "python -V"
+            },
+            {
+              "id": "B",
+              "text": "python install"
+            },
+            {
+              "id": "C",
+              "text": "pip route"
+            },
+            {
+              "id": "D",
+              "text": "flask -Q"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "python -V reports the interpreter version.",
+          "source": "IS2208 Lecture 4 notes"
+        },
+        {
+          "id": "IS2208-FLASK-003",
+          "stem": "Why use a virtual environment for a Python project?",
+          "options": [
+            {
+              "id": "A",
+              "text": "To isolate project dependencies from other projects and the system installation"
+            },
+            {
+              "id": "B",
+              "text": "To host the public website automatically"
+            },
+            {
+              "id": "C",
+              "text": "To remove Python from the computer"
+            },
+            {
+              "id": "D",
+              "text": "To prevent tests from running"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "An isolated environment reduces dependency conflicts and improves reproducibility.",
+          "source": "IS2208 Lecture 4 notes"
+        },
+        {
+          "id": "IS2208-FLASK-004",
+          "stem": "What does pip freeze help record?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Installed package versions in the current environment"
+            },
+            {
+              "id": "B",
+              "text": "All Flask routes"
+            },
+            {
+              "id": "C",
+              "text": "Expected test results"
+            },
+            {
+              "id": "D",
+              "text": "The operating system password"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "It lists installed dependencies and versions that can be captured for reproducibility.",
+          "source": "IS2208 Lecture 4 notes"
+        },
+        {
+          "id": "IS2208-FLASK-005",
+          "stem": "What is Flask?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A lightweight Python web framework"
+            },
+            {
+              "id": "B",
+              "text": "A database query language"
+            },
+            {
+              "id": "C",
+              "text": "A unit-test assertion"
+            },
+            {
+              "id": "D",
+              "text": "A hardware simulator"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Flask provides routing and web-server facilities for Python applications.",
+          "source": "IS2208 Lecture 4 notes"
+        },
+        {
+          "id": "IS2208-FLASK-006",
+          "stem": "What is the usual role of @app.route(\"/\") in a basic Flask application?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Map the root URL to a Python function"
+            },
+            {
+              "id": "B",
+              "text": "Create a virtual environment"
+            },
+            {
+              "id": "C",
+              "text": "Install PyTest"
+            },
+            {
+              "id": "D",
+              "text": "Convert every input to an integer"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The decorator registers the URL path handled by the following function.",
+          "source": "IS2208 Lecture 4 notes"
+        },
+        {
+          "id": "IS2208-FLASK-007",
+          "stem": "What should a simple Flask route function return?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A response value such as a string"
+            },
+            {
+              "id": "B",
+              "text": "A package installation command"
+            },
+            {
+              "id": "C",
+              "text": "Only a class definition"
+            },
+            {
+              "id": "D",
+              "text": "A compiler executable"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Flask converts the returned value into the HTTP response.",
+          "source": "IS2208 Lecture 4 notes"
+        },
+        {
+          "id": "IS2208-FLASK-008",
+          "stem": "What address does 127.0.0.1 normally refer to?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The local machine"
+            },
+            {
+              "id": "B",
+              "text": "Every public website"
+            },
+            {
+              "id": "C",
+              "text": "The DNS root server"
+            },
+            {
+              "id": "D",
+              "text": "A remote database"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The loopback address allows the developer to access a locally running server.",
+          "source": "IS2208 Lecture 4 notes"
+        },
+        {
+          "id": "IS2208-FLASK-009",
+          "stem": "Why must Flask endpoint function names be unique within the application?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Flask uses them to identify endpoints and duplicate names can conflict."
+            },
+            {
+              "id": "B",
+              "text": "Python forbids all repeated words."
+            },
+            {
+              "id": "C",
+              "text": "Unique names improve internet speed."
+            },
+            {
+              "id": "D",
+              "text": "Routes cannot contain slashes otherwise."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Endpoint identity is derived from the function unless configured otherwise.",
+          "source": "IS2208 Lecture 4 notes"
+        },
+        {
+          "id": "IS2208-FLASK-010",
+          "stem": "Why test a custom Sums class before connecting it to a Flask route?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It separates business-logic defects from web-integration defects."
+            },
+            {
+              "id": "B",
+              "text": "Flask can never call classes."
+            },
+            {
+              "id": "C",
+              "text": "Unit tests require a browser."
+            },
+            {
+              "id": "D",
+              "text": "The route will compile the class automatically."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Testing the class in isolation makes failures easier to locate before integration.",
+          "source": "IS2208 Lecture 4 notes"
+        },
+        {
+          "id": "IS2208-FLASK-011",
+          "stem": "Why pin dependency versions for a project?",
+          "options": [
+            {
+              "id": "A",
+              "text": "To convert Python into HTML."
+            },
+            {
+              "id": "B",
+              "text": "To guarantee zero defects."
+            },
+            {
+              "id": "C",
+              "text": "To make installations more reproducible across machines and time."
+            },
+            {
+              "id": "D",
+              "text": "To prevent any package use."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Recorded versions reduce unexpected behaviour from dependency changes.",
+          "source": "IS2208 Lecture 4 notes"
+        },
+        {
+          "id": "IS2208-FLASK-012",
+          "stem": "What is the purpose of if __name__ == \"__main__\" in a simple Flask file?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Install the virtual environment."
+            },
+            {
+              "id": "B",
+              "text": "Create a test assertion."
+            },
+            {
+              "id": "C",
+              "text": "Run startup code when the file is executed directly."
+            },
+            {
+              "id": "D",
+              "text": "Declare every route."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The guard distinguishes direct execution from import.",
+          "source": "IS2208 Lecture 4 notes"
+        },
+        {
+          "id": "IS2208-FLASK-013",
+          "stem": "Why keep business logic outside route functions where practical?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Python classes require browsers."
+            },
+            {
+              "id": "B",
+              "text": "It is easier to test and reuse without the web layer."
+            },
+            {
+              "id": "C",
+              "text": "Flask forbids calculations."
+            },
+            {
+              "id": "D",
+              "text": "Routes cannot return values."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Separation reduces coupling and supports focused unit tests.",
+          "source": "IS2208 Lecture 4 notes"
+        },
+        {
+          "id": "IS2208-FLASK-014",
+          "stem": "What does localhost access demonstrate?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The app is publicly deployed."
+            },
+            {
+              "id": "B",
+              "text": "The database is encrypted."
+            },
+            {
+              "id": "C",
+              "text": "All tests passed."
+            },
+            {
+              "id": "D",
+              "text": "The server is reachable on the developer’s own machine."
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Loopback testing is local, not proof of internet deployment.",
+          "source": "IS2208 Lecture 4 notes"
+        },
+        {
+          "id": "IS2208-FLASK-015",
+          "stem": "A Flask route returns no value. What kind of problem is likely?",
+          "options": [
+            {
+              "id": "A",
+              "text": "PyTest converts None to HTML."
+            },
+            {
+              "id": "B",
+              "text": "Flask cannot build a valid response from the handler."
+            },
+            {
+              "id": "C",
+              "text": "The virtual environment installs itself."
+            },
+            {
+              "id": "D",
+              "text": "The URL becomes public automatically."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "A route handler must return a response-compatible value.",
+          "source": "IS2208 Lecture 4 notes"
+        },
+        {
+          "id": "IS2208-FLASK-016",
+          "stem": "A Python project requires version 3.11 or later, but its configured interpreter is 3.9. What should be changed first?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Select an interpreter compatible with the project requirement"
+            },
+            {
+              "id": "B",
+              "text": "Change the package list without changing the interpreter"
+            },
+            {
+              "id": "C",
+              "text": "Edit HTML titles to match the required version"
+            },
+            {
+              "id": "D",
+              "text": "Rename every route to include 3.11"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The interpreter must satisfy the stated compatibility requirement; this is a supplied scenario, not a question about memorising a course setup rule.",
+          "source": "IS2208 Lecture 4, Python environment setup; new practice scenario"
+        },
+        {
+          "id": "IS2208-FLASK-017",
+          "stem": "Why can interpreted Python be slower than compiled lower-level code for some tasks?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Python cannot perform arithmetic"
+            },
+            {
+              "id": "B",
+              "text": "Python has no libraries"
+            },
+            {
+              "id": "C",
+              "text": "Interpreters always use the network"
+            },
+            {
+              "id": "D",
+              "text": "More work is performed at runtime rather than fully translated in advance"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Runtime interpretation adds overhead, although optimised libraries can perform critical work efficiently.",
+          "source": "IS2208 Lecture 4 and reviewed setup notes"
+        },
+        {
+          "id": "IS2208-FLASK-018",
+          "stem": "Why can Python still use high-performance operations implemented in C or C++?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Virtual environments compile the operating system"
+            },
+            {
+              "id": "B",
+              "text": "Python libraries can call compiled native code behind a simple interface"
+            },
+            {
+              "id": "C",
+              "text": "Python automatically rewrites every program into C++"
+            },
+            {
+              "id": "D",
+              "text": "Flask forbids pure Python"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Many libraries expose Python APIs while executing performance-critical work in compiled code.",
+          "source": "IS2208 Lecture 4 and reviewed setup notes"
+        },
+        {
+          "id": "IS2208-FLASK-019",
+          "stem": "What problem does a project virtual environment prevent?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Invalid HTML from user input"
+            },
+            {
+              "id": "B",
+              "text": "Missing business requirements"
+            },
+            {
+              "id": "C",
+              "text": "Dependencies for one project interfering with another project or the global installation"
+            },
+            {
+              "id": "D",
+              "text": "Duplicate function names inside one file"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Each project can use its own package set and versions.",
+          "source": "IS2208 Lecture 4 and reviewed setup notes"
+        },
+        {
+          "id": "IS2208-FLASK-020",
+          "stem": "A teammate receives a project but not its dependency list. What reproducibility problem may occur?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Tests will all become manual"
+            },
+            {
+              "id": "B",
+              "text": "They may install different package versions and see different behaviour"
+            },
+            {
+              "id": "C",
+              "text": "The route URL will become private"
+            },
+            {
+              "id": "D",
+              "text": "Python will stop supporting functions"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Recorded dependencies help recreate the environment in which the project was developed and tested.",
+          "source": "IS2208 Lecture 4 and reviewed setup notes"
+        },
+        {
+          "id": "IS2208-FLASK-021",
+          "stem": "What relationship does a Flask route decorator define?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It encrypts every response"
+            },
+            {
+              "id": "B",
+              "text": "It maps a URL pattern to a Python view function"
+            },
+            {
+              "id": "C",
+              "text": "It converts Python into SQL"
+            },
+            {
+              "id": "D",
+              "text": "It creates a virtual environment"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The decorator registers which function handles requests matching a path.",
+          "source": "IS2208 Lecture 4 and reviewed setup notes"
+        },
+        {
+          "id": "IS2208-FLASK-022",
+          "stem": "What does requesting http://127.0.0.1:5000 usually do in the course examples?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Opens a database file directly"
+            },
+            {
+              "id": "B",
+              "text": "Connects to a development server running on the same computer"
+            },
+            {
+              "id": "C",
+              "text": "Connects to any public website"
+            },
+            {
+              "id": "D",
+              "text": "Installs Flask"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "127.0.0.1 is the loopback address and port 5000 is Flask’s common development port.",
+          "source": "IS2208 Lecture 4 and reviewed setup notes"
+        },
+        {
+          "id": "IS2208-FLASK-023",
+          "stem": "An arithmetic operation fails both in a unit test and when called through Flask. Why test the class separately?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It makes class methods unavailable to routes"
+            },
+            {
+              "id": "B",
+              "text": "It proves that routing has no role in any failure"
+            },
+            {
+              "id": "C",
+              "text": "It helps isolate a business-logic defect from routing and rendering"
+            },
+            {
+              "id": "D",
+              "text": "It converts the calculation into a browser-only operation"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Separation allows independent diagnosis of the calculation and web integration.",
+          "source": "IS2208 Lectures 4–6, Sums class and Flask"
+        },
+        {
+          "id": "IS2208-FLASK-024",
+          "stem": "Two Flask routes use the same endpoint function name. What is the likely issue?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Python creates a database relation"
+            },
+            {
+              "id": "B",
+              "text": "The functions become private"
+            },
+            {
+              "id": "C",
+              "text": "Flask cannot uniquely register both endpoints without a naming conflict"
+            },
+            {
+              "id": "D",
+              "text": "Both URLs automatically merge correctly"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Endpoint names identify handlers internally and generally need to be unique.",
+          "source": "IS2208 Lecture 4 and reviewed setup notes"
+        },
+        {
+          "id": "IS2208-FLASK-025",
+          "stem": "What is the strongest reason to record package versions after setup?",
+          "options": [
+            {
+              "id": "A",
+              "text": "To make installation and later test results reproducible"
+            },
+            {
+              "id": "B",
+              "text": "To make route names unique"
+            },
+            {
+              "id": "C",
+              "text": "To escape HTML"
+            },
+            {
+              "id": "D",
+              "text": "To speed every Python statement"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "A dependency snapshot documents the environment needed to recreate behaviour.",
+          "source": "IS2208 Lecture 4 and reviewed setup notes"
+        }
+      ]
+    },
+    {
+      "title": "Automated Testing, PyTest & TDD",
+      "description": "Assertions, naming conventions, boundaries and the red-green workflow.",
+      "questions": [
+        {
+          "id": "IS2208-PYTEST-001",
+          "stem": "What is the difference between a compiler or interpreter check and a behavioural test?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Syntax processing checks whether code can run; behavioural tests check whether it produces expected results."
+            },
+            {
+              "id": "B",
+              "text": "They are always identical."
+            },
+            {
+              "id": "C",
+              "text": "Behavioural tests check only file names."
+            },
+            {
+              "id": "D",
+              "text": "Syntax checks validate every requirement."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Processable code can still implement the wrong behaviour.",
+          "source": "IS2208 Lecture 5 notes"
+        },
+        {
+          "id": "IS2208-PYTEST-002",
+          "stem": "In PyTest, how are test files commonly named for automatic discovery?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They begin with test_"
+            },
+            {
+              "id": "B",
+              "text": "They end with .html only"
+            },
+            {
+              "id": "C",
+              "text": "They must be named main.py"
+            },
+            {
+              "id": "D",
+              "text": "They contain no underscore"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "PyTest discovers files and functions using standard test naming conventions.",
+          "source": "IS2208 Lecture 5 notes"
+        },
+        {
+          "id": "IS2208-PYTEST-003",
+          "stem": "What does assert expected == result express?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The observed result must match the expected value"
+            },
+            {
+              "id": "B",
+              "text": "The result should be stored in a database"
+            },
+            {
+              "id": "C",
+              "text": "The test is skipped"
+            },
+            {
+              "id": "D",
+              "text": "The expected value should be overwritten"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "An assertion encodes the condition required for the test to pass.",
+          "source": "IS2208 Lecture 5 notes"
+        },
+        {
+          "id": "IS2208-PYTEST-004",
+          "stem": "Why is boundary testing important for a rule such as age >= 21?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Errors often occur at the threshold, such as using > instead of >=."
+            },
+            {
+              "id": "B",
+              "text": "Only values far from 21 matter."
+            },
+            {
+              "id": "C",
+              "text": "Boundaries cannot be represented in code."
+            },
+            {
+              "id": "D",
+              "text": "The rule has no expected result."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Values just below, at and just above the boundary expose comparison mistakes.",
+          "source": "IS2208 Lecture 5 notes"
+        },
+        {
+          "id": "IS2208-PYTEST-005",
+          "stem": "Which values best test the boundary age >= 21?",
+          "options": [
+            {
+              "id": "A",
+              "text": "20, 21 and 22"
+            },
+            {
+              "id": "B",
+              "text": "1, 10 and 100"
+            },
+            {
+              "id": "C",
+              "text": "Only 21"
+            },
+            {
+              "id": "D",
+              "text": "Only negative values"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "These values cover below, exactly at and above the threshold.",
+          "source": "IS2208 Lecture 5 notes"
+        },
+        {
+          "id": "IS2208-PYTEST-006",
+          "stem": "What is the first step in the basic TDD cycle?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Write a test for desired behaviour that initially fails"
+            },
+            {
+              "id": "B",
+              "text": "Deploy to production"
+            },
+            {
+              "id": "C",
+              "text": "Delete the requirements"
+            },
+            {
+              "id": "D",
+              "text": "Optimise before testing"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "TDD begins by expressing the next behaviour as a failing test.",
+          "source": "IS2208 Lecture 5 notes"
+        },
+        {
+          "id": "IS2208-PYTEST-007",
+          "stem": "After a new TDD test fails, what should the developer determine?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Whether the test or the implementation is responsible, then make the smallest appropriate fix"
+            },
+            {
+              "id": "B",
+              "text": "Whether to remove all tests"
+            },
+            {
+              "id": "C",
+              "text": "Whether to accept the failure permanently"
+            },
+            {
+              "id": "D",
+              "text": "Whether the web browser is colourful enough"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "A failure can expose a test defect or missing implementation, so both must be examined.",
+          "source": "IS2208 Lecture 5 notes"
+        },
+        {
+          "id": "IS2208-PYTEST-008",
+          "stem": "Why is PyTest often quiet when tests pass and detailed when they fail?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The runner emphasises actionable failure information while successful checks need little output."
+            },
+            {
+              "id": "B",
+              "text": "Passing tests do not execute."
+            },
+            {
+              "id": "C",
+              "text": "Failures are always syntax errors."
+            },
+            {
+              "id": "D",
+              "text": "Quiet output proves complete coverage."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Concise success output makes traces and assertion details on failure easier to focus on.",
+          "source": "IS2208 Lecture 5 notes"
+        },
+        {
+          "id": "IS2208-PYTEST-009",
+          "stem": "Which tool is associated mainly with browser-driven front-end testing in the lecture?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Selenium"
+            },
+            {
+              "id": "B",
+              "text": "PyTest only"
+            },
+            {
+              "id": "C",
+              "text": "pip freeze"
+            },
+            {
+              "id": "D",
+              "text": "escape"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Selenium was mentioned for browser interaction, while the module emphasised back-end testing with PyTest.",
+          "source": "IS2208 Lecture 5 notes"
+        },
+        {
+          "id": "IS2208-PYTEST-010",
+          "stem": "A dynamic Flask route receives <value> without a converter. What type is value initially?",
+          "options": [
+            {
+              "id": "A",
+              "text": "String"
+            },
+            {
+              "id": "B",
+              "text": "Integer"
+            },
+            {
+              "id": "C",
+              "text": "Boolean"
+            },
+            {
+              "id": "D",
+              "text": "None"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Unconverted route parameters are passed as strings.",
+          "source": "IS2208 Lecture 5 notes"
+        },
+        {
+          "id": "IS2208-PYTEST-011",
+          "stem": "What does “red” mean in the red–green–refactor cycle?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Requirements are deleted."
+            },
+            {
+              "id": "B",
+              "text": "A new test fails for the expected reason."
+            },
+            {
+              "id": "C",
+              "text": "All tests pass."
+            },
+            {
+              "id": "D",
+              "text": "The code is deployed."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Red establishes that the test can detect missing behaviour.",
+          "source": "IS2208 Lecture 5 notes"
+        },
+        {
+          "id": "IS2208-PYTEST-012",
+          "stem": "What does “green” mean in TDD?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The test is skipped."
+            },
+            {
+              "id": "B",
+              "text": "Only syntax is checked."
+            },
+            {
+              "id": "C",
+              "text": "The implementation is sufficient for the tests to pass."
+            },
+            {
+              "id": "D",
+              "text": "Every possible defect is removed."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Green is the smallest working step, not proof of completeness.",
+          "source": "IS2208 Lecture 5 notes"
+        },
+        {
+          "id": "IS2208-PYTEST-013",
+          "stem": "Why refactor after tests pass?",
+          "options": [
+            {
+              "id": "A",
+              "text": "To improve structure while tests guard existing behaviour."
+            },
+            {
+              "id": "B",
+              "text": "To change requirements secretly."
+            },
+            {
+              "id": "C",
+              "text": "To remove all assertions."
+            },
+            {
+              "id": "D",
+              "text": "To increase coupling."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Passing tests provide a safety net for internal design changes.",
+          "source": "IS2208 Lecture 5 notes"
+        },
+        {
+          "id": "IS2208-PYTEST-014",
+          "stem": "What makes a unit test isolated?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It requires manual confirmation."
+            },
+            {
+              "id": "B",
+              "text": "It depends on test order."
+            },
+            {
+              "id": "C",
+              "text": "It minimises dependence on unrelated systems and shared state."
+            },
+            {
+              "id": "D",
+              "text": "It always uses the live production database."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Isolation makes failures faster and easier to diagnose.",
+          "source": "IS2208 Lecture 5 notes"
+        },
+        {
+          "id": "IS2208-PYTEST-015",
+          "stem": "Why is test-order dependence a problem?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A test may pass or fail based on leftover state rather than the behaviour under test."
+            },
+            {
+              "id": "B",
+              "text": "PyTest requires alphabetical logic."
+            },
+            {
+              "id": "C",
+              "text": "Ordered tests improve isolation."
+            },
+            {
+              "id": "D",
+              "text": "It proves requirements are complete."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Reliable tests should set up and clean up their own conditions.",
+          "source": "IS2208 Lecture 5 notes"
+        },
+        {
+          "id": "IS2208-PYTEST-016",
+          "stem": "A rule permits people aged at least 21. Which off-by-one defect is testing exactly 21 designed to expose?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Accepting the ordinary value 35"
+            },
+            {
+              "id": "B",
+              "text": "Using > 21 rather than >= 21"
+            },
+            {
+              "id": "C",
+              "text": "Reading a numeric value as a date"
+            },
+            {
+              "id": "D",
+              "text": "Sorting tests in descending order"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The threshold value distinguishes a strict from an inclusive comparison.",
+          "source": "IS2208 Lectures 7–8, boundary tests"
+        },
+        {
+          "id": "IS2208-PYTEST-017",
+          "stem": "What does PyTest test discovery depend on in the course examples?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A running Flask browser window"
+            },
+            {
+              "id": "B",
+              "text": "Every function returning a string"
+            },
+            {
+              "id": "C",
+              "text": "The production file being named database.py"
+            },
+            {
+              "id": "D",
+              "text": "Recognisable test file and function naming such as test_"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Conventional names allow the runner to find tests automatically.",
+          "source": "IS2208 Lecture 5 and reviewed quiz notes"
+        },
+        {
+          "id": "IS2208-PYTEST-018",
+          "stem": "A test fails because the expected value is wrong while the implementation matches the requirement. What should be fixed?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The Python interpreter"
+            },
+            {
+              "id": "B",
+              "text": "The user requirement should be ignored"
+            },
+            {
+              "id": "C",
+              "text": "The test expectation"
+            },
+            {
+              "id": "D",
+              "text": "The correct implementation"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "A failing test can be defective, so the requirement and oracle must be checked before changing code.",
+          "source": "IS2208 Lecture 5 and reviewed quiz notes"
+        },
+        {
+          "id": "IS2208-PYTEST-019",
+          "stem": "What makes an automated test deterministic?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It depends on the order of unrelated tests"
+            },
+            {
+              "id": "B",
+              "text": "It accesses changing external data without control"
+            },
+            {
+              "id": "C",
+              "text": "The same controlled starting conditions produce the same result"
+            },
+            {
+              "id": "D",
+              "text": "It uses random inputs without recording them"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Determinism makes failures repeatable and diagnosable.",
+          "source": "IS2208 Lecture 5 and reviewed quiz notes"
+        },
+        {
+          "id": "IS2208-PYTEST-020",
+          "stem": "After writing a failing test in TDD, what is the next implementation goal?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Make the smallest appropriate change that satisfies the new behaviour"
+            },
+            {
+              "id": "B",
+              "text": "Add every future feature at once"
+            },
+            {
+              "id": "C",
+              "text": "Delete existing tests"
+            },
+            {
+              "id": "D",
+              "text": "Optimise before correctness"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "A small change keeps the feedback loop focused and limits accidental complexity.",
+          "source": "IS2208 Lecture 5 and reviewed quiz notes"
+        },
+        {
+          "id": "IS2208-PYTEST-021",
+          "stem": "What is regression protection?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Existing tests reveal when a new change breaks previously working behaviour"
+            },
+            {
+              "id": "B",
+              "text": "The interpreter prevents every old defect"
+            },
+            {
+              "id": "C",
+              "text": "A browser caches all correct outputs"
+            },
+            {
+              "id": "D",
+              "text": "Manual inspection guarantees no regression"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "A repeatable suite checks that established behaviour remains intact after changes.",
+          "source": "IS2208 Lecture 5 and reviewed quiz notes"
+        },
+        {
+          "id": "IS2208-PYTEST-022",
+          "stem": "Test B passes only if test A previously changed a shared object. What should be repaired?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The requirement so that test A must always run first"
+            },
+            {
+              "id": "B",
+              "text": "The hidden state dependency between tests"
+            },
+            {
+              "id": "C",
+              "text": "The names so that alphabetical order conceals the issue"
+            },
+            {
+              "id": "D",
+              "text": "The assertions so that B never checks the object"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Each test should have controlled starting conditions rather than depending on another test’s mutation.",
+          "source": "IS2208 Lecture 9, fresh fixtures"
+        },
+        {
+          "id": "IS2208-PYTEST-023",
+          "stem": "A function returns None when the requirement expects 0. Why should a test distinguish them?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Python treats them as identical in every context"
+            },
+            {
+              "id": "B",
+              "text": "Zero means an exception"
+            },
+            {
+              "id": "C",
+              "text": "None is always greater than zero"
+            },
+            {
+              "id": "D",
+              "text": "None means no value, while 0 is a valid numeric result"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Different values can encode different business meanings even if both seem “empty”.",
+          "source": "IS2208 Lecture 5 and reviewed quiz notes"
+        },
+        {
+          "id": "IS2208-PYTEST-024",
+          "stem": "What can an automated unit test check more directly than Selenium?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A small business-logic function without a browser"
+            },
+            {
+              "id": "B",
+              "text": "The visual position of a button in a real browser"
+            },
+            {
+              "id": "C",
+              "text": "A complete user journey across pages"
+            },
+            {
+              "id": "D",
+              "text": "Network behaviour from the user’s device"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Unit tests target small logic quickly, while Selenium drives browser interactions.",
+          "source": "IS2208 Lecture 5 and reviewed quiz notes"
+        },
+        {
+          "id": "IS2208-PYTEST-025",
+          "stem": "Why do manual and automated tests complement each other?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Automation gives repeatability, while human exploration can notice unexpected usability and context issues"
+            },
+            {
+              "id": "B",
+              "text": "Manual testing is always obsolete"
+            },
+            {
+              "id": "C",
+              "text": "Automated tests understand every unstated expectation"
+            },
+            {
+              "id": "D",
+              "text": "They must never be used on the same system"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Different approaches reveal different classes of problem.",
+          "source": "IS2208 Lecture 5 and reviewed quiz notes"
+        }
+      ]
+    },
+    {
+      "title": "Dynamic Routes, Type Conversion & Web Safety",
+      "description": "Dynamic content, routing, converters, 404 behaviour and escaping untrusted input.",
+      "questions": [
+        {
+          "id": "IS2208-DYNAMIC-001",
+          "stem": "What makes a web page dynamic in the Flask examples?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Its response changes based on input or application state"
+            },
+            {
+              "id": "B",
+              "text": "It contains only fixed HTML"
+            },
+            {
+              "id": "C",
+              "text": "It has no route"
+            },
+            {
+              "id": "D",
+              "text": "It never calls Python"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Dynamic content is produced at request time from variables, parameters or logic.",
+          "source": "IS2208 Lecture 6 notes"
+        },
+        {
+          "id": "IS2208-DYNAMIC-002",
+          "stem": "Which folder convention holds HTML templates in a Flask project?",
+          "options": [
+            {
+              "id": "A",
+              "text": "templates"
+            },
+            {
+              "id": "B",
+              "text": "static"
+            },
+            {
+              "id": "C",
+              "text": "venv"
+            },
+            {
+              "id": "D",
+              "text": "tests_only"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Flask looks in templates for server-rendered HTML files.",
+          "source": "IS2208 Lecture 6 notes"
+        },
+        {
+          "id": "IS2208-DYNAMIC-003",
+          "stem": "Which folder convention holds CSS and JavaScript assets?",
+          "options": [
+            {
+              "id": "A",
+              "text": "static"
+            },
+            {
+              "id": "B",
+              "text": "templates"
+            },
+            {
+              "id": "C",
+              "text": "routes"
+            },
+            {
+              "id": "D",
+              "text": "assertions"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Static assets such as stylesheets and client-side scripts are normally placed in static.",
+          "source": "IS2208 Lecture 6 notes"
+        },
+        {
+          "id": "IS2208-DYNAMIC-004",
+          "stem": "What happens when a user requests a URL for which no Flask route exists?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The server normally returns 404 Not Found"
+            },
+            {
+              "id": "B",
+              "text": "Python invents a route"
+            },
+            {
+              "id": "C",
+              "text": "The home route always runs"
+            },
+            {
+              "id": "D",
+              "text": "The input is converted to zero"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "A missing route has no matching handler, producing a 404 response.",
+          "source": "IS2208 Lecture 6 notes"
+        },
+        {
+          "id": "IS2208-DYNAMIC-005",
+          "stem": "What does a route such as /hello/<name> capture?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A variable path segment passed to the route function"
+            },
+            {
+              "id": "B",
+              "text": "A database password"
+            },
+            {
+              "id": "C",
+              "text": "A package version"
+            },
+            {
+              "id": "D",
+              "text": "A CSS class only"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Angle-bracket syntax defines a dynamic path parameter.",
+          "source": "IS2208 Lecture 6 notes"
+        },
+        {
+          "id": "IS2208-DYNAMIC-006",
+          "stem": "Why should untrusted text be passed through escape()?",
+          "options": [
+            {
+              "id": "A",
+              "text": "To encode special markup characters and reduce XSS risk"
+            },
+            {
+              "id": "B",
+              "text": "To convert it into an integer"
+            },
+            {
+              "id": "C",
+              "text": "To make it a Flask route"
+            },
+            {
+              "id": "D",
+              "text": "To install MarkupSafe"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Escaping prevents user input from being interpreted directly as executable HTML or script.",
+          "source": "IS2208 Lecture 6 notes"
+        },
+        {
+          "id": "IS2208-DYNAMIC-007",
+          "stem": "What is cross-site scripting (XSS)?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Injection of script or markup into content viewed by other users"
+            },
+            {
+              "id": "B",
+              "text": "A Python version conflict"
+            },
+            {
+              "id": "C",
+              "text": "A database sorting method"
+            },
+            {
+              "id": "D",
+              "text": "A unit-testing convention"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "XSS occurs when untrusted content is rendered as active browser code.",
+          "source": "IS2208 Lecture 6 notes"
+        },
+        {
+          "id": "IS2208-DYNAMIC-008",
+          "stem": "What does <int:n1> do in a Flask route?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It accepts the segment only if it can be converted to an integer."
+            },
+            {
+              "id": "B",
+              "text": "It turns every page into HTML."
+            },
+            {
+              "id": "C",
+              "text": "It escapes all user input."
+            },
+            {
+              "id": "D",
+              "text": "It accepts any text unchanged."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The converter validates the path segment and supplies n1 as an integer.",
+          "source": "IS2208 Lecture 6 notes"
+        },
+        {
+          "id": "IS2208-DYNAMIC-009",
+          "stem": "What normally happens if a request supplies letters where <int:n1> is required?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The route does not match and a 404 response is likely."
+            },
+            {
+              "id": "B",
+              "text": "The letters become zero automatically."
+            },
+            {
+              "id": "C",
+              "text": "The server disables testing."
+            },
+            {
+              "id": "D",
+              "text": "The route returns None successfully."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "A failed converter means the URL does not satisfy that route pattern.",
+          "source": "IS2208 Lecture 6 notes"
+        },
+        {
+          "id": "IS2208-DYNAMIC-010",
+          "stem": "When a route transforms an untrusted name and inserts it into HTML text, what is the safest general sequence?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Format the raw input into HTML and never escape it"
+            },
+            {
+              "id": "B",
+              "text": "Escape only the trusted static heading, leaving the name unchanged"
+            },
+            {
+              "id": "C",
+              "text": "Validate or transform as required, then escape at the HTML output boundary"
+            },
+            {
+              "id": "D",
+              "text": "Assume converting a value to a string makes it safe HTML"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Escape the untrusted output for its context; transformation is not a substitute for output escaping.",
+          "source": "IS2208 Lecture 6, escaping dynamic responses"
+        },
+        {
+          "id": "IS2208-DYNAMIC-011",
+          "stem": "Why validate route input even after type conversion?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Integers cannot be harmful."
+            },
+            {
+              "id": "B",
+              "text": "Validation is only for HTML files."
+            },
+            {
+              "id": "C",
+              "text": "A valid type can still be outside the permitted business range."
+            },
+            {
+              "id": "D",
+              "text": "Type conversion proves authorisation."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Type and domain constraints are different checks.",
+          "source": "IS2208 Lecture 6 notes"
+        },
+        {
+          "id": "IS2208-DYNAMIC-012",
+          "stem": "What is the difference between a route path and an endpoint function name?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They must always be identical text."
+            },
+            {
+              "id": "B",
+              "text": "The path runs only in PyTest."
+            },
+            {
+              "id": "C",
+              "text": "The function name is a public IP address."
+            },
+            {
+              "id": "D",
+              "text": "The path is requested by the client; the function name identifies the Python handler internally."
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Routing maps an external URL pattern to internal code.",
+          "source": "IS2208 Lecture 6 notes"
+        },
+        {
+          "id": "IS2208-DYNAMIC-013",
+          "stem": "Why should output escaping happen near the point where untrusted text enters HTML?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It ensures special characters are represented safely in that output context."
+            },
+            {
+              "id": "B",
+              "text": "It converts every input to a number."
+            },
+            {
+              "id": "C",
+              "text": "It authenticates the user."
+            },
+            {
+              "id": "D",
+              "text": "It removes the need for validation."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Context-aware escaping helps prevent the browser interpreting input as markup.",
+          "source": "IS2208 Lecture 6 notes"
+        },
+        {
+          "id": "IS2208-DYNAMIC-014",
+          "stem": "What is the difference between 404 and a successful response with an error message?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are always identical."
+            },
+            {
+              "id": "B",
+              "text": "A 404 means the server did not run."
+            },
+            {
+              "id": "C",
+              "text": "A successful response cannot contain text."
+            },
+            {
+              "id": "D",
+              "text": "404 signals no matching resource or route at the HTTP level."
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Status codes communicate request outcomes independently of response wording.",
+          "source": "IS2208 Lecture 6 notes"
+        },
+        {
+          "id": "IS2208-DYNAMIC-015",
+          "stem": "A dynamic route uses <int:item_id>. Which test set is strongest?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only an empty stylesheet."
+            },
+            {
+              "id": "B",
+              "text": "A valid integer, a non-integer segment and a boundary integer."
+            },
+            {
+              "id": "C",
+              "text": "Only one normal integer."
+            },
+            {
+              "id": "D",
+              "text": "Only the home page."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The set checks matching, rejection and boundary behaviour.",
+          "source": "IS2208 Lecture 6 notes"
+        },
+        {
+          "id": "IS2208-DYNAMIC-016",
+          "stem": "In a route /hello/<name>, what type is name by default?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A Flask application object"
+            },
+            {
+              "id": "B",
+              "text": "A string"
+            },
+            {
+              "id": "C",
+              "text": "An integer"
+            },
+            {
+              "id": "D",
+              "text": "A Boolean"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Without a converter, Flask captures the path segment as text.",
+          "source": "IS2208 Lecture 6 and reviewed quiz notes"
+        },
+        {
+          "id": "IS2208-DYNAMIC-017",
+          "stem": "What does the route /add/<int:a>/<int:b> guarantee before the view runs?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The request came from a trusted user"
+            },
+            {
+              "id": "B",
+              "text": "Both path segments matched Flask’s integer converter"
+            },
+            {
+              "id": "C",
+              "text": "The numbers are positive"
+            },
+            {
+              "id": "D",
+              "text": "The sum cannot overflow"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The converter validates the URL shape and supplies Python integers, but does not impose all business rules.",
+          "source": "IS2208 Lecture 6 and reviewed quiz notes"
+        },
+        {
+          "id": "IS2208-DYNAMIC-018",
+          "stem": "A route is declared as /add/<int:a>/<int:b>. A browser requests /add/five/3. What ordinarily happens?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The view receives the literal string five as integer a"
+            },
+            {
+              "id": "B",
+              "text": "The converter changes five into the number 5"
+            },
+            {
+              "id": "C",
+              "text": "A correctly matched view must return 500"
+            },
+            {
+              "id": "D",
+              "text": "No route match, so Flask returns 404"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The non-numeric segment does not satisfy the declared integer converter.",
+          "source": "IS2208 Lecture 6, dynamic route converters"
+        },
+        {
+          "id": "IS2208-DYNAMIC-019",
+          "stem": "An integer route converter accepts age = 300, but the application allows ages only up to 120. What check is still needed?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Escaping the fixed route pattern"
+            },
+            {
+              "id": "B",
+              "text": "Renaming the endpoint function"
+            },
+            {
+              "id": "C",
+              "text": "A business-range validation check"
+            },
+            {
+              "id": "D",
+              "text": "Another conversion to the same integer type"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Type conversion confirms a type, not that the value meets the domain rule.",
+          "source": "IS2208 Lecture 6, type conversion and validation; new practice scenario"
+        },
+        {
+          "id": "IS2208-DYNAMIC-020",
+          "stem": "Which input would most directly test whether a displayed user name is improperly treated as executable HTML?",
+          "options": [
+            {
+              "id": "A",
+              "text": "42"
+            },
+            {
+              "id": "B",
+              "text": "<script>alert(1)</script>"
+            },
+            {
+              "id": "C",
+              "text": "ordinary-name"
+            },
+            {
+              "id": "D",
+              "text": "name with spaces"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Script-like input tests the output-escaping boundary rather than ordinary formatting.",
+          "source": "IS2208 Lecture 6, XSS and dynamic responses"
+        },
+        {
+          "id": "IS2208-DYNAMIC-021",
+          "stem": "What should escape() do to script-like input before it is placed in HTML?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Run the script in a sandbox"
+            },
+            {
+              "id": "B",
+              "text": "Delete the whole response"
+            },
+            {
+              "id": "C",
+              "text": "Convert the input to an integer"
+            },
+            {
+              "id": "D",
+              "text": "Convert dangerous markup characters into display-safe text"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Escaping prevents the browser from interpreting the user text as markup or code.",
+          "source": "IS2208 Lecture 6 and reviewed quiz notes"
+        },
+        {
+          "id": "IS2208-DYNAMIC-022",
+          "stem": "Why should untrusted text be escaped before it is combined into an HTML response?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Flask routes accept only trusted traffic"
+            },
+            {
+              "id": "B",
+              "text": "Escaping is needed only after the browser renders"
+            },
+            {
+              "id": "C",
+              "text": "The dangerous characters are neutralised at the output boundary"
+            },
+            {
+              "id": "D",
+              "text": "String concatenation automatically validates users"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Escaping before insertion prevents constructed HTML from treating user data as executable content.",
+          "source": "IS2208 Lecture 6 and reviewed quiz notes"
+        },
+        {
+          "id": "IS2208-DYNAMIC-023",
+          "stem": "What is the role of the templates folder in a conventional Flask project?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Store only database backups"
+            },
+            {
+              "id": "B",
+              "text": "Register URL converters"
+            },
+            {
+              "id": "C",
+              "text": "Store HTML templates used to render responses"
+            },
+            {
+              "id": "D",
+              "text": "Store installed Python interpreters"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Templates separate page structure from Python request-handling logic.",
+          "source": "IS2208 Lecture 6 and reviewed quiz notes"
+        },
+        {
+          "id": "IS2208-DYNAMIC-024",
+          "stem": "What is the role of the static folder?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Hold the virtual environment"
+            },
+            {
+              "id": "B",
+              "text": "Run PyTest discovery"
+            },
+            {
+              "id": "C",
+              "text": "Serve assets such as CSS, JavaScript and images"
+            },
+            {
+              "id": "D",
+              "text": "Store dynamic route functions"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Static assets are delivered as files rather than generated by a view function.",
+          "source": "IS2208 Lecture 6 and reviewed quiz notes"
+        },
+        {
+          "id": "IS2208-DYNAMIC-025",
+          "stem": "What is the clearest difference between a 404 and a 500 response?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Both always mean invalid integer conversion"
+            },
+            {
+              "id": "B",
+              "text": "500 means the user lacks permission"
+            },
+            {
+              "id": "C",
+              "text": "404 means no matching resource or route; 500 means the server failed while handling a matched request"
+            },
+            {
+              "id": "D",
+              "text": "404 means success and 500 means redirect"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The codes distinguish routing/resource absence from an internal server error.",
+          "source": "IS2208 Lecture 6 and reviewed quiz notes"
+        }
+      ]
+    },
+    {
+      "title": "TDD — Fixtures, Assertions & Test Independence",
+      "description": "Latest TDD demonstrations and the student handout: reliable tests and safe refactoring.",
+      "questions": [
+        {
+          "id": "IS2208-FIXTURES-001",
+          "stem": "What is a test fixture?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A guarantee that every requirement has been tested"
+            },
+            {
+              "id": "B",
+              "text": "The production server’s permanent hardware"
+            },
+            {
+              "id": "C",
+              "text": "The final screenshot after a release"
+            },
+            {
+              "id": "D",
+              "text": "The starting objects or data needed to run a test"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Fixtures establish controlled starting conditions.",
+          "source": "IS2208 Lecture 9; TDD with PyCharm student handout; Lecture 9, fixtures"
+        },
+        {
+          "id": "IS2208-FIXTURES-002",
+          "stem": "In unittest, when is setUp ordinarily called for individual test methods?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only once after the whole suite"
+            },
+            {
+              "id": "B",
+              "text": "Only when an assertion fails"
+            },
+            {
+              "id": "C",
+              "text": "Only after tearDown finishes the entire suite"
+            },
+            {
+              "id": "D",
+              "text": "Before each test method"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Fresh setup for each test reduces dependence on changes made by other tests.",
+          "source": "IS2208 Lecture 9; TDD with PyCharm student handout; Lecture 9, setUp"
+        },
+        {
+          "id": "IS2208-FIXTURES-003",
+          "stem": "A unittest class has four ordinary test methods. How many setUp calls occur when all four run normally?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Eight"
+            },
+            {
+              "id": "B",
+              "text": "One"
+            },
+            {
+              "id": "C",
+              "text": "Zero"
+            },
+            {
+              "id": "D",
+              "text": "Four"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "setUp is per test rather than a single shared suite-level setup.",
+          "source": "IS2208 Lecture 9; TDD with PyCharm student handout; Lecture 9, setUp; new practice example"
+        },
+        {
+          "id": "IS2208-FIXTURES-004",
+          "stem": "What is the purpose of tearDown in a test case?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Supply the expected output before arranging data"
+            },
+            {
+              "id": "B",
+              "text": "Compile all Python code manually"
+            },
+            {
+              "id": "C",
+              "text": "Choose which requirement has the highest priority"
+            },
+            {
+              "id": "D",
+              "text": "Clean up resources after a test"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Cleanup can release files, connections or browser resources used by a test.",
+          "source": "IS2208 Lecture 9; TDD with PyCharm student handout; Lecture 9, tearDown"
+        },
+        {
+          "id": "IS2208-FIXTURES-005",
+          "stem": "Why is a global mutable object shared across tests risky?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Mutable state cannot persist between test calls"
+            },
+            {
+              "id": "B",
+              "text": "Global objects automatically make tests faster and more accurate"
+            },
+            {
+              "id": "C",
+              "text": "The runner always resets every object automatically"
+            },
+            {
+              "id": "D",
+              "text": "One test can alter the starting conditions of another"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Hidden state creates coupling and test-order dependence.",
+          "source": "IS2208 Lecture 9; TDD with PyCharm student handout; Lecture 9, shared-state pitfall"
+        },
+        {
+          "id": "IS2208-FIXTURES-006",
+          "stem": "What does Arrange–Act–Assert describe?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Refactor first, change requirements and skip verification"
+            },
+            {
+              "id": "B",
+              "text": "Prepare the fixture, perform the operation and check the result"
+            },
+            {
+              "id": "C",
+              "text": "Write production code, release it and wait for complaints"
+            },
+            {
+              "id": "D",
+              "text": "Sort tests alphabetically, compile them and delete failures"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The tutorial structures tests into preparation, execution and a check against expected behaviour.",
+          "source": "IS2208 Lecture 9; TDD with PyCharm student handout; student handout, p. 2"
+        },
+        {
+          "id": "IS2208-FIXTURES-007",
+          "stem": "What should happen if a newly written TDD test already passes before the new feature exists?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Delete all older tests"
+            },
+            {
+              "id": "B",
+              "text": "Immediately declare every requirement complete"
+            },
+            {
+              "id": "C",
+              "text": "Check that it really tests the intended missing behaviour"
+            },
+            {
+              "id": "D",
+              "text": "Change the implementation randomly until it fails"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The red stage should fail for the intended reason, helping verify the new test is meaningful.",
+          "source": "IS2208 Lecture 9; TDD with PyCharm student handout; student handout, p. 1"
+        },
+        {
+          "id": "IS2208-FIXTURES-008",
+          "stem": "What is an assertion failure in the tutorial’s distinction?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The test runner cannot find the Python interpreter"
+            },
+            {
+              "id": "B",
+              "text": "A check reports that the observed result differs from the expected result"
+            },
+            {
+              "id": "C",
+              "text": "An exception necessarily occurs before any assertion"
+            },
+            {
+              "id": "D",
+              "text": "The production application always crashes permanently"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "An assertion failure differs from an error caused by an exception during test execution.",
+          "source": "IS2208 Lecture 9; TDD with PyCharm student handout; student handout, p. 2"
+        },
+        {
+          "id": "IS2208-FIXTURES-009",
+          "stem": "What is a test error in the tutorial’s distinction?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The code has passed every assertion"
+            },
+            {
+              "id": "B",
+              "text": "A requirement has changed but no test has run"
+            },
+            {
+              "id": "C",
+              "text": "An exception occurs while executing the test"
+            },
+            {
+              "id": "D",
+              "text": "The expected and actual numbers differ in an ordinary assertion only"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Inspect the traceback for an error; inspect expected and observed results for an assertion mismatch.",
+          "source": "IS2208 Lecture 9; TDD with PyCharm student handout; student handout, p. 2"
+        },
+        {
+          "id": "IS2208-FIXTURES-010",
+          "stem": "Which assertion is appropriate for an expected exception?",
+          "options": [
+            {
+              "id": "A",
+              "text": "assertIsInstance alone"
+            },
+            {
+              "id": "B",
+              "text": "assertRaises"
+            },
+            {
+              "id": "C",
+              "text": "assertAlmostEqual"
+            },
+            {
+              "id": "D",
+              "text": "assertEqual(result, result)"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The handout uses assertRaises to test documented exceptional behaviour.",
+          "source": "IS2208 Lecture 9; TDD with PyCharm student handout; student handout, pp. 4–5"
+        },
+        {
+          "id": "IS2208-FIXTURES-011",
+          "stem": "Why use assertAlmostEqual for a floating-point root calculation?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Approximate assertions accept every possible result"
+            },
+            {
+              "id": "B",
+              "text": "Tiny representation differences may make exact equality unsuitable"
+            },
+            {
+              "id": "C",
+              "text": "Floating-point values cannot be tested"
+            },
+            {
+              "id": "D",
+              "text": "The assertion converts every value into an integer"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Approximate equality checks the numerical result without rejecting insignificant rounding differences.",
+          "source": "IS2208 Lecture 9; TDD with PyCharm student handout; student handout, pp. 4–5"
+        },
+        {
+          "id": "IS2208-FIXTURES-012",
+          "stem": "A payout test computes the expected answer by copying the implementation’s algorithm. What is the main risk?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The test necessarily detects every algorithmic error"
+            },
+            {
+              "id": "B",
+              "text": "The expected result becomes independent of the implementation"
+            },
+            {
+              "id": "C",
+              "text": "The same bug can appear in both, causing a false pass"
+            },
+            {
+              "id": "D",
+              "text": "The test no longer executes Python"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Expected values should be independently established from the contract.",
+          "source": "IS2208 Lecture 9; TDD with PyCharm student handout; Lecture 9, independent expectations"
+        },
+        {
+          "id": "IS2208-FIXTURES-013",
+          "stem": "Why run all existing tests after implementing a new feature?",
+          "options": [
+            {
+              "id": "A",
+              "text": "To prove every possible program input is correct"
+            },
+            {
+              "id": "B",
+              "text": "To detect regressions in previously working behaviour"
+            },
+            {
+              "id": "C",
+              "text": "To turn behavioural changes into refactoring automatically"
+            },
+            {
+              "id": "D",
+              "text": "To avoid checking the new feature"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The whole suite protects tested behaviour beyond the latest feature.",
+          "source": "IS2208 Lecture 9; TDD with PyCharm student handout; Lecture 9; student handout, p. 1"
+        },
+        {
+          "id": "IS2208-FIXTURES-014",
+          "stem": "Which change is refactoring rather than a new calculation rule?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Split one cost field into components while preserving the same tested total"
+            },
+            {
+              "id": "B",
+              "text": "Change the exception returned for invalid inputs"
+            },
+            {
+              "id": "C",
+              "text": "Change the payout formula so every result is larger"
+            },
+            {
+              "id": "D",
+              "text": "Add a new commission eligibility requirement"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Refactoring changes structure while preserving behaviour; new rules require their own tests.",
+          "source": "IS2208 Lecture 9; TDD with PyCharm student handout; Lecture 9 refactoring demonstration"
+        },
+        {
+          "id": "IS2208-FIXTURES-015",
+          "stem": "Why check the test count when using a saved PyCharm run configuration?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A correct count proves all requirements were tested"
+            },
+            {
+              "id": "B",
+              "text": "PyCharm cannot run more than one test at a time"
+            },
+            {
+              "id": "C",
+              "text": "A rerun may execute only a previously selected test rather than the whole suite"
+            },
+            {
+              "id": "D",
+              "text": "The count is the application’s final output"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The handout warns that rerunning a configuration may cover only a subset.",
+          "source": "IS2208 Lecture 9; TDD with PyCharm student handout; student handout, pp. 2–3"
+        }
+      ]
+    },
+    {
+      "title": "Calculator Contracts — Boundaries, Roots & Powers",
+      "description": "Self-contained arithmetic contracts from the newer student handout, not universal mathematical rules.",
+      "questions": [
+        {
+          "id": "IS2208-CONTRACTS-001",
+          "stem": "A calculator contract says divide(x, 0) returns 0. What should a test for divide(5, 0) expect under that contract?",
+          "options": [
+            {
+              "id": "A",
+              "text": "0"
+            },
+            {
+              "id": "B",
+              "text": "None"
+            },
+            {
+              "id": "C",
+              "text": "5"
+            },
+            {
+              "id": "D",
+              "text": "A ZeroDivisionError"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "This is the stated application contract, not a claim that division by zero is mathematically zero.",
+          "source": "IS2208 TDD with PyCharm student handout; pp. 2–3"
+        },
+        {
+          "id": "IS2208-CONTRACTS-002",
+          "stem": "Why should division by zero be checked before attempting Python’s division operation?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Python always returns zero automatically"
+            },
+            {
+              "id": "B",
+              "text": "A later check can always undo an exception that was not handled"
+            },
+            {
+              "id": "C",
+              "text": "The operation would otherwise raise an exception before the specified fallback can be returned"
+            },
+            {
+              "id": "D",
+              "text": "The order matters only for string inputs"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Guard the exceptional condition before performing the unsafe operation.",
+          "source": "IS2208 TDD with PyCharm student handout; pp. 2–3"
+        },
+        {
+          "id": "IS2208-CONTRACTS-003",
+          "stem": "Which set distinguishes a zero numerator from a zero denominator under the handout’s contract?",
+          "options": [
+            {
+              "id": "A",
+              "text": "3/1, 4/1 and 5/1"
+            },
+            {
+              "id": "B",
+              "text": "1/2, 2/4 and 3/6"
+            },
+            {
+              "id": "C",
+              "text": "0/5, 5/0 and 0/0"
+            },
+            {
+              "id": "D",
+              "text": "5/5, 10/10 and 20/20"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The set checks both positions of zero and their combination, rather than only one typical case.",
+          "source": "IS2208 TDD with PyCharm student handout; pp. 2–3"
+        },
+        {
+          "id": "IS2208-CONTRACTS-004",
+          "stem": "Why is x+x a faulty implementation of square(x)?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It returns a square root"
+            },
+            {
+              "id": "B",
+              "text": "It doubles x rather than multiplying x by itself"
+            },
+            {
+              "id": "C",
+              "text": "It rounds x to two decimals"
+            },
+            {
+              "id": "D",
+              "text": "It cubes x"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Squaring is x**2, which is not generally equal to 2x.",
+          "source": "IS2208 TDD with PyCharm student handout; p. 2"
+        },
+        {
+          "id": "IS2208-CONTRACTS-005",
+          "stem": "Which input best exposes the difference between x+x and x**2?",
+          "options": [
+            {
+              "id": "A",
+              "text": "2"
+            },
+            {
+              "id": "B",
+              "text": "A test that never checks the output"
+            },
+            {
+              "id": "C",
+              "text": "3"
+            },
+            {
+              "id": "D",
+              "text": "0"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "For 3 the results are 6 and 9; 0 and 2 accidentally agree.",
+          "source": "IS2208 TDD with PyCharm student handout; p. 2; new practice example"
+        },
+        {
+          "id": "IS2208-CONTRACTS-006",
+          "stem": "Under a real-square-root contract that rejects negative input, what should squareroot(-4) do?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Return -2"
+            },
+            {
+              "id": "B",
+              "text": "Raise ValueError"
+            },
+            {
+              "id": "C",
+              "text": "Return 2"
+            },
+            {
+              "id": "D",
+              "text": "Return 0 automatically"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The newer handout requires a non-negative real square root and rejects negative input.",
+          "source": "IS2208 TDD with PyCharm student handout; p. 3"
+        },
+        {
+          "id": "IS2208-CONTRACTS-007",
+          "stem": "What is the expected real cube root of −8 under the handout’s contract?",
+          "options": [
+            {
+              "id": "A",
+              "text": "2"
+            },
+            {
+              "id": "B",
+              "text": "−4"
+            },
+            {
+              "id": "C",
+              "text": "−2"
+            },
+            {
+              "id": "D",
+              "text": "A mandatory ValueError"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Odd real roots of negative inputs retain the negative sign.",
+          "source": "IS2208 TDD with PyCharm student handout; p. 3"
+        },
+        {
+          "id": "IS2208-CONTRACTS-008",
+          "stem": "Why is the test call important when checking a cube-root method?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Calling squareroot instead tests a different operation even if the assertion name says cube root"
+            },
+            {
+              "id": "B",
+              "text": "The test method’s name automatically changes the called operation"
+            },
+            {
+              "id": "C",
+              "text": "Any root method is interchangeable"
+            },
+            {
+              "id": "D",
+              "text": "An assertion always identifies which method should have been called"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The handout flags a test typo that calls the wrong method; tests can themselves contain defects.",
+          "source": "IS2208 TDD with PyCharm student handout; p. 2"
+        },
+        {
+          "id": "IS2208-CONTRACTS-009",
+          "stem": "A general real-root function requires a positive integer degree. Which degree must be rejected?",
+          "options": [
+            {
+              "id": "A",
+              "text": "2"
+            },
+            {
+              "id": "B",
+              "text": "0"
+            },
+            {
+              "id": "C",
+              "text": "3"
+            },
+            {
+              "id": "D",
+              "text": "1"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Zero is not a positive integer; the contract also rejects negative and fractional degrees.",
+          "source": "IS2208 TDD with PyCharm student handout; p. 4"
+        },
+        {
+          "id": "IS2208-CONTRACTS-010",
+          "stem": "Under the handout’s real-root contract, when is a negative radicand allowed?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Never, including for cube roots"
+            },
+            {
+              "id": "B",
+              "text": "Only when the degree is zero"
+            },
+            {
+              "id": "C",
+              "text": "Whenever the degree is even"
+            },
+            {
+              "id": "D",
+              "text": "When the positive integer degree is odd"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "An odd root can have a real negative result; an even root of a negative number cannot under this contract.",
+          "source": "IS2208 TDD with PyCharm student handout; p. 4"
+        },
+        {
+          "id": "IS2208-CONTRACTS-011",
+          "stem": "A root function has a real-root contract. What should root(-16, 2) do?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Return -8"
+            },
+            {
+              "id": "B",
+              "text": "Return 4"
+            },
+            {
+              "id": "C",
+              "text": "Raise ValueError"
+            },
+            {
+              "id": "D",
+              "text": "Return -4"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The degree is even and the radicand negative, so the stated contract rejects it.",
+          "source": "IS2208 TDD with PyCharm student handout; p. 4; new practice example"
+        },
+        {
+          "id": "IS2208-CONTRACTS-012",
+          "stem": "If power(x,n) follows Python’s exponentiation semantics, what is power(2,-3)?",
+          "options": [
+            {
+              "id": "A",
+              "text": "−8"
+            },
+            {
+              "id": "B",
+              "text": "0.125"
+            },
+            {
+              "id": "C",
+              "text": "8"
+            },
+            {
+              "id": "D",
+              "text": "−0.125"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "A negative exponent gives a reciprocal: 2**−3 = 1/8.",
+          "source": "IS2208 TDD with PyCharm student handout; p. 4; new practice example"
+        },
+        {
+          "id": "IS2208-CONTRACTS-013",
+          "stem": "What is the sign of a negative base raised to an odd integer power?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Undefined for every odd power"
+            },
+            {
+              "id": "B",
+              "text": "Negative"
+            },
+            {
+              "id": "C",
+              "text": "Always zero"
+            },
+            {
+              "id": "D",
+              "text": "Always positive"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "An odd number of negative factors leaves a negative result.",
+          "source": "IS2208 TDD with PyCharm student handout; p. 4"
+        },
+        {
+          "id": "IS2208-CONTRACTS-014",
+          "stem": "The handout’s general power method follows Python exponentiation, while its root method requires real results. What follows for negative inputs?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Both methods must always return only integers"
+            },
+            {
+              "id": "B",
+              "text": "The two methods can have different valid contracts and exception behaviour"
+            },
+            {
+              "id": "C",
+              "text": "Both methods must always reject the same inputs"
+            },
+            {
+              "id": "D",
+              "text": "A method name alone removes the need to state its contract"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Python power may produce complex values for fractional exponents; the real-root method is explicitly restricted.",
+          "source": "IS2208 TDD with PyCharm student handout; pp. 3–4"
+        },
+        {
+          "id": "IS2208-CONTRACTS-015",
+          "stem": "Why should a newer real-root handout’s contract be stated in a question when earlier notes allowed complex results?",
+          "options": [
+            {
+              "id": "A",
+              "text": "All root functions in every program have identical behaviour"
+            },
+            {
+              "id": "B",
+              "text": "Tests should ignore the stated requirement"
+            },
+            {
+              "id": "C",
+              "text": "Otherwise the expected outcome is ambiguous between different source-specific contracts"
+            },
+            {
+              "id": "D",
+              "text": "The later handout changes mathematical truth"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "A self-contained question identifies the relevant contract rather than treating one application’s choice as universal.",
+          "source": "IS2208 TDD with PyCharm student handout; pp. 3–4; source-contract caution"
+        }
+      ]
+    },
+    {
+      "title": "Selenium — Browser Tests & Real-World Failures",
+      "description": "Latest browser-testing lectures; static-page assertions and representative user behaviour.",
+      "questions": [
+        {
+          "id": "IS2208-SELENIUM-001",
+          "stem": "Why are passing arithmetic unit tests insufficient evidence that a Flask website works?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Routing, templates and browser integration may still fail"
+            },
+            {
+              "id": "B",
+              "text": "The web layer cannot have defects"
+            },
+            {
+              "id": "C",
+              "text": "A working arithmetic method guarantees the full DOM"
+            },
+            {
+              "id": "D",
+              "text": "Unit tests never provide useful evidence"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Unit tests and whole-system browser tests cover different parts of the application.",
+          "source": "IS2208 Lectures 9–10; supplied Selenium Python example; Lecture 10, unit versus whole-system tests"
+        },
+        {
+          "id": "IS2208-SELENIUM-002",
+          "stem": "What does Selenium WebDriver enable a Python test to do?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Prove every possible browser is identical"
+            },
+            {
+              "id": "B",
+              "text": "Control a browser and inspect user-facing behaviour"
+            },
+            {
+              "id": "C",
+              "text": "Replace all business logic with HTML"
+            },
+            {
+              "id": "D",
+              "text": "Compile Python into JavaScript"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "WebDriver provides programmatic browser interaction.",
+          "source": "IS2208 Lectures 9–10; supplied Selenium Python example; Lectures 9–10; supplied example"
+        },
+        {
+          "id": "IS2208-SELENIUM-003",
+          "stem": "What is the purpose of driver.get(url)?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Navigate the browser to the specified page"
+            },
+            {
+              "id": "B",
+              "text": "Create a database table"
+            },
+            {
+              "id": "C",
+              "text": "Return the expected test result automatically"
+            },
+            {
+              "id": "D",
+              "text": "Locate every element with the same ID"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Navigation is distinct from asserting what the resulting page contains.",
+          "source": "IS2208 Lectures 9–10; supplied Selenium Python example; Lecture 10; supplied example"
+        },
+        {
+          "id": "IS2208-SELENIUM-004",
+          "stem": "What does driver.title retrieve?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The loaded page’s document title"
+            },
+            {
+              "id": "B",
+              "text": "Every visible heading on the page"
+            },
+            {
+              "id": "C",
+              "text": "The Flask route function’s name"
+            },
+            {
+              "id": "D",
+              "text": "The Python file’s name"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The title property reads the browser’s page title, not every heading or element.",
+          "source": "IS2208 Lectures 9–10; supplied Selenium Python example; Lectures 9–10; supplied example"
+        },
+        {
+          "id": "IS2208-SELENIUM-005",
+          "stem": "What does driver.find_element(By.ID, 'message') look for?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A Python variable called message"
+            },
+            {
+              "id": "B",
+              "text": "An element whose HTML id is message"
+            },
+            {
+              "id": "C",
+              "text": "Every element containing the word message"
+            },
+            {
+              "id": "D",
+              "text": "A file named message in the templates folder"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The locator queries a DOM element by its identifier.",
+          "source": "IS2208 Lectures 9–10; supplied Selenium Python example; Lecture 10; supplied example"
+        },
+        {
+          "id": "IS2208-SELENIUM-006",
+          "stem": "After an element is found, what does element.text provide in the demonstrated workflow?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Every CSS rule in the page"
+            },
+            {
+              "id": "B",
+              "text": "Its displayed text"
+            },
+            {
+              "id": "C",
+              "text": "The Python source of the view function"
+            },
+            {
+              "id": "D",
+              "text": "The expected value declared by the test"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The observed element text can then be compared with an independently specified expectation.",
+          "source": "IS2208 Lectures 9–10; supplied Selenium Python example; Lecture 10; supplied example"
+        },
+        {
+          "id": "IS2208-SELENIUM-007",
+          "stem": "A browser script visits a page and reads its title but makes no check. What is missing for a meaningful pass/fail behavioural test?",
+          "options": [
+            {
+              "id": "A",
+              "text": "An extra call to print the URL only"
+            },
+            {
+              "id": "B",
+              "text": "An assertion against an expected result"
+            },
+            {
+              "id": "C",
+              "text": "A new Flask endpoint"
+            },
+            {
+              "id": "D",
+              "text": "A second browser window in every case"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Interaction and observation alone do not establish whether behaviour meets a requirement.",
+          "source": "IS2208 Lectures 9–10; supplied Selenium Python example; supplied Selenium example; Lecture 9"
+        },
+        {
+          "id": "IS2208-SELENIUM-008",
+          "stem": "What must be available before a Selenium test can reach a local Flask page?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The browser must contain the page as a static local file"
+            },
+            {
+              "id": "B",
+              "text": "The Flask server must be running and reachable"
+            },
+            {
+              "id": "C",
+              "text": "The unit-test count must equal the number of routes"
+            },
+            {
+              "id": "D",
+              "text": "The Selenium test must first publish the site publicly"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The lecture explicitly separates running the website from executing its browser tests.",
+          "source": "IS2208 Lectures 9–10; supplied Selenium Python example; Lecture 10"
+        },
+        {
+          "id": "IS2208-SELENIUM-009",
+          "stem": "What does driver.quit() do in the supplied standalone workflow?",
+          "options": [
+            {
+              "id": "A",
+              "text": "End the browser-driver session and clean up its browser resources"
+            },
+            {
+              "id": "B",
+              "text": "Run the Flask server"
+            },
+            {
+              "id": "C",
+              "text": "Refresh the current page only"
+            },
+            {
+              "id": "D",
+              "text": "Assert that every element is correct"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The supplied script ends the session after the interactions and checks.",
+          "source": "IS2208 Lectures 9–10; supplied Selenium Python example; supplied Selenium Python example"
+        },
+        {
+          "id": "IS2208-SELENIUM-010",
+          "stem": "A Selenium test expects a new paragraph. The paragraph is absent. What is the appropriate TDD next step?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Declare the failure irrelevant because unit tests pass"
+            },
+            {
+              "id": "B",
+              "text": "Change the test to ignore the requirement"
+            },
+            {
+              "id": "C",
+              "text": "Add the smallest implementation needed to satisfy the intended requirement"
+            },
+            {
+              "id": "D",
+              "text": "Delete the browser tests permanently"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The lecture demonstrates red–green development by adding an expected element and then its content.",
+          "source": "IS2208 Lectures 9–10; supplied Selenium Python example; Lecture 10, browser TDD demonstration"
+        },
+        {
+          "id": "IS2208-SELENIUM-011",
+          "stem": "A test finds the expected paragraph ID but its text is empty. Why should a content assertion still fail?",
+          "options": [
+            {
+              "id": "A",
+              "text": "An empty string always matches every expected string"
+            },
+            {
+              "id": "B",
+              "text": "Element existence and correct content are different requirements"
+            },
+            {
+              "id": "C",
+              "text": "The DOM cannot represent empty elements"
+            },
+            {
+              "id": "D",
+              "text": "Finding an ID guarantees the right text"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The demonstration stays red until both the element and its expected content are implemented.",
+          "source": "IS2208 Lectures 9–10; supplied Selenium Python example; Lecture 10, browser TDD demonstration"
+        },
+        {
+          "id": "IS2208-SELENIUM-012",
+          "stem": "Why can testing only with slow, careful developer input miss a race condition?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Faster input guarantees the same sequence of internal events"
+            },
+            {
+              "id": "B",
+              "text": "Real users may perform actions faster, exposing unsynchronised state"
+            },
+            {
+              "id": "C",
+              "text": "Timing cannot affect software state"
+            },
+            {
+              "id": "D",
+              "text": "Race conditions occur only when a browser is absent"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The Therac-25 discussion connects rapid operator changes with timing-sensitive inconsistent state.",
+          "source": "IS2208 Lectures 9–10; supplied Selenium Python example; Lecture 10, Therac-25 discussion"
+        },
+        {
+          "id": "IS2208-SELENIUM-013",
+          "stem": "What broad lesson does removing mechanical safety interlocks and relying on software alone illustrate?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Software automatically supplies every safeguard formerly provided by hardware"
+            },
+            {
+              "id": "B",
+              "text": "Passing one test guarantees that no interlock is needed"
+            },
+            {
+              "id": "C",
+              "text": "Mechanical safeguards are irrelevant to system-level risk"
+            },
+            {
+              "id": "D",
+              "text": "Assuming software correctness can remove independent protection against failure"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The case is used to question overconfidence and support testing representative failure modes.",
+          "source": "IS2208 Lectures 9–10; supplied Selenium Python example; Lecture 10, Therac-25 discussion"
+        },
+        {
+          "id": "IS2208-SELENIUM-014",
+          "stem": "Why should repeated cryptic warnings be treated as a design and testing concern?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Frequent warnings always increase understanding"
+            },
+            {
+              "id": "B",
+              "text": "Users may become accustomed to dismissing them without understanding the risk"
+            },
+            {
+              "id": "C",
+              "text": "Error wording affects appearance but never user behaviour"
+            },
+            {
+              "id": "D",
+              "text": "A warning message proves the system cannot cause harm"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The lecture connects poorly communicated errors and operator responses with system safety.",
+          "source": "IS2208 Lectures 9–10; supplied Selenium Python example; Lecture 10, Therac-25 discussion"
+        },
+        {
+          "id": "IS2208-SELENIUM-015",
+          "stem": "Why test relevant browsers with different rendering engines?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A unit test automatically covers every browser engine"
+            },
+            {
+              "id": "B",
+              "text": "Browser choice changes the application’s arithmetic contract"
+            },
+            {
+              "id": "C",
+              "text": "Chrome and Safari necessarily render every page identically"
+            },
+            {
+              "id": "D",
+              "text": "A site that works in one engine may behave differently in another"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The lecture contrasts Chromium-based browsers with Safari’s WebKit and motivates compatibility checks.",
+          "source": "IS2208 Lectures 9–10; supplied Selenium Python example; Lecture 9, browser-engine discussion"
+        }
+      ]
+    },
+    {
+      "title": "Flask — Templates, Forms & Validation",
+      "description": "Lectures 11–12: render forms, process POST values and validate inputs before creating an item.",
+      "questions": [
+        {
+          "id": "IS2208-FORMS-001",
+          "stem": "Why does a Flask create route declare methods=[\"GET\", \"POST\"] in the demonstrated form flow?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Declaring the methods removes the need to validate submitted values"
+            },
+            {
+              "id": "B",
+              "text": "Both methods are required solely to enable Jinja inheritance"
+            },
+            {
+              "id": "C",
+              "text": "The same route must display the form and handle its submission"
+            },
+            {
+              "id": "D",
+              "text": "GET submits values while POST only displays the empty form"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "GET displays the form; POST submits values to be processed by the route.",
+          "source": "IS2208 Lectures 11–12, 12–13 October 2026"
+        },
+        {
+          "id": "IS2208-FORMS-002",
+          "stem": "An HTML form is intended to send entered values to the create route for processing. Which method matches the demonstrated flow?",
+          "options": [
+            {
+              "id": "A",
+              "text": "OPTIONS only"
+            },
+            {
+              "id": "B",
+              "text": "POST"
+            },
+            {
+              "id": "C",
+              "text": "GET only"
+            },
+            {
+              "id": "D",
+              "text": "DELETE"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The demonstrated form uses POST for submission and GET to show the form.",
+          "source": "IS2208 Lectures 11–12, 12–13 October 2026"
+        },
+        {
+          "id": "IS2208-FORMS-003",
+          "stem": "An input has id=\"title-box\" and name=\"title\". Which key identifies its submitted value in request.form?",
+          "options": [
+            {
+              "id": "A",
+              "text": "id"
+            },
+            {
+              "id": "B",
+              "text": "input"
+            },
+            {
+              "id": "C",
+              "text": "title"
+            },
+            {
+              "id": "D",
+              "text": "title-box"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The name attribute supplies the form key; the id can support labels or element selection.",
+          "source": "IS2208 Lectures 11–12, 12–13 October 2026"
+        },
+        {
+          "id": "IS2208-FORMS-004",
+          "stem": "What does request.form.get(\"title\", \"\") return when the title key is absent?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The entire form dictionary"
+            },
+            {
+              "id": "B",
+              "text": "The previous title saved by another user"
+            },
+            {
+              "id": "C",
+              "text": "An empty string"
+            },
+            {
+              "id": "D",
+              "text": "An automatically generated title"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The second argument supplies the fallback value when the key is missing.",
+          "source": "IS2208 Lectures 11–12, 12–13 October 2026"
+        },
+        {
+          "id": "IS2208-FORMS-005",
+          "stem": "A submitted title is \"   \" and the route applies .strip(). What value is tested by if not title?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The string NULL"
+            },
+            {
+              "id": "B",
+              "text": "The number 3"
+            },
+            {
+              "id": "C",
+              "text": "An empty string"
+            },
+            {
+              "id": "D",
+              "text": "Three spaces"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "strip removes surrounding whitespace, so a whitespace-only title becomes empty.",
+          "source": "IS2208 Lectures 11–12, 12–13 October 2026"
+        },
+        {
+          "id": "IS2208-FORMS-006",
+          "stem": "A route obtains title using request.form.get(\"title\", \"\").strip(). What is the main validation benefit?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A whitespace-only value can be treated as missing"
+            },
+            {
+              "id": "B",
+              "text": "Every HTML attack is automatically prevented"
+            },
+            {
+              "id": "C",
+              "text": "The value is written to a database"
+            },
+            {
+              "id": "D",
+              "text": "The request method is automatically converted from POST to GET"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Trimming supports the empty-value check but is not a substitute for all other validation or security controls.",
+          "source": "IS2208 Lectures 11–12, 12–13 October 2026"
+        },
+        {
+          "id": "IS2208-FORMS-007",
+          "stem": "A route uses if not title, then elif not content, then else. Both fields are empty. Which validation branch executes?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The missing-title branch only"
+            },
+            {
+              "id": "B",
+              "text": "The missing-content branch only"
+            },
+            {
+              "id": "C",
+              "text": "Both error branches"
+            },
+            {
+              "id": "D",
+              "text": "The successful-create branch"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "An if/elif chain executes the first matching branch, so the title condition takes precedence.",
+          "source": "IS2208 Lectures 11–12, 12–13 October 2026"
+        },
+        {
+          "id": "IS2208-FORMS-008",
+          "stem": "In the demonstrated create route, when should the new item be appended to the collection?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only when the request is GET"
+            },
+            {
+              "id": "B",
+              "text": "After both required fields pass validation"
+            },
+            {
+              "id": "C",
+              "text": "In the GET branch before processing submitted values"
+            },
+            {
+              "id": "D",
+              "text": "Whenever either required field is empty"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Creation belongs in the valid-input branch, preventing invalid items from being added.",
+          "source": "IS2208 Lectures 11–12, 12–13 October 2026"
+        },
+        {
+          "id": "IS2208-FORMS-009",
+          "stem": "Why keep the user on the create template after invalid form input?",
+          "options": [
+            {
+              "id": "A",
+              "text": "To skip the validation branch on the next submission automatically"
+            },
+            {
+              "id": "B",
+              "text": "To display feedback and allow correction rather than treating the submission as successful"
+            },
+            {
+              "id": "C",
+              "text": "To redirect as if the submission had been successfully created"
+            },
+            {
+              "id": "D",
+              "text": "To append the invalid item a second time"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "An invalid submission should be presented with feedback and should not create an item.",
+          "source": "IS2208 Lectures 11–12, 12–13 October 2026"
+        },
+        {
+          "id": "IS2208-FORMS-010",
+          "stem": "What does a return statement do when reached inside a Flask view function?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Queues the response while continuing the same view indefinitely"
+            },
+            {
+              "id": "B",
+              "text": "Automatically executes the function’s else branch"
+            },
+            {
+              "id": "C",
+              "text": "Ends that function call and supplies its response"
+            },
+            {
+              "id": "D",
+              "text": "Continues into every later validation branch"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Code after the executed return in that function call is not reached.",
+          "source": "IS2208 Lectures 11–12, 12–13 October 2026"
+        },
+        {
+          "id": "IS2208-FORMS-011",
+          "stem": "Which Jinja syntax is used to insert an expression value into the rendered HTML?",
+          "options": [
+            {
+              "id": "A",
+              "text": "{{ expression }}"
+            },
+            {
+              "id": "B",
+              "text": "{% expression %} for every value"
+            },
+            {
+              "id": "C",
+              "text": "<!-- expression -->"
+            },
+            {
+              "id": "D",
+              "text": "Only Python print(expression)"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Double braces output expression values; statement tags support template control structures.",
+          "source": "IS2208 Lectures 11–12, 12–13 October 2026"
+        },
+        {
+          "id": "IS2208-FORMS-012",
+          "stem": "Which Jinja syntax matches a loop or conditional control statement?",
+          "options": [
+            {
+              "id": "A",
+              "text": "{% ... %}"
+            },
+            {
+              "id": "B",
+              "text": "{{ ... }} only"
+            },
+            {
+              "id": "C",
+              "text": "<!-- ... --> only"
+            },
+            {
+              "id": "D",
+              "text": "{{ for item in items }}"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Template statement tags contain controls such as for and if.",
+          "source": "IS2208 Lectures 11–12, 12–13 October 2026"
+        },
+        {
+          "id": "IS2208-FORMS-013",
+          "stem": "A child template extends base.html and fills a named block. What is the purpose?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Reuse a shared page structure while supplying page-specific content"
+            },
+            {
+              "id": "B",
+              "text": "Duplicate the whole base file for every response"
+            },
+            {
+              "id": "C",
+              "text": "Run the child template as browser Python"
+            },
+            {
+              "id": "D",
+              "text": "Prevent any page-specific content from appearing"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Template inheritance centralises common structure and lets child templates fill blocks.",
+          "source": "IS2208 Lectures 11–12, 12–13 October 2026"
+        },
+        {
+          "id": "IS2208-FORMS-014",
+          "stem": "Where is a Jinja template rendered in the demonstrated Flask architecture?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only after the browser resubmits the form"
+            },
+            {
+              "id": "B",
+              "text": "Only when Selenium executes a test assertion"
+            },
+            {
+              "id": "C",
+              "text": "On the server before the HTML response reaches the browser"
+            },
+            {
+              "id": "D",
+              "text": "Inside a browser Python interpreter"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Flask renders the template into HTML on the server; the browser receives the result.",
+          "source": "IS2208 Lectures 11–12, 12–13 October 2026"
+        }
+      ]
+    },
+    {
+      "title": "Flask — Feedback, Redirects & Browser Tests",
+      "description": "Lectures 11–12: shared feedback, successful submission redirects, persistence and UI test cases.",
+      "questions": [
+        {
+          "id": "IS2208-FORMTESTS-001",
+          "stem": "Why render shared form-feedback messages in the base template outside the child content block?",
+          "options": [
+            {
+              "id": "A",
+              "text": "So validation messages bypass the server and become form values"
+            },
+            {
+              "id": "B",
+              "text": "So pages using that base can show the common feedback without duplicating it"
+            },
+            {
+              "id": "C",
+              "text": "So each child template must supply the message loop itself"
+            },
+            {
+              "id": "D",
+              "text": "So every child must reimplement the same loop"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The shared base can provide a consistent feedback area across derived pages.",
+          "source": "IS2208 Lectures 11–12 — notes and Lecture 12 transcript"
+        },
+        {
+          "id": "IS2208-FORMTESTS-002",
+          "stem": "In the demonstrated Flask flow, what is flash used for?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Write an Oracle transaction automatically"
+            },
+            {
+              "id": "B",
+              "text": "Validate and trim every submitted field automatically"
+            },
+            {
+              "id": "C",
+              "text": "Replace the template rendering step with permanent storage"
+            },
+            {
+              "id": "D",
+              "text": "Queue a feedback message to be retrieved and displayed"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Flashing provides feedback across the request flow; it is not a persistence or testing mechanism.",
+          "source": "IS2208 Lectures 11–12 — notes and Lecture 12 transcript"
+        },
+        {
+          "id": "IS2208-FORMTESTS-003",
+          "stem": "Why is a secret key configured for the Flask session-backed flashing mechanism?",
+          "options": [
+            {
+              "id": "A",
+              "text": "To make all input valid automatically"
+            },
+            {
+              "id": "B",
+              "text": "To replace every application test"
+            },
+            {
+              "id": "C",
+              "text": "To support signing of the session data used by that mechanism"
+            },
+            {
+              "id": "D",
+              "text": "To send the secret key to every user as a form value"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Flask session support uses the configured secret key; it should not be treated as user-facing form content or complete security protection.",
+          "source": "IS2208 Lectures 11–12 — notes and Lecture 12 transcript"
+        },
+        {
+          "id": "IS2208-FORMTESTS-004",
+          "stem": "What does url_for(\"index\") build when index is the endpoint name?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The text entered into the form’s index field"
+            },
+            {
+              "id": "B",
+              "text": "The URL associated with that endpoint"
+            },
+            {
+              "id": "C",
+              "text": "The contents of the index template"
+            },
+            {
+              "id": "D",
+              "text": "The dictionary of items passed to the index template"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Building from an endpoint avoids scattering hard-coded path strings through the application.",
+          "source": "IS2208 Lectures 11–12 — notes and Lecture 12 transcript"
+        },
+        {
+          "id": "IS2208-FORMTESTS-005",
+          "stem": "After valid creation, the route redirects the browser to the listing page. What pattern does this implement?",
+          "options": [
+            {
+              "id": "A",
+              "text": "POST-POST-POST"
+            },
+            {
+              "id": "B",
+              "text": "Template-Database-Compile"
+            },
+            {
+              "id": "C",
+              "text": "POST-Redirect-GET"
+            },
+            {
+              "id": "D",
+              "text": "GET-Delete-GET"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The POST processes the submission; the redirect leads to a GET of the destination page.",
+          "source": "IS2208 Lectures 11–12 — notes and Lecture 12 transcript"
+        },
+        {
+          "id": "IS2208-FORMTESTS-006",
+          "stem": "Why can redirecting after a successful POST help when the user refreshes the resulting listing page?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The displayed page is a GET response, reducing accidental resubmission of the create POST"
+            },
+            {
+              "id": "B",
+              "text": "Refresh automatically reverses the successful creation"
+            },
+            {
+              "id": "C",
+              "text": "The redirect makes submitted input immune to validation errors"
+            },
+            {
+              "id": "D",
+              "text": "The resulting listing page is still the original POST response"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The redirect separates the successful submission from the page subsequently displayed.",
+          "source": "IS2208 Lectures 11–12 — notes and Lecture 12 transcript"
+        },
+        {
+          "id": "IS2208-FORMTESTS-007",
+          "stem": "Items are stored only in a Python list inside the running application. What should you expect after the process restarts?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Flask sessions automatically copy the entire application list"
+            },
+            {
+              "id": "B",
+              "text": "The list-based changes are not durable unless separately persisted"
+            },
+            {
+              "id": "C",
+              "text": "All items are automatically restored from Oracle"
+            },
+            {
+              "id": "D",
+              "text": "The list writes itself to disk after every append"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "An in-memory collection is not durable storage across process restarts.",
+          "source": "IS2208 Lectures 11–12 — notes and Lecture 12 transcript"
+        },
+        {
+          "id": "IS2208-FORMTESTS-008",
+          "stem": "In the demonstrated Selenium setup, browser tests cannot connect because the application server is not running. What is the first useful check?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Delete all assertions"
+            },
+            {
+              "id": "B",
+              "text": "Replace the browser test with a unit test and assume the UI works"
+            },
+            {
+              "id": "C",
+              "text": "Start or verify the application server and its expected address"
+            },
+            {
+              "id": "D",
+              "text": "Assume every form validation rule is wrong"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "An unavailable server is an environment/setup failure rather than direct proof that the form logic is defective.",
+          "source": "IS2208 Lectures 11–12 — notes and Lecture 12 transcript"
+        },
+        {
+          "id": "IS2208-FORMTESTS-009",
+          "stem": "Which case directly tests that the content requirement is enforced?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Submit a non-empty title with empty content and check for feedback with no new item"
+            },
+            {
+              "id": "B",
+              "text": "Submit two valid fields and check only the page colour"
+            },
+            {
+              "id": "C",
+              "text": "Submit two missing fields and assume this isolates only the content branch"
+            },
+            {
+              "id": "D",
+              "text": "Check the page loads without submitting any values"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "A targeted invalid-input test isolates the missing-content path and checks that creation does not occur.",
+          "source": "IS2208 Lectures 11–12 — notes and Lecture 12 transcript"
+        },
+        {
+          "id": "IS2208-FORMTESTS-010",
+          "stem": "Which outcome should a successful create-form browser test verify?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The valid item appears after submission and navigation"
+            },
+            {
+              "id": "B",
+              "text": "A missing-title message appears despite valid fields"
+            },
+            {
+              "id": "C",
+              "text": "The browser remains on the create page with no item added"
+            },
+            {
+              "id": "D",
+              "text": "The title is trimmed but no creation outcome is checked"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "A browser test should check the user-visible effect of valid creation, not merely that an element was clicked.",
+          "source": "IS2208 Lectures 11–12 — notes and Lecture 12 transcript"
+        },
+        {
+          "id": "IS2208-FORMTESTS-011",
+          "stem": "Why keep unit tests of the underlying class as well as Selenium form tests?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They provide complementary evidence about internal behaviour and the integrated browser flow"
+            },
+            {
+              "id": "B",
+              "text": "Passing either set proves that every possible defect is absent"
+            },
+            {
+              "id": "C",
+              "text": "Unit tests can establish browser navigation without exercising the browser flow"
+            },
+            {
+              "id": "D",
+              "text": "Unit tests must always launch a real browser"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Different test levels exercise different interfaces and failure points.",
+          "source": "IS2208 Lectures 11–12 — notes and Lecture 12 transcript"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4200 @@
+{
+  "version": 1,
+  "course": {
+    "code": "MG2008",
+    "title": "Business Ethics and Corporate Governance"
+  },
+  "chapters": [
+    {
+      "title": "Week 1 — Business, Law, Morality & Ethics",
+      "description": "Current 2026–27 foundations, corporate purpose and ethical responsibility.",
+      "questions": [
+        {
+          "id": "MG2008-FOUNDATIONS-011",
+          "stem": "A retailer complies with consumer law but conceals an avoidable social harm. Why is further ethical analysis still relevant?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Legal compliance is a minimum standard, not a complete moral judgement"
+            },
+            {
+              "id": "B",
+              "text": "Ethical duties apply only when a court finds fraud"
+            },
+            {
+              "id": "C",
+              "text": "Consumer demand makes every lawful choice ethical"
+            },
+            {
+              "id": "D",
+              "text": "Compliance establishes that no values conflict"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The deck distinguishes legal minimums from questions of right and wrong where values conflict.",
+          "source": "MG2008 current 2026–27 Week 1 deck; slides 6, 16"
+        },
+        {
+          "id": "MG2008-FOUNDATIONS-001",
+          "stem": "Which activity falls most directly within business ethics?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Recording the number of suppliers as a purely descriptive fact"
+            },
+            {
+              "id": "B",
+              "text": "Calculating a supplier invoice without evaluating the decision"
+            },
+            {
+              "id": "C",
+              "text": "Examining whether a supplier-selection decision is right or wrong"
+            },
+            {
+              "id": "D",
+              "text": "Listing products without considering any decision or harm"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Business ethics studies morally significant business situations, activities and decisions.",
+          "source": "MG2008 current 2026–27 Week 1 deck; slide 6"
+        },
+        {
+          "id": "MG2008-RESPONSIBILITY-002",
+          "stem": "A manager invokes Friedman to justify deceiving customers for profit. What qualification has the manager omitted?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Profit-seeking must respect open competition without deception or fraud"
+            },
+            {
+              "id": "B",
+              "text": "Shareholders must approve every individual sale"
+            },
+            {
+              "id": "C",
+              "text": "Managers must prioritise philanthropy over all commercial activity"
+            },
+            {
+              "id": "D",
+              "text": "Profit-seeking is allowed only by non-profit organisations"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Friedman’s stated argument expressly restricts profit-seeking by the rules of the game and the exclusion of deception and fraud.",
+          "source": "MG2008 current 2026–27 Week 1 deck; slide 9"
+        },
+        {
+          "id": "MG2008-RESPONSIBILITY-001",
+          "stem": "In Friedman’s shareholder-agency argument, whose agent is the corporate executive primarily?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The owners of the corporation"
+            },
+            {
+              "id": "B",
+              "text": "Every citizen affected by the industry equally"
+            },
+            {
+              "id": "C",
+              "text": "The executive’s preferred charity"
+            },
+            {
+              "id": "D",
+              "text": "The government’s competition authority"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The executive is described as an employee and agent of the owners, responsible for conducting the business in accordance with their desires.",
+          "source": "MG2008 current 2026–27 Week 1 deck; slide 10"
+        },
+        {
+          "id": "MG2008-RESPONSIBILITY-004",
+          "stem": "Which claim accurately represents the ethical problem with treating profit as the only business concern?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A profitable decision can still impose serious harm on other people"
+            },
+            {
+              "id": "B",
+              "text": "Profit removes the need to examine employee pressure"
+            },
+            {
+              "id": "C",
+              "text": "Only loss-making businesses can cause harm"
+            },
+            {
+              "id": "D",
+              "text": "Profit and ethical conduct cannot coexist"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The need for ethics includes corporate power, stakeholder demands and the personal harm caused by malpractice.",
+          "source": "MG2008 current 2026–27 Week 1 deck; slide 13"
+        },
+        {
+          "id": "MG2008-W1-006",
+          "stem": "A company has extensive legal advice but employees feel pressured to compromise their standards. What does this illustrate?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Regulation does not remove every organisational ethical pressure"
+            },
+            {
+              "id": "B",
+              "text": "Employee beliefs are irrelevant whenever lawyers are involved"
+            },
+            {
+              "id": "C",
+              "text": "Legal expertise necessarily prevents misconduct"
+            },
+            {
+              "id": "D",
+              "text": "Pressure to compromise is proof that the law has been broken"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The slides identify pressure on employees as a reason for business ethics despite extensive regulation.",
+          "source": "MG2008 current 2026–27 Week 1 deck; slides 7, 13"
+        },
+        {
+          "id": "MG2008-FOUNDATIONS-005",
+          "stem": "Why is corporate lobbying relevant to the case for business ethics?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Lobbying removes the distinction between laws and values"
+            },
+            {
+              "id": "B",
+              "text": "Businesses can influence democratic processes as well as market outcomes"
+            },
+            {
+              "id": "C",
+              "text": "Lobbying means a company has ceased to pursue profit"
+            },
+            {
+              "id": "D",
+              "text": "Lobbying guarantees that policy benefits all citizens"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The deck highlights business power and its impact on democratic processes; influence must be evaluated rather than presumed beneficial.",
+          "source": "MG2008 current 2026–27 Week 1 deck; slides 13–14"
+        },
+        {
+          "id": "MG2008-W1-008",
+          "stem": "Which statement best fits the deck’s reasoned distinction between morality and ethics?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Morality includes norms and beliefs about right and wrong; ethics critically examines and applies principles to conduct"
+            },
+            {
+              "id": "B",
+              "text": "Morality excludes social norms; ethics excludes reasoning"
+            },
+            {
+              "id": "C",
+              "text": "Morality is legislation; ethics is private preference only"
+            },
+            {
+              "id": "D",
+              "text": "Morality concerns business only; ethics concerns individuals only"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The Crane and Matten distinction connects morality with norms, values and beliefs and ethics with their reasoned examination.",
+          "source": "MG2008 current 2026–27 Week 1 deck; slide 21"
+        },
+        {
+          "id": "MG2008-FOUNDATIONS-015",
+          "stem": "A defence professional’s personal wish for justice conflicts with the professional relationship owed to a client. What is the central lesson?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Professional codes always express every personal moral belief"
+            },
+            {
+              "id": "B",
+              "text": "Personal conviction automatically settles professional conduct"
+            },
+            {
+              "id": "C",
+              "text": "Personal moral conviction and professional ethical obligations can conflict"
+            },
+            {
+              "id": "D",
+              "text": "A conflict proves that professional obligations are meaningless"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The example illustrates tension between personal morality and role-based ethical obligations, not a universal permission to breach a code.",
+          "source": "MG2008 current 2026–27 Week 1 deck; slide 20"
+        },
+        {
+          "id": "MG2008-W1-010",
+          "stem": "Which question most clearly goes beyond asking whether conduct is legal?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Has the mandatory form been signed?"
+            },
+            {
+              "id": "B",
+              "text": "Which values and stakeholder interests conflict in this decision?"
+            },
+            {
+              "id": "C",
+              "text": "What filing date is recorded by the regulator?"
+            },
+            {
+              "id": "D",
+              "text": "Which statute number appears in the contract?"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Ethical analysis examines competing values, rather than stopping at procedural or legal compliance.",
+          "source": "MG2008 current 2026–27 Week 1 deck; slide 16"
+        },
+        {
+          "id": "MG2008-FOUNDATIONS-007",
+          "stem": "A company faces mistrust even though it has not been convicted of an offence. Which reason for business ethics applies most directly?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The trust deficit between businesses and those affected by them"
+            },
+            {
+              "id": "B",
+              "text": "The need to make all firms adopt one product price"
+            },
+            {
+              "id": "C",
+              "text": "The assumption that reputation proves legal guilt"
+            },
+            {
+              "id": "D",
+              "text": "The absence of any relevant social expectations"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The deck identifies a trust deficit as a reason for ethical reflection; mistrust is not itself proof of an offence.",
+          "source": "MG2008 current 2026–27 Week 1 deck; slide 13"
+        },
+        {
+          "id": "MG2008-W1-012",
+          "stem": "Why do supplier working conditions remain relevant to a buyer’s ethical decisions?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A signed purchase order proves all supplier practices are acceptable"
+            },
+            {
+              "id": "B",
+              "text": "Supplier treatment matters only when prices rise"
+            },
+            {
+              "id": "C",
+              "text": "Ethical concerns end at the buyer’s legal ownership boundary"
+            },
+            {
+              "id": "D",
+              "text": "Stakeholders increasingly expect businesses to consider supplier treatment"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The slides cite care for suppliers and Fairtrade expectations as part of the growing demands on business.",
+          "source": "MG2008 current 2026–27 Week 1 deck; slide 13"
+        },
+        {
+          "id": "MG2008-W1-013",
+          "stem": "Which response best recognises the limits of extensive business regulation?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Assume all unregulated actions are morally acceptable"
+            },
+            {
+              "id": "B",
+              "text": "Treat professional standards as guarantees of good intentions"
+            },
+            {
+              "id": "C",
+              "text": "Check the rules, then assess harms and values not fully settled by them"
+            },
+            {
+              "id": "D",
+              "text": "Replace every law with the manager’s personal preferences"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The deck’s law–ethics distinction requires judgement beyond a legal minimum, without abandoning law.",
+          "source": "MG2008 current 2026–27 Week 1 deck; slides 7, 16"
+        },
+        {
+          "id": "MG2008-RESPONSIBILITY-003",
+          "stem": "Friedman argues that individuals may spend their own money on social causes. What objection is this intended to raise about executives?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Executives should not automatically use owners' resources for their own preferred causes"
+            },
+            {
+              "id": "B",
+              "text": "Employees should be prevented from charitable giving"
+            },
+            {
+              "id": "C",
+              "text": "Customers must donate whenever a firm makes a profit"
+            },
+            {
+              "id": "D",
+              "text": "Profitable firms cannot provide any benefit to society"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The agency argument distinguishes an executive’s corporate responsibility from an individual’s choice to spend personal resources.",
+          "source": "MG2008 current 2026–27 Week 1 deck; slide 10"
+        },
+        {
+          "id": "MG2008-W1-015",
+          "stem": "Which situation most clearly explains why values can conflict in business?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A decision protects jobs but exposes another group to avoidable harm"
+            },
+            {
+              "id": "B",
+              "text": "A manager reads a price before making any decision"
+            },
+            {
+              "id": "C",
+              "text": "A spreadsheet lists the same date in two cells"
+            },
+            {
+              "id": "D",
+              "text": "A firm changes its logo without affecting anyone’s interests"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Ethical dilemmas can involve competing legitimate interests; they are not resolved merely by recording facts.",
+          "source": "MG2008 current 2026–27 Week 1 deck; slide 16"
+        }
+      ]
+    },
+    {
+      "title": "Week 2 — Behaviour, Bias & Leadership",
+      "description": "Current 2026–27 situational pressures, moral mechanisms and leadership risks.",
+      "questions": [
+        {
+          "id": "MG2008-W2-001",
+          "stem": "An employee approves a harmful action because a senior manager ordered it. Which mechanism best fits?",
+          "options": [
+            {
+              "id": "A",
+              "text": "False consensus effect"
+            },
+            {
+              "id": "B",
+              "text": "Moral compensation"
+            },
+            {
+              "id": "C",
+              "text": "Conformity with peers"
+            },
+            {
+              "id": "D",
+              "text": "Obedience to authority"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The deck links obedience to authority with following authoritative direction despite ethical concerns.",
+          "source": "MG2008 current 2026–27 Week 2 deck; slide 14"
+        },
+        {
+          "id": "MG2008-SYSTEMS-007",
+          "stem": "A new employee accepts dubious practices because everyone in the team does them. Which bias is most direct?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Instant-entitlement bias"
+            },
+            {
+              "id": "B",
+              "text": "Moral compensation"
+            },
+            {
+              "id": "C",
+              "text": "Loss aversion"
+            },
+            {
+              "id": "D",
+              "text": "Conformity bias"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Conformity involves taking cues from the group and fitting in with its behaviour.",
+          "source": "MG2008 current 2026–27 Week 2 deck; slide 14"
+        },
+        {
+          "id": "MG2008-BIASES-008",
+          "stem": "A worker takes an unusually large ethical risk to avoid losing an existing job. Which mechanism best fits?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Moral licensing"
+            },
+            {
+              "id": "B",
+              "text": "Loss aversion"
+            },
+            {
+              "id": "C",
+              "text": "False consensus"
+            },
+            {
+              "id": "D",
+              "text": "Conceptual disagreement"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The slides distinguish risk-taking to avoid a loss from risk-taking to obtain an equivalent gain.",
+          "source": "MG2008 current 2026–27 Week 2 deck; slide 14"
+        },
+        {
+          "id": "MG2008-BIASES-011",
+          "stem": "A manager credits personal skill for success but blames colleagues and circumstances for failure. What is this?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Moral compensation"
+            },
+            {
+              "id": "B",
+              "text": "Rule utilitarianism"
+            },
+            {
+              "id": "C",
+              "text": "Discourse ethics"
+            },
+            {
+              "id": "D",
+              "text": "Self-serving bias"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Self-serving bias protects self-image through asymmetric explanations of success and failure.",
+          "source": "MG2008 current 2026–27 Week 2 deck; slide 14"
+        },
+        {
+          "id": "MG2008-BIASES-012",
+          "stem": "After donating to charity, a buyer feels entitled to overlook a supplier’s exploitation. Which mechanism is illustrated?",
+          "options": [
+            {
+              "id": "A",
+              "text": "False consensus effect"
+            },
+            {
+              "id": "B",
+              "text": "Fair equality of opportunity"
+            },
+            {
+              "id": "C",
+              "text": "Moral compensation"
+            },
+            {
+              "id": "D",
+              "text": "Moral licensing"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Moral licensing treats past good deeds as credit that permits later questionable conduct.",
+          "source": "MG2008 current 2026–27 Week 2 deck; slide 17"
+        },
+        {
+          "id": "MG2008-W2-006",
+          "stem": "After acting unfairly, an employee donates to a cause to restore a sense of moral balance. Which mechanism fits?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Moral licensing"
+            },
+            {
+              "id": "B",
+              "text": "Instant-entitlement bias"
+            },
+            {
+              "id": "C",
+              "text": "Moral compensation"
+            },
+            {
+              "id": "D",
+              "text": "Conformity bias"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Compensation seeks to make up perceived moral credit; licensing spends credit already accumulated.",
+          "source": "MG2008 current 2026–27 Week 2 deck; slide 17"
+        },
+        {
+          "id": "MG2008-BIASES-002",
+          "stem": "A decision is made impulsively, then defended with elaborate ethical arguments. Which process best fits?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Original-position reasoning"
+            },
+            {
+              "id": "B",
+              "text": "Self-serving attribution of success"
+            },
+            {
+              "id": "C",
+              "text": "Rule utilitarianism"
+            },
+            {
+              "id": "D",
+              "text": "Moral rationalisation"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The deck warns that reasoning may justify a decision already made automatically or emotionally.",
+          "source": "MG2008 current 2026–27 Week 2 deck; slides 17, 21"
+        },
+        {
+          "id": "MG2008-BIASES-003",
+          "stem": "A supervisor explains misconduct solely as evidence that an employee is a bad person, ignoring intense organisational pressure. Which error is most direct?",
+          "options": [
+            {
+              "id": "A",
+              "text": "False consensus effect"
+            },
+            {
+              "id": "B",
+              "text": "Loss aversion"
+            },
+            {
+              "id": "C",
+              "text": "Moral licensing"
+            },
+            {
+              "id": "D",
+              "text": "Fundamental attribution error"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The error overemphasises disposition while underestimating situational influences.",
+          "source": "MG2008 current 2026–27 Week 2 deck; slide 17"
+        },
+        {
+          "id": "MG2008-BIASES-004",
+          "stem": "A leader assumes most people share their opinions without checking. What is this?",
+          "options": [
+            {
+              "id": "A",
+              "text": "False consensus effect"
+            },
+            {
+              "id": "B",
+              "text": "Fair opportunity"
+            },
+            {
+              "id": "C",
+              "text": "Kantian universalisation"
+            },
+            {
+              "id": "D",
+              "text": "Moral compensation"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "False consensus overestimates the prevalence of one’s own attitudes and beliefs.",
+          "source": "MG2008 current 2026–27 Week 2 deck; slide 17"
+        },
+        {
+          "id": "MG2008-BIASES-007",
+          "stem": "Two groups inspect the same mixed evidence and each becomes more convinced of its original position. Which lesson fits the capital-punishment example?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Both groups must have received different studies"
+            },
+            {
+              "id": "B",
+              "text": "Biased evaluation of evidence can increase polarisation"
+            },
+            {
+              "id": "C",
+              "text": "Identical evidence always produces agreement"
+            },
+            {
+              "id": "D",
+              "text": "Exposure to evidence removes all self-serving bias"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The slides describe favouring belief-consistent evidence, producing polarisation rather than convergence.",
+          "source": "MG2008 current 2026–27 Week 2 deck; slide 16"
+        },
+        {
+          "id": "MG2008-SYSTEMS-001",
+          "stem": "Why can calling a bribe a facilitation payment matter ethically?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A softer label necessarily changes the legal status"
+            },
+            {
+              "id": "B",
+              "text": "The label proves that no one is harmed"
+            },
+            {
+              "id": "C",
+              "text": "Technical terminology eliminates personal responsibility"
+            },
+            {
+              "id": "D",
+              "text": "Euphemistic language can obscure the moral character of an action"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The deck identifies language as one way workplace conduct can become ethically distanced.",
+          "source": "MG2008 current 2026–27 Week 2 deck; slide 13"
+        },
+        {
+          "id": "MG2008-SYSTEMS-002",
+          "stem": "How can bureaucracy contribute to unethical conduct?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It can distance employees from the people affected by their actions"
+            },
+            {
+              "id": "B",
+              "text": "It guarantees shared moral standards"
+            },
+            {
+              "id": "C",
+              "text": "It removes organisational roles and incentives"
+            },
+            {
+              "id": "D",
+              "text": "It ensures employees see every consequence directly"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Bureaucratic distance is one of the situational influences listed in the slides.",
+          "source": "MG2008 current 2026–27 Week 2 deck; slide 13"
+        },
+        {
+          "id": "MG2008-W2-013",
+          "stem": "A person given a leadership role takes more than their share of goods. Which leadership risk is most direct?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Moral compensation"
+            },
+            {
+              "id": "B",
+              "text": "False consensus effect"
+            },
+            {
+              "id": "C",
+              "text": "Instant-entitlement bias"
+            },
+            {
+              "id": "D",
+              "text": "Moral licensing"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The deck uses allocation experiments to illustrate entitlement associated with leadership roles.",
+          "source": "MG2008 current 2026–27 Week 2 deck; slide 20"
+        },
+        {
+          "id": "MG2008-BIASES-014",
+          "stem": "A powerful leader believes ordinary rules apply to others but that they can manipulate outcomes to escape consequences. Which concept fits?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The harm principle"
+            },
+            {
+              "id": "B",
+              "text": "Bathsheba syndrome"
+            },
+            {
+              "id": "C",
+              "text": "The difference principle"
+            },
+            {
+              "id": "D",
+              "text": "Conformity bias"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The deck describes a belief in personal exemption and the ability to manipulate consequences.",
+          "source": "MG2008 current 2026–27 Week 2 deck; slide 20"
+        },
+        {
+          "id": "MG2008-SYSTEMS-009",
+          "stem": "Why should a strong self-image as a good person not replace scrutiny of workplace behaviour?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ethical character cannot be influenced by a situation"
+            },
+            {
+              "id": "B",
+              "text": "Only people with a negative self-image rationalise decisions"
+            },
+            {
+              "id": "C",
+              "text": "Multiple pressures and biases can still shape conduct"
+            },
+            {
+              "id": "D",
+              "text": "A positive self-image proves all actions are moral"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The slides contrast favourable self-ratings with situational, emotional and organisational influences on actual behaviour.",
+          "source": "MG2008 current 2026–27 Week 2 deck; slides 11, 13–17"
+        }
+      ]
+    },
+    {
+      "title": "Week 3 — Business Impacts & Evidence",
+      "description": "Current-year global-business examples, distribution, resources and evidence interpretation.",
+      "questions": [
+        {
+          "id": "MG2008-IMPACTS-003",
+          "stem": "A phone manufacturer buys through several intermediaries. What ethical issue does the Rubaya coltan example highlight?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Every smartphone has been proved to contain ore from that mine"
+            },
+            {
+              "id": "B",
+              "text": "Only the final assembly factory can raise an ethical issue"
+            },
+            {
+              "id": "C",
+              "text": "Upstream mineral sourcing can connect ordinary products with conflict financing and worker hardship"
+            },
+            {
+              "id": "D",
+              "text": "Consumer demand automatically prevents exploitation"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The supplied article traces coltan extraction and conflict-related control; it does not establish the origin of every product.",
+          "source": "MG2008 current 2026–27 Week 3 PDF; Rubaya coltan article"
+        },
+        {
+          "id": "MG2008-W3-002",
+          "stem": "Why should a buyer investigate conditions beyond its immediate supplier in a mineral supply chain?",
+          "options": [
+            {
+              "id": "A",
+              "text": "An intermediary guarantees the absence of conflict financing"
+            },
+            {
+              "id": "B",
+              "text": "Harm can occur upstream even when the immediate transaction appears routine"
+            },
+            {
+              "id": "C",
+              "text": "Supply-chain distance means upstream harms cannot matter"
+            },
+            {
+              "id": "D",
+              "text": "A low purchase price proves workers consented freely"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The Rubaya example shows that extraction conditions and financing can be hidden several steps before final manufacturing.",
+          "source": "MG2008 current 2026–27 Week 3 PDF; Rubaya coltan article"
+        },
+        {
+          "id": "MG2008-W3-003",
+          "stem": "What does comparing food waste with unmet food needs most directly invite us to examine?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Whether waste proves no one lacks food"
+            },
+            {
+              "id": "B",
+              "text": "Allocation and distribution, not just total production"
+            },
+            {
+              "id": "C",
+              "text": "Whether all food can be moved at zero cost"
+            },
+            {
+              "id": "D",
+              "text": "Whether higher prices always eliminate hunger"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The juxtaposition raises questions about how available resources are used and distributed, without settling logistics or causation.",
+          "source": "MG2008 current 2026–27 Week 3 PDF; food-waste reports"
+        },
+        {
+          "id": "MG2008-W3-004",
+          "stem": "Luxury travel and severe deprivation are shown alongside each other. Which conclusion is best supported?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Total wealth or consumption does not reveal how benefits are distributed"
+            },
+            {
+              "id": "B",
+              "text": "Aggregate prosperity guarantees everyone’s needs are met"
+            },
+            {
+              "id": "C",
+              "text": "Every luxury purchase has been proved to cause a particular person’s poverty"
+            },
+            {
+              "id": "D",
+              "text": "All expensive services are illegal"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Contrasting consumption levels invites distributional analysis, not an automatic causal judgement about each purchase.",
+          "source": "MG2008 current 2026–27 Week 3 PDF; luxury and deprivation examples"
+        },
+        {
+          "id": "MG2008-IMPACTS-006",
+          "stem": "Why is access to scarce water a business-ethics issue in the Nuevo Leon example?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A commercial allocation guarantees equal access"
+            },
+            {
+              "id": "B",
+              "text": "Industrial use and household needs compete for a limited resource"
+            },
+            {
+              "id": "C",
+              "text": "Water use affects firms but cannot affect communities"
+            },
+            {
+              "id": "D",
+              "text": "The highest-paying user is automatically morally entitled to all supply"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The report highlights tensions between companies' water use and residents' access during drought.",
+          "source": "MG2008 current 2026–27 Week 3 PDF; Nuevo Leon water report"
+        },
+        {
+          "id": "MG2008-W3-006",
+          "stem": "Which is the best distinction between an ocean-plastic stock and an annual pollution flow?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A stock is always measured per year; a flow has no time dimension"
+            },
+            {
+              "id": "B",
+              "text": "A stock measures only visible floating plastic"
+            },
+            {
+              "id": "C",
+              "text": "Both quantities necessarily describe the same year’s input"
+            },
+            {
+              "id": "D",
+              "text": "A stock is an accumulated amount; a flow is an amount entering over a stated period"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The deck contains accumulated ocean-floor estimates and annual-entry estimates; their units and time meanings differ.",
+          "source": "MG2008 current 2026–27 Week 3 PDF; ocean-plastic report"
+        },
+        {
+          "id": "MG2008-W3-007",
+          "stem": "A report estimates plastic on the ocean floor. Why should it not be treated as an estimate of plastic entering the sea this year?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ocean-floor plastic cannot persist across years"
+            },
+            {
+              "id": "B",
+              "text": "All pollution reports use identical measures"
+            },
+            {
+              "id": "C",
+              "text": "The location of plastic supplies its date of entry"
+            },
+            {
+              "id": "D",
+              "text": "Accumulated stock and annual inflow measure different things"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The stock–flow distinction prevents comparing unlike quantities as if they were equivalent.",
+          "source": "MG2008 current 2026–27 Week 3 PDF; ocean-plastic report"
+        },
+        {
+          "id": "MG2008-W3-008",
+          "stem": "What ethical issue is raised by lobbying against a proposed disposable-cup levy?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A proposed levy and an enacted levy are the same"
+            },
+            {
+              "id": "B",
+              "text": "Lobbying establishes that environmental costs do not exist"
+            },
+            {
+              "id": "C",
+              "text": "Opposition to a proposal proves the company broke an enacted law"
+            },
+            {
+              "id": "D",
+              "text": "Commercial interests may conflict with environmental-policy objectives"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The Costa example concerns influence over a policy proposal, not proof of non-compliance with an enacted levy.",
+          "source": "MG2008 current 2026–27 Week 3 PDF; Costa cup-levy report"
+        },
+        {
+          "id": "MG2008-W3-009",
+          "stem": "A rainforest can shift towards a different ecosystem after sufficient stress. Which idea does the Amazon example illustrate?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Proof that business activity has no ecological effects"
+            },
+            {
+              "id": "B",
+              "text": "A guarantee that every damaged forest recovers immediately"
+            },
+            {
+              "id": "C",
+              "text": "A rule that all environmental change is linear"
+            },
+            {
+              "id": "D",
+              "text": "An environmental tipping point rather than necessarily a smooth reversible change"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The report discusses a rainforest-to-savannah shift and the risks of threshold effects.",
+          "source": "MG2008 current 2026–27 Week 3 PDF; Amazon tipping-point report"
+        },
+        {
+          "id": "MG2008-W3-010",
+          "stem": "How should the Purdue bankruptcy article’s claims about promotion and addiction risk be represented?",
+          "options": [
+            {
+              "id": "A",
+              "text": "As a complete current legal verdict from every jurisdiction"
+            },
+            {
+              "id": "B",
+              "text": "As proof that all medicines are addictive"
+            },
+            {
+              "id": "C",
+              "text": "As allegations described in a dated report unless their later resolution is separately verified"
+            },
+            {
+              "id": "D",
+              "text": "As evidence that bankruptcy itself determines moral innocence"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The deck’s 2019 article reports lawsuits and allegations; it does not provide every later outcome.",
+          "source": "MG2008 current 2026–27 Week 3 PDF; Purdue bankruptcy report"
+        },
+        {
+          "id": "MG2008-W3-011",
+          "stem": "The technology-company report discusses market dominance and onerous terms. What ethical issue is central?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Whether any large firm is automatically a monopoly in every market"
+            },
+            {
+              "id": "B",
+              "text": "How concentrated commercial power affects dependent people and businesses"
+            },
+            {
+              "id": "C",
+              "text": "Whether profitability proves that every contract is fair"
+            },
+            {
+              "id": "D",
+              "text": "Whether popular products remove governance concerns"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The report raises concerns about fees, terms, data and the exercise of platform power.",
+          "source": "MG2008 current 2026–27 Week 3 PDF; 2020 technology-company report"
+        },
+        {
+          "id": "MG2008-W3-012",
+          "stem": "A customer buys an expensive trip but service failures ruin the planned experience. What does this illustrate?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A transaction is ethical whenever payment was accepted"
+            },
+            {
+              "id": "B",
+              "text": "Price alone guarantees the promised experience"
+            },
+            {
+              "id": "C",
+              "text": "Business failures can impose personal costs beyond the amount paid"
+            },
+            {
+              "id": "D",
+              "text": "Personal distress is unrelated to commercial performance"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The travel examples show how organisational service failures affect people’s plans and experiences.",
+          "source": "MG2008 current 2026–27 Week 3 PDF; travel-service failures"
+        },
+        {
+          "id": "MG2008-W3-013",
+          "stem": "Why should conflicting conflict-death estimates not be combined into one apparently precise figure?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A smaller estimate must be the official final count"
+            },
+            {
+              "id": "B",
+              "text": "Averaging different estimates always removes uncertainty"
+            },
+            {
+              "id": "C",
+              "text": "Their sources, definitions and coverage may not be comparable"
+            },
+            {
+              "id": "D",
+              "text": "A larger estimate is automatically more reliable"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The supplied Week 3 material contains conflicting estimates; ethical use of evidence requires preserving uncertainty.",
+          "source": "MG2008 current 2026–27 Week 3 PDF; conflict and famine material"
+        },
+        {
+          "id": "MG2008-W3-014",
+          "stem": "A crime chart and a public-perception chart point in different directions. What should an analyst do?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Assume the charts must use identical units"
+            },
+            {
+              "id": "B",
+              "text": "Discard the measured series because perceptions are real feelings"
+            },
+            {
+              "id": "C",
+              "text": "Compare definitions, time periods and evidence before equating perception with measured change"
+            },
+            {
+              "id": "D",
+              "text": "Treat perceived direction as a verified crime count"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The deck contrasts perception and data; they should be assessed as different forms of evidence.",
+          "source": "MG2008 current 2026–27 Week 3 PDF; perception-versus-reality examples"
+        },
+        {
+          "id": "MG2008-W3-015",
+          "stem": "What is the most defensible way to use a historical statistic in a current ethical discussion?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Remove its date to make the comparison easier"
+            },
+            {
+              "id": "B",
+              "text": "Assume every statistic in a current deck was measured this year"
+            },
+            {
+              "id": "C",
+              "text": "Treat all dated estimates as irrelevant"
+            },
+            {
+              "id": "D",
+              "text": "Identify its date and measure, then avoid presenting it as a newly verified current figure"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The current deck incorporates dated articles and estimates; teaching-year status does not update each statistic’s reference period.",
+          "source": "MG2008 current 2026–27 Week 3 PDF; dated reports throughout the PDF"
+        }
+      ]
+    },
+    {
+      "title": "Week 4.1 — Ethical Approaches & Frameworks",
+      "description": "Descriptive, conceptual and normative ethics; standards, judgements and theory families.",
+      "questions": [
+        {
+          "id": "MG2008-W4INTRO-001",
+          "stem": "A researcher records how often firms conceal product defects without judging whether they should. Which approach is this?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Normative ethics"
+            },
+            {
+              "id": "B",
+              "text": "Kantian ethics"
+            },
+            {
+              "id": "C",
+              "text": "Virtue ethics"
+            },
+            {
+              "id": "D",
+              "text": "Descriptive ethics"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Descriptive ethics studies what is actually being done.",
+          "source": "MG2008 current 2026–27 Week 4 Part 1 deck; slide 3"
+        },
+        {
+          "id": "MG2008-FOUNDATIONS-012",
+          "stem": "A team asks exactly what responsibility means when applied to a corporation. Which approach is most direct?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Conceptual ethics"
+            },
+            {
+              "id": "B",
+              "text": "Act utilitarianism"
+            },
+            {
+              "id": "C",
+              "text": "Descriptive ethics"
+            },
+            {
+              "id": "D",
+              "text": "Enlightened egoism"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Conceptual ethics analyses morally important terms and their meaning.",
+          "source": "MG2008 current 2026–27 Week 4 Part 1 deck; slide 3"
+        },
+        {
+          "id": "MG2008-FOUNDATIONS-013",
+          "stem": "A manager asks whether a firm ought to stop a discriminatory practice. Which approach is this?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A market-share calculation"
+            },
+            {
+              "id": "B",
+              "text": "A purely statistical description"
+            },
+            {
+              "id": "C",
+              "text": "Normative ethics"
+            },
+            {
+              "id": "D",
+              "text": "Descriptive ethics"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Normative ethics asks what ought to be done.",
+          "source": "MG2008 current 2026–27 Week 4 Part 1 deck; slide 3"
+        },
+        {
+          "id": "MG2008-W4INTRO-004",
+          "stem": "Which statement represents moral absolutism as introduced in the slides?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Right and wrong have objective qualities that can be assessed rationally"
+            },
+            {
+              "id": "B",
+              "text": "Moral questions are only descriptions of sales figures"
+            },
+            {
+              "id": "C",
+              "text": "Whatever is widespread is morally right"
+            },
+            {
+              "id": "D",
+              "text": "Each decision-maker’s immediate desire settles morality"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Absolutism holds that right and wrong can be objectively judged.",
+          "source": "MG2008 current 2026–27 Week 4 Part 1 deck; slide 4"
+        },
+        {
+          "id": "MG2008-FOUNDATIONS-008",
+          "stem": "Why does widespread local corruption not by itself establish its ethical acceptability?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A common practice is not automatically a justified moral standard"
+            },
+            {
+              "id": "B",
+              "text": "Popularity is always the strongest moral proof"
+            },
+            {
+              "id": "C",
+              "text": "Ethics cannot assess culturally common practices"
+            },
+            {
+              "id": "D",
+              "text": "Only uncommon conduct can be unethical"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The slides explicitly warn against treating prevalence as moral justification.",
+          "source": "MG2008 current 2026–27 Week 4 Part 1 deck; slide 4"
+        },
+        {
+          "id": "MG2008-W4INTRO-006",
+          "stem": "Two managers agree that avoidable harm should be prevented but disagree about whether an activity causes harm. What differs most directly?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Their view that all harms are irrelevant"
+            },
+            {
+              "id": "B",
+              "text": "Their shared commitment to avoiding harm"
+            },
+            {
+              "id": "C",
+              "text": "Their agreement about the evidence"
+            },
+            {
+              "id": "D",
+              "text": "Their factual judgement rather than necessarily their moral standard"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The slides distinguish disagreement about standards from disagreement about the facts informing judgement.",
+          "source": "MG2008 current 2026–27 Week 4 Part 1 deck; slide 4"
+        },
+        {
+          "id": "MG2008-W4INTRO-007",
+          "stem": "Two colleagues agree on a fairness principle but prefer different ways to implement it. Which conclusion follows?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Agreement on a standard does not guarantee agreement on its application"
+            },
+            {
+              "id": "B",
+              "text": "Implementation choices are never ethical questions"
+            },
+            {
+              "id": "C",
+              "text": "Only one colleague can understand the word fairness"
+            },
+            {
+              "id": "D",
+              "text": "They necessarily hold opposite moral standards"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "People can share a moral standard and disagree about how to achieve it.",
+          "source": "MG2008 current 2026–27 Week 4 Part 1 deck; slide 4"
+        },
+        {
+          "id": "MG2008-UTIL-001",
+          "stem": "Which feature is central to consequentialist evaluation?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Character without any attention to a decision"
+            },
+            {
+              "id": "B",
+              "text": "The outcomes of available actions"
+            },
+            {
+              "id": "C",
+              "text": "Compliance with duty regardless of outcome"
+            },
+            {
+              "id": "D",
+              "text": "The actor’s job title alone"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Consequentialist theories focus on consequences.",
+          "source": "MG2008 current 2026–27 Week 4 Part 1 deck; slide 6"
+        },
+        {
+          "id": "MG2008-W4INTRO-009",
+          "stem": "What distinguishes egoism from utilitarianism within consequentialism?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Egoism focuses on the decision-maker’s interests; utilitarianism on wider social outcomes"
+            },
+            {
+              "id": "B",
+              "text": "Both theories require the same personal-benefit measure"
+            },
+            {
+              "id": "C",
+              "text": "Egoism always ignores outcomes; utilitarianism ignores society"
+            },
+            {
+              "id": "D",
+              "text": "Egoism is exclusively about duties; utilitarianism exclusively about character"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The deck contrasts whose outcomes guide the judgement.",
+          "source": "MG2008 current 2026–27 Week 4 Part 1 deck; slide 6"
+        },
+        {
+          "id": "MG2008-W4INTRO-010",
+          "stem": "Which question is most directly deontological?",
+          "options": [
+            {
+              "id": "A",
+              "text": "What duty must be upheld even if violating it would bring benefits?"
+            },
+            {
+              "id": "B",
+              "text": "Which habit builds market share fastest?"
+            },
+            {
+              "id": "C",
+              "text": "Which action gives the highest total measured utility?"
+            },
+            {
+              "id": "D",
+              "text": "Which action maximises my immediate enjoyment?"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Deontological theories centre duties, rights and universal law.",
+          "source": "MG2008 current 2026–27 Week 4 Part 1 deck; slide 6"
+        },
+        {
+          "id": "MG2008-W4INTRO-011",
+          "stem": "Which question is most directly associated with virtue ethics?",
+          "options": [
+            {
+              "id": "A",
+              "text": "What kind of character and habitual conduct should this person cultivate?"
+            },
+            {
+              "id": "B",
+              "text": "Which option maximises one transaction’s revenue?"
+            },
+            {
+              "id": "C",
+              "text": "Which regulation has the shortest title?"
+            },
+            {
+              "id": "D",
+              "text": "Which action has the largest numerical benefit only?"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Virtue ethics focuses on character rather than only outcomes or individual rules.",
+          "source": "MG2008 current 2026–27 Week 4 Part 1 deck; slide 6"
+        },
+        {
+          "id": "MG2008-W4INTRO-012",
+          "stem": "Two actions have different intentions and different unintended results. What should a careful ethical comparison distinguish?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Intention, action and outcome"
+            },
+            {
+              "id": "B",
+              "text": "Only the number of witnesses"
+            },
+            {
+              "id": "C",
+              "text": "Only the actor’s income"
+            },
+            {
+              "id": "D",
+              "text": "Only the final outcome in every theory"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The opening dilemma separates motivations, conduct and consequences rather than assuming one framework settles every judgement.",
+          "source": "MG2008 current 2026–27 Week 4 Part 1 deck; slide 2"
+        },
+        {
+          "id": "MG2008-W4INTRO-013",
+          "stem": "A normative business framework assumes people are opportunistic. Why should that assumption be made explicit?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Every theory makes identical assumptions about people"
+            },
+            {
+              "id": "B",
+              "text": "Assumptions are irrelevant to ethical recommendations"
+            },
+            {
+              "id": "C",
+              "text": "Opportunism is proved universal by the existence of a framework"
+            },
+            {
+              "id": "D",
+              "text": "The assumed account of human behaviour influences the framework’s recommendations"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The deck notes that normative approaches rest on specific assumptions about the world and human nature.",
+          "source": "MG2008 current 2026–27 Week 4 Part 1 deck; slide 5"
+        },
+        {
+          "id": "MG2008-W4INTRO-014",
+          "stem": "Which statement best separates an observation from a prescription?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Most firms use this practice describes behaviour; firms ought to use it makes a normative judgement"
+            },
+            {
+              "id": "B",
+              "text": "Both statements merely count behaviour"
+            },
+            {
+              "id": "C",
+              "text": "Only the first statement makes a moral prescription"
+            },
+            {
+              "id": "D",
+              "text": "Neither statement can be examined ethically"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "What is being done and what ought to be done are different questions.",
+          "source": "MG2008 current 2026–27 Week 4 Part 1 deck; slide 3"
+        },
+        {
+          "id": "MG2008-W4INTRO-015",
+          "stem": "Why might a multinational’s consistent global code face challenges from moral relativism?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Relativism proves that all corporate codes are illegal"
+            },
+            {
+              "id": "B",
+              "text": "Consistency eliminates all need for judgement"
+            },
+            {
+              "id": "C",
+              "text": "Locally formed moral norms may conflict with a uniform organisational standard"
+            },
+            {
+              "id": "D",
+              "text": "Every culture necessarily has identical norms"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The slides discuss cultural values alongside multinationals' attempts to use consistent codes.",
+          "source": "MG2008 current 2026–27 Week 4 Part 1 deck; slide 4"
+        }
+      ]
+    },
+    {
+      "title": "Week 4.2 — Utilitarianism",
+      "description": "Aggregate consequences, act/rule distinctions, Bentham, Mill and limitations.",
+      "questions": [
+        {
+          "id": "MG2008-W4UTIL-001",
+          "stem": "Which criterion best captures utilitarian choice between alternatives?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Choose the action that benefits only the decision-maker"
+            },
+            {
+              "id": "B",
+              "text": "Choose the action that best expresses personal loyalty only"
+            },
+            {
+              "id": "C",
+              "text": "Choose the available action with at least as favourable a balance of value over disvalue as the others"
+            },
+            {
+              "id": "D",
+              "text": "Choose the oldest organisational rule regardless of outcomes"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The deck’s definition compares the balance of benefits and harms across available actions.",
+          "source": "MG2008 current 2026–27 Week 4 Part 2 deck; slide 3"
+        },
+        {
+          "id": "MG2008-UTIL-002",
+          "stem": "A manager calculates the consequences of one particular proposed decision. Which utilitarian approach fits?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Virtue ethics"
+            },
+            {
+              "id": "B",
+              "text": "Kantian duty ethics"
+            },
+            {
+              "id": "C",
+              "text": "Rule utilitarianism"
+            },
+            {
+              "id": "D",
+              "text": "Act utilitarianism"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Act utilitarianism evaluates a particular case.",
+          "source": "MG2008 current 2026–27 Week 4 Part 2 deck; slide 3"
+        },
+        {
+          "id": "MG2008-W4UTIL-003",
+          "stem": "A firm assesses the long-run consequences of consistently following a general policy. Which approach fits?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Rights-based non-interference alone"
+            },
+            {
+              "id": "B",
+              "text": "Act utilitarianism limited to one decision"
+            },
+            {
+              "id": "C",
+              "text": "Rule utilitarianism"
+            },
+            {
+              "id": "D",
+              "text": "Immediate egoism"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Rule utilitarianism considers consequences across cases and over time.",
+          "source": "MG2008 current 2026–27 Week 4 Part 2 deck; slide 3"
+        },
+        {
+          "id": "MG2008-W4UTIL-004",
+          "stem": "A project creates jobs but damages the local environment. What does utilitarian evaluation require?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Count jobs and ignore every environmental effect"
+            },
+            {
+              "id": "B",
+              "text": "Compare benefits and harms, including those affecting different groups"
+            },
+            {
+              "id": "C",
+              "text": "Treat profit as identical to total social utility"
+            },
+            {
+              "id": "D",
+              "text": "Refuse to consider outcomes because only duties matter"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The deck uses a mining project to illustrate competing consequences in a cost–benefit-style analysis.",
+          "source": "MG2008 current 2026–27 Week 4 Part 2 deck; slide 4"
+        },
+        {
+          "id": "MG2008-W4UTIL-005",
+          "stem": "Why is a high total benefit not enough to dismiss objections by a harmed minority?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only financial shareholders can bear costs"
+            },
+            {
+              "id": "B",
+              "text": "Minority interests cannot enter utilitarian calculations"
+            },
+            {
+              "id": "C",
+              "text": "A majority benefit proves nobody experiences harm"
+            },
+            {
+              "id": "D",
+              "text": "Aggregate benefit can conceal who bears the costs"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The slides identify minority burdens and the distribution of costs as difficulties for utilitarian analysis.",
+          "source": "MG2008 current 2026–27 Week 4 Part 2 deck; slide 4"
+        },
+        {
+          "id": "MG2008-W4UTIL-006",
+          "stem": "What is a key challenge in quantifying utility for a business decision?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only benefits require measurement, not harms"
+            },
+            {
+              "id": "B",
+              "text": "Every consequence already has one objective market price"
+            },
+            {
+              "id": "C",
+              "text": "Subjective judgement is impossible in analysis"
+            },
+            {
+              "id": "D",
+              "text": "Different harms and benefits can be difficult to measure and compare"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The deck raises quantification and analyst subjectivity as problems.",
+          "source": "MG2008 current 2026–27 Week 4 Part 2 deck; slide 4"
+        },
+        {
+          "id": "MG2008-UTIL-003",
+          "stem": "Which focus is associated with Bentham’s approach in the deck?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The executive’s duty to owners alone"
+            },
+            {
+              "id": "B",
+              "text": "The unconditional duty to follow a maxim"
+            },
+            {
+              "id": "C",
+              "text": "Pleasure and pain assessed through a hedonic calculus"
+            },
+            {
+              "id": "D",
+              "text": "Habitual virtues independent of consequences"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Bentham’s account seeks a quantifiable balance of pleasure and pain.",
+          "source": "MG2008 current 2026–27 Week 4 Part 2 deck; slide 5"
+        },
+        {
+          "id": "MG2008-W4UTIL-008",
+          "stem": "What does Bentham’s consequentialist emphasis place above the actor’s moral character?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The actor’s social status"
+            },
+            {
+              "id": "B",
+              "text": "The age of the organisation"
+            },
+            {
+              "id": "C",
+              "text": "The actor’s profession"
+            },
+            {
+              "id": "D",
+              "text": "The consequences of the action"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The slides distinguish consequences from character, motivation and circumstances in presenting Bentham.",
+          "source": "MG2008 current 2026–27 Week 4 Part 2 deck; slide 5"
+        },
+        {
+          "id": "MG2008-W4UTIL-009",
+          "stem": "Which criticism targets an overly mechanistic utilitarian approach?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It always refuses to compare any outcomes"
+            },
+            {
+              "id": "B",
+              "text": "It requires all choices to follow one religious code"
+            },
+            {
+              "id": "C",
+              "text": "It can reduce people to utility measures and omit natural rights"
+            },
+            {
+              "id": "D",
+              "text": "It ignores every majority benefit by definition"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The listed criticisms include treating people as utility functions and failing to protect natural rights.",
+          "source": "MG2008 current 2026–27 Week 4 Part 2 deck; slide 5"
+        },
+        {
+          "id": "MG2008-W4UTIL-010",
+          "stem": "How does the deck characterise Mill’s departure from a purely mechanistic approach?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Exclusive pursuit of corporate shareholders' immediate profit"
+            },
+            {
+              "id": "B",
+              "text": "Greater concern for individual freedom, flourishing and minority protection"
+            },
+            {
+              "id": "C",
+              "text": "Rejection of every consequence-based consideration"
+            },
+            {
+              "id": "D",
+              "text": "A claim that humans should be managed exactly like machines"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Mill sought to combine utilitarian reasoning with freedom and protections for individuals.",
+          "source": "MG2008 current 2026–27 Week 4 Part 2 deck; slide 6"
+        },
+        {
+          "id": "MG2008-UTIL-005",
+          "stem": "According to Mill’s harm principle, what justifies imposing power on an individual against their will?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Making the individual agree with the majority"
+            },
+            {
+              "id": "B",
+              "text": "Improving that individual’s welfare alone in every case"
+            },
+            {
+              "id": "C",
+              "text": "Increasing the decision-maker’s convenience"
+            },
+            {
+              "id": "D",
+              "text": "Preventing harm to other people"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The deck distinguishes preventing harm to others from acting only for the individual’s own good.",
+          "source": "MG2008 current 2026–27 Week 4 Part 2 deck; slide 6"
+        },
+        {
+          "id": "MG2008-W4UTIL-012",
+          "stem": "Why can the harm principle still generate disagreement?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It says every disliked choice is harmful to others"
+            },
+            {
+              "id": "B",
+              "text": "It automatically resolves all emotional and cognitive harms"
+            },
+            {
+              "id": "C",
+              "text": "Harm can be difficult to define objectively in contested cases"
+            },
+            {
+              "id": "D",
+              "text": "It requires no interpretation of any facts"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The slides note uncertainty over defining harm and limits in addressing non-physical harms.",
+          "source": "MG2008 current 2026–27 Week 4 Part 2 deck; slide 6"
+        },
+        {
+          "id": "MG2008-W4UTIL-013",
+          "stem": "Two projects have similar benefits but one imposes much more harm. What matters to utilitarian comparison?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only whether their managers have virtuous reputations"
+            },
+            {
+              "id": "B",
+              "text": "Only which project starts first"
+            },
+            {
+              "id": "C",
+              "text": "Their net balance of benefits and harms, not benefits alone"
+            },
+            {
+              "id": "D",
+              "text": "Only the larger gross revenue figure"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The criterion is value over disvalue across alternatives.",
+          "source": "MG2008 current 2026–27 Week 4 Part 2 deck; slides 3–4"
+        },
+        {
+          "id": "MG2008-W4UTIL-014",
+          "stem": "Why should an analyst disclose how a project’s costs and benefits were apportioned?",
+          "options": [
+            {
+              "id": "A",
+              "text": "All allocation choices are fixed by utilitarian theory"
+            },
+            {
+              "id": "B",
+              "text": "Distribution is irrelevant whenever totals are positive"
+            },
+            {
+              "id": "C",
+              "text": "The result can depend on judgement about measurement and allocation"
+            },
+            {
+              "id": "D",
+              "text": "Disclosure turns a utilitarian assessment into an accounting audit only"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The deck identifies subjectivity and apportioning costs and benefits as central difficulties.",
+          "source": "MG2008 current 2026–27 Week 4 Part 2 deck; slide 4"
+        },
+        {
+          "id": "MG2008-W4UTIL-015",
+          "stem": "A policy is favourable in one isolated case but harmful when generally followed. Which distinction helps explain the difference?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Positive versus negative rights only"
+            },
+            {
+              "id": "B",
+              "text": "Act versus rule utilitarian assessment"
+            },
+            {
+              "id": "C",
+              "text": "Duty-based versus character-based evaluation"
+            },
+            {
+              "id": "D",
+              "text": "Moral compensation versus licensing only"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "A one-off calculation can differ from assessing a general rule’s long-run consequences.",
+          "source": "MG2008 current 2026–27 Week 4 Part 2 deck; slide 3"
+        }
+      ]
+    },
+    {
+      "title": "Week 4.3 — Egoism",
+      "description": "Self-interest, enlightened egoism, market coordination and power-related limits.",
+      "questions": [
+        {
+          "id": "MG2008-UTIL-010",
+          "stem": "Which outcome is the primary focus of ethical egoism as introduced in the deck?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The decision-maker’s own interests and goals"
+            },
+            {
+              "id": "B",
+              "text": "The development of virtuous character alone"
+            },
+            {
+              "id": "C",
+              "text": "Compliance with universal duty independent of benefit"
+            },
+            {
+              "id": "D",
+              "text": "The interests of all affected people weighted equally"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Egoism centres the actor’s interests rather than aggregate community welfare.",
+          "source": "MG2008 current 2026–27 Week 4 Part 3 deck; slide 3"
+        },
+        {
+          "id": "MG2008-W4EGO-002",
+          "stem": "Why does enlightened egoism differ from simply following an immediate desire?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It considers longer-term interests and consequences"
+            },
+            {
+              "id": "B",
+              "text": "It eliminates all concern for the decision-maker"
+            },
+            {
+              "id": "C",
+              "text": "It treats all short-term pleasures as necessarily ethical"
+            },
+            {
+              "id": "D",
+              "text": "It judges every choice by a universal duty only"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The deck introduces enlightened egoism as a long-term perspective.",
+          "source": "MG2008 current 2026–27 Week 4 Part 3 deck; slide 4"
+        },
+        {
+          "id": "MG2008-W4EGO-003",
+          "stem": "An employee wants to ignore work for short-term enjoyment but risks losing valuable employment. What critique of immediate egoism applies?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The employee’s future interests cannot matter to egoism"
+            },
+            {
+              "id": "B",
+              "text": "Only social benefits can be considered"
+            },
+            {
+              "id": "C",
+              "text": "Every enjoyable act necessarily benefits long-term interests"
+            },
+            {
+              "id": "D",
+              "text": "Immediate desire may undermine longer-term self-interest"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The slides contrast immediate desires with what is beneficial in the longer run.",
+          "source": "MG2008 current 2026–27 Week 4 Part 3 deck; slide 4"
+        },
+        {
+          "id": "MG2008-W4EGO-004",
+          "stem": "What role does competition play in the deck’s invisible-hand argument?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It guarantees each firm unlimited market power"
+            },
+            {
+              "id": "B",
+              "text": "It requires producers to abandon self-interest entirely"
+            },
+            {
+              "id": "C",
+              "text": "It pressures poor producers to improve or exit and rewards firms that serve consumers"
+            },
+            {
+              "id": "D",
+              "text": "It removes consumers' ability to choose"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The argument links self-interested market activity with benefits to consumers through competitive pressure.",
+          "source": "MG2008 current 2026–27 Week 4 Part 3 deck; slide 3"
+        },
+        {
+          "id": "MG2008-W4EGO-005",
+          "stem": "What is meant by egoist practices producing utilitarian results in the market argument?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Consumer choice is irrelevant to social outcomes"
+            },
+            {
+              "id": "B",
+              "text": "Every selfish action necessarily improves society"
+            },
+            {
+              "id": "C",
+              "text": "Only altruistic motives can produce any benefit"
+            },
+            {
+              "id": "D",
+              "text": "Self-interested competitive behaviour may generate wider benefits"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The phrase describes a proposed connection between private incentives and wider outcomes, not an unconditional guarantee.",
+          "source": "MG2008 current 2026–27 Week 4 Part 3 deck; slide 3"
+        },
+        {
+          "id": "MG2008-W4EGO-006",
+          "stem": "Which condition challenges relying on self-interest alone to generate good social outcomes?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A manager considers their future reputation"
+            },
+            {
+              "id": "B",
+              "text": "A powerful firm’s choices limit other people’s options"
+            },
+            {
+              "id": "C",
+              "text": "Poor producers face pressure to improve"
+            },
+            {
+              "id": "D",
+              "text": "Many consumers can freely compare alternatives"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The slides warn that one person’s egoism can restrict the choices of others.",
+          "source": "MG2008 current 2026–27 Week 4 Part 3 deck; slide 4"
+        },
+        {
+          "id": "MG2008-W4EGO-007",
+          "stem": "Why does the deck question applying Smith’s historical market argument directly to modern multinationals?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Modern corporations have no influence on markets"
+            },
+            {
+              "id": "B",
+              "text": "Smith’s argument was developed specifically for global digital monopolies"
+            },
+            {
+              "id": "C",
+              "text": "The scale and power of modern corporations differ from the smaller privately owned firms of that context"
+            },
+            {
+              "id": "D",
+              "text": "Historical context never affects the interpretation of a theory"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The deck notes the different business context and challenges posed by transnational corporations.",
+          "source": "MG2008 current 2026–27 Week 4 Part 3 deck; slide 4"
+        },
+        {
+          "id": "MG2008-W4EGO-008",
+          "stem": "What concern is raised when corporate self-interest creates unsustainable resource use?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Resource use affects only the actor’s immediate preferences"
+            },
+            {
+              "id": "B",
+              "text": "Sustainability is irrelevant whenever a transaction is voluntary"
+            },
+            {
+              "id": "C",
+              "text": "The actor’s choices may undermine others' ability to pursue their own interests"
+            },
+            {
+              "id": "D",
+              "text": "Long-run effects cannot matter to enlightened egoism"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The sustainability example illustrates conflicts between one person’s self-interest and others' choices.",
+          "source": "MG2008 current 2026–27 Week 4 Part 3 deck; slide 4"
+        },
+        {
+          "id": "MG2008-W4EGO-009",
+          "stem": "Why does a kidney-sale offer to a person in severe poverty remain an ethical dilemma?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A promised payment proves all risks have been eliminated"
+            },
+            {
+              "id": "B",
+              "text": "Poverty removes the person’s moral relevance"
+            },
+            {
+              "id": "C",
+              "text": "Potential benefits coexist with risks of exploitation, deception and lasting injury"
+            },
+            {
+              "id": "D",
+              "text": "The deck supplies a settled universal approval of such sales"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The case poses competing interests and risks without declaring a final answer.",
+          "source": "MG2008 current 2026–27 Week 4 Part 3 deck; slide 2"
+        },
+        {
+          "id": "MG2008-W4EGO-010",
+          "stem": "Which analysis is most consistent with enlightened egoism?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Treat the largest payment as the only relevant fact"
+            },
+            {
+              "id": "B",
+              "text": "Ignore every consequence beyond today"
+            },
+            {
+              "id": "C",
+              "text": "Select whichever action produces immediate pleasure"
+            },
+            {
+              "id": "D",
+              "text": "Ask whether a short-term gain damages future health, livelihood or relationships"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Enlightened egoism widens self-interest to a longer time horizon.",
+          "source": "MG2008 current 2026–27 Week 4 Part 3 deck; slide 4"
+        },
+        {
+          "id": "MG2008-W4EGO-011",
+          "stem": "What limitation arises if personal desire alone is used as a moral criterion?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The criterion guarantees respect for all rights"
+            },
+            {
+              "id": "B",
+              "text": "The criterion necessarily maximises aggregate utility"
+            },
+            {
+              "id": "C",
+              "text": "Very different behaviours can appear morally equivalent merely because they are desired"
+            },
+            {
+              "id": "D",
+              "text": "Desire automatically distinguishes every harmful act"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The deck contrasts desires such as avoiding work and supporting a family to question desire-based moral equivalence.",
+          "source": "MG2008 current 2026–27 Week 4 Part 3 deck; slide 4"
+        },
+        {
+          "id": "MG2008-W4EGO-012",
+          "stem": "Which claim best fits the free-market advocacy associated with egoism in the slides?",
+          "options": [
+            {
+              "id": "A",
+              "text": "People pursuing their own goals can be defended alongside reduced government control"
+            },
+            {
+              "id": "B",
+              "text": "All markets must be planned by one central executive"
+            },
+            {
+              "id": "C",
+              "text": "Corporate profit must always be replaced by philanthropy"
+            },
+            {
+              "id": "D",
+              "text": "Self-interest is excluded from every commercial decision"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The deck links egoism with free-market and reduced-control arguments.",
+          "source": "MG2008 current 2026–27 Week 4 Part 3 deck; slide 3"
+        },
+        {
+          "id": "MG2008-W4EGO-013",
+          "stem": "Why might growing inequality be relevant when evaluating the market defence of egoism?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It establishes that all firms are equally powerful"
+            },
+            {
+              "id": "B",
+              "text": "It makes distribution irrelevant to ethical analysis"
+            },
+            {
+              "id": "C",
+              "text": "It proves every self-interested exchange is harmful"
+            },
+            {
+              "id": "D",
+              "text": "It raises questions about whether actual markets produce morally acceptable outcomes"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The deck identifies inequality and domination as challenges rather than treating the market argument as settled.",
+          "source": "MG2008 current 2026–27 Week 4 Part 3 deck; slide 4"
+        },
+        {
+          "id": "MG2008-W4EGO-014",
+          "stem": "A company sacrifices today’s revenue to preserve trusted customer relationships. Which egoist interpretation is plausible?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Egoism requires maximising today’s revenue in every case"
+            },
+            {
+              "id": "B",
+              "text": "Only a duty-based theory can consider future relationships"
+            },
+            {
+              "id": "C",
+              "text": "Preserving trust necessarily rejects all personal benefit"
+            },
+            {
+              "id": "D",
+              "text": "Long-term self-interest can support restraint today"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "A long-term perspective can make immediate restraint consistent with enlightened egoism.",
+          "source": "MG2008 current 2026–27 Week 4 Part 3 deck; slide 4"
+        },
+        {
+          "id": "MG2008-W4EGO-015",
+          "stem": "Which is the best critique of assuming a formally available choice is always genuinely free of ethical concerns?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The existence of an offer proves fully informed and unpressured consent"
+            },
+            {
+              "id": "B",
+              "text": "Economic pressure and unequal power can shape the choices people can realistically make"
+            },
+            {
+              "id": "C",
+              "text": "The recipient’s benefit automatically resolves the seller’s risks"
+            },
+            {
+              "id": "D",
+              "text": "Potential injury is irrelevant if payment is promised"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The kidney case and power-related criticisms require examining the conditions of choice as well as possible benefits.",
+          "source": "MG2008 current 2026–27 Week 4 Part 3 deck; slides 2, 4"
+        }
+      ]
+    },
+    {
+      "title": "Week 5.1 — Kantian Ethics",
+      "description": "Duty, universalisation, dignity, motives and conflicts between obligations.",
+      "questions": [
+        {
+          "id": "MG2008-W5KANT-001",
+          "stem": "A manager rejects deception because honesty is a duty, not because it improves sales. Which reasoning is Kantian?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Calculating the largest aggregate benefit only"
+            },
+            {
+              "id": "B",
+              "text": "Acting from duty rather than commercial advantage"
+            },
+            {
+              "id": "C",
+              "text": "Maximising the manager’s immediate utility"
+            },
+            {
+              "id": "D",
+              "text": "Following a habit without examining any principle"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The deck distinguishes duty-based motives from prudential claims that honesty pays.",
+          "source": "MG2008 current 2026–27 Week 5 Part 1 deck; slides 2, 4"
+        },
+        {
+          "id": "MG2008-DUTIES-001",
+          "stem": "What does the universal-law formulation ask a person to test?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Whether the majority already practises the action"
+            },
+            {
+              "id": "B",
+              "text": "Whether the action increases this month’s profit"
+            },
+            {
+              "id": "C",
+              "text": "Whether their role grants them an exception"
+            },
+            {
+              "id": "D",
+              "text": "Whether the principle behind their action could be willed as a universal law"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Universalisation tests the maxim without granting personal exemptions.",
+          "source": "MG2008 current 2026–27 Week 5 Part 1 deck; slides 2–3"
+        },
+        {
+          "id": "MG2008-W5KANT-003",
+          "stem": "A leader says a rule should apply to employees but not to them. What Kantian concern is most direct?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The claim to a special exemption contradicts universality"
+            },
+            {
+              "id": "B",
+              "text": "The leader has calculated aggregate utility incorrectly"
+            },
+            {
+              "id": "C",
+              "text": "A virtuous habit automatically permits exemption"
+            },
+            {
+              "id": "D",
+              "text": "Personal benefit is the sole criterion for leaders"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The slides emphasise consistency and that nobody is above a universal moral requirement.",
+          "source": "MG2008 current 2026–27 Week 5 Part 1 deck; slide 2"
+        },
+        {
+          "id": "MG2008-DUTIES-002",
+          "stem": "What does it mean not to treat a person merely as a means?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Respect their dignity rather than regarding them exclusively as an instrument"
+            },
+            {
+              "id": "B",
+              "text": "Judge them only by their contribution to revenue"
+            },
+            {
+              "id": "C",
+              "text": "Avoid every interaction in which either party benefits"
+            },
+            {
+              "id": "D",
+              "text": "Refuse all employment contracts"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The word merely prohibits exclusively instrumental treatment, not every mutually beneficial exchange.",
+          "source": "MG2008 current 2026–27 Week 5 Part 1 deck; slides 3–4"
+        },
+        {
+          "id": "MG2008-W5KANT-005",
+          "stem": "Why is a freely entered employment exchange not automatically prohibited by the humanity principle in the deck?",
+          "options": [
+            {
+              "id": "A",
+              "text": "All exchanges ignore the other person’s interests"
+            },
+            {
+              "id": "B",
+              "text": "Receiving pay makes moral obligations disappear"
+            },
+            {
+              "id": "C",
+              "text": "Consent permits any treatment regardless of dignity"
+            },
+            {
+              "id": "D",
+              "text": "Mutual exchange can recognise dignity through fair remuneration and good treatment"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The Arnold elaboration distinguishes an exchange from treating the employee exclusively as a tool.",
+          "source": "MG2008 current 2026–27 Week 5 Part 1 deck; slide 4"
+        },
+        {
+          "id": "MG2008-W5KANT-006",
+          "stem": "A company says it will be honest only while honesty is profitable. How does the deck classify this motive?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A rights hierarchy that resolves all conflicts"
+            },
+            {
+              "id": "B",
+              "text": "A categorical duty upheld unconditionally"
+            },
+            {
+              "id": "C",
+              "text": "A guarantee of virtuous character"
+            },
+            {
+              "id": "D",
+              "text": "Prudential rather than duty-based moral motivation"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Honesty pays is treated as commercially prudent, not the appropriate Kantian moral motive.",
+          "source": "MG2008 current 2026–27 Week 5 Part 1 deck; slide 4"
+        },
+        {
+          "id": "MG2008-W5KANT-007",
+          "stem": "What makes the categorical imperative unconditional?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It changes whenever the actor’s desires change"
+            },
+            {
+              "id": "B",
+              "text": "Its moral force does not depend on the actor’s preferred outcome"
+            },
+            {
+              "id": "C",
+              "text": "It applies only when obeying it is profitable"
+            },
+            {
+              "id": "D",
+              "text": "It applies only to a chosen profession"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The slide describes moral law as unconditioned.",
+          "source": "MG2008 current 2026–27 Week 5 Part 1 deck; slide 3"
+        },
+        {
+          "id": "MG2008-W5KANT-008",
+          "stem": "Which feature does the Kantian account in the deck emphasise when judging moral conduct?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The actor’s popularity alone"
+            },
+            {
+              "id": "B",
+              "text": "Goodwill and duty-based motives"
+            },
+            {
+              "id": "C",
+              "text": "The largest financial return regardless of motive"
+            },
+            {
+              "id": "D",
+              "text": "The number of people who copy the actor"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The slides stress motives, goodwill and reasoned duty.",
+          "source": "MG2008 current 2026–27 Week 5 Part 1 deck; slides 2, 4"
+        },
+        {
+          "id": "MG2008-W5KANT-009",
+          "stem": "Which criticism applies when loyalty to a colleague conflicts with loyalty to a supervisor?",
+          "options": [
+            {
+              "id": "A",
+              "text": "No moral obligation can ever conflict"
+            },
+            {
+              "id": "B",
+              "text": "Duties can conflict and the framework may not readily settle the choice"
+            },
+            {
+              "id": "C",
+              "text": "The greatest revenue necessarily resolves the duty conflict"
+            },
+            {
+              "id": "D",
+              "text": "A conflict proves all duties are merely desires"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The deck explicitly identifies clashes between loyalties and obligations.",
+          "source": "MG2008 current 2026–27 Week 5 Part 1 deck; slide 5"
+        },
+        {
+          "id": "MG2008-DUTIES-003",
+          "stem": "Why might strict universal rules be criticised as too rigid?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They allow every individual an unrestricted exception"
+            },
+            {
+              "id": "B",
+              "text": "They require a different moral law for every person"
+            },
+            {
+              "id": "C",
+              "text": "They consider only the actor’s short-term pleasure"
+            },
+            {
+              "id": "D",
+              "text": "They can be difficult to apply in varied circumstances and roles"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The deck’s criticisms include rigidity and differences in role-specific obligations.",
+          "source": "MG2008 current 2026–27 Week 5 Part 1 deck; slide 5"
+        },
+        {
+          "id": "MG2008-W5KANT-011",
+          "stem": "Which concern is raised by partial attachment to a loved one or loyal employee?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Partial attachments prove nobody can reason"
+            },
+            {
+              "id": "B",
+              "text": "The deck says personal attachment always overrides universal principles"
+            },
+            {
+              "id": "C",
+              "text": "Family relationships remove every duty to others"
+            },
+            {
+              "id": "D",
+              "text": "Universal duty may not adequately reflect mixed or partial motivations"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The criticism questions how the theory treats partial concerns, without declaring them automatic trump cards.",
+          "source": "MG2008 current 2026–27 Week 5 Part 1 deck; slide 5"
+        },
+        {
+          "id": "MG2008-W5KANT-012",
+          "stem": "A proposal would produce net benefits by coercively exploiting a minority. What Kantian objection remains?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Universalisation requires maximising the proposal’s revenue"
+            },
+            {
+              "id": "B",
+              "text": "A positive total does not permit treating people merely as instruments"
+            },
+            {
+              "id": "C",
+              "text": "The minority’s rights matter only if most people agree"
+            },
+            {
+              "id": "D",
+              "text": "A positive total automatically settles every duty"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The humanity formulation remains relevant even when the net balance of outcomes is positive.",
+          "source": "MG2008 current 2026–27 Week 5 Part 1 deck; slide 3"
+        },
+        {
+          "id": "MG2008-W5KANT-013",
+          "stem": "In the deck’s duty-based account, what should guide a choice rather than personal intuition alone?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The manager’s private convenience"
+            },
+            {
+              "id": "B",
+              "text": "The strongest immediate emotion"
+            },
+            {
+              "id": "C",
+              "text": "Reason and the relevant moral duty"
+            },
+            {
+              "id": "D",
+              "text": "The popularity of the action on social media"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The slides prioritise reason and duty over intuition and personal motivation in the Kantian account.",
+          "source": "MG2008 current 2026–27 Week 5 Part 1 deck; slide 4"
+        },
+        {
+          "id": "MG2008-W5KANT-014",
+          "stem": "Why must the stealing-for-family comparison not be read as general permission to steal?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It illustrates the relevance of motives, not a blanket exception to duty"
+            },
+            {
+              "id": "B",
+              "text": "Any action is permitted if it has an emotional explanation"
+            },
+            {
+              "id": "C",
+              "text": "The deck defines theft as morally neutral"
+            },
+            {
+              "id": "D",
+              "text": "Every sympathetic motive cancels all obligations"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The example discusses motivation; the same deck emphasises consistency and universal moral standards.",
+          "source": "MG2008 current 2026–27 Week 5 Part 1 deck; slide 2"
+        },
+        {
+          "id": "MG2008-W5KANT-015",
+          "stem": "How do rights-based theories relate to deontology in the deck’s final criticism?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They judge only the profitability of rights protection"
+            },
+            {
+              "id": "B",
+              "text": "They may supplement duty-based reasoning"
+            },
+            {
+              "id": "C",
+              "text": "They are identical to immediate egoism"
+            },
+            {
+              "id": "D",
+              "text": "They prove all duties have disappeared"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The slides describe contemporary rights theories as supplementing or supplanting aspects of deontology.",
+          "source": "MG2008 current 2026–27 Week 5 Part 1 deck; slide 5"
+        }
+      ]
+    },
+    {
+      "title": "Week 5.2 — Virtue Ethics",
+      "description": "Cultivated character, habits, relationships and context-sensitive judgement.",
+      "questions": [
+        {
+          "id": "MG2008-DUTIES-004",
+          "stem": "What is the central focus of virtue ethics in the slides?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Obeying every organisational rule without caring"
+            },
+            {
+              "id": "B",
+              "text": "Pursuing the actor’s immediate desire"
+            },
+            {
+              "id": "C",
+              "text": "Cultivating virtuous character"
+            },
+            {
+              "id": "D",
+              "text": "Maximising one action’s aggregate utility only"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Virtue ethics centres character and integrity rather than only isolated choices.",
+          "source": "MG2008 current 2026–27 Week 5 Part 2 deck; slide 1"
+        },
+        {
+          "id": "MG2008-W5VIRTUE-002",
+          "stem": "Why does the deck compare developing character with learning a language?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is cultivated through learning and practice rather than simply being fully given at birth"
+            },
+            {
+              "id": "B",
+              "text": "Character cannot change after birth"
+            },
+            {
+              "id": "C",
+              "text": "Learning guarantees identical conduct in every culture"
+            },
+            {
+              "id": "D",
+              "text": "Virtue consists only of memorising a rulebook"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The analogy presents character as neither simply natural nor unnatural but cultivated.",
+          "source": "MG2008 current 2026–27 Week 5 Part 2 deck; slide 1"
+        },
+        {
+          "id": "MG2008-W5VIRTUE-003",
+          "stem": "An employee fulfils every requirement solely for pay while caring nothing for customers or colleagues. Why is this not enough for virtue ethics in the deck?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Receiving pay makes all employment unethical"
+            },
+            {
+              "id": "B",
+              "text": "Only outcomes can matter to virtue ethics"
+            },
+            {
+              "id": "C",
+              "text": "Formal compliance alone need not reflect virtuous feelings, desires or character"
+            },
+            {
+              "id": "D",
+              "text": "A checklist proves compassion and integrity"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The slide’s example distinguishes virtuous character from merely doing what the job requires.",
+          "source": "MG2008 current 2026–27 Week 5 Part 2 deck; slide 1"
+        },
+        {
+          "id": "MG2008-W5VIRTUE-004",
+          "stem": "Which group contains virtues identified in the deck rather than merely competitive business traits?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Aggression, competitiveness, toughness and price control"
+            },
+            {
+              "id": "B",
+              "text": "Profit margin, productivity, scale and bargaining power"
+            },
+            {
+              "id": "C",
+              "text": "Market share, turnover, dominance and speed"
+            },
+            {
+              "id": "D",
+              "text": "Integrity, courage, truthfulness and compassion"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The slides distinguish moral virtues from qualities such as toughness and competitiveness.",
+          "source": "MG2008 current 2026–27 Week 5 Part 2 deck; slide 1"
+        },
+        {
+          "id": "MG2008-W5VIRTUE-005",
+          "stem": "Why is repeated conduct important in assessing virtue?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A single good act guarantees every later act"
+            },
+            {
+              "id": "B",
+              "text": "Patterns matter only when a regulation requires them"
+            },
+            {
+              "id": "C",
+              "text": "Virtue excludes behaviour and concerns reputation only"
+            },
+            {
+              "id": "D",
+              "text": "Habitual patterns reveal character more than an isolated act alone"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The approach looks at habitual behaviour, learning and relationships rather than one-off actions.",
+          "source": "MG2008 current 2026–27 Week 5 Part 2 deck; slide 2"
+        },
+        {
+          "id": "MG2008-W5VIRTUE-006",
+          "stem": "A leader supports staff well-being beyond pay. Why is this relevant to the virtue approach?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Virtue ethics treats all monetary decisions as immoral"
+            },
+            {
+              "id": "B",
+              "text": "Staff well-being matters only if it increases next week’s sales"
+            },
+            {
+              "id": "C",
+              "text": "Pay has no relevance to anyone’s well-being"
+            },
+            {
+              "id": "D",
+              "text": "It can express care and cultivate good relationships"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The deck includes holistic staff well-being among business applications.",
+          "source": "MG2008 current 2026–27 Week 5 Part 2 deck; slide 2"
+        },
+        {
+          "id": "MG2008-W5VIRTUE-007",
+          "stem": "What does the deck’s ubuntu illustration emphasise?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The exclusive primacy of written contracts"
+            },
+            {
+              "id": "B",
+              "text": "Measuring every person as a utility function"
+            },
+            {
+              "id": "C",
+              "text": "Relational identity and community connection"
+            },
+            {
+              "id": "D",
+              "text": "Complete independence from other people"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Ubuntu is presented as a humanistic, relational example, not a description of every African culture.",
+          "source": "MG2008 current 2026–27 Week 5 Part 2 deck; slide 2"
+        },
+        {
+          "id": "MG2008-W5VIRTUE-008",
+          "stem": "What does the Confucianism illustration emphasise?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Formal rules as the only source of morality"
+            },
+            {
+              "id": "B",
+              "text": "The pursuit of immediate personal gain alone"
+            },
+            {
+              "id": "C",
+              "text": "Universal disregard for relationships"
+            },
+            {
+              "id": "D",
+              "text": "Character refinement, social relationships and harmony"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The deck uses Confucianism to illustrate relational character development.",
+          "source": "MG2008 current 2026–27 Week 5 Part 2 deck; slide 2"
+        },
+        {
+          "id": "MG2008-W5VIRTUE-009",
+          "stem": "Which quality is identified as an intellectual virtue in the Aristotle example?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Physical strength"
+            },
+            {
+              "id": "B",
+              "text": "Market dominance"
+            },
+            {
+              "id": "C",
+              "text": "Sales growth"
+            },
+            {
+              "id": "D",
+              "text": "Wisdom"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Wisdom is the intellectual example; listed moral virtues include honesty and courage.",
+          "source": "MG2008 current 2026–27 Week 5 Part 2 deck; slide 2"
+        },
+        {
+          "id": "MG2008-W5VIRTUE-010",
+          "stem": "Why does virtue ethics still require judgement?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Context is irrelevant once a person has a good reputation"
+            },
+            {
+              "id": "B",
+              "text": "Every community has an identical clear code"
+            },
+            {
+              "id": "C",
+              "text": "A trait supplies an automatic answer to every dilemma"
+            },
+            {
+              "id": "D",
+              "text": "Traits such as loyalty or courage must be translated into suitable actions in context"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The deck lists translation into action, cultural context and knowledge as practical difficulties.",
+          "source": "MG2008 current 2026–27 Week 5 Part 2 deck; slide 3"
+        },
+        {
+          "id": "MG2008-DUTIES-005",
+          "stem": "Which question captures a stated limitation of virtue ethics?",
+          "options": [
+            {
+              "id": "A",
+              "text": "How can every dilemma ignore character?"
+            },
+            {
+              "id": "B",
+              "text": "Which community’s ideal of good practice should guide the choice?"
+            },
+            {
+              "id": "C",
+              "text": "Which precise utility total does every virtue require?"
+            },
+            {
+              "id": "D",
+              "text": "Why must all virtue be enforced by one statute?"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The slides question whose ideals apply and note the absence of a clear code.",
+          "source": "MG2008 current 2026–27 Week 5 Part 2 deck; slide 3"
+        },
+        {
+          "id": "MG2008-W5VIRTUE-012",
+          "stem": "A manager shows courage in one incident but repeatedly deceives colleagues. What should a virtue-based assessment examine?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only the financial result of the deception"
+            },
+            {
+              "id": "B",
+              "text": "The broader habitual pattern rather than treating one act as decisive"
+            },
+            {
+              "id": "C",
+              "text": "Only the courageous incident"
+            },
+            {
+              "id": "D",
+              "text": "Only whether the manager has a senior title"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Character-based evaluation considers recurring conduct, not one favourable act alone.",
+          "source": "MG2008 current 2026–27 Week 5 Part 2 deck; slide 2"
+        },
+        {
+          "id": "MG2008-W5VIRTUE-013",
+          "stem": "How does learning through business relationships fit virtue ethics?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Relationships replace every need for character"
+            },
+            {
+              "id": "B",
+              "text": "Only solitary decisions can develop virtue"
+            },
+            {
+              "id": "C",
+              "text": "Relationships can help cultivate habitual integrity and good judgement"
+            },
+            {
+              "id": "D",
+              "text": "Learning is relevant only to technical skill"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The deck links good character with learning and building business relationships.",
+          "source": "MG2008 current 2026–27 Week 5 Part 2 deck; slide 2"
+        },
+        {
+          "id": "MG2008-W5VIRTUE-014",
+          "stem": "Why should competitiveness not be equated with virtue?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Commercial effectiveness and moral character are different qualities"
+            },
+            {
+              "id": "B",
+              "text": "Every successful business trait is automatically a moral virtue"
+            },
+            {
+              "id": "C",
+              "text": "Competitive firms cannot have any integrity"
+            },
+            {
+              "id": "D",
+              "text": "A lack of competitors proves a person is virtuous"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The slides distinguish toughness and competitiveness from virtues such as compassion and truthfulness.",
+          "source": "MG2008 current 2026–27 Week 5 Part 2 deck; slide 1"
+        },
+        {
+          "id": "MG2008-W5VIRTUE-015",
+          "stem": "Which response best recognises culture without abandoning judgement in virtue ethics?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ignore culture and all relationships"
+            },
+            {
+              "id": "B",
+              "text": "Consider context while critically judging how virtues should guide conduct"
+            },
+            {
+              "id": "C",
+              "text": "Assume every local habit is virtuous because it is common"
+            },
+            {
+              "id": "D",
+              "text": "Replace judgement with the highest immediate profit"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The approach acknowledges community ideals but still needs knowledge and judgement in applying traits.",
+          "source": "MG2008 current 2026–27 Week 5 Part 2 deck; slide 3"
+        }
+      ]
+    },
+    {
+      "title": "Week 5.3 — Rights, Justice & Moral Dialogue",
+      "description": "Rights, Rawls, inclusive discourse, pluralism and resolving disagreement.",
+      "questions": [
+        {
+          "id": "MG2008-W5RIGHTS-001",
+          "stem": "Which obligation corresponds most directly to a right to be left alone?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Maximise the other person’s utility by force"
+            },
+            {
+              "id": "B",
+              "text": "Provide a particular cash benefit in every case"
+            },
+            {
+              "id": "C",
+              "text": "Ignore the person’s choices"
+            },
+            {
+              "id": "D",
+              "text": "Do not interfere without justification"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The deck connects this right with an obligation of non-interference.",
+          "source": "MG2008 current 2026–27 Week 5 Part 3 deck; slide 1"
+        },
+        {
+          "id": "MG2008-W5RIGHTS-002",
+          "stem": "What distinguishes a positive right from a negative right in the deck?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Positive rights are always optional; negative rights are always profitable"
+            },
+            {
+              "id": "B",
+              "text": "Positive rights remove obligations; negative rights create all services"
+            },
+            {
+              "id": "C",
+              "text": "A positive right may require provision; a negative right concerns non-interference"
+            },
+            {
+              "id": "D",
+              "text": "Positive rights concern corporations only; negative rights concern states only"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The insurance example illustrates provision, while negative rights concern limits on interference.",
+          "source": "MG2008 current 2026–27 Week 5 Part 3 deck; slide 2"
+        },
+        {
+          "id": "MG2008-W5RIGHTS-003",
+          "stem": "Why can the responsibility for a positive right be disputed in business?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The existence of a right automatically names one provider in every case"
+            },
+            {
+              "id": "B",
+              "text": "It may be unclear whether the state or private companies should provide the relevant benefit"
+            },
+            {
+              "id": "C",
+              "text": "Rights never imply any duty"
+            },
+            {
+              "id": "D",
+              "text": "Only individuals can bear any obligation"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The deck asks whose responsibility provision should be.",
+          "source": "MG2008 current 2026–27 Week 5 Part 3 deck; slide 2"
+        },
+        {
+          "id": "MG2008-DUTIES-009",
+          "stem": "What is a key difficulty when several rights conflict?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Rights always rank in alphabetical order"
+            },
+            {
+              "id": "B",
+              "text": "The theory does not supply a clear hierarchy resolving every conflict"
+            },
+            {
+              "id": "C",
+              "text": "Conflicting rights are impossible by definition"
+            },
+            {
+              "id": "D",
+              "text": "The right with the highest financial return always prevails"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The slide notes the absence of a clear methodology and hierarchy.",
+          "source": "MG2008 current 2026–27 Week 5 Part 3 deck; slide 2"
+        },
+        {
+          "id": "MG2008-W5RIGHTS-005",
+          "stem": "Why might rights theories appeal to a multinational?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They guarantee that every culture interprets every right identically"
+            },
+            {
+              "id": "B",
+              "text": "They make local law irrelevant"
+            },
+            {
+              "id": "C",
+              "text": "They remove the need to investigate human-rights exposure"
+            },
+            {
+              "id": "D",
+              "text": "They can offer transnational and transcultural ethical norms"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The deck describes cross-border norms as attractive while acknowledging theoretical limitations.",
+          "source": "MG2008 current 2026–27 Week 5 Part 3 deck; slide 2"
+        },
+        {
+          "id": "MG2008-W5RIGHTS-006",
+          "stem": "What priority does the Rawls slide assign to equal basic liberty?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Priority only when aggregate profits rise"
+            },
+            {
+              "id": "B",
+              "text": "Priority over economic policy"
+            },
+            {
+              "id": "C",
+              "text": "No priority when a majority dislikes it"
+            },
+            {
+              "id": "D",
+              "text": "A secondary role after all productivity goals"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The slide states that equal liberty takes priority over economic policy.",
+          "source": "MG2008 current 2026–27 Week 5 Part 3 deck; slide 3"
+        },
+        {
+          "id": "MG2008-DUTIES-006",
+          "stem": "In the original-position exercise, what information is deliberately unknown?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The existence of any other citizens"
+            },
+            {
+              "id": "B",
+              "text": "Whether society requires cooperation"
+            },
+            {
+              "id": "C",
+              "text": "The chooser’s eventual social position and personal circumstances"
+            },
+            {
+              "id": "D",
+              "text": "Whether choices can affect anybody"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The exercise removes knowledge of birth, race, gender and socioeconomic position to examine fair arrangements.",
+          "source": "MG2008 current 2026–27 Week 5 Part 3 deck; slide 3"
+        },
+        {
+          "id": "MG2008-W5RIGHTS-008",
+          "stem": "Which policy best fits the slide’s emphasis on fair equality of opportunity?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Offer identical job titles but deny disadvantaged applicants training"
+            },
+            {
+              "id": "B",
+              "text": "Choose candidates only by family wealth"
+            },
+            {
+              "id": "C",
+              "text": "Make positions accessible with necessary training rather than merely declaring them open"
+            },
+            {
+              "id": "D",
+              "text": "Reserve all positions for the already advantaged"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The slide explicitly links opportunity with access to positions and necessary training.",
+          "source": "MG2008 current 2026–27 Week 5 Part 3 deck; slide 3"
+        },
+        {
+          "id": "MG2008-W5RIGHTS-009",
+          "stem": "Which question best applies the difference principle rather than simply maximising total wealth?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Does the inequality increase owners' returns regardless of others?"
+            },
+            {
+              "id": "B",
+              "text": "Does the inequality preserve every existing hierarchy?"
+            },
+            {
+              "id": "C",
+              "text": "Does the inequality improve the position of disadvantaged groups?"
+            },
+            {
+              "id": "D",
+              "text": "Does the inequality create the highest total revenue only?"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The deck tests inequality through benefits to the least advantaged, not aggregate gain alone.",
+          "source": "MG2008 current 2026–27 Week 5 Part 3 deck; slide 3"
+        },
+        {
+          "id": "MG2008-W5RIGHTS-010",
+          "stem": "What does ideal versus non-ideal theory help a decision-maker do?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ignore the needs of differently-abled citizens"
+            },
+            {
+              "id": "B",
+              "text": "Assume the current system is already perfectly fair"
+            },
+            {
+              "id": "C",
+              "text": "Compare fair arrangements with current conditions and consider improvements"
+            },
+            {
+              "id": "D",
+              "text": "Choose policy without identifying any standard"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The slides describe setting out an ideal and considering departures and remedies.",
+          "source": "MG2008 current 2026–27 Week 5 Part 3 deck; slide 3"
+        },
+        {
+          "id": "MG2008-DUTIES-008",
+          "stem": "What is central to discourse ethics in the deck?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Majority profit automatically overriding all discussion"
+            },
+            {
+              "id": "B",
+              "text": "Stakeholder dialogue seeking consensus without disproportionate influence by powerful participants"
+            },
+            {
+              "id": "C",
+              "text": "Managers applying one rule without hearing affected groups"
+            },
+            {
+              "id": "D",
+              "text": "The strongest stakeholder deciding for everyone"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Discourse ethics stresses participation and avoiding domination by powerful stakeholders.",
+          "source": "MG2008 current 2026–27 Week 5 Part 3 deck; slide 4"
+        },
+        {
+          "id": "MG2008-W5RIGHTS-012",
+          "stem": "Why is stakeholder participation a practical limitation for discourse ethics?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only shareholders count as relevant participants"
+            },
+            {
+              "id": "B",
+              "text": "Excluding affected groups automatically improves moral legitimacy"
+            },
+            {
+              "id": "C",
+              "text": "Consensus can never require any time"
+            },
+            {
+              "id": "D",
+              "text": "Reaching consensus can take time and depends on relevant stakeholders being able to participate"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The deck lists time and participation by all relevant stakeholders as difficulties.",
+          "source": "MG2008 current 2026–27 Week 5 Part 3 deck; slide 4"
+        },
+        {
+          "id": "MG2008-W5RIGHTS-013",
+          "stem": "In the Bauman presentation, why should decision-makers interact with affected people?",
+          "options": [
+            {
+              "id": "A",
+              "text": "To make professional norms independent of personal convictions"
+            },
+            {
+              "id": "B",
+              "text": "To substitute publicity for ethical reflection"
+            },
+            {
+              "id": "C",
+              "text": "To avoid distance from moral situations and develop an informed personal moral sense"
+            },
+            {
+              "id": "D",
+              "text": "To establish that universal codes have been scientifically proved impossible"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The slide advocates local interaction and learning; it presents Bauman’s theoretical position rather than a universal proven fact.",
+          "source": "MG2008 current 2026–27 Week 5 Part 3 deck; slide 5"
+        },
+        {
+          "id": "MG2008-W5RIGHTS-014",
+          "stem": "Two teams disagree about fairness but use different meanings of the term. What should they do first?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Let the most powerful team define the term privately"
+            },
+            {
+              "id": "B",
+              "text": "Vote before identifying what each team means"
+            },
+            {
+              "id": "C",
+              "text": "Clarify definitions before assuming the conflict is fundamentally moral"
+            },
+            {
+              "id": "D",
+              "text": "Ignore definitions and compare budgets only"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The deck notes that apparent moral disagreement may be conceptual.",
+          "source": "MG2008 current 2026–27 Week 5 Part 3 deck; slide 6"
+        },
+        {
+          "id": "MG2008-W5RIGHTS-015",
+          "stem": "Which combination best reflects the deck’s ways to ease moral conflict?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Obtain objective information, clarify terms and examine arguments for inconsistencies"
+            },
+            {
+              "id": "B",
+              "text": "Treat every disagreement as proof of incompatible moral standards"
+            },
+            {
+              "id": "C",
+              "text": "Count supporters, ignore assumptions and copy the dominant group’s view"
+            },
+            {
+              "id": "D",
+              "text": "Replace evidence with loyalty, leave terms vague and suppress objections"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The final slide recommends evidence, definitional clarity and critical examination of arguments.",
+          "source": "MG2008 current 2026–27 Week 5 Part 3 deck; slide 6"
+        }
+      ]
+    },
+    {
+      "title": "Week 6.1 — Stakeholders & Corporate Purpose",
+      "description": "Lecture 6: corporate characteristics, stakeholder approaches and power–interest prioritisation.",
+      "questions": [
+        {
+          "id": "MG2008-STAKEHOLDERS-001",
+          "stem": "Which statement best distinguishes shareholders from stakeholders?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Shareholders are one stakeholder group; other affected or influential groups can also matter"
+            },
+            {
+              "id": "B",
+              "text": "Every stakeholder owns shares"
+            },
+            {
+              "id": "C",
+              "text": "Only shareholders can be affected by a company"
+            },
+            {
+              "id": "D",
+              "text": "The two terms identify exactly the same people in every case"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Stakeholder analysis includes shareholders but also other groups with interests in or effects from the business.",
+          "source": "MG2008 Lecture 6, 13 October 2026 — delivered material and transcript"
+        },
+        {
+          "id": "MG2008-STAKEHOLDERS-002",
+          "stem": "A person works for a company, owns some shares and buys its products. How should their stakeholder position be understood?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Their employment role disappears when they buy a product"
+            },
+            {
+              "id": "B",
+              "text": "They cannot be a stakeholder because the roles overlap"
+            },
+            {
+              "id": "C",
+              "text": "One person may occupy several stakeholder roles"
+            },
+            {
+              "id": "D",
+              "text": "They must be assigned only the shareholder role"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Stakeholder roles can overlap rather than forming mutually exclusive identities.",
+          "source": "MG2008 Lecture 6, 13 October 2026 — delivered material and transcript"
+        },
+        {
+          "id": "MG2008-STAKEHOLDERS-003",
+          "stem": "What is the central challenge stakeholder theory poses to a profit-only view of corporate purpose?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Business responsibilities extend to relevant stakeholders beyond shareholders"
+            },
+            {
+              "id": "B",
+              "text": "Shareholders must never be considered"
+            },
+            {
+              "id": "C",
+              "text": "Only groups with direct contracts have moral interests"
+            },
+            {
+              "id": "D",
+              "text": "Every stakeholder must receive exactly the same payment"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The theory broadens the consideration of corporate responsibilities without making every interest identical.",
+          "source": "MG2008 Lecture 6, 13 October 2026 — delivered material and transcript"
+        },
+        {
+          "id": "MG2008-STAKEHOLDERS-004",
+          "stem": "Which principle matches the corporate-rights aspect of the stakeholder approach?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A corporation should not violate the rights of others"
+            },
+            {
+              "id": "B",
+              "text": "Rights matter only when they increase immediate profit"
+            },
+            {
+              "id": "C",
+              "text": "A corporation acquires every stakeholder’s rights"
+            },
+            {
+              "id": "D",
+              "text": "Only majority shareholders can possess rights"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The lecture distinguishes respecting others’ rights from considering the effects of corporate actions.",
+          "source": "MG2008 Lecture 6, 13 October 2026 — delivered material and transcript"
+        },
+        {
+          "id": "MG2008-STAKEHOLDERS-005",
+          "stem": "Which principle matches the corporate-effect aspect of the stakeholder approach?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only effects named in a sales contract can count"
+            },
+            {
+              "id": "B",
+              "text": "A corporation should take responsibility for the effects of its actions on others"
+            },
+            {
+              "id": "C",
+              "text": "A corporation is responsible only for its share-price graph"
+            },
+            {
+              "id": "D",
+              "text": "Effects on non-customers are automatically irrelevant"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The approach asks firms to consider the consequences of their activities for others.",
+          "source": "MG2008 Lecture 6, 13 October 2026 — delivered material and transcript"
+        },
+        {
+          "id": "MG2008-STAKEHOLDERS-006",
+          "stem": "A firm checks direct suppliers but ignores serious effects further along the supply network. What does network-oriented stakeholder analysis suggest?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only the first supplier can ever be a stakeholder"
+            },
+            {
+              "id": "B",
+              "text": "A supply chain eliminates the need for ethical analysis"
+            },
+            {
+              "id": "C",
+              "text": "Indirectly affected people cannot have interests"
+            },
+            {
+              "id": "D",
+              "text": "Relevant interests can extend beyond immediate contractual partners"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Stakeholder networks can reach through suppliers and other linked actors.",
+          "source": "MG2008 Lecture 6, 13 October 2026 — delivered material and transcript"
+        },
+        {
+          "id": "MG2008-STAKEHOLDERS-007",
+          "stem": "Which question represents a descriptive stakeholder approach?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Which stakeholder strategy maximises profit?"
+            },
+            {
+              "id": "B",
+              "text": "Why do stakeholders deserve consideration in their own right?"
+            },
+            {
+              "id": "C",
+              "text": "How can a firm avoid identifying stakeholders?"
+            },
+            {
+              "id": "D",
+              "text": "Who are the stakeholders, and what interests do they have?"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The descriptive approach identifies and describes stakeholders and their interests.",
+          "source": "MG2008 Lecture 6, 13 October 2026 — delivered material and transcript"
+        },
+        {
+          "id": "MG2008-STAKEHOLDERS-008",
+          "stem": "Which question represents an instrumental stakeholder approach?",
+          "options": [
+            {
+              "id": "A",
+              "text": "What intrinsic moral worth do stakeholders have?"
+            },
+            {
+              "id": "B",
+              "text": "Who is listed on the company’s stakeholder map?"
+            },
+            {
+              "id": "C",
+              "text": "Which interests exist independently of any business outcome?"
+            },
+            {
+              "id": "D",
+              "text": "How might stakeholder management affect business performance?"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Instrumental analysis connects stakeholder management to outcomes such as profitability or performance.",
+          "source": "MG2008 Lecture 6, 13 October 2026 — delivered material and transcript"
+        },
+        {
+          "id": "MG2008-STAKEHOLDERS-009",
+          "stem": "Which statement represents a normative stakeholder approach?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ethical worth is identical to bargaining power"
+            },
+            {
+              "id": "B",
+              "text": "Stakeholder interests deserve ethical consideration in their own right"
+            },
+            {
+              "id": "C",
+              "text": "Stakeholders matter only if they can raise quarterly profits"
+            },
+            {
+              "id": "D",
+              "text": "Stakeholder mapping is only a list of names"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Normative analysis concerns why stakeholder interests ought to matter, not merely whether consideration is profitable.",
+          "source": "MG2008 Lecture 6, 13 October 2026 — delivered material and transcript"
+        },
+        {
+          "id": "MG2008-STAKEHOLDERS-010",
+          "stem": "In the lecture’s stakeholder categories, which group is an example of enabling stakeholders?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Customers"
+            },
+            {
+              "id": "B",
+              "text": "Professional peer associations"
+            },
+            {
+              "id": "C",
+              "text": "Diffuse public campaign groups"
+            },
+            {
+              "id": "D",
+              "text": "Regulators"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The enabling category includes actors such as regulators, shareholders and the board.",
+          "source": "MG2008 Lecture 6, 13 October 2026 — delivered material and transcript"
+        },
+        {
+          "id": "MG2008-STAKEHOLDERS-011",
+          "stem": "In the lecture’s stakeholder categories, employees, suppliers and customers are primarily examples of which category?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Enabling only"
+            },
+            {
+              "id": "B",
+              "text": "Normative only"
+            },
+            {
+              "id": "C",
+              "text": "Diffused only"
+            },
+            {
+              "id": "D",
+              "text": "Functional"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Functional stakeholders participate in the inputs and outputs of business activity.",
+          "source": "MG2008 Lecture 6, 13 October 2026 — delivered material and transcript"
+        },
+        {
+          "id": "MG2008-STAKEHOLDERS-012",
+          "stem": "Why should the label normative stakeholder category not be confused with normative stakeholder theory?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Both labels mean only shareholders"
+            },
+            {
+              "id": "B",
+              "text": "The category identifies everyone with low interest"
+            },
+            {
+              "id": "C",
+              "text": "The theory is simply a list of media outlets"
+            },
+            {
+              "id": "D",
+              "text": "The category classifies groups such as peer associations; the theory concerns ethical justification"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The lecture uses normative in two distinct classification contexts.",
+          "source": "MG2008 Lecture 6, 13 October 2026 — delivered material and transcript"
+        },
+        {
+          "id": "MG2008-STAKEHOLDERS-013",
+          "stem": "A stakeholder has high power and high interest in a project. What is the usual power–interest matrix approach?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Treat as automatically irrelevant"
+            },
+            {
+              "id": "B",
+              "text": "Manage closely"
+            },
+            {
+              "id": "C",
+              "text": "Monitor with minimal engagement only"
+            },
+            {
+              "id": "D",
+              "text": "Keep uninformed"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "High-power, high-interest stakeholders generally require close management and engagement.",
+          "source": "MG2008 Lecture 6, 13 October 2026 — delivered material and transcript"
+        },
+        {
+          "id": "MG2008-STAKEHOLDERS-014",
+          "stem": "A stakeholder has high power but currently low interest. What approach fits the power–interest matrix?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Use the low-power, high-interest strategy without considering their power"
+            },
+            {
+              "id": "B",
+              "text": "Keep satisfied"
+            },
+            {
+              "id": "C",
+              "text": "Ignore completely"
+            },
+            {
+              "id": "D",
+              "text": "Assume they have no influence"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The matrix recommends keeping high-power, low-interest stakeholders satisfied.",
+          "source": "MG2008 Lecture 6, 13 October 2026 — delivered material and transcript"
+        },
+        {
+          "id": "MG2008-STAKEHOLDERS-015",
+          "stem": "A community group has low formal power but high interest. What approach fits the matrix while respecting stakeholder ethics?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Keep informed and consider its interests rather than dismissing them"
+            },
+            {
+              "id": "B",
+              "text": "Ignore it because low power means no moral worth"
+            },
+            {
+              "id": "C",
+              "text": "Transfer its interests to shareholders without consultation"
+            },
+            {
+              "id": "D",
+              "text": "Assume it must control every decision"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The usual strategy is to keep it informed; power is not a measure of intrinsic ethical worth.",
+          "source": "MG2008 Lecture 6, 13 October 2026 — delivered material and transcript"
+        },
+        {
+          "id": "MG2008-STAKEHOLDERS-016",
+          "stem": "Why should a stakeholder priority map be revisited rather than treated as permanent?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only the number of shares can ever change priority"
+            },
+            {
+              "id": "B",
+              "text": "Power, interest and urgency can change as circumstances develop"
+            },
+            {
+              "id": "C",
+              "text": "All stakeholder interests disappear after the first meeting"
+            },
+            {
+              "id": "D",
+              "text": "The map guarantees that no conflict can arise"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Stakeholder management is dynamic; an initial assessment can become outdated.",
+          "source": "MG2008 Lecture 6, 13 October 2026 — delivered material and transcript"
+        }
+      ]
+    },
+    {
+      "title": "Week 6.2 — Governance & Protected Disclosures",
+      "description": "Lecture 6: board and management roles, workplace-resolution bodies and careful recognition of protected disclosures.",
+      "questions": [
+        {
+          "id": "MG2008-GOVERNANCE-001",
+          "stem": "Which distinction best describes the board and CEO roles presented in governance teaching?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The board provides direction and oversight; the CEO leads implementation"
+            },
+            {
+              "id": "B",
+              "text": "The CEO alone sets every governance constraint and oversees themselves"
+            },
+            {
+              "id": "C",
+              "text": "The CEO provides independent oversight of the board while the board handles daily operations"
+            },
+            {
+              "id": "D",
+              "text": "The board and CEO have no distinguishable responsibilities"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Governance separates strategic direction and oversight from day-to-day executive implementation.",
+          "source": "MG2008 Lecture 6 — delivered material and governance slide summary"
+        },
+        {
+          "id": "MG2008-GOVERNANCE-002",
+          "stem": "What does separate legal personality mean for an incorporated company?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The company and every shareholder are always the same legal person"
+            },
+            {
+              "id": "B",
+              "text": "The company has legal personality only while its original members remain"
+            },
+            {
+              "id": "C",
+              "text": "Every employee becomes personally identical to the company"
+            },
+            {
+              "id": "D",
+              "text": "The company is a legal entity distinct from its members"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Separate personality distinguishes the corporate entity from the people involved in it.",
+          "source": "MG2008 Lecture 6 — delivered material and governance slide summary"
+        },
+        {
+          "id": "MG2008-GOVERNANCE-003",
+          "stem": "What does perpetual succession describe in corporate characteristics?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The original shareholders must remain for the company to continue"
+            },
+            {
+              "id": "B",
+              "text": "Any change in shareholders automatically ends the company"
+            },
+            {
+              "id": "C",
+              "text": "The company can never be wound up"
+            },
+            {
+              "id": "D",
+              "text": "The company can continue despite changes in its membership"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Changes among members do not by themselves end the company’s existence; this does not mean it can never be dissolved.",
+          "source": "MG2008 Lecture 6 — delivered material and governance slide summary"
+        },
+        {
+          "id": "MG2008-GOVERNANCE-004",
+          "stem": "Which description best fits the basic limited-liability characteristic taught for shareholders?",
+          "options": [
+            {
+              "id": "A",
+              "text": "All shareholders must personally pay every corporate liability without limit"
+            },
+            {
+              "id": "B",
+              "text": "Shareholder exposure is generally limited by their investment or unpaid amount on shares, rather than every corporate debt automatically becoming a personal debt"
+            },
+            {
+              "id": "C",
+              "text": "Shareholders can never lose their investment"
+            },
+            {
+              "id": "D",
+              "text": "Company debts cease to exist when shares are issued"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Limited liability concerns shareholder exposure; it does not mean the business has no debts or risks.",
+          "source": "MG2008 Lecture 6 — delivered material and governance slide summary"
+        },
+        {
+          "id": "MG2008-GOVERNANCE-005",
+          "stem": "Which statement best reflects the lecture’s business-judgement discussion?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Every decision must maximise this week’s revenue"
+            },
+            {
+              "id": "B",
+              "text": "Directors are prohibited from considering any affected community"
+            },
+            {
+              "id": "C",
+              "text": "Good-faith managerial discretion can allow consideration of business context beyond immediate profit"
+            },
+            {
+              "id": "D",
+              "text": "Managers have unrestricted immunity for fraud"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The teaching examples challenge an absolute profit-only reading; discretion is not unlimited or a defence of fraud.",
+          "source": "MG2008 Lecture 6 — delivered material and governance slide summary"
+        },
+        {
+          "id": "MG2008-GOVERNANCE-006",
+          "stem": "How should the US corporate-purpose cases discussed in the lecture be used in an Irish-focused ethics question bank?",
+          "options": [
+            {
+              "id": "A",
+              "text": "As guarantees that every manager will win any lawsuit"
+            },
+            {
+              "id": "B",
+              "text": "As teaching examples illustrating tensions, not as automatic statements of Irish law"
+            },
+            {
+              "id": "C",
+              "text": "As legislation that directly replaces all Irish company law"
+            },
+            {
+              "id": "D",
+              "text": "As proof that every corporation must ignore stakeholders"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The cases support conceptual discussion; jurisdiction-specific legal claims need separate verification.",
+          "source": "MG2008 Lecture 6 — delivered material and governance slide summary"
+        },
+        {
+          "id": "MG2008-GOVERNANCE-007",
+          "stem": "Which statement best describes the range of Workplace Relations Commission functions discussed in the lecture?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It includes advisory, inspection, mediation and adjudication functions"
+            },
+            {
+              "id": "B",
+              "text": "It offers mediation but has no adjudication function"
+            },
+            {
+              "id": "C",
+              "text": "It adjudicates disputes but has no inspection function"
+            },
+            {
+              "id": "D",
+              "text": "It deals only with employer complaints and not employee complaints"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The WRC has several functions, not just one dispute-resolution role.",
+          "source": "MG2008 Lecture 6 — delivered material and governance slide summary"
+        },
+        {
+          "id": "MG2008-GOVERNANCE-008",
+          "stem": "Which distinction matches the lecture’s Labour Court discussion?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Every Labour Court output is an identical non-binding suggestion"
+            },
+            {
+              "id": "B",
+              "text": "Every industrial-relations recommendation is automatically a criminal conviction"
+            },
+            {
+              "id": "C",
+              "text": "Industrial-relations recommendations and rights appeals have identical legal effects"
+            },
+            {
+              "id": "D",
+              "text": "Employment-rights appeal determinations and industrial-relations recommendations have different legal effects"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The lecture distinguishes binding employment-rights appeal determinations from non-binding industrial-relations recommendations.",
+          "source": "MG2008 Lecture 6 — delivered material and governance slide summary"
+        },
+        {
+          "id": "MG2008-GOVERNANCE-009",
+          "stem": "Which feature is central to recognising a potential protected disclosure in the lecture?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A reasonable belief in relevant wrongdoing encountered in a work-related context"
+            },
+            {
+              "id": "B",
+              "text": "Conclusive proof of every allegation before any report can be made"
+            },
+            {
+              "id": "C",
+              "text": "Any disagreement about personal taste unrelated to work"
+            },
+            {
+              "id": "D",
+              "text": "A personal financial interest in the reported outcome"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Reasonable belief and work-related wrongdoing are key; certainty of the final outcome is not required at the initial report stage.",
+          "source": "MG2008 Lecture 6 — delivered material and governance slide summary"
+        },
+        {
+          "id": "MG2008-GOVERNANCE-010",
+          "stem": "A worker reasonably believes a work practice is endangering safety and uses an appropriate reporting channel. Which interpretation is most appropriate?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is automatically false if management disagrees"
+            },
+            {
+              "id": "B",
+              "text": "It may be a relevant wrongdoing report even before final investigation establishes every fact"
+            },
+            {
+              "id": "C",
+              "text": "It cannot be relevant unless an injury has already occurred"
+            },
+            {
+              "id": "D",
+              "text": "It can be relevant only if the worker personally suffered an injury"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The lecture includes safety risks and wrongdoing that may be occurring or likely to occur; the report is not a final finding.",
+          "source": "MG2008 Lecture 6 — delivered material and governance slide summary"
+        },
+        {
+          "id": "MG2008-GOVERNANCE-011",
+          "stem": "A complaint concerns only a personal interpersonal disagreement and alleges no relevant wrongdoing. Which route generally fits the distinction taught?",
+          "options": [
+            {
+              "id": "A",
+              "text": "An ordinary grievance route rather than automatically treating it as a protected disclosure"
+            },
+            {
+              "id": "B",
+              "text": "Automatic classification as public-funds fraud"
+            },
+            {
+              "id": "C",
+              "text": "A requirement to report it to an unrelated regulator"
+            },
+            {
+              "id": "D",
+              "text": "Ignoring all workplace complaint procedures"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "A purely interpersonal grievance is distinguished from relevant wrongdoing; mixed cases still need careful assessment.",
+          "source": "MG2008 Lecture 6 — delivered material and governance slide summary"
+        },
+        {
+          "id": "MG2008-GOVERNANCE-012",
+          "stem": "What should be checked before using an external prescribed reporting body?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Whether the reporter can publish every detail publicly first"
+            },
+            {
+              "id": "B",
+              "text": "Whether the body can guarantee a particular remedy in advance"
+            },
+            {
+              "id": "C",
+              "text": "Whether the alleged wrongdoing falls within that body’s remit"
+            },
+            {
+              "id": "D",
+              "text": "Whether the body is the most famous organisation available"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The appropriate external channel depends on the subject and remit, rather than choosing an arbitrary recipient.",
+          "source": "MG2008 Lecture 6 — delivered material and governance slide summary"
+        },
+        {
+          "id": "MG2008-GOVERNANCE-013",
+          "stem": "What does a prima facie assessment of a report establish?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A provisional initial basis for considering the case, not a final finding that wrongdoing is proved"
+            },
+            {
+              "id": "B",
+              "text": "An automatic final criminal conviction"
+            },
+            {
+              "id": "C",
+              "text": "That no investigation is needed"
+            },
+            {
+              "id": "D",
+              "text": "That confidentiality removes the need to assess the report"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The initial assessment is preliminary and must not be confused with a completed determination.",
+          "source": "MG2008 Lecture 6 — delivered material and governance slide summary"
+        },
+        {
+          "id": "MG2008-GOVERNANCE-014",
+          "stem": "Why distinguish a reasonably mistaken report from a knowingly false allegation?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Reasonable belief is not the same as deliberate fabrication"
+            },
+            {
+              "id": "B",
+              "text": "Every mistaken detail proves deliberate dishonesty"
+            },
+            {
+              "id": "C",
+              "text": "Only reports supported by a final court judgment can be made"
+            },
+            {
+              "id": "D",
+              "text": "A knowingly false allegation becomes reasonable whenever it is repeated"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The lecture emphasises the belief basis of a report; an error discovered later is not automatically knowing falsity.",
+          "source": "MG2008 Lecture 6 — delivered material and governance slide summary"
+        }
+      ]
+    }
+  ]
+}

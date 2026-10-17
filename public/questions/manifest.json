@@ -1,4 +1,9 @@
 {
   "version": 1,
-  "files": []
+  "files": [
+    "ec2204.json",
+    "is2206.json",
+    "is2208.json",
+    "mg2008.json"
+  ]
 }

@@ -634,7 +634,8 @@
           "explanation": "Release pressure, oversight and response plans affect whether technical risk reaches users.",
           "source": "IS2208 Lectures 1–2 and reviewed case notes"
         }
-      ]
+      ],
+      "id": "a3abb6c5-670b-4079-b5b6-e0046a1545a3"
     },
     {
       "title": "Test-First Thinking, Requirements & Evidence",
@@ -1265,7 +1266,8 @@
           "explanation": "Tests act as an executable specification and must evolve deliberately with requirements.",
           "source": "IS2208 Lecture 2 and reviewed project notes"
         }
-      ]
+      ],
+      "id": "414d23ff-9aac-4a49-8ebe-e72ab3b79953"
     },
     {
       "title": "Components, Integration & System Testing",
@@ -1896,7 +1898,8 @@
           "explanation": "Internal knowledge can improve coverage while outcomes are still checked externally.",
           "source": "IS2208 Lecture 3 and S-Plan heating example"
         }
-      ]
+      ],
+      "id": "04579513-50af-4bd0-96da-151a1fe13eed"
     },
     {
       "title": "Python, Environments & Flask Basics",
@@ -2527,7 +2530,8 @@
           "explanation": "A dependency snapshot documents the environment needed to recreate behaviour.",
           "source": "IS2208 Lecture 4 and reviewed setup notes"
         }
-      ]
+      ],
+      "id": "4354d7d2-4197-43ff-8e82-3b366e8c981f"
     },
     {
       "title": "Automated Testing, PyTest & TDD",
@@ -3158,7 +3162,8 @@
           "explanation": "Different approaches reveal different classes of problem.",
           "source": "IS2208 Lecture 5 and reviewed quiz notes"
         }
-      ]
+      ],
+      "id": "1d005670-7250-4fda-b9e0-d93eb1e1d45f"
     },
     {
       "title": "Dynamic Routes, Type Conversion & Web Safety",
@@ -3789,7 +3794,8 @@
           "explanation": "The codes distinguish routing/resource absence from an internal server error.",
           "source": "IS2208 Lecture 6 and reviewed quiz notes"
         }
-      ]
+      ],
+      "id": "15df0a0c-60ba-43f4-8ae7-5517ba19c17e"
     },
     {
       "title": "TDD — Fixtures, Assertions & Test Independence",
@@ -4170,7 +4176,8 @@
           "explanation": "The handout warns that rerunning a configuration may cover only a subset.",
           "source": "IS2208 Lecture 9; TDD with PyCharm student handout; student handout, pp. 2–3"
         }
-      ]
+      ],
+      "id": "01da3250-83b8-424a-92f1-ad7d470a1fd1"
     },
     {
       "title": "Calculator Contracts — Boundaries, Roots & Powers",
@@ -4551,7 +4558,8 @@
           "explanation": "A self-contained question identifies the relevant contract rather than treating one application’s choice as universal.",
           "source": "IS2208 TDD with PyCharm student handout; pp. 3–4; source-contract caution"
         }
-      ]
+      ],
+      "id": "658891cd-02cf-4e7f-a806-be170a8f23c0"
     },
     {
       "title": "Selenium — Browser Tests & Real-World Failures",
@@ -4932,7 +4940,8 @@
           "explanation": "The lecture contrasts Chromium-based browsers with Safari’s WebKit and motivates compatibility checks.",
           "source": "IS2208 Lectures 9–10; supplied Selenium Python example; Lecture 9, browser-engine discussion"
         }
-      ]
+      ],
+      "id": "06582ccd-99df-4aa8-afc9-b47606dea38d"
     },
     {
       "title": "Flask — Templates, Forms & Validation",
@@ -5287,8 +5296,159 @@
           "correctOptionId": "C",
           "explanation": "Flask renders the template into HTML on the server; the browser receives the result.",
           "source": "IS2208 Lectures 11–12, 12–13 October 2026"
+        },
+        {
+          "id": "IS2208-CONTEXT13-001",
+          "stem": "A view calls render_template(\"index.html\", messages=items). Which name should the template use to access the supplied collection?",
+          "options": [
+            {
+              "id": "A",
+              "text": "index"
+            },
+            {
+              "id": "B",
+              "text": "render_template"
+            },
+            {
+              "id": "C",
+              "text": "messages"
+            },
+            {
+              "id": "D",
+              "text": "items"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The keyword messages defines the template context name; the Python variable supplying its value can have a different name.",
+          "source": "IS2208 Lecture 13, 20 October 2026: Flask routing and template consolidation, linked lecture transcript."
+        },
+        {
+          "id": "IS2208-CONTEXT13-002",
+          "stem": "A developer renames the Python list items to records but keeps render_template(\"index.html\", messages=records). What template change is required just because of that rename?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Rename every occurrence of messages to records."
+            },
+            {
+              "id": "B",
+              "text": "Rename index.html to records.html."
+            },
+            {
+              "id": "C",
+              "text": "Replace the template loop with a Flask route decorator."
+            },
+            {
+              "id": "D",
+              "text": "None: the template still receives the collection as messages."
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The context keyword remains messages. Renaming only the Python-side variable does not change the template interface.",
+          "source": "IS2208 Lecture 13, 20 October 2026: Flask routing and template consolidation, linked lecture transcript."
+        },
+        {
+          "id": "IS2208-CONTEXT13-003",
+          "stem": "A template loops over messages and prints each message’s title. The page is empty because the view supplies an empty list. Which first investigation best follows the data flow?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Check how the view populates and passes messages to the template."
+            },
+            {
+              "id": "B",
+              "text": "Change the CSS colour before checking the collection."
+            },
+            {
+              "id": "C",
+              "text": "Make the browser execute the Python list-building code."
+            },
+            {
+              "id": "D",
+              "text": "Move the route URL into the title field."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The rendered list depends on the server-side collection. An empty collection produces no loop output even if the template syntax is valid.",
+          "source": "IS2208 Lecture 13, 20 October 2026: Flask routing and template consolidation, linked lecture transcript."
+        },
+        {
+          "id": "IS2208-CONTEXT13-004",
+          "stem": "A Flask app uses @app.route(\"/messages\") above a function that renders index.html. What does /messages identify?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The HTML element ID that Selenium must select."
+            },
+            {
+              "id": "B",
+              "text": "The URL path that dispatches a request to the view function."
+            },
+            {
+              "id": "C",
+              "text": "The filesystem directory in which index.html must be stored."
+            },
+            {
+              "id": "D",
+              "text": "The name of the template variable containing messages."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "A route associates a request path with a view. A URL path, template filename and HTML element ID serve different roles.",
+          "source": "IS2208 Lecture 13, 20 October 2026: Flask routing and template consolidation, linked lecture transcript."
+        },
+        {
+          "id": "IS2208-CONTEXT13-005",
+          "stem": "A rendered page displays correct data but its shared navigation needs changing on several pages that inherit base.html. Where should the shared change normally be made?",
+          "options": [
+            {
+              "id": "A",
+              "text": "In the list of message dictionaries passed by each route."
+            },
+            {
+              "id": "B",
+              "text": "In each Selenium selector rather than the templates."
+            },
+            {
+              "id": "C",
+              "text": "In base.html, where the common navigation is defined."
+            },
+            {
+              "id": "D",
+              "text": "In every route function’s business calculation."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Inheritance centralises common page structure. Updating the shared base avoids repeating the same navigation edit in child templates.",
+          "source": "IS2208 Lecture 13, 20 October 2026: Flask routing and template consolidation, linked lecture transcript."
+        },
+        {
+          "id": "IS2208-CONTEXT13-006",
+          "stem": "A Jinja template contains a loop that produces three HTML list items. In the demonstrated server-rendered architecture, what does the browser receive for that section?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The original Python collection together with an instruction to execute Jinja."
+            },
+            {
+              "id": "B",
+              "text": "The Flask route decorator instead of the list."
+            },
+            {
+              "id": "C",
+              "text": "Only the template filename, which the browser must open on the server."
+            },
+            {
+              "id": "D",
+              "text": "The resulting HTML list items."
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Flask renders Jinja on the server and sends the resulting response. The browser displays the generated HTML rather than running the template loop.",
+          "source": "IS2208 Lecture 13, 20 October 2026: Flask routing and template consolidation, linked lecture transcript."
         }
-      ]
+      ],
+      "id": "2853ec56-5ab4-43d4-9341-f53844934fe8"
     },
     {
       "title": "Flask — Feedback, Redirects & Browser Tests",
@@ -5569,7 +5729,8 @@
           "explanation": "Different test levels exercise different interfaces and failure points.",
           "source": "IS2208 Lectures 11–12 — notes and Lecture 12 transcript"
         }
-      ]
+      ],
+      "id": "79f70ecd-d5dd-441a-834a-44ac5c16eb25"
     }
   ]
 }

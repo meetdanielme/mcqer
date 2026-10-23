@@ -634,7 +634,8 @@
           "explanation": "An ad hoc query answers an unanticipated question without a new application program.",
           "source": "IS2206 Lectures 1–2 and reviewed notes"
         }
-      ]
+      ],
+      "id": "8c2d6701-ae35-4ce7-82ab-f7565417f2ef"
     },
     {
       "title": "Database Evolution & Models",
@@ -1265,7 +1266,8 @@
           "explanation": "Dominance reflects practical usefulness and ecosystem maturity, not universal superiority.",
           "source": "IS2206 Lecture 3 and reviewed notes"
         }
-      ]
+      ],
+      "id": "66553288-f896-4f8a-b813-05d7490738f0"
     },
     {
       "title": "Three-Level Architecture & Data Hierarchy",
@@ -1896,7 +1898,8 @@
           "explanation": "Database administration includes controlled migration and privilege management.",
           "source": "IS2206 Lectures 3–4 and reviewed notes"
         }
-      ]
+      ],
+      "id": "c6b27596-4141-4811-a5ae-f03bf43b477f"
     },
     {
       "title": "DBMS Benefits, Components & Database Languages",
@@ -2527,7 +2530,8 @@
           "explanation": "Transaction management preserves consistency by treating related steps as one unit.",
           "source": "IS2206 Lecture 5 and reviewed notes"
         }
-      ]
+      ],
+      "id": "100899a5-15af-4ef3-ae04-f920be9ccfb5"
     },
     {
       "title": "Relational Model & Conceptual Modelling",
@@ -3158,7 +3162,8 @@
           "explanation": "Implementation follows once the organisation’s data requirements are understood.",
           "source": "IS2206 Lecture 6 and reviewed notes"
         }
-      ]
+      ],
+      "id": "b0ac74c3-589d-4ef2-8081-c3c04bbe4355"
     },
     {
       "title": "Introductory Oracle SQL",
@@ -3789,7 +3794,8 @@
           "explanation": "LPAD expands the output to the target width using spaces by default.",
           "source": "IS2206 Tutorial 1 and reviewed Oracle SQL notes"
         }
-      ]
+      ],
+      "id": "2a022c76-7c91-45ea-b6af-04edccfe2022"
     },
     {
       "title": "ER Modelling — Keys, Participation & Relationships",
@@ -4295,7 +4301,8 @@
           "explanation": "The source explicitly identifies payment cardinality as dependent on unclear business rules.",
           "source": "IS2206 Lectures 7, 9 and 10 slides (2026–27); Lecture 10 cardinality discussion"
         }
-      ]
+      ],
+      "id": "6bee7cd3-4c8e-4753-aa1f-09d4979ee876"
     },
     {
       "title": "Oracle SQL — Functions, Dates & Missing Values",
@@ -4801,7 +4808,8 @@
           "explanation": "The handout’s nested examples rely on inside-out evaluation.",
           "source": "IS2206 SQL Lab 3 handout; Combining functions"
         }
-      ]
+      ],
+      "id": "c39eda8d-00b0-4b92-acf8-d1b911edc97d"
     },
     {
       "title": "Oracle SQL — WHERE, Patterns & Logic",
@@ -5307,7 +5315,8 @@
           "explanation": "The negated inclusive range accepts values outside it; NULL still requires separate handling.",
           "source": "IS2206 SQL Lab 4 handout; Using BETWEEN…AND"
         }
-      ]
+      ],
+      "id": "24127547-fdf3-47ab-9209-b19324002617"
     },
     {
       "title": "Database Design — Dictionary, Normalisation & Lifecycle",
@@ -5688,7 +5697,8 @@
           "explanation": "A design can be structurally sound yet incomplete for required reports and operations.",
           "source": "IS2206 Lecture 11, 13 October 2026 — notes and transcript"
         }
-      ]
+      ],
+      "id": "45981987-08b1-4cd6-84c0-e32bd03eda79"
     },
     {
       "title": "Oracle SQL — Aggregates, GROUP BY & HAVING",
@@ -5994,7 +6004,8 @@
           "explanation": "The averages are A = 2000 and B = 5000, so only B passes the group condition.",
           "source": "IS2206 Lab 5 / online tutorial — notes and available transcript"
         }
-      ]
+      ],
+      "id": "c824018a-574e-44e4-916f-2b66085043af"
     },
     {
       "title": "Normalisation — Dependencies, 1NF, 2NF & 3NF",
@@ -6624,8 +6635,259 @@
           "correctOptionId": "A",
           "explanation": "StudentName describes the student, whereas Result describes the enrolment. Separating the student fact removes its partial dependency in the combined table.",
           "source": "IS2206 Lecture #12, 15 October 2026 — lecture notes and underlying transcript"
+        },
+        {
+          "id": "IS2206-PROJECT14-001",
+          "stem": "An allocation table uses (PROJNUM, EMPNO) as its primary key. Which business rule is necessary for that pair to identify each allocation?",
+          "options": [
+            {
+              "id": "A",
+              "text": "An employee can have at most one allocation record for a given project."
+            },
+            {
+              "id": "B",
+              "text": "An employee can work on only one project in total."
+            },
+            {
+              "id": "C",
+              "text": "A project can employ only one person."
+            },
+            {
+              "id": "D",
+              "text": "Each employee must have a different hourly rate."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The pair is unique only if the same employee–project combination cannot recur as separate allocation records.",
+          "source": "IS2206 Lecture 14, 22 October 2026: consultancy-project normalisation example, lecture transcript."
+        },
+        {
+          "id": "IS2206-PROJECT14-002",
+          "stem": "The same employee may now leave a project and later return, with each assignment recorded separately. What should happen to a key consisting only of PROJNUM and EMPNO?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Make PNAME the key because names describe projects."
+            },
+            {
+              "id": "B",
+              "text": "Reassess the key and introduce a suitable assignment identifier or an additional distinguishing attribute."
+            },
+            {
+              "id": "C",
+              "text": "Keep the pair and overwrite each earlier assignment."
+            },
+            {
+              "id": "D",
+              "text": "Remove EMPNO so that PROJNUM alone identifies assignments."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The changed business rule permits repeated pairs. A key must distinguish assignments without losing their history.",
+          "source": "IS2206 Lecture 14, 22 October 2026: consultancy-project normalisation example, lecture transcript."
+        },
+        {
+          "id": "IS2206-PROJECT14-003",
+          "stem": "In the consultancy example, EMPNO determines RATE and HOURLY. Which assumption supports that dependency?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Hourly pay depends on the allocation date, which is not recorded."
+            },
+            {
+              "id": "B",
+              "text": "RATE is different on every row of the allocation table."
+            },
+            {
+              "id": "C",
+              "text": "Each employee has one applicable rate independent of which project they work on."
+            },
+            {
+              "id": "D",
+              "text": "Each project pays every employee the same rate."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The employee-based dependency relies on a rate fixed to the employee, not a project-specific negotiated rate.",
+          "source": "IS2206 Lecture 14, 22 October 2026: consultancy-project normalisation example, lecture transcript."
+        },
+        {
+          "id": "IS2206-PROJECT14-004",
+          "stem": "Suppose hourly pay is negotiated separately for each employee–project pairing. Which dependency best represents that rule?",
+          "options": [
+            {
+              "id": "A",
+              "text": "EMPNO alone determines the negotiated hourly pay."
+            },
+            {
+              "id": "B",
+              "text": "PROJNUM alone determines the negotiated hourly pay."
+            },
+            {
+              "id": "C",
+              "text": "PNAME determines every employee’s negotiated hourly pay."
+            },
+            {
+              "id": "D",
+              "text": "(PROJNUM, EMPNO) determines the negotiated hourly pay."
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "A value that depends jointly on employee and project belongs with their allocation; the original employee-only assumption no longer applies.",
+          "source": "IS2206 Lecture 14, 22 October 2026: consultancy-project normalisation example, lecture transcript."
+        },
+        {
+          "id": "IS2206-PROJECT14-005",
+          "stem": "An employee table has EMPNO as key and stores RATE and HOURLY, with each rate band mapping to one hourly amount. Which decomposition removes the transitive dependency?",
+          "options": [
+            {
+              "id": "A",
+              "text": "EMPLOYEE(EMPNO, RATE) and RATEINFO(RATE, HOURLY)."
+            },
+            {
+              "id": "B",
+              "text": "EMPLOYEE(EMPNO, HOURLY) and RATEINFO(EMPNO, RATE)."
+            },
+            {
+              "id": "C",
+              "text": "EMPLOYEE(RATE, EMPNO, HOURLY) with RATE as its sole key."
+            },
+            {
+              "id": "D",
+              "text": "Separate tables for each distinct hourly amount, with no linking keys."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "EMPNO → RATE → HOURLY is resolved by storing the band-to-amount mapping once and retaining RATE as a foreign key.",
+          "source": "IS2206 Lecture 14, 22 October 2026: consultancy-project normalisation example, lecture transcript."
+        },
+        {
+          "id": "IS2206-PROJECT14-006",
+          "stem": "After splitting employees, projects, allocations and rate bands into four tables, how should a report obtain an employee’s project name and hourly rate?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Use a union of the four tables instead of matching related keys."
+            },
+            {
+              "id": "B",
+              "text": "Join allocations to projects and employees, then employees to rate information."
+            },
+            {
+              "id": "C",
+              "text": "Read all values directly from allocations because normalisation copies them there."
+            },
+            {
+              "id": "D",
+              "text": "Join projects directly to rate information using the project name."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The allocation links employee and project; the employee’s RATE links to the hourly amount. Normalised attributes are retrieved through these relationships.",
+          "source": "IS2206 Lecture 14, 22 October 2026: consultancy-project normalisation example, lecture transcript."
+        },
+        {
+          "id": "IS2206-PROJECT14-007",
+          "stem": "A rate band’s hourly amount changes in the normalised four-table design. What is the appropriate update?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Change each employee’s EMPNO to force the new amount to appear."
+            },
+            {
+              "id": "B",
+              "text": "Delete every employee in the band and insert them again."
+            },
+            {
+              "id": "C",
+              "text": "Change the amount once in RATEINFO; a report joining to it retrieves the revised amount."
+            },
+            {
+              "id": "D",
+              "text": "Change the amount separately in every allocation record."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The band-to-amount fact is stored once. Joined reports read that fact rather than relying on duplicated hourly amounts.",
+          "source": "IS2206 Lecture 14, 22 October 2026: consultancy-project normalisation example, lecture transcript."
+        },
+        {
+          "id": "IS2206-PROJECT14-008",
+          "stem": "An allocation row contains PROJNUM and EMPNO, and the pair is its primary key. What roles do these columns also have in the four-table design?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Neither can be a foreign key because both are part of a primary key."
+            },
+            {
+              "id": "B",
+              "text": "Together they reference a single row of RATEINFO."
+            },
+            {
+              "id": "C",
+              "text": "Both must be unique separately throughout the allocation table."
+            },
+            {
+              "id": "D",
+              "text": "Each is a foreign key to its corresponding parent table."
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Primary-key components may also be foreign keys. Their individual repetition permits many employees per project and many projects per employee.",
+          "source": "IS2206 Lecture 14, 22 October 2026: consultancy-project normalisation example, lecture transcript."
+        },
+        {
+          "id": "IS2206-PROJECT14-009",
+          "stem": "Assume every allocation must identify an existing employee, while a newly hired employee need not yet have a project. Which cardinality description fits?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Each allocation has exactly one employee; each employee may have zero or many allocations."
+            },
+            {
+              "id": "B",
+              "text": "Each employee has exactly one allocation; each allocation may have many employees."
+            },
+            {
+              "id": "C",
+              "text": "Each allocation may have no employee; every employee must have many allocations."
+            },
+            {
+              "id": "D",
+              "text": "Each employee and each allocation must participate exactly once."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Mandatory employee identification on an allocation does not require every employee to have an allocation.",
+          "source": "IS2206 Lecture 14, 22 October 2026: consultancy-project normalisation example, lecture transcript."
+        },
+        {
+          "id": "IS2206-PROJECT14-010",
+          "stem": "A printed project report leaves PROJNUM blank on repeated lines to save space. What is needed before turning those lines into allocation rows?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Replace all missing values in every attribute with the value above."
+            },
+            {
+              "id": "B",
+              "text": "Recover each line’s implied project identifier from the report’s grouping."
+            },
+            {
+              "id": "C",
+              "text": "Treat every blank project identifier as a new project."
+            },
+            {
+              "id": "D",
+              "text": "Delete every line on which PROJNUM is not printed."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Presentation blanks can encode an implied group value. Recover that meaning specifically; this is not a rule to fill every NULL indiscriminately.",
+          "source": "IS2206 Lecture 14, 22 October 2026: consultancy-project normalisation example, lecture transcript."
         }
-      ]
+      ],
+      "id": "a1366129-0710-4181-a6a2-f05cf47b0f3a"
     }
   ]
 }

@@ -1,8 +1,15 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { createRoot } from 'react-dom/client';
-import { BookOpen, Check, ChevronLeft, ChevronRight, CircleHelp, Download, GraduationCap, Plus, RotateCcw, Upload, X } from 'lucide-react';
+import { BookOpen, Check, ChevronLeft, ChevronRight, CircleHelp, Download, GraduationCap, Menu, Plus, RotateCcw, Upload, X } from 'lucide-react';
 import { loadCourses, mergeBackup, mergeImport, questionCount, STORAGE_KEY, validateBackup, validateImport } from './data.js';
 import { loadPublishedDocuments, mergePublishedCourses } from './published.js';
+import { PwaStatus } from './PwaStatus.jsx';
+import '@fontsource/fira-sans/latin-400.css';
+import '@fontsource/fira-sans/latin-500.css';
+import '@fontsource/fira-sans/latin-600.css';
+import '@fontsource/fira-sans/latin-700.css';
+import '@fontsource/merriweather/latin-400.css';
+import '@fontsource/merriweather/latin-700.css';
 import './styles.css';
 
 function App() {
@@ -14,6 +21,7 @@ function App() {
   const [modal, setModal] = useState(null);
   const [notice, setNotice] = useState('');
   const [practice, setPractice] = useState(null);
+  const menuRef = useRef(null);
   const fileRef = useRef(null);
   const backupRef = useRef(null);
   const courses = useMemo(() => mergePublishedCourses(localCourses, publishedDocuments), [localCourses, publishedDocuments]);
@@ -31,6 +39,15 @@ function App() {
     return () => { active = false; };
   }, []);
   useEffect(() => { if (notice) { const timer = setTimeout(() => setNotice(''), 6000); return () => clearTimeout(timer); } }, [notice]);
+  useEffect(() => {
+    const desktop = window.matchMedia('(min-width: 701px)');
+    const closeOnDesktop = () => { if (desktop.matches) menuRef.current?.close(); };
+    desktop.addEventListener('change', closeOnDesktop);
+    return () => desktop.removeEventListener('change', closeOnDesktop);
+  }, []);
+  const closeMenu = () => menuRef.current?.close();
+  const openModal = value => { closeMenu(); setModal(value); };
+  const openImport = () => { closeMenu(); fileRef.current?.click(); };
   const updateCourse = updated => setLocalCourses(current => {
     const index = current.findIndex(item => item.code.toLowerCase() === updated.code.toLowerCase());
     if (index < 0) return [...current, updated];
@@ -105,15 +122,27 @@ function App() {
   const finished = practice && practice.index >= questions.length;
   const score = practice ? questions.filter(item => practice.answers[item.id] === item.correctOptionId).length : 0;
 
+  const navigation = <>
+        <div className="sidebar-heading"><h2>Your courses</h2><button className="button small secondary" onClick={() => openModal({ type: 'course' })}><Plus size={16}/> Create course</button></div>
+        {courses.length ? <nav className="course-list" aria-label="Choose a course">{courses.map(item => <button key={item.code} aria-current={course?.code === item.code ? 'page' : undefined} className={'course-item ' + (course?.code === item.code ? 'active' : '')} onClick={() => { setSelectedCode(item.code); setPractice(null); closeMenu(); }}><GraduationCap size={22}/><span><strong>{item.title}</strong><small>{item.chapters.length} {item.chapters.length === 1 ? 'chapter' : 'chapters'} · {questionCount(item)} {questionCount(item) === 1 ? 'question' : 'questions'}{publishedCodes.has(item.code.toLowerCase()) ? ' · Shared' : ''}</small></span></button>)}</nav> : <div className="sidebar-empty">{catalogLoading ? 'Loading shared questions…' : 'Create your first course or import a JSON file to begin.'}</div>}
+        <div className="import-panel"><h2>Import questions</h2><p>Import a JSON file for your own practice. To share it with classmates, add the file to the repository.</p><button className="button secondary import-button" onClick={openImport}><Upload size={18}/> Import JSON file</button><hr/><h3>Expected file structure</h3><p>One course with one or more chapters. Each question has choices, a correct answer, and an explanation.</p><pre>{'{\n  "version": 1,\n  "course": {\n    "code": "EC2204",\n    "title": "Economics"\n  },\n  "chapters": [\n    { "title": "Markets",\n      "questions": [ ... ] }\n  ]\n}'}</pre><a className="guide-link" href={import.meta.env.BASE_URL + 'IMPORT_FORMAT.md'} target="_blank" rel="noreferrer"><CircleHelp size={17}/> Import and publish guide</a></div>
+        <div className="sidebar-bottom"><button className="plain-link" onClick={() => { closeMenu(); exportData(); }} disabled={!courses.length}><Download size={17}/> Download backup</button><button className="plain-link" onClick={() => { closeMenu(); backupRef.current?.click(); }}><Upload size={17}/> Restore backup</button></div>
+
+  </>;
+
   return <div className="app-shell">
     <a className="skip-link" href="#main">Skip to content</a>
-    <header className="topbar"><div className="topbar-brand"><span className="brand-name">MCQer</span><span className="brand-divider"/><span className="brand-subtitle">Question bank</span></div></header>
+    <header className="topbar"><button className="icon-button menu-toggle" aria-label="Open courses and tools" aria-haspopup="dialog" onClick={() => menuRef.current?.showModal()}><Menu size={25}/></button><div className="topbar-brand"><span className="brand-name">MCQer</span><span className="brand-divider"/><span className="brand-subtitle">Question bank</span></div><PwaStatus/></header>
+    <dialog ref={menuRef} className="mobile-menu" aria-labelledby="menu-title" onClick={event => {
+      if (event.target !== event.currentTarget) return;
+      const rect = event.currentTarget.getBoundingClientRect();
+      if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) closeMenu();
+    }}>
+      <div className="menu-heading"><h2 id="menu-title">Courses and tools</h2><button className="icon-button" aria-label="Close menu" onClick={closeMenu} autoFocus><X size={22}/></button></div>
+      {navigation}
+    </dialog>
     <div className="workspace">
-      <aside className="sidebar" aria-label="Courses">
-        <div className="sidebar-heading"><h2>Your courses</h2><button className="button small secondary" onClick={() => setModal({ type: 'course' })}><Plus size={16}/> Create course</button></div>
-        {courses.length ? <nav className="course-list">{courses.map(item => <button key={item.code} className={'course-item ' + (course?.code === item.code ? 'active' : '')} onClick={() => { setSelectedCode(item.code); setPractice(null); }}><GraduationCap size={22}/><span><strong>{item.title}</strong><small>{item.chapters.length} {item.chapters.length === 1 ? 'chapter' : 'chapters'} · {questionCount(item)} {questionCount(item) === 1 ? 'question' : 'questions'}{publishedCodes.has(item.code.toLowerCase()) ? ' · Shared' : ''}</small></span></button>)}</nav> : <div className="sidebar-empty">{catalogLoading ? 'Loading shared questions…' : 'Create your first course or import a JSON file to begin.'}</div>}
-        <div className="sidebar-bottom"><button className="plain-link" onClick={exportData} disabled={!courses.length}><Download size={17}/> Download backup</button><button className="plain-link" onClick={() => backupRef.current?.click()}><Upload size={17}/> Restore backup</button></div>
-      </aside>
+      <aside className="sidebar" aria-label="Courses and tools">{navigation}</aside>
       <main id="main" className="main-content">
         {catalogError && <div className="catalog-error" role="alert">Shared questions could not load: {catalogError} Reload the page to try again.</div>}
         {practice ? <>
@@ -128,9 +157,7 @@ function App() {
           {course.chapters.length ? <div className="chapter-list">{course.chapters.map((chapter, index) => <article className="chapter-row" key={chapter.id}><span className="chapter-number">{index + 1}</span><div className="chapter-text"><h3>{chapter.title}</h3><p>{chapter.description || 'Questions for this chapter'}</p><button className="text-action" onClick={() => setModal({ type: 'question', chapterId: chapter.id })}><Plus size={15}/> Add question</button></div><span className="question-total">{chapter.questions.length} {chapter.questions.length === 1 ? 'question' : 'questions'}</span><button className="button secondary" disabled={!chapter.questions.length} onClick={() => startPractice(chapter)}>Start practice <ChevronRight size={16}/></button></article>)}</div> : <div className="empty-main"><BookOpen size={33}/><h3>No chapters yet</h3><p>Add a chapter or import questions generated from your lecture materials.</p><button className="button primary" onClick={() => setModal({ type: 'chapter' })}><Plus size={17}/> Add chapter</button></div>}
         </> : <div className="welcome"><BookOpen size={35}/><h1>Build your question bank</h1><p>Shared courses will appear here when published to the repository. You can also create a course or import JSON from your Notion AI agent for your own practice.</p><div className="row-actions"><button className="button primary" onClick={() => setModal({ type: 'course' })}><Plus size={18}/> Create course</button><button className="button secondary" onClick={() => fileRef.current?.click()}><Upload size={18}/> Import JSON</button></div></div>}
       </main>
-      <aside className="info-sidebar"><div className="import-panel"><h2>Import questions</h2><p>Import a JSON file for your own practice. To share it with classmates, add the file to the repository.</p><button className="button secondary import-button" onClick={() => fileRef.current?.click()}><Upload size={18}/> Import JSON file</button><hr/><h3>Expected file structure</h3><p>One course with one or more chapters. Each question has choices, a correct answer, and an explanation.</p><pre>{'{\n  "version": 1,\n  "course": {\n    "code": "EC2204",\n    "title": "Economics"\n  },\n  "chapters": [\n    { "title": "Markets",\n      "questions": [ ... ] }\n  ]\n}'}</pre><a className="guide-link" href={import.meta.env.BASE_URL + 'IMPORT_FORMAT.md'} target="_blank" rel="noreferrer"><CircleHelp size={17}/> Import and publish guide</a></div></aside>
     </div>
-    <footer><strong>MCQer</strong><span>A question bank for courses and chapters</span><span className="footer-end">Built for better practice</span></footer>
     <input ref={fileRef} type="file" accept=".json,application/json" hidden onChange={importFile}/>
     <input ref={backupRef} type="file" accept=".json,application/json" hidden onChange={restoreBackup}/>
     {notice && <div className="toast" role="status">{notice}</div>}

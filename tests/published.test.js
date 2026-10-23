@@ -30,3 +30,29 @@ test('published revisions replace a stable question without losing other chapter
 test('manifest blocks paths outside the published question directory', () => {
   assert.match(validateManifest({ version: 1, files: ['../secret.json'] }).join(' '), /Invalid question file/);
 });
+
+test('shared cleanup hides retired and moved older copies while preserving personal additions', () => {
+  const document = structuredClone(example);
+  document.retiredQuestionIds = ['OLD-QUESTION'];
+  const question = document.chapters[0].questions[0];
+  const local = [{ id: 'local', code: document.course.code, title: document.course.title, chapters: [
+    { id: 'old-chapter', title: 'Old organisation', questions: [{ ...question }, { ...question, id: 'OLD-QUESTION', stem: 'An old phrasing?' }] },
+    { id: 'personal-chapter', title: 'Personal practice', questions: [{ ...question, id: 'MY-QUESTION', stem: 'My distinct personal question?' }] },
+    { id: 'copied-chapter', title: 'Another copy', questions: [{ ...question, id: 'COPIED-WITH-NEW-ID' }] },
+  ] }];
+  const visible = mergePublishedCourses(local, [document]);
+  const questions = visible[0].chapters.flatMap(chapter => chapter.questions);
+  assert.deepEqual(questions.map(item => item.id).sort(), [question.id, 'MY-QUESTION'].sort());
+  assert.equal(visible[0].chapters.some(chapter => chapter.title === 'Old organisation'), false);
+  assert.equal(local[0].chapters[0].questions.length, 2);
+});
+
+test('republication cannot resurrect a retired question from an older export', () => {
+  const existing = structuredClone(example);
+  existing.retiredQuestionIds = ['OLD-QUESTION'];
+  const older = structuredClone(example);
+  older.chapters[0].questions.push({ ...older.chapters[0].questions[0], id: 'OLD-QUESTION', stem: 'Old duplicate phrasing?' });
+  const merged = mergeQuestionDocuments(existing, older);
+  assert.deepEqual(merged.retiredQuestionIds, ['OLD-QUESTION']);
+  assert.equal(merged.chapters[0].questions.length, 1);
+});

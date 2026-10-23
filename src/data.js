@@ -11,6 +11,12 @@ export function loadCourses() {
   } catch { return []; }
 }
 
+// Preserve SQL/code case and operators: superficially similar exercises can differ.
+export const questionFingerprint = question => JSON.stringify([
+  question.stem.normalize('NFC').replace(/[‘’]/g, "'").replace(/[“”]/g, '"').replace(/\s+/g, ' ').trim(),
+  question.image?.src || '', question.artifact?.html || '',
+]);
+
 export const questionCount = course => course.chapters.reduce((n, chapter) => n + chapter.questions.length, 0);
 
 export function validateImport(data) {
@@ -21,6 +27,10 @@ export function validateImport(data) {
   if (!Array.isArray(data.chapters) || !data.chapters.length) return [...errors, 'chapters must be a non-empty array.'];
   const titles = new Set();
   const questionIds = new Set();
+  const questionStems = new Set();
+  const retired = data.retiredQuestionIds ?? [];
+  if (!Array.isArray(retired) || retired.some(id => !hasText(id)) || new Set(retired).size !== retired.length) errors.push('retiredQuestionIds must be an array of unique non-empty IDs.');
+  const retiredIds = new Set(Array.isArray(retired) ? retired : []);
   data.chapters.forEach((chapter, ci) => {
     const path = 'chapters[' + ci + ']';
     if (!chapter || !hasText(chapter.title)) { errors.push(path + '.title is required.'); return; }
@@ -34,6 +44,10 @@ export function validateImport(data) {
       const questionId = question.id.trim();
       if (questionIds.has(questionId)) errors.push(qpath + '.id is duplicated.');
       questionIds.add(questionId);
+      if (retiredIds.has(questionId)) errors.push(qpath + '.id is retired.');
+      const fingerprint = questionFingerprint(question);
+      if (questionStems.has(fingerprint)) errors.push(qpath + '.stem duplicates another question with the same visual.');
+      questionStems.add(fingerprint);
       if (!Array.isArray(question.options) || question.options.length < 2 || question.options.length > 6) { errors.push(qpath + '.options must contain 2–6 choices.'); return; }
       const ids = question.options.map(option => hasText(option?.id) ? option.id.trim() : option?.id);
       if (ids.some(id => !hasText(id)) || new Set(ids).size !== ids.length || question.options.some(option => !hasText(option?.text))) errors.push(qpath + '.options need unique ids and non-empty text.');
@@ -58,23 +72,38 @@ export function mergeImport(courses, data) {
   const index = courses.findIndex(course => course.code.toLowerCase() === code.toLowerCase());
   const existing = index < 0 ? { id: crypto.randomUUID(), code, title: data.course.title.trim(), chapters: [] } : courses[index];
   const chapters = [...existing.chapters];
-  let added = 0, updated = 0;
+  let added = 0, updated = 0, duplicates = 0;
+  const knownQuestions = new Map(existing.chapters.flatMap(chapter => chapter.questions.map(question => [question.id, question])));
+  const knownPrompts = new Map([...knownQuestions.values()].map(question => [questionFingerprint(question), question.id]));
   for (const incoming of data.chapters) {
     const chapterIndex = chapters.findIndex(chapter => chapter.title.toLowerCase() === incoming.title.trim().toLowerCase());
     const current = chapterIndex < 0 ? { id: crypto.randomUUID(), title: incoming.title.trim(), description: '', questions: [] } : chapters[chapterIndex];
     const questions = [...current.questions];
     for (const item of incoming.questions) {
       const question = { ...item, id: item.id.trim(), stem: item.stem.trim(), explanation: item.explanation.trim(), correctOptionId: item.correctOptionId.trim(), options: item.options.map(option => ({ id: option.id.trim(), text: option.text.trim() })) };
+      const fingerprint = questionFingerprint(question);
+      const matchingId = knownPrompts.get(fingerprint);
+      if (matchingId && matchingId !== question.id) { duplicates++; continue; }
+      const previous = knownQuestions.get(question.id);
+      if (previous) knownPrompts.delete(questionFingerprint(previous));
+      knownQuestions.set(question.id, question);
+      knownPrompts.set(fingerprint, question.id);
       const qi = questions.findIndex(value => value.id === question.id);
-      if (qi < 0) { questions.push(question); added++; } else { questions[qi] = question; updated++; }
+      // A stable ID belongs to one chapter even when an import reorganises it.
+      for (let index = 0; index < chapters.length; index++) {
+        if (index !== chapterIndex && chapters[index].questions.some(item => item.id === question.id)) {
+          chapters[index] = { ...chapters[index], questions: chapters[index].questions.filter(item => item.id !== question.id) };
+        }
+      }
+      if (qi < 0) { questions.push(question); if (previous) updated++; else added++; } else { questions[qi] = question; updated++; }
     }
     const merged = { ...current, description: incoming.description?.trim() || current.description, questions };
-    if (chapterIndex < 0) chapters.push(merged); else chapters[chapterIndex] = merged;
+    if (chapterIndex < 0) { if (questions.length || !incoming.questions.length) chapters.push(merged); } else chapters[chapterIndex] = merged;
   }
   const course = { ...existing, title: data.course.title.trim(), chapters };
   const next = [...courses];
   if (index < 0) next.push(course); else next[index] = course;
-  return { courses: next, courseId: course.id, added, updated };
+  return { courses: next, courseId: course.id, added, updated, duplicates };
 }
 
 export function validateBackup(data) {
@@ -89,14 +118,14 @@ export function validateBackup(data) {
 
 export function mergeBackup(courses, data) {
   let next = courses;
-  let added = 0, updated = 0;
+  let added = 0, updated = 0, duplicates = 0;
   for (const item of data.courses) {
     if (!item.chapters.length) {
       if (!next.some(course => course.code.toLowerCase() === item.code.toLowerCase())) next = [...next, { id: crypto.randomUUID(), code: item.code, title: item.title, chapters: [] }];
       continue;
     }
     const result = mergeImport(next, { version: 1, course: { code: item.code, title: item.title }, chapters: item.chapters });
-    next = result.courses; added += result.added; updated += result.updated;
+    next = result.courses; added += result.added; updated += result.updated; duplicates += result.duplicates;
   }
-  return { courses: next, added, updated };
+  return { courses: next, added, updated, duplicates };
 }

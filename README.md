@@ -51,3 +51,11 @@ Open `/mcqer/` on the preview server, wait for the offline indicator, then switc
 Use **Add question** to upload an optional PNG/JPEG/WebP image or a self-contained HTML chart. Add a description, preview the chart, then save the question. Practice displays media above the answer choices with an enlarge control. Existing text-only questions continue to work.
 
 Personal questions and media use IndexedDB; existing localStorage questions migrate automatically. Backups embed images and HTML. Shared images are stored in `public/questions/images/` and cached with the app; published HTML charts are included in question JSON. See [IMPORT_FORMAT.md](IMPORT_FORMAT.md) for the optional fields, limits and Notion prompt. HTML charts must include their own styles and chart code to work offline; CDN dependencies are blocked.
+
+## Duplicate prevention
+
+Question IDs and identical stems (after normalising whitespace and typography, with the same visual) are checked across a course. Imports and restored backups skip a repeated prompt assigned a different ID; manual creation also blocks identical prompts. SQL operators, code case and different visual inputs remain distinct.
+
+The [23 October duplicate review](docs/question-deduplication-2026-10-23.json) records 111 manually reviewed removals and the retained equivalent for each. Different calculations, contrasting rules and materially different applications remain available; all nine HTML visuals were retained. Reworded semantic matches require review rather than automatic deletion.
+
+Published course files preserve `retiredQuestionIds`. Republishing an older bank cannot restore those IDs, and the app excludes retired shared questions and older copies of canonical shared IDs from the visible bank, including copies imported under another chapter. Personal additions are preserved. Updating the app applies this cleanup without asking users to clear their saved data.

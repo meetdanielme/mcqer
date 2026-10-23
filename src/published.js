@@ -1,4 +1,4 @@
-import { mergeImport, validateImport } from './data.js';
+import { mergeImport, questionFingerprint, validateImport } from './data.js';
 
 const safeFile = /^[a-z0-9][a-z0-9-]*\.json$/;
 
@@ -31,7 +31,20 @@ export async function loadPublishedDocuments(baseUrl, fetcher = fetch) {
 }
 
 export function mergePublishedCourses(localCourses, documents) {
-  return documents.reduce((courses, document) => mergeImport(courses, document).courses, localCourses);
+  return documents.reduce((courses, document) => {
+    const shared = document.chapters.flatMap(chapter => chapter.questions);
+    const retired = new Set(document.retiredQuestionIds || []);
+    const sharedIds = new Set(shared.map(question => question.id));
+    const sharedPrompts = new Set(shared.map(questionFingerprint));
+    const sharedChapters = new Set(document.chapters.map(chapter => chapter.title.trim().toLowerCase()));
+    const personal = courses.map(course => {
+      if (course.code.toLowerCase() !== document.course.code.trim().toLowerCase()) return course;
+      return { ...course, chapters: course.chapters.map(chapter => ({ ...chapter,
+        questions: chapter.questions.filter(question => !retired.has(question.id) && !sharedIds.has(question.id) && !sharedPrompts.has(questionFingerprint(question))),
+      })).filter((chapter, index) => chapter.questions.length || !course.chapters[index].questions.length || sharedChapters.has(chapter.title.trim().toLowerCase())) };
+    });
+    return mergeImport(personal, document).courses;
+  }, localCourses);
 }
 
 export function mergeQuestionDocuments(existing, incoming) {
@@ -53,7 +66,11 @@ export function mergeQuestionDocuments(existing, incoming) {
     }
     chapters[index] = { ...current, ...chapter, questions };
   }
-  const merged = { version: 1, course: incoming.course, chapters };
+  const retiredQuestionIds = [...new Set([...(existing.retiredQuestionIds || []), ...(incoming.retiredQuestionIds || [])])].sort();
+  const retired = new Set(retiredQuestionIds);
+  const merged = { version: 1, course: incoming.course, chapters: chapters.map(chapter => ({ ...chapter, questions: chapter.questions.filter(question => !retired.has(question.id)) })),
+    ...(retiredQuestionIds.length ? { retiredQuestionIds } : {}),
+  };
   const mergedIssues = validateImport(merged);
   if (mergedIssues.length) throw new Error('Merged file is invalid: ' + mergedIssues.join(' '));
   return merged;

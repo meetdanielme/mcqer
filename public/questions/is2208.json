@@ -285,31 +285,6 @@
           "source": "IS2208 Lecture 1 notes"
         },
         {
-          "id": "IS2208-TESTING-012",
-          "stem": "What is common-mode failure in redundant software?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Two tests use different data."
-            },
-            {
-              "id": "B",
-              "text": "Independent-looking backups fail from the same shared defect."
-            },
-            {
-              "id": "C",
-              "text": "One backup runs faster than another."
-            },
-            {
-              "id": "D",
-              "text": "A user repeats a request."
-            }
-          ],
-          "correctOptionId": "B",
-          "explanation": "Redundancy is weak when copies share design, code or assumptions.",
-          "source": "IS2208 Lecture 1 notes"
-        },
-        {
           "id": "IS2208-TESTING-013",
           "stem": "Why should operational data be part of system assurance?",
           "options": [
@@ -557,31 +532,6 @@
           ],
           "correctOptionId": "A",
           "explanation": "Small per-interval errors can accumulate until calculations are materially wrong.",
-          "source": "IS2208 Lectures 1–2 and reviewed case notes"
-        },
-        {
-          "id": "IS2208-TESTING-023",
-          "stem": "What does stale terrain data demonstrate about system quality?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Old data are always safer than live data"
-            },
-            {
-              "id": "B",
-              "text": "Data quality matters only in finance"
-            },
-            {
-              "id": "C",
-              "text": "Correct software can still produce unsafe results when operational data are outdated"
-            },
-            {
-              "id": "D",
-              "text": "Testing source code guarantees current data"
-            }
-          ],
-          "correctOptionId": "C",
-          "explanation": "Assurance must cover data currency and accuracy as well as program logic.",
           "source": "IS2208 Lectures 1–2 and reviewed case notes"
         },
         {
@@ -1117,31 +1067,6 @@
           "source": "IS2208 Lecture 9, independent expectations"
         },
         {
-          "id": "IS2208-TESTFIRST-020",
-          "stem": "What is direct evidence that an age rule “21 or older is allowed” works?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Tests at 20, 21 and 22 produce the specified decisions"
-            },
-            {
-              "id": "B",
-              "text": "The function name contains age"
-            },
-            {
-              "id": "C",
-              "text": "A developer says the code looks right"
-            },
-            {
-              "id": "D",
-              "text": "The program starts without syntax errors"
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "Observed boundary behaviour directly checks the rule.",
-          "source": "IS2208 Lecture 2 and reviewed project notes"
-        },
-        {
           "id": "IS2208-TESTFIRST-021",
           "stem": "When direct measurement is impossible, what makes indirect evidence credible?",
           "options": [
@@ -1349,31 +1274,6 @@
           "source": "IS2208 Lecture 3 notes"
         },
         {
-          "id": "IS2208-LEVELS-004",
-          "stem": "In the S-Plan heating example, when should a zone valve open?",
-          "options": [
-            {
-              "id": "A",
-              "text": "When the timer is on and the thermostat calls for heat"
-            },
-            {
-              "id": "B",
-              "text": "Whenever the boiler is off"
-            },
-            {
-              "id": "C",
-              "text": "Only when every thermostat is satisfied"
-            },
-            {
-              "id": "D",
-              "text": "Whenever a browser route is requested"
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "The controls combine schedule and temperature demand before opening the relevant flow path.",
-          "source": "IS2208 Lecture 3 notes"
-        },
-        {
           "id": "IS2208-LEVELS-005",
           "stem": "Why is a flow-path interlock important before starting the boiler and pump?",
           "options": [
@@ -1424,31 +1324,6 @@
           "source": "IS2208 Lecture 3 notes"
         },
         {
-          "id": "IS2208-LEVELS-007",
-          "stem": "When diagnosing an unfamiliar failed system, why might testing start at the whole-system level?",
-          "options": [
-            {
-              "id": "A",
-              "text": "A broad symptom can identify which subsystem should be isolated next."
-            },
-            {
-              "id": "B",
-              "text": "Component tests are illegal."
-            },
-            {
-              "id": "C",
-              "text": "The architecture never matters."
-            },
-            {
-              "id": "D",
-              "text": "Whole-system tests reveal every internal line automatically."
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "Troubleshooting may begin with the observed failure and narrow down to components.",
-          "source": "IS2208 Lecture 3 notes"
-        },
-        {
           "id": "IS2208-LEVELS-008",
           "stem": "What is black-box testing?",
           "options": [
@@ -1471,31 +1346,6 @@
           ],
           "correctOptionId": "A",
           "explanation": "Black-box tests evaluate externally visible behaviour against a specification.",
-          "source": "IS2208 Lecture 3 notes"
-        },
-        {
-          "id": "IS2208-LEVELS-009",
-          "stem": "Why can architecture knowledge improve testing even when black-box tests are used?",
-          "options": [
-            {
-              "id": "A",
-              "text": "It helps identify interfaces, states and combinations likely to fail."
-            },
-            {
-              "id": "B",
-              "text": "It makes expected results unnecessary."
-            },
-            {
-              "id": "C",
-              "text": "It proves implementation correctness."
-            },
-            {
-              "id": "D",
-              "text": "It prevents system testing."
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "Knowledge of structure guides coverage and diagnosis without replacing behavioural checks.",
           "source": "IS2208 Lecture 3 notes"
         },
         {
@@ -1956,31 +1806,6 @@
           "source": "IS2208 Lecture 4 notes"
         },
         {
-          "id": "IS2208-FLASK-003",
-          "stem": "Why use a virtual environment for a Python project?",
-          "options": [
-            {
-              "id": "A",
-              "text": "To isolate project dependencies from other projects and the system installation"
-            },
-            {
-              "id": "B",
-              "text": "To host the public website automatically"
-            },
-            {
-              "id": "C",
-              "text": "To remove Python from the computer"
-            },
-            {
-              "id": "D",
-              "text": "To prevent tests from running"
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "An isolated environment reduces dependency conflicts and improves reproducibility.",
-          "source": "IS2208 Lecture 4 notes"
-        },
-        {
           "id": "IS2208-FLASK-004",
           "stem": "What does pip freeze help record?",
           "options": [
@@ -2031,31 +1856,6 @@
           "source": "IS2208 Lecture 4 notes"
         },
         {
-          "id": "IS2208-FLASK-006",
-          "stem": "What is the usual role of @app.route(\"/\") in a basic Flask application?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Map the root URL to a Python function"
-            },
-            {
-              "id": "B",
-              "text": "Create a virtual environment"
-            },
-            {
-              "id": "C",
-              "text": "Install PyTest"
-            },
-            {
-              "id": "D",
-              "text": "Convert every input to an integer"
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "The decorator registers the URL path handled by the following function.",
-          "source": "IS2208 Lecture 4 notes"
-        },
-        {
           "id": "IS2208-FLASK-007",
           "stem": "What should a simple Flask route function return?",
           "options": [
@@ -2103,31 +1903,6 @@
           ],
           "correctOptionId": "A",
           "explanation": "The loopback address allows the developer to access a locally running server.",
-          "source": "IS2208 Lecture 4 notes"
-        },
-        {
-          "id": "IS2208-FLASK-009",
-          "stem": "Why must Flask endpoint function names be unique within the application?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Flask uses them to identify endpoints and duplicate names can conflict."
-            },
-            {
-              "id": "B",
-              "text": "Python forbids all repeated words."
-            },
-            {
-              "id": "C",
-              "text": "Unique names improve internet speed."
-            },
-            {
-              "id": "D",
-              "text": "Routes cannot contain slashes otherwise."
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "Endpoint identity is derived from the function unless configured otherwise.",
           "source": "IS2208 Lecture 4 notes"
         },
         {
@@ -2763,31 +2538,6 @@
           "source": "IS2208 Lecture 5 notes"
         },
         {
-          "id": "IS2208-PYTEST-010",
-          "stem": "A dynamic Flask route receives <value> without a converter. What type is value initially?",
-          "options": [
-            {
-              "id": "A",
-              "text": "String"
-            },
-            {
-              "id": "B",
-              "text": "Integer"
-            },
-            {
-              "id": "C",
-              "text": "Boolean"
-            },
-            {
-              "id": "D",
-              "text": "None"
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "Unconverted route parameters are passed as strings.",
-          "source": "IS2208 Lecture 5 notes"
-        },
-        {
           "id": "IS2208-PYTEST-011",
           "stem": "What does “red” mean in the red–green–refactor cycle?",
           "options": [
@@ -3195,56 +2945,6 @@
           "source": "IS2208 Lecture 6 notes"
         },
         {
-          "id": "IS2208-DYNAMIC-002",
-          "stem": "Which folder convention holds HTML templates in a Flask project?",
-          "options": [
-            {
-              "id": "A",
-              "text": "templates"
-            },
-            {
-              "id": "B",
-              "text": "static"
-            },
-            {
-              "id": "C",
-              "text": "venv"
-            },
-            {
-              "id": "D",
-              "text": "tests_only"
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "Flask looks in templates for server-rendered HTML files.",
-          "source": "IS2208 Lecture 6 notes"
-        },
-        {
-          "id": "IS2208-DYNAMIC-003",
-          "stem": "Which folder convention holds CSS and JavaScript assets?",
-          "options": [
-            {
-              "id": "A",
-              "text": "static"
-            },
-            {
-              "id": "B",
-              "text": "templates"
-            },
-            {
-              "id": "C",
-              "text": "routes"
-            },
-            {
-              "id": "D",
-              "text": "assertions"
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "Static assets such as stylesheets and client-side scripts are normally placed in static.",
-          "source": "IS2208 Lecture 6 notes"
-        },
-        {
           "id": "IS2208-DYNAMIC-004",
           "stem": "What happens when a user requests a URL for which no Flask route exists?",
           "options": [
@@ -3295,31 +2995,6 @@
           "source": "IS2208 Lecture 6 notes"
         },
         {
-          "id": "IS2208-DYNAMIC-006",
-          "stem": "Why should untrusted text be passed through escape()?",
-          "options": [
-            {
-              "id": "A",
-              "text": "To encode special markup characters and reduce XSS risk"
-            },
-            {
-              "id": "B",
-              "text": "To convert it into an integer"
-            },
-            {
-              "id": "C",
-              "text": "To make it a Flask route"
-            },
-            {
-              "id": "D",
-              "text": "To install MarkupSafe"
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "Escaping prevents user input from being interpreted directly as executable HTML or script.",
-          "source": "IS2208 Lecture 6 notes"
-        },
-        {
           "id": "IS2208-DYNAMIC-007",
           "stem": "What is cross-site scripting (XSS)?",
           "options": [
@@ -3342,31 +3017,6 @@
           ],
           "correctOptionId": "A",
           "explanation": "XSS occurs when untrusted content is rendered as active browser code.",
-          "source": "IS2208 Lecture 6 notes"
-        },
-        {
-          "id": "IS2208-DYNAMIC-008",
-          "stem": "What does <int:n1> do in a Flask route?",
-          "options": [
-            {
-              "id": "A",
-              "text": "It accepts the segment only if it can be converted to an integer."
-            },
-            {
-              "id": "B",
-              "text": "It turns every page into HTML."
-            },
-            {
-              "id": "C",
-              "text": "It escapes all user input."
-            },
-            {
-              "id": "D",
-              "text": "It accepts any text unchanged."
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "The converter validates the path segment and supplies n1 as an integer.",
           "source": "IS2208 Lecture 6 notes"
         },
         {
@@ -4309,31 +3959,6 @@
           "source": "IS2208 TDD with PyCharm student handout; p. 2; new practice example"
         },
         {
-          "id": "IS2208-CONTRACTS-006",
-          "stem": "Under a real-square-root contract that rejects negative input, what should squareroot(-4) do?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Return -2"
-            },
-            {
-              "id": "B",
-              "text": "Raise ValueError"
-            },
-            {
-              "id": "C",
-              "text": "Return 2"
-            },
-            {
-              "id": "D",
-              "text": "Return 0 automatically"
-            }
-          ],
-          "correctOptionId": "B",
-          "explanation": "The newer handout requires a non-negative real square root and rejects negative input.",
-          "source": "IS2208 TDD with PyCharm student handout; p. 3"
-        },
-        {
           "id": "IS2208-CONTRACTS-007",
           "stem": "What is the expected real cube root of −8 under the handout’s contract?",
           "options": [
@@ -5273,31 +4898,6 @@
           "source": "IS2208 Lectures 11–12, 12–13 October 2026"
         },
         {
-          "id": "IS2208-FORMS-014",
-          "stem": "Where is a Jinja template rendered in the demonstrated Flask architecture?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Only after the browser resubmits the form"
-            },
-            {
-              "id": "B",
-              "text": "Only when Selenium executes a test assertion"
-            },
-            {
-              "id": "C",
-              "text": "On the server before the HTML response reaches the browser"
-            },
-            {
-              "id": "D",
-              "text": "Inside a browser Python interpreter"
-            }
-          ],
-          "correctOptionId": "C",
-          "explanation": "Flask renders the template into HTML on the server; the browser receives the result.",
-          "source": "IS2208 Lectures 11–12, 12–13 October 2026"
-        },
-        {
           "id": "IS2208-CONTEXT13-001",
           "stem": "A view calls render_template(\"index.html\", messages=items). Which name should the template use to access the supplied collection?",
           "options": [
@@ -5732,5 +5332,23 @@
       ],
       "id": "79f70ecd-d5dd-441a-834a-44ac5c16eb25"
     }
+  ],
+  "retiredQuestionIds": [
+    "IS2208-CONTRACTS-006",
+    "IS2208-DYNAMIC-002",
+    "IS2208-DYNAMIC-003",
+    "IS2208-DYNAMIC-006",
+    "IS2208-DYNAMIC-008",
+    "IS2208-FLASK-003",
+    "IS2208-FLASK-006",
+    "IS2208-FLASK-009",
+    "IS2208-FORMS-014",
+    "IS2208-LEVELS-004",
+    "IS2208-LEVELS-007",
+    "IS2208-LEVELS-009",
+    "IS2208-PYTEST-010",
+    "IS2208-TESTFIRST-020",
+    "IS2208-TESTING-012",
+    "IS2208-TESTING-023"
   ]
 }

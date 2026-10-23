@@ -310,31 +310,6 @@
           "source": "MG2008 current 2026–27 Week 1 deck; slide 13"
         },
         {
-          "id": "MG2008-W1-013",
-          "stem": "Which response best recognises the limits of extensive business regulation?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Assume all unregulated actions are morally acceptable"
-            },
-            {
-              "id": "B",
-              "text": "Treat professional standards as guarantees of good intentions"
-            },
-            {
-              "id": "C",
-              "text": "Check the rules, then assess harms and values not fully settled by them"
-            },
-            {
-              "id": "D",
-              "text": "Replace every law with the manager’s personal preferences"
-            }
-          ],
-          "correctOptionId": "C",
-          "explanation": "The deck’s law–ethics distinction requires judgement beyond a legal minimum, without abandoning law.",
-          "source": "MG2008 current 2026–27 Week 1 deck; slides 7, 16"
-        },
-        {
           "id": "MG2008-RESPONSIBILITY-003",
           "stem": "Friedman argues that individuals may spend their own money on social causes. What objection is this intended to raise about executives?",
           "options": [
@@ -924,31 +899,6 @@
           "source": "MG2008 current 2026–27 Week 3 PDF; ocean-plastic report"
         },
         {
-          "id": "MG2008-W3-007",
-          "stem": "A report estimates plastic on the ocean floor. Why should it not be treated as an estimate of plastic entering the sea this year?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Ocean-floor plastic cannot persist across years"
-            },
-            {
-              "id": "B",
-              "text": "All pollution reports use identical measures"
-            },
-            {
-              "id": "C",
-              "text": "The location of plastic supplies its date of entry"
-            },
-            {
-              "id": "D",
-              "text": "Accumulated stock and annual inflow measure different things"
-            }
-          ],
-          "correctOptionId": "D",
-          "explanation": "The stock–flow distinction prevents comparing unlike quantities as if they were equivalent.",
-          "source": "MG2008 current 2026–27 Week 3 PDF; ocean-plastic report"
-        },
-        {
           "id": "MG2008-W3-008",
           "stem": "What ethical issue is raised by lobbying against a proposed disposable-cup levy?",
           "options": [
@@ -1406,31 +1356,6 @@
           "source": "MG2008 current 2026–27 Week 4 Part 1 deck; slide 6"
         },
         {
-          "id": "MG2008-W4INTRO-011",
-          "stem": "Which question is most directly associated with virtue ethics?",
-          "options": [
-            {
-              "id": "A",
-              "text": "What kind of character and habitual conduct should this person cultivate?"
-            },
-            {
-              "id": "B",
-              "text": "Which option maximises one transaction’s revenue?"
-            },
-            {
-              "id": "C",
-              "text": "Which regulation has the shortest title?"
-            },
-            {
-              "id": "D",
-              "text": "Which action has the largest numerical benefit only?"
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "Virtue ethics focuses on character rather than only outcomes or individual rules.",
-          "source": "MG2008 current 2026–27 Week 4 Part 1 deck; slide 6"
-        },
-        {
           "id": "MG2008-W4INTRO-012",
           "stem": "Two actions have different intentions and different unintended results. What should a careful ethical comparison distinguish?",
           "options": [
@@ -1838,31 +1763,6 @@
           "source": "MG2008 current 2026–27 Week 4 Part 2 deck; slide 6"
         },
         {
-          "id": "MG2008-W4UTIL-013",
-          "stem": "Two projects have similar benefits but one imposes much more harm. What matters to utilitarian comparison?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Only whether their managers have virtuous reputations"
-            },
-            {
-              "id": "B",
-              "text": "Only which project starts first"
-            },
-            {
-              "id": "C",
-              "text": "Their net balance of benefits and harms, not benefits alone"
-            },
-            {
-              "id": "D",
-              "text": "Only the larger gross revenue figure"
-            }
-          ],
-          "correctOptionId": "C",
-          "explanation": "The criterion is value over disvalue across alternatives.",
-          "source": "MG2008 current 2026–27 Week 4 Part 2 deck; slides 3–4"
-        },
-        {
           "id": "MG2008-W4UTIL-014",
           "stem": "Why should an analyst disclose how a project’s costs and benefits were apportioned?",
           "options": [
@@ -2143,31 +2043,6 @@
           "correctOptionId": "C",
           "explanation": "The case poses competing interests and risks without declaring a final answer.",
           "source": "MG2008 current 2026–27 Week 4 Part 3 deck; slide 2"
-        },
-        {
-          "id": "MG2008-W4EGO-010",
-          "stem": "Which analysis is most consistent with enlightened egoism?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Treat the largest payment as the only relevant fact"
-            },
-            {
-              "id": "B",
-              "text": "Ignore every consequence beyond today"
-            },
-            {
-              "id": "C",
-              "text": "Select whichever action produces immediate pleasure"
-            },
-            {
-              "id": "D",
-              "text": "Ask whether a short-term gain damages future health, livelihood or relationships"
-            }
-          ],
-          "correctOptionId": "D",
-          "explanation": "Enlightened egoism widens self-interest to a longer time horizon.",
-          "source": "MG2008 current 2026–27 Week 4 Part 3 deck; slide 4"
         },
         {
           "id": "MG2008-W4EGO-011",
@@ -2782,31 +2657,6 @@
           "correctOptionId": "D",
           "explanation": "The slides distinguish moral virtues from qualities such as toughness and competitiveness.",
           "source": "MG2008 current 2026–27 Week 5 Part 2 deck; slide 1"
-        },
-        {
-          "id": "MG2008-W5VIRTUE-005",
-          "stem": "Why is repeated conduct important in assessing virtue?",
-          "options": [
-            {
-              "id": "A",
-              "text": "A single good act guarantees every later act"
-            },
-            {
-              "id": "B",
-              "text": "Patterns matter only when a regulation requires them"
-            },
-            {
-              "id": "C",
-              "text": "Virtue excludes behaviour and concerns reputation only"
-            },
-            {
-              "id": "D",
-              "text": "Habitual patterns reveal character more than an isolated act alone"
-            }
-          ],
-          "correctOptionId": "D",
-          "explanation": "The approach looks at habitual behaviour, learning and relationships rather than one-off actions.",
-          "source": "MG2008 current 2026–27 Week 5 Part 2 deck; slide 2"
         },
         {
           "id": "MG2008-W5VIRTUE-006",
@@ -4213,56 +4063,6 @@
       "description": "Ethical questions in business, law, judgement and the need for critical reasoning.",
       "questions": [
         {
-          "id": "MG2008-FOUNDATIONS-ADDITIONAL-001",
-          "stem": "What is business ethics?",
-          "options": [
-            {
-              "id": "A",
-              "text": "The study of right and wrong in business situations, activities and decisions"
-            },
-            {
-              "id": "B",
-              "text": "A method for maximising sales only"
-            },
-            {
-              "id": "C",
-              "text": "A list of all commercial laws"
-            },
-            {
-              "id": "D",
-              "text": "A company’s payroll process"
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "Business ethics examines morally significant choices and practices in business.",
-          "source": "MG2008 Lecture 1 notes"
-        },
-        {
-          "id": "MG2008-FOUNDATIONS-002",
-          "stem": "Why is “Is it legal?” not a complete ethical test?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Law always demands more than ethics."
-            },
-            {
-              "id": "B",
-              "text": "Law can be silent, delayed or inadequate on morally important conduct."
-            },
-            {
-              "id": "C",
-              "text": "Ethics applies only when conduct is illegal."
-            },
-            {
-              "id": "D",
-              "text": "Legal rules never affect business."
-            }
-          ],
-          "correctOptionId": "B",
-          "explanation": "Legality is a minimum enforceable standard, while ethics also addresses grey areas and wider consequences.",
-          "source": "MG2008 Lecture 1 notes"
-        },
-        {
           "id": "MG2008-FOUNDATIONS-003",
           "stem": "Which statement best distinguishes law from ethics?",
           "options": [
@@ -4313,31 +4113,6 @@
           "source": "MG2008 Lecture 1 notes"
         },
         {
-          "id": "MG2008-FOUNDATIONS-ADDITIONAL-005",
-          "stem": "How can corporate lobbying create an ethical concern?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Powerful firms may shape the rules that are later used to judge their own conduct."
-            },
-            {
-              "id": "B",
-              "text": "Lobbying removes every business interest from politics."
-            },
-            {
-              "id": "C",
-              "text": "Only charities can lobby."
-            },
-            {
-              "id": "D",
-              "text": "Lobbying guarantees equal public influence."
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "Unequal influence can weaken the assumption that legality alone settles legitimacy.",
-          "source": "MG2008 Lecture 1 notes"
-        },
-        {
           "id": "MG2008-FOUNDATIONS-006",
           "stem": "Why does privatisation raise accountability questions?",
           "options": [
@@ -4360,81 +4135,6 @@
           ],
           "correctOptionId": "A",
           "explanation": "When essential functions move to firms, questions arise about transparency, responsibility and public interest.",
-          "source": "MG2008 Lecture 1 notes"
-        },
-        {
-          "id": "MG2008-FOUNDATIONS-ADDITIONAL-007",
-          "stem": "What does a trust deficit mean for business?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Stakeholders are less willing to accept corporate claims without evidence."
-            },
-            {
-              "id": "B",
-              "text": "Stakeholders assume every company is perfect."
-            },
-            {
-              "id": "C",
-              "text": "Trust removes the need for governance."
-            },
-            {
-              "id": "D",
-              "text": "Reputation no longer matters."
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "Past misconduct or weak transparency can make employees, customers and citizens sceptical.",
-          "source": "MG2008 Lecture 1 notes"
-        },
-        {
-          "id": "MG2008-FOUNDATIONS-ADDITIONAL-008",
-          "stem": "Why is “most people do it” a weak ethical justification?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Popularity does not determine whether conduct respects duties, rights or consequences."
-            },
-            {
-              "id": "B",
-              "text": "Majority behaviour is always illegal."
-            },
-            {
-              "id": "C",
-              "text": "Ethics prohibits social evidence."
-            },
-            {
-              "id": "D",
-              "text": "Only managers can make ethical choices."
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "Common behaviour can still be harmful or unjust.",
-          "source": "MG2008 Lecture 1 notes"
-        },
-        {
-          "id": "MG2008-FOUNDATIONS-009",
-          "stem": "Why is “it is normal in this country” insufficient by itself?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Local norms may conflict with stronger ethical principles or stakeholder rights."
-            },
-            {
-              "id": "B",
-              "text": "Cultural context never matters."
-            },
-            {
-              "id": "C",
-              "text": "All countries share one law."
-            },
-            {
-              "id": "D",
-              "text": "Normal conduct is always profitable."
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "Context matters, but descriptive norms do not automatically justify conduct.",
           "source": "MG2008 Lecture 1 notes"
         },
         {
@@ -4463,81 +4163,6 @@
           "source": "MG2008 Lecture 1 notes"
         },
         {
-          "id": "MG2008-FOUNDATIONS-ADDITIONAL-011",
-          "stem": "A firm complies with weak local pollution law but imposes serious community harm. What follows ethically?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Community effects are irrelevant."
-            },
-            {
-              "id": "B",
-              "text": "Only shareholders may object."
-            },
-            {
-              "id": "C",
-              "text": "Compliance does not end the analysis because law may set only a minimum."
-            },
-            {
-              "id": "D",
-              "text": "The conduct is automatically ethical."
-            }
-          ],
-          "correctOptionId": "C",
-          "explanation": "Ethics evaluates foreseeable harms and duties beyond minimum legal compliance.",
-          "source": "MG2008 Lectures 1–3 and Readings 1–4"
-        },
-        {
-          "id": "MG2008-FOUNDATIONS-ADDITIONAL-012",
-          "stem": "Which is a conceptual-ethics question?",
-          "options": [
-            {
-              "id": "A",
-              "text": "What should the firm do tomorrow?"
-            },
-            {
-              "id": "B",
-              "text": "How much profit did the firm earn?"
-            },
-            {
-              "id": "C",
-              "text": "What does corporate responsibility mean?"
-            },
-            {
-              "id": "D",
-              "text": "How many firms published ethics codes?"
-            }
-          ],
-          "correctOptionId": "C",
-          "explanation": "Conceptual ethics clarifies ideas such as responsibility, rights and justice.",
-          "source": "MG2008 Lectures 1–3 and Readings 1–4"
-        },
-        {
-          "id": "MG2008-FOUNDATIONS-ADDITIONAL-013",
-          "stem": "Which is a normative-ethics question?",
-          "options": [
-            {
-              "id": "A",
-              "text": "How many firms disclosed risks last year?"
-            },
-            {
-              "id": "B",
-              "text": "What does the word disclosure mean?"
-            },
-            {
-              "id": "C",
-              "text": "Which law applies?"
-            },
-            {
-              "id": "D",
-              "text": "Should a firm disclose a lawful but serious safety risk?"
-            }
-          ],
-          "correctOptionId": "D",
-          "explanation": "Normative ethics asks what ought to be done.",
-          "source": "MG2008 Lectures 1–3 and Readings 1–4"
-        },
-        {
           "id": "MG2008-FOUNDATIONS-014",
           "stem": "What is the most defensible role for evidence in ethical judgement?",
           "options": [
@@ -4561,31 +4186,6 @@
           "correctOptionId": "C",
           "explanation": "Good reasoning separates factual claims from the ethical evaluation built on them.",
           "source": "MG2008 Lectures 1–3 and Readings 1–4"
-        },
-        {
-          "id": "MG2008-FOUNDATIONS-ADDITIONAL-015",
-          "stem": "Why can personal morality and professional ethics conflict?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Ethics concerns only private feelings."
-            },
-            {
-              "id": "B",
-              "text": "A person’s internal convictions may differ from role-based standards or public duties."
-            },
-            {
-              "id": "C",
-              "text": "Professional roles eliminate all values."
-            },
-            {
-              "id": "D",
-              "text": "Morality is always legally enforceable."
-            }
-          ],
-          "correctOptionId": "B",
-          "explanation": "Different sources of obligation can point toward different actions.",
-          "source": "MG2008 Lectures 1–3 and Readings 1–4"
         }
       ]
     },
@@ -4594,106 +4194,6 @@
       "title": "Corporate Purpose & Responsibility",
       "description": "Friedman’s shareholder argument, corporate power and stakeholder consequences.",
       "questions": [
-        {
-          "id": "MG2008-RESPONSIBILITY-ADDITIONAL-001",
-          "stem": "What is Friedman’s central claim about managers in a company?",
-          "options": [
-            {
-              "id": "A",
-              "text": "They are agents of shareholders and should pursue profit within the rules."
-            },
-            {
-              "id": "B",
-              "text": "They should ignore owners completely."
-            },
-            {
-              "id": "C",
-              "text": "They must maximise charitable giving regardless of consent."
-            },
-            {
-              "id": "D",
-              "text": "They should avoid competition."
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "Friedman treats managers as stewards of owners’ resources rather than independent social policymakers.",
-          "source": "MG2008 Lecture 1 notes"
-        },
-        {
-          "id": "MG2008-RESPONSIBILITY-ADDITIONAL-002",
-          "stem": "What constraints are part of Friedman’s profit argument?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Open competition without deception or fraud"
-            },
-            {
-              "id": "B",
-              "text": "Profit by any means"
-            },
-            {
-              "id": "C",
-              "text": "Government ownership of every firm"
-            },
-            {
-              "id": "D",
-              "text": "No legal or ethical rules"
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "The argument is not permission for fraud; it assumes lawful, open competition and accepted rules.",
-          "source": "MG2008 Lecture 1 notes"
-        },
-        {
-          "id": "MG2008-RESPONSIBILITY-ADDITIONAL-003",
-          "stem": "Why does Friedman object to managers spending company money on social causes without owner approval?",
-          "options": [
-            {
-              "id": "A",
-              "text": "He sees it as using shareholders’ resources for purposes they did not choose."
-            },
-            {
-              "id": "B",
-              "text": "He believes shareholders cannot support charities."
-            },
-            {
-              "id": "C",
-              "text": "He rejects all laws."
-            },
-            {
-              "id": "D",
-              "text": "He believes firms have no employees."
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "Shareholders can decide how to use their own returns rather than having managers impose a social tax.",
-          "source": "MG2008 Lecture 1 notes"
-        },
-        {
-          "id": "MG2008-RESPONSIBILITY-ADDITIONAL-004",
-          "stem": "What is a major criticism of a narrow shareholder model?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Corporations can impose major effects on workers, communities, democracy and the environment."
-            },
-            {
-              "id": "B",
-              "text": "Profit has no relationship to business."
-            },
-            {
-              "id": "C",
-              "text": "Shareholders never bear risk."
-            },
-            {
-              "id": "D",
-              "text": "Companies have no legal personality."
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "Corporate decisions affect stakeholders who may not consent to or benefit from them.",
-          "source": "MG2008 Lecture 1 notes"
-        },
         {
           "id": "MG2008-RESPONSIBILITY-005",
           "stem": "Which stakeholder is directly affected when a supplier cuts safety standards to meet a buyer’s price target?",
@@ -4843,31 +4343,6 @@
           "correctOptionId": "A",
           "explanation": "A balanced analysis recognises commercial purpose while evaluating means, external effects and accountability.",
           "source": "MG2008 Lecture 1 notes"
-        },
-        {
-          "id": "MG2008-RESPONSIBILITY-011",
-          "stem": "Which action best fits Friedman’s manager-as-agent view?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Use company money for any personal cause."
-            },
-            {
-              "id": "B",
-              "text": "Ignore competition rules."
-            },
-            {
-              "id": "C",
-              "text": "Maximise revenue regardless of cost."
-            },
-            {
-              "id": "D",
-              "text": "Pursue lawful profit for owners without deception or fraud."
-            }
-          ],
-          "correctOptionId": "D",
-          "explanation": "Friedman permits profit seeking within the rules rather than unconstrained conduct.",
-          "source": "MG2008 Lectures 1 and 6; Reading 7"
         },
         {
           "id": "MG2008-RESPONSIBILITY-012",
@@ -5359,231 +4834,6 @@
       "description": "Cognitive biases and psychological mechanisms that shape ethical judgement.",
       "questions": [
         {
-          "id": "MG2008-BIASES-001",
-          "stem": "What is moral licensing?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Using a prior good deed as permission to behave worse later"
-            },
-            {
-              "id": "B",
-              "text": "Following a legal licence"
-            },
-            {
-              "id": "C",
-              "text": "Learning an ethical theory"
-            },
-            {
-              "id": "D",
-              "text": "Delegating a task"
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "Moral credits can be used to excuse later conduct that would otherwise appear wrong.",
-          "source": "MG2008 Lectures 2–3 notes"
-        },
-        {
-          "id": "MG2008-BIASES-ADDITIONAL-002",
-          "stem": "What is rationalisation?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Constructing a justification after the decision to make questionable conduct seem acceptable"
-            },
-            {
-              "id": "B",
-              "text": "Testing evidence before acting"
-            },
-            {
-              "id": "C",
-              "text": "Refusing all explanations"
-            },
-            {
-              "id": "D",
-              "text": "Calculating profit correctly"
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "Rationalisation protects self-image by reframing conduct after the fact.",
-          "source": "MG2008 Lectures 2–3 notes"
-        },
-        {
-          "id": "MG2008-BIASES-ADDITIONAL-003",
-          "stem": "What is the fundamental attribution error?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Overemphasising personal character and underestimating situational pressures"
-            },
-            {
-              "id": "B",
-              "text": "Assuming everyone agrees"
-            },
-            {
-              "id": "C",
-              "text": "Fearing losses more than equal gains"
-            },
-            {
-              "id": "D",
-              "text": "Following a group publicly"
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "Observers often explain others’ behaviour by disposition while neglecting context.",
-          "source": "MG2008 Lectures 2–3 notes"
-        },
-        {
-          "id": "MG2008-BIASES-ADDITIONAL-004",
-          "stem": "What is false consensus bias?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Assuming more people share one’s beliefs or behaviour than actually do"
-            },
-            {
-              "id": "B",
-              "text": "Rejecting all majority views"
-            },
-            {
-              "id": "C",
-              "text": "Changing beliefs after new evidence"
-            },
-            {
-              "id": "D",
-              "text": "Giving equal weight to every stakeholder"
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "People may normalise their own conduct by imagining broad agreement.",
-          "source": "MG2008 Lectures 2–3 notes"
-        },
-        {
-          "id": "MG2008-BIASES-005",
-          "stem": "What is self-serving bias?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Interpreting evidence in a way that protects one’s interests or self-image"
-            },
-            {
-              "id": "B",
-              "text": "Always choosing the least profitable option"
-            },
-            {
-              "id": "C",
-              "text": "Obeying an authority automatically"
-            },
-            {
-              "id": "D",
-              "text": "Treating losses and gains equally"
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "Judgement can tilt toward conclusions that benefit the decision-maker.",
-          "source": "MG2008 Lecture 2 notes"
-        },
-        {
-          "id": "MG2008-BIASES-006",
-          "stem": "What is biased assimilation?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Evaluating evidence that supports existing beliefs more favourably than opposing evidence"
-            },
-            {
-              "id": "B",
-              "text": "Accepting all evidence equally"
-            },
-            {
-              "id": "C",
-              "text": "Copying another person’s answer"
-            },
-            {
-              "id": "D",
-              "text": "Ignoring every prior belief"
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "Prior attitudes influence how people assess mixed or ambiguous evidence.",
-          "source": "MG2008 Lecture 2 notes"
-        },
-        {
-          "id": "MG2008-BIASES-ADDITIONAL-007",
-          "stem": "What did the Lord et al. example illustrate in the lecture?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Mixed evidence can polarise people who evaluate it through prior commitments."
-            },
-            {
-              "id": "B",
-              "text": "Everyone converges after reading evidence."
-            },
-            {
-              "id": "C",
-              "text": "Evidence never changes opinions."
-            },
-            {
-              "id": "D",
-              "text": "Only financial incentives cause bias."
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "Supporters and opponents can each find reasons to favour the evidence consistent with their starting view.",
-          "source": "MG2008 Lecture 2 notes"
-        },
-        {
-          "id": "MG2008-BIASES-ADDITIONAL-008",
-          "stem": "What is loss aversion?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Losses often feel more significant than equivalent gains"
-            },
-            {
-              "id": "B",
-              "text": "People prefer every risky option"
-            },
-            {
-              "id": "C",
-              "text": "Losses and gains have identical psychological weight"
-            },
-            {
-              "id": "D",
-              "text": "People ignore sunk costs automatically"
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "The prospect of loss can distort decisions and encourage concealment or risky recovery attempts.",
-          "source": "MG2008 Lecture 2 notes"
-        },
-        {
-          "id": "MG2008-BIASES-009",
-          "stem": "What is the Bathsheba syndrome?",
-          "options": [
-            {
-              "id": "A",
-              "text": "A powerful successful leader consciously breaks rules while believing ordinary constraints no longer apply"
-            },
-            {
-              "id": "B",
-              "text": "A beginner misunderstands instructions"
-            },
-            {
-              "id": "C",
-              "text": "A worker obeys because peers resist"
-            },
-            {
-              "id": "D",
-              "text": "A customer changes brands"
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "Success, power and entitlement can encourage deliberate exemption from rules.",
-          "source": "MG2008 Lecture 3 notes"
-        },
-        {
           "id": "MG2008-BIASES-010",
           "stem": "How does an amoral manager differ from an immoral manager?",
           "options": [
@@ -5609,56 +4859,6 @@
           "source": "MG2008 Lecture 3 notes"
         },
         {
-          "id": "MG2008-BIASES-ADDITIONAL-011",
-          "stem": "A manager credits success to skill but blames failure entirely on the market. Which bias is shown?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Moral compensation"
-            },
-            {
-              "id": "B",
-              "text": "Self-serving bias"
-            },
-            {
-              "id": "C",
-              "text": "Rawlsian fairness"
-            },
-            {
-              "id": "D",
-              "text": "Discourse ethics"
-            }
-          ],
-          "correctOptionId": "B",
-          "explanation": "The explanation protects the manager’s positive self-image.",
-          "source": "MG2008 Lectures 2–3"
-        },
-        {
-          "id": "MG2008-BIASES-ADDITIONAL-012",
-          "stem": "After donating to charity, an executive feels entitled to mislead a customer. What is this?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Agentic state"
-            },
-            {
-              "id": "B",
-              "text": "Pluralism"
-            },
-            {
-              "id": "C",
-              "text": "Moral licensing"
-            },
-            {
-              "id": "D",
-              "text": "Loss aversion"
-            }
-          ],
-          "correctOptionId": "C",
-          "explanation": "A prior good act is treated as moral credit for later misconduct.",
-          "source": "MG2008 Lectures 2–3"
-        },
-        {
           "id": "MG2008-BIASES-013",
           "stem": "A board interprets ambiguous evidence as confirming its existing strategy. Which bias fits best?",
           "options": [
@@ -5681,31 +4881,6 @@
           ],
           "correctOptionId": "D",
           "explanation": "Prior commitments shape how mixed evidence is evaluated.",
-          "source": "MG2008 Lectures 2–3"
-        },
-        {
-          "id": "MG2008-BIASES-ADDITIONAL-014",
-          "stem": "A successful founder believes ordinary controls no longer apply to them. Which concept fits?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Rule utilitarianism"
-            },
-            {
-              "id": "B",
-              "text": "Cultural relativism"
-            },
-            {
-              "id": "C",
-              "text": "Bathsheba syndrome"
-            },
-            {
-              "id": "D",
-              "text": "Fundamental attribution error"
-            }
-          ],
-          "correctOptionId": "C",
-          "explanation": "Power and success can foster entitlement and conscious rule-breaking.",
           "source": "MG2008 Lectures 2–3"
         },
         {
@@ -5740,56 +4915,6 @@
       "title": "Ethical Culture, Incentives & Organisational Systems",
       "description": "How language, incentives, distance, governance and leadership shape conduct.",
       "questions": [
-        {
-          "id": "MG2008-SYSTEMS-ADDITIONAL-001",
-          "stem": "How can sanitised language enable misconduct?",
-          "options": [
-            {
-              "id": "A",
-              "text": "It makes harmful acts sound routine or harmless, reducing moral attention."
-            },
-            {
-              "id": "B",
-              "text": "It always reveals victims clearly."
-            },
-            {
-              "id": "C",
-              "text": "It converts conduct into law."
-            },
-            {
-              "id": "D",
-              "text": "It eliminates organisational hierarchy."
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "Euphemisms can create psychological distance from the real effects of a decision.",
-          "source": "MG2008 Lecture 2 notes"
-        },
-        {
-          "id": "MG2008-SYSTEMS-ADDITIONAL-002",
-          "stem": "Why can bureaucracy create ethical distance?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Tasks are fragmented so individuals may not see or feel responsible for the whole outcome."
-            },
-            {
-              "id": "B",
-              "text": "It always gives one person full responsibility."
-            },
-            {
-              "id": "C",
-              "text": "It removes every procedure."
-            },
-            {
-              "id": "D",
-              "text": "It guarantees transparency."
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "Division of labour can obscure causal links and diffuse accountability.",
-          "source": "MG2008 Lecture 2 notes"
-        },
         {
           "id": "MG2008-SYSTEMS-003",
           "stem": "How can reward systems undermine ethical conduct?",
@@ -5891,31 +5016,6 @@
           "source": "MG2008 Lectures 2–3 notes"
         },
         {
-          "id": "MG2008-SYSTEMS-ADDITIONAL-007",
-          "stem": "What is conformity pressure?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Pressure to align with group behaviour or opinion even when privately doubtful"
-            },
-            {
-              "id": "B",
-              "text": "A requirement to calculate NPV"
-            },
-            {
-              "id": "C",
-              "text": "A method of data storage"
-            },
-            {
-              "id": "D",
-              "text": "A guarantee of ethical consensus"
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "Group norms can suppress dissent and normalise questionable practice.",
-          "source": "MG2008 Lecture 2 notes"
-        },
-        {
           "id": "MG2008-SYSTEMS-008",
           "stem": "Which organisational feature helps counter conformity?",
           "options": [
@@ -5938,31 +5038,6 @@
           ],
           "correctOptionId": "A",
           "explanation": "Psychological safety and protected escalation make concerns easier to raise.",
-          "source": "MG2008 Lectures 2–3 notes"
-        },
-        {
-          "id": "MG2008-SYSTEMS-ADDITIONAL-009",
-          "stem": "Why is individual character alone an incomplete explanation of wrongdoing?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Situations, incentives, authority and systems can strongly shape behaviour."
-            },
-            {
-              "id": "B",
-              "text": "Character never matters."
-            },
-            {
-              "id": "C",
-              "text": "Only laws cause misconduct."
-            },
-            {
-              "id": "D",
-              "text": "Organisations have no influence on choices."
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "Ethical analysis should examine both personal responsibility and the environment in which choices occur.",
           "source": "MG2008 Lectures 2–3 notes"
         },
         {
@@ -6173,31 +5248,6 @@
           "source": "MG2008 Lecture 3 notes"
         },
         {
-          "id": "MG2008-IMPACTS-ADDITIONAL-003",
-          "stem": "What ethical issue is raised by conflict minerals used in electronics?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Consumer products may be connected to coercion, violence or exploitation deep in the supply chain."
-            },
-            {
-              "id": "B",
-              "text": "Electronics contain no materials."
-            },
-            {
-              "id": "C",
-              "text": "Only final retailers have stakeholders."
-            },
-            {
-              "id": "D",
-              "text": "Global sourcing removes responsibility."
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "Complex supply chains can hide serious harms associated with extraction and trade.",
-          "source": "MG2008 Lecture 3 notes"
-        },
-        {
           "id": "MG2008-IMPACTS-004",
           "stem": "Why should claims about fast-fashion harm be made carefully?",
           "options": [
@@ -6245,31 +5295,6 @@
           ],
           "correctOptionId": "A",
           "explanation": "Externalisation shifts costs away from the firm and transaction.",
-          "source": "MG2008 Lecture 3 notes"
-        },
-        {
-          "id": "MG2008-IMPACTS-ADDITIONAL-006",
-          "stem": "What ethical concern can arise when a company extracts scarce local water?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Commercial use may reduce access or raise costs for nearby communities."
-            },
-            {
-              "id": "B",
-              "text": "Water has no stakeholders."
-            },
-            {
-              "id": "C",
-              "text": "Extraction affects only the company’s logo."
-            },
-            {
-              "id": "D",
-              "text": "Scarcity removes every duty."
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "Resource use can create distributive and rights-based conflicts when local needs are affected.",
           "source": "MG2008 Lecture 3 notes"
         },
         {
@@ -6505,131 +5530,6 @@
       "description": "Consequentialism, relativism, Bentham, Mill and cost–benefit reasoning.",
       "questions": [
         {
-          "id": "MG2008-UTIL-ADDITIONAL-001",
-          "stem": "What does consequentialism use as its primary moral test?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Whether a tradition is old."
-            },
-            {
-              "id": "B",
-              "text": "The outcomes produced by an action or rule."
-            },
-            {
-              "id": "C",
-              "text": "The actor’s social status."
-            },
-            {
-              "id": "D",
-              "text": "Legal classification alone."
-            }
-          ],
-          "correctOptionId": "B",
-          "explanation": "Consequentialist theories judge conduct mainly by its effects.",
-          "source": "MG2008 Lecture 4; Reading 5"
-        },
-        {
-          "id": "MG2008-UTIL-ADDITIONAL-002",
-          "stem": "How does act utilitarianism differ from rule utilitarianism?",
-          "options": [
-            {
-              "id": "A",
-              "text": "They are identical."
-            },
-            {
-              "id": "B",
-              "text": "Act utilitarianism evaluates one choice; rule utilitarianism evaluates general rules across cases."
-            },
-            {
-              "id": "C",
-              "text": "Act utilitarianism ignores consequences."
-            },
-            {
-              "id": "D",
-              "text": "Rule utilitarianism rejects welfare."
-            }
-          ],
-          "correctOptionId": "B",
-          "explanation": "The unit of evaluation differs between the particular act and a general practice.",
-          "source": "MG2008 Lecture 4; Reading 5"
-        },
-        {
-          "id": "MG2008-UTIL-ADDITIONAL-003",
-          "stem": "What is Bentham’s hedonic calculus intended to assess?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Whether a maxim is universal."
-            },
-            {
-              "id": "B",
-              "text": "A stakeholder’s legal power."
-            },
-            {
-              "id": "C",
-              "text": "A person’s virtues only."
-            },
-            {
-              "id": "D",
-              "text": "The balance of pleasure and pain associated with alternatives."
-            }
-          ],
-          "correctOptionId": "D",
-          "explanation": "Bentham sought a rational comparison of welfare consequences.",
-          "source": "MG2008 Lecture 4; Reading 5"
-        },
-        {
-          "id": "MG2008-UTIL-004",
-          "stem": "What is a central criticism of utilitarianism?",
-          "options": [
-            {
-              "id": "A",
-              "text": "It prohibits comparison."
-            },
-            {
-              "id": "B",
-              "text": "Aggregate benefit can conceal severe burdens on minorities."
-            },
-            {
-              "id": "C",
-              "text": "It never considers outcomes."
-            },
-            {
-              "id": "D",
-              "text": "It requires private ownership."
-            }
-          ],
-          "correctOptionId": "B",
-          "explanation": "Maximising the total does not necessarily protect each person’s rights.",
-          "source": "MG2008 Lecture 4; Reading 5"
-        },
-        {
-          "id": "MG2008-UTIL-ADDITIONAL-005",
-          "stem": "What does Mill’s harm principle permit?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Punishment without evidence."
-            },
-            {
-              "id": "B",
-              "text": "Restricting liberty to prevent harm to others."
-            },
-            {
-              "id": "C",
-              "text": "Restricting any disliked choice."
-            },
-            {
-              "id": "D",
-              "text": "Unlimited corporate power."
-            }
-          ],
-          "correctOptionId": "B",
-          "explanation": "Mill defends liberty unless its exercise harms others.",
-          "source": "MG2008 Lecture 4; Reading 5"
-        },
-        {
           "id": "MG2008-UTIL-006",
           "stem": "What does moral relativism claim?",
           "options": [
@@ -6652,31 +5552,6 @@
           ],
           "correctOptionId": "B",
           "explanation": "Relativism emphasises the cultural formation of moral judgement.",
-          "source": "MG2008 Lecture 4; Reading 5"
-        },
-        {
-          "id": "MG2008-UTIL-007",
-          "stem": "Why does cultural explanation not automatically justify bribery?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Bribery has no stakeholders."
-            },
-            {
-              "id": "B",
-              "text": "Only outsiders can judge facts."
-            },
-            {
-              "id": "C",
-              "text": "Explaining a norm is different from defending its ethical acceptability."
-            },
-            {
-              "id": "D",
-              "text": "Local practice is always universal law."
-            }
-          ],
-          "correctOptionId": "C",
-          "explanation": "Descriptive prevalence does not settle the normative question.",
           "source": "MG2008 Lecture 4; Reading 5"
         },
         {
@@ -6728,31 +5603,6 @@
           "correctOptionId": "C",
           "explanation": "The case tests whether aggregate welfare justifies imposing a severe cost on one.",
           "source": "MG2008 Lecture 4; Reading 5"
-        },
-        {
-          "id": "MG2008-UTIL-ADDITIONAL-010",
-          "stem": "What is egoism?",
-          "options": [
-            {
-              "id": "A",
-              "text": "A consequentialist view centred on the decision-maker’s own interest."
-            },
-            {
-              "id": "B",
-              "text": "A duty to maximise total welfare."
-            },
-            {
-              "id": "C",
-              "text": "A theory of inclusive dialogue."
-            },
-            {
-              "id": "D",
-              "text": "A doctrine of equal rights."
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "Egoism differs from utilitarianism by whose welfare receives priority.",
-          "source": "MG2008 Lecture 4; Reading 5"
         }
       ]
     },
@@ -6761,156 +5611,6 @@
       "title": "Duties, Character, Rights & Justice",
       "description": "Kant, virtue ethics, rights, Rawls, discourse ethics and pluralism.",
       "questions": [
-        {
-          "id": "MG2008-DUTIES-ADDITIONAL-001",
-          "stem": "What does Kant’s universal-law test ask?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Whether most people approve."
-            },
-            {
-              "id": "B",
-              "text": "Whether the actor is powerful."
-            },
-            {
-              "id": "C",
-              "text": "Whether the maxim could be consistently willed for everyone."
-            },
-            {
-              "id": "D",
-              "text": "Whether the act increases total profit."
-            }
-          ],
-          "correctOptionId": "C",
-          "explanation": "The categorical imperative tests the generalisability of the principle.",
-          "source": "MG2008 Lecture 5; Reading 6"
-        },
-        {
-          "id": "MG2008-DUTIES-ADDITIONAL-002",
-          "stem": "What does Kant’s humanity formulation require?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Respect only shareholders."
-            },
-            {
-              "id": "B",
-              "text": "Avoid every commercial exchange."
-            },
-            {
-              "id": "C",
-              "text": "Treat people as ends, never merely as tools."
-            },
-            {
-              "id": "D",
-              "text": "Use people whenever benefits exceed costs."
-            }
-          ],
-          "correctOptionId": "C",
-          "explanation": "Persons have intrinsic worth and cannot be reduced to instruments.",
-          "source": "MG2008 Lecture 5; Reading 6"
-        },
-        {
-          "id": "MG2008-DUTIES-ADDITIONAL-003",
-          "stem": "What is a common criticism of strict deontology?",
-          "options": [
-            {
-              "id": "A",
-              "text": "It has no principles."
-            },
-            {
-              "id": "B",
-              "text": "It considers only pleasure."
-            },
-            {
-              "id": "C",
-              "text": "It denies human dignity."
-            },
-            {
-              "id": "D",
-              "text": "Duties can conflict and rigid rules may produce serious harm."
-            }
-          ],
-          "correctOptionId": "D",
-          "explanation": "Hard cases expose tension between duties and consequences.",
-          "source": "MG2008 Lecture 5; Reading 6"
-        },
-        {
-          "id": "MG2008-DUTIES-ADDITIONAL-004",
-          "stem": "What question does virtue ethics emphasise?",
-          "options": [
-            {
-              "id": "A",
-              "text": "What character and habits does this action cultivate?"
-            },
-            {
-              "id": "B",
-              "text": "What is the exact market price?"
-            },
-            {
-              "id": "C",
-              "text": "Which option has majority support?"
-            },
-            {
-              "id": "D",
-              "text": "Is the action profitable this quarter?"
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "Virtue ethics focuses on becoming a good person or organisation through practice.",
-          "source": "MG2008 Lecture 5; Reading 6"
-        },
-        {
-          "id": "MG2008-DUTIES-ADDITIONAL-005",
-          "stem": "What is a weakness of virtue ethics?",
-          "options": [
-            {
-              "id": "A",
-              "text": "It guarantees one algorithmic answer."
-            },
-            {
-              "id": "B",
-              "text": "It ignores habits."
-            },
-            {
-              "id": "C",
-              "text": "Communities may disagree about which traits count as virtues."
-            },
-            {
-              "id": "D",
-              "text": "It cannot discuss character."
-            }
-          ],
-          "correctOptionId": "C",
-          "explanation": "Standards of admirable character can be contested.",
-          "source": "MG2008 Lecture 5; Reading 6"
-        },
-        {
-          "id": "MG2008-DUTIES-ADDITIONAL-006",
-          "stem": "What does Rawls’s veil of ignorance remove from the choice situation?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Every possible stakeholder."
-            },
-            {
-              "id": "B",
-              "text": "The ability to reason."
-            },
-            {
-              "id": "C",
-              "text": "Knowledge of one’s own social position and advantages."
-            },
-            {
-              "id": "D",
-              "text": "All knowledge of justice."
-            }
-          ],
-          "correctOptionId": "C",
-          "explanation": "Impartial principles are chosen without knowing which position one will occupy.",
-          "source": "MG2008 Lecture 5; Reading 6"
-        },
         {
           "id": "MG2008-DUTIES-007",
           "stem": "How does Rawls differ from utilitarianism?",
@@ -6934,56 +5634,6 @@
           ],
           "correctOptionId": "D",
           "explanation": "Justice as fairness constrains aggregate maximisation.",
-          "source": "MG2008 Lecture 5; Reading 6"
-        },
-        {
-          "id": "MG2008-DUTIES-ADDITIONAL-008",
-          "stem": "What does discourse ethics emphasise?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Cultural uniformity."
-            },
-            {
-              "id": "B",
-              "text": "Automatic legal compliance."
-            },
-            {
-              "id": "C",
-              "text": "Inclusive, reasoned dialogue among affected parties."
-            },
-            {
-              "id": "D",
-              "text": "Private calculation by the most powerful actor."
-            }
-          ],
-          "correctOptionId": "C",
-          "explanation": "Legitimacy arises from participation and reasons others can examine.",
-          "source": "MG2008 Lecture 5; Reading 6"
-        },
-        {
-          "id": "MG2008-DUTIES-ADDITIONAL-009",
-          "stem": "Why can rights conflict?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Rights have no stakeholders."
-            },
-            {
-              "id": "B",
-              "text": "Protecting one claim may limit another, requiring justified priority."
-            },
-            {
-              "id": "C",
-              "text": "Every right is unlimited."
-            },
-            {
-              "id": "D",
-              "text": "Rights apply only to governments."
-            }
-          ],
-          "correctOptionId": "B",
-          "explanation": "Privacy, speech, safety and property can pull in different directions.",
           "source": "MG2008 Lecture 5; Reading 6"
         },
         {
@@ -7044,81 +5694,6 @@
           "source": "MG2008 Lecture 6; Readings 7 and 9"
         },
         {
-          "id": "MG2008-CSR-002",
-          "stem": "What is an instrumental stakeholder claim?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Only law creates stakeholder status."
-            },
-            {
-              "id": "B",
-              "text": "Good stakeholder treatment can improve organisational performance."
-            },
-            {
-              "id": "C",
-              "text": "Stakeholders have worth regardless of profit."
-            },
-            {
-              "id": "D",
-              "text": "The firm currently balances interests."
-            }
-          ],
-          "correctOptionId": "B",
-          "explanation": "Instrumental reasoning links treatment to strategic or financial outcomes.",
-          "source": "MG2008 Lecture 6; Readings 7 and 9"
-        },
-        {
-          "id": "MG2008-CSR-003",
-          "stem": "What is a normative stakeholder claim?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Stakeholders deserve consideration as ends in themselves."
-            },
-            {
-              "id": "B",
-              "text": "Stakeholders matter only when powerful."
-            },
-            {
-              "id": "C",
-              "text": "Stakeholders are useful for marketing."
-            },
-            {
-              "id": "D",
-              "text": "Stakeholders always maximise profit."
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "Normative theory grounds duties in intrinsic worth.",
-          "source": "MG2008 Lecture 6; Readings 7 and 9"
-        },
-        {
-          "id": "MG2008-CSR-004",
-          "stem": "What is a descriptive stakeholder claim?",
-          "options": [
-            {
-              "id": "A",
-              "text": "It describes how organisations actually manage stakeholder interests."
-            },
-            {
-              "id": "B",
-              "text": "It proves how firms ought to act."
-            },
-            {
-              "id": "C",
-              "text": "It calculates only profit."
-            },
-            {
-              "id": "D",
-              "text": "It denies stakeholder conflict."
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "Descriptive analysis concerns observed practice.",
-          "source": "MG2008 Lecture 6; Readings 7 and 9"
-        },
-        {
           "id": "MG2008-CSR-005",
           "stem": "Which order matches Carroll’s CSR pyramid from base upward?",
           "options": [
@@ -7141,56 +5716,6 @@
           ],
           "correctOptionId": "C",
           "explanation": "Carroll places economic responsibility at the foundation, followed by legal, ethical and philanthropic.",
-          "source": "MG2008 Lecture 6; Readings 7 and 9"
-        },
-        {
-          "id": "MG2008-CSR-006",
-          "stem": "What is the principle of corporate effects?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Firms should accept responsibility for impacts they cause on others."
-            },
-            {
-              "id": "B",
-              "text": "Firms should ignore indirect effects."
-            },
-            {
-              "id": "C",
-              "text": "Only shareholders have rights."
-            },
-            {
-              "id": "D",
-              "text": "Managers must maximise donations."
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "Evans and Freeman connect corporate action with responsibility for its consequences.",
-          "source": "MG2008 Lecture 6; Readings 7 and 9"
-        },
-        {
-          "id": "MG2008-CSR-007",
-          "stem": "What does the principle of corporate rights require?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Only lawful harm matters."
-            },
-            {
-              "id": "B",
-              "text": "Corporations should not violate the rights of others."
-            },
-            {
-              "id": "C",
-              "text": "Corporations possess unlimited rights."
-            },
-            {
-              "id": "D",
-              "text": "Corporate rights override human rights."
-            }
-          ],
-          "correctOptionId": "B",
-          "explanation": "The principle constrains firms by the rights of affected stakeholders.",
           "source": "MG2008 Lecture 6; Readings 7 and 9"
         },
         {
@@ -10354,5 +8879,66 @@
         }
       ]
     }
+  ],
+  "retiredQuestionIds": [
+    "MG2008-BIASES-001",
+    "MG2008-BIASES-005",
+    "MG2008-BIASES-006",
+    "MG2008-BIASES-009",
+    "MG2008-BIASES-ADDITIONAL-002",
+    "MG2008-BIASES-ADDITIONAL-003",
+    "MG2008-BIASES-ADDITIONAL-004",
+    "MG2008-BIASES-ADDITIONAL-007",
+    "MG2008-BIASES-ADDITIONAL-008",
+    "MG2008-BIASES-ADDITIONAL-011",
+    "MG2008-BIASES-ADDITIONAL-012",
+    "MG2008-BIASES-ADDITIONAL-014",
+    "MG2008-CSR-002",
+    "MG2008-CSR-003",
+    "MG2008-CSR-004",
+    "MG2008-CSR-006",
+    "MG2008-CSR-007",
+    "MG2008-DUTIES-ADDITIONAL-001",
+    "MG2008-DUTIES-ADDITIONAL-002",
+    "MG2008-DUTIES-ADDITIONAL-003",
+    "MG2008-DUTIES-ADDITIONAL-004",
+    "MG2008-DUTIES-ADDITIONAL-005",
+    "MG2008-DUTIES-ADDITIONAL-006",
+    "MG2008-DUTIES-ADDITIONAL-008",
+    "MG2008-DUTIES-ADDITIONAL-009",
+    "MG2008-FOUNDATIONS-002",
+    "MG2008-FOUNDATIONS-009",
+    "MG2008-FOUNDATIONS-ADDITIONAL-001",
+    "MG2008-FOUNDATIONS-ADDITIONAL-005",
+    "MG2008-FOUNDATIONS-ADDITIONAL-007",
+    "MG2008-FOUNDATIONS-ADDITIONAL-008",
+    "MG2008-FOUNDATIONS-ADDITIONAL-011",
+    "MG2008-FOUNDATIONS-ADDITIONAL-012",
+    "MG2008-FOUNDATIONS-ADDITIONAL-013",
+    "MG2008-FOUNDATIONS-ADDITIONAL-015",
+    "MG2008-IMPACTS-ADDITIONAL-003",
+    "MG2008-IMPACTS-ADDITIONAL-006",
+    "MG2008-RESPONSIBILITY-011",
+    "MG2008-RESPONSIBILITY-ADDITIONAL-001",
+    "MG2008-RESPONSIBILITY-ADDITIONAL-002",
+    "MG2008-RESPONSIBILITY-ADDITIONAL-003",
+    "MG2008-RESPONSIBILITY-ADDITIONAL-004",
+    "MG2008-SYSTEMS-ADDITIONAL-001",
+    "MG2008-SYSTEMS-ADDITIONAL-002",
+    "MG2008-SYSTEMS-ADDITIONAL-007",
+    "MG2008-SYSTEMS-ADDITIONAL-009",
+    "MG2008-UTIL-004",
+    "MG2008-UTIL-007",
+    "MG2008-UTIL-ADDITIONAL-001",
+    "MG2008-UTIL-ADDITIONAL-002",
+    "MG2008-UTIL-ADDITIONAL-003",
+    "MG2008-UTIL-ADDITIONAL-005",
+    "MG2008-UTIL-ADDITIONAL-010",
+    "MG2008-W1-013",
+    "MG2008-W3-007",
+    "MG2008-W4EGO-010",
+    "MG2008-W4INTRO-011",
+    "MG2008-W4UTIL-013",
+    "MG2008-W5VIRTUE-005"
   ]
 }

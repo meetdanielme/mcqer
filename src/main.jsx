@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import { BookOpen, Check, ChevronLeft, ChevronRight, CircleHelp, Download, GraduationCap, Menu, Plus, RotateCcw, Upload, X } from 'lucide-react';
-import { loadCourses, mergeBackup, mergeImport, questionCount, validateBackup, validateImport } from './data.js';
+import { loadCourses, mergeBackup, mergeImport, questionCount, questionFingerprint, validateBackup, validateImport } from './data.js';
 import { loadPublishedDocuments, mergePublishedCourses } from './published.js';
 import { loadStoredCourses, saveStoredCourses } from './storage.js';
 import { prepareImage, portableCourses } from './images.js';
@@ -110,6 +110,7 @@ function App() {
     const question = { id: crypto.randomUUID(), stem: String(form.get('stem')).trim(), options, correctOptionId: String(form.get('correctOptionId')), explanation: String(form.get('explanation')).trim(), source: String(form.get('source')).trim() };
     if (questionArtifact) question.artifact = { html: questionArtifact, title: String(form.get('artifactTitle')).trim() };
     if (questionImage) question.image = { src: questionImage, alt: String(form.get('imageAlt')).trim() };
+    if (course.chapters.some(chapter => chapter.questions.some(existing => questionFingerprint(existing) === questionFingerprint(question)))) { setNotice('That question already exists in this course.'); return; }
     updateCourse({ ...course, chapters: course.chapters.map(chapter => chapter.id === chapterId ? { ...chapter, questions: [...chapter.questions, question] } : chapter) }); setModal(null);
   }
   function deleteCourse() {
@@ -128,7 +129,7 @@ function App() {
     if (errors.length) { setModal({ type: 'errors', errors }); return; }
     const result = mergeImport(localCourses, input);
     setLocalCourses(result.courses); setSelectedCode(input.course.code.trim()); setPractice(null);
-    setNotice('Imported ' + result.added + ' new and updated ' + result.updated + ' questions.');
+    setNotice('Imported ' + result.added + ' new and updated ' + result.updated + ' questions.' + (result.duplicates ? ' Skipped ' + result.duplicates + ' identical questions.' : ''));
   }
   async function restoreBackup(event) {
     const file = event.target.files?.[0];
@@ -140,7 +141,7 @@ function App() {
     if (errors.length) { setModal({ type: 'errors', errors }); return; }
     const result = mergeBackup(localCourses, data);
     setLocalCourses(result.courses); setPractice(null);
-    setNotice('Backup merged: ' + result.added + ' new and ' + result.updated + ' updated questions.');
+    setNotice('Backup merged: ' + result.added + ' new and ' + result.updated + ' updated questions.' + (result.duplicates ? ' Skipped ' + result.duplicates + ' identical questions.' : ''));
   }
   async function selectQuestionArtifact(event) {
     const file = event.target.files?.[0];

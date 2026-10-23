@@ -1,0 +1,672 @@
+{
+  "reviewedQuestionCount": 1253,
+  "method": "Per-course review of matching prompts, answers and explanations; no automated fuzzy deletions. Retained distinct calculations, contrasting conditions and materially different application scenarios. All nine existing HTML visuals retained.",
+  "removals": [
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-FOUNDATIONS-ADDITIONAL-001",
+      "retainedId": "MG2008-FOUNDATIONS-001",
+      "reason": "Older rewording of the same topic already represented by the updated weekly question."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-FOUNDATIONS-ADDITIONAL-005",
+      "retainedId": "MG2008-FOUNDATIONS-005",
+      "reason": "Older rewording of the same topic already represented by the updated weekly question."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-FOUNDATIONS-ADDITIONAL-007",
+      "retainedId": "MG2008-FOUNDATIONS-007",
+      "reason": "Older rewording of the same topic already represented by the updated weekly question."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-FOUNDATIONS-ADDITIONAL-008",
+      "retainedId": "MG2008-FOUNDATIONS-008",
+      "reason": "Older rewording of the same topic already represented by the updated weekly question."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-FOUNDATIONS-ADDITIONAL-011",
+      "retainedId": "MG2008-FOUNDATIONS-011",
+      "reason": "Older rewording of the same topic already represented by the updated weekly question."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-FOUNDATIONS-ADDITIONAL-012",
+      "retainedId": "MG2008-FOUNDATIONS-012",
+      "reason": "Older rewording of the same topic already represented by the updated weekly question."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-FOUNDATIONS-ADDITIONAL-013",
+      "retainedId": "MG2008-FOUNDATIONS-013",
+      "reason": "Older rewording of the same topic already represented by the updated weekly question."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-FOUNDATIONS-ADDITIONAL-015",
+      "retainedId": "MG2008-FOUNDATIONS-015",
+      "reason": "Older rewording of the same topic already represented by the updated weekly question."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-RESPONSIBILITY-ADDITIONAL-001",
+      "retainedId": "MG2008-RESPONSIBILITY-001",
+      "reason": "Older rewording of the same topic already represented by the updated weekly question."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-RESPONSIBILITY-ADDITIONAL-002",
+      "retainedId": "MG2008-RESPONSIBILITY-002",
+      "reason": "Older rewording of the same topic already represented by the updated weekly question."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-RESPONSIBILITY-ADDITIONAL-003",
+      "retainedId": "MG2008-RESPONSIBILITY-003",
+      "reason": "Older rewording of the same topic already represented by the updated weekly question."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-RESPONSIBILITY-ADDITIONAL-004",
+      "retainedId": "MG2008-RESPONSIBILITY-004",
+      "reason": "Older rewording of the same topic already represented by the updated weekly question."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-BIASES-ADDITIONAL-002",
+      "retainedId": "MG2008-BIASES-002",
+      "reason": "Older rewording of the same topic already represented by the updated weekly question."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-BIASES-ADDITIONAL-003",
+      "retainedId": "MG2008-BIASES-003",
+      "reason": "Older rewording of the same topic already represented by the updated weekly question."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-BIASES-ADDITIONAL-004",
+      "retainedId": "MG2008-BIASES-004",
+      "reason": "Older rewording of the same topic already represented by the updated weekly question."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-BIASES-ADDITIONAL-007",
+      "retainedId": "MG2008-BIASES-007",
+      "reason": "Older rewording of the same topic already represented by the updated weekly question."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-BIASES-ADDITIONAL-008",
+      "retainedId": "MG2008-BIASES-008",
+      "reason": "Older rewording of the same topic already represented by the updated weekly question."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-BIASES-ADDITIONAL-011",
+      "retainedId": "MG2008-BIASES-011",
+      "reason": "Older rewording of the same topic already represented by the updated weekly question."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-BIASES-ADDITIONAL-012",
+      "retainedId": "MG2008-BIASES-012",
+      "reason": "Older rewording of the same topic already represented by the updated weekly question."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-BIASES-ADDITIONAL-014",
+      "retainedId": "MG2008-BIASES-014",
+      "reason": "Older rewording of the same topic already represented by the updated weekly question."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-SYSTEMS-ADDITIONAL-001",
+      "retainedId": "MG2008-SYSTEMS-001",
+      "reason": "Older rewording of the same topic already represented by the updated weekly question."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-SYSTEMS-ADDITIONAL-002",
+      "retainedId": "MG2008-SYSTEMS-002",
+      "reason": "Older rewording of the same topic already represented by the updated weekly question."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-SYSTEMS-ADDITIONAL-007",
+      "retainedId": "MG2008-SYSTEMS-007",
+      "reason": "Older rewording of the same topic already represented by the updated weekly question."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-SYSTEMS-ADDITIONAL-009",
+      "retainedId": "MG2008-SYSTEMS-009",
+      "reason": "Older rewording of the same topic already represented by the updated weekly question."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-IMPACTS-ADDITIONAL-003",
+      "retainedId": "MG2008-IMPACTS-003",
+      "reason": "Older rewording of the same topic already represented by the updated weekly question."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-IMPACTS-ADDITIONAL-006",
+      "retainedId": "MG2008-IMPACTS-006",
+      "reason": "Older rewording of the same topic already represented by the updated weekly question."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-UTIL-ADDITIONAL-001",
+      "retainedId": "MG2008-UTIL-001",
+      "reason": "Older rewording of the same topic already represented by the updated weekly question."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-UTIL-ADDITIONAL-002",
+      "retainedId": "MG2008-UTIL-002",
+      "reason": "Older rewording of the same topic already represented by the updated weekly question."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-UTIL-ADDITIONAL-003",
+      "retainedId": "MG2008-UTIL-003",
+      "reason": "Older rewording of the same topic already represented by the updated weekly question."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-UTIL-ADDITIONAL-005",
+      "retainedId": "MG2008-UTIL-005",
+      "reason": "Older rewording of the same topic already represented by the updated weekly question."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-UTIL-ADDITIONAL-010",
+      "retainedId": "MG2008-UTIL-010",
+      "reason": "Older rewording of the same topic already represented by the updated weekly question."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-DUTIES-ADDITIONAL-001",
+      "retainedId": "MG2008-DUTIES-001",
+      "reason": "Older rewording of the same topic already represented by the updated weekly question."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-DUTIES-ADDITIONAL-002",
+      "retainedId": "MG2008-DUTIES-002",
+      "reason": "Older rewording of the same topic already represented by the updated weekly question."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-DUTIES-ADDITIONAL-003",
+      "retainedId": "MG2008-DUTIES-003",
+      "reason": "Older rewording of the same topic already represented by the updated weekly question."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-DUTIES-ADDITIONAL-004",
+      "retainedId": "MG2008-DUTIES-004",
+      "reason": "Older rewording of the same topic already represented by the updated weekly question."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-DUTIES-ADDITIONAL-005",
+      "retainedId": "MG2008-DUTIES-005",
+      "reason": "Older rewording of the same topic already represented by the updated weekly question."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-DUTIES-ADDITIONAL-006",
+      "retainedId": "MG2008-DUTIES-006",
+      "reason": "Older rewording of the same topic already represented by the updated weekly question."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-DUTIES-ADDITIONAL-008",
+      "retainedId": "MG2008-DUTIES-008",
+      "reason": "Older rewording of the same topic already represented by the updated weekly question."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-DUTIES-ADDITIONAL-009",
+      "retainedId": "MG2008-DUTIES-009",
+      "reason": "Older rewording of the same topic already represented by the updated weekly question."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-CSR-002",
+      "retainedId": "MG2008-STAKEHOLDERS-008",
+      "reason": "Both identify the instrumental stakeholder approach through business performance."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-CSR-003",
+      "retainedId": "MG2008-STAKEHOLDERS-009",
+      "reason": "Both define normative stakeholder consideration."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-CSR-004",
+      "retainedId": "MG2008-STAKEHOLDERS-007",
+      "reason": "Both identify the descriptive stakeholder approach."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-CSR-006",
+      "retainedId": "MG2008-STAKEHOLDERS-005",
+      "reason": "Both define the principle of corporate effects."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-CSR-007",
+      "retainedId": "MG2008-STAKEHOLDERS-004",
+      "reason": "Both define the principle of corporate rights."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-BIASES-001",
+      "retainedId": "MG2008-BIASES-012",
+      "reason": "Both identify prior good conduct licensing later misconduct; retain the concrete sourcing scenario."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-BIASES-005",
+      "retainedId": "MG2008-BIASES-011",
+      "reason": "Both identify self-serving interpretations of success and failure."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-BIASES-006",
+      "retainedId": "MG2008-BIASES-013",
+      "reason": "Both identify biased assimilation of evidence."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-BIASES-009",
+      "retainedId": "MG2008-BIASES-014",
+      "reason": "Both identify the Bathsheba syndrome."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-FOUNDATIONS-002",
+      "retainedId": "MG2008-FOUNDATIONS-011",
+      "reason": "Both explain why legal compliance does not settle moral acceptability."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-FOUNDATIONS-009",
+      "retainedId": "MG2008-FOUNDATIONS-008",
+      "reason": "Both reject common local practice as sufficient moral justification."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-UTIL-007",
+      "retainedId": "MG2008-FOUNDATIONS-008",
+      "reason": "Both reject local acceptance of corruption as sufficient justification."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-RESPONSIBILITY-011",
+      "retainedId": "MG2008-RESPONSIBILITY-002",
+      "reason": "Repeats the qualification that Friedman permits profit without deception or fraud."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-W5VIRTUE-005",
+      "retainedId": "MG2008-W5VIRTUE-012",
+      "reason": "Both require habitual character rather than one isolated action; retain the mixed-conduct scenario."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-W4INTRO-011",
+      "retainedId": "MG2008-DUTIES-004",
+      "reason": "Both identify character cultivation as the focus of virtue ethics."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-UTIL-004",
+      "retainedId": "MG2008-W4UTIL-005",
+      "reason": "Both state the harmed-minority objection to aggregate utility."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-W4UTIL-013",
+      "retainedId": "MG2008-W4UTIL-001",
+      "reason": "Both ask for the net-benefit criterion of utilitarian choice."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-W4EGO-010",
+      "retainedId": "MG2008-W4EGO-002",
+      "reason": "Both distinguish enlightened egoism through longer-term interests."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-W3-007",
+      "retainedId": "MG2008-W3-006",
+      "reason": "Both distinguish accumulated plastic stocks from annual flows."
+    },
+    {
+      "course": "MG2008",
+      "removedId": "MG2008-W1-013",
+      "retainedId": "MG2008-FOUNDATIONS-011",
+      "reason": "Both require further ethical analysis beyond legal compliance."
+    },
+    {
+      "course": "IS2206",
+      "removedId": "IS2206-ARCH-014",
+      "retainedId": "IS2206-ARCH-004",
+      "reason": "Both identify index/storage decisions as internal-level tasks."
+    },
+    {
+      "course": "IS2206",
+      "removedId": "IS2206-ARCH-009",
+      "retainedId": "IS2206-RELATIONAL-005",
+      "reason": "Both define a record/row as an entity instance."
+    },
+    {
+      "course": "IS2206",
+      "removedId": "IS2206-EVOLUTION-016",
+      "retainedId": "IS2206-EVOLUTION-007",
+      "reason": "Both define the relational plus object-style purpose of object-relational databases."
+    },
+    {
+      "course": "IS2206",
+      "removedId": "IS2206-EVOLUTION-015",
+      "retainedId": "IS2206-EVOLUTION-006",
+      "reason": "Both identify stored objects containing attributes and methods."
+    },
+    {
+      "course": "IS2206",
+      "removedId": "IS2206-RELATIONAL-008",
+      "retainedId": "IS2206-RELATIONAL-019",
+      "reason": "Both explain deriving changing age from stable date of birth."
+    },
+    {
+      "course": "IS2206",
+      "removedId": "IS2206-DBMS-010",
+      "retainedId": "IS2206-DBMS-015",
+      "reason": "Both identify granting access privileges as DCL; retain the applied permission example."
+    },
+    {
+      "course": "IS2206",
+      "removedId": "IS2206-DBMS-005",
+      "retainedId": "IS2206-DBMS-023",
+      "reason": "Both identify authorisation control as blocking unauthorised table reads."
+    },
+    {
+      "course": "IS2206",
+      "removedId": "IS2206-ARCH-003",
+      "retainedId": "IS2206-ARCH-013",
+      "reason": "Both identify organisation-wide logical relationships as the conceptual level."
+    },
+    {
+      "course": "IS2206",
+      "removedId": "IS2206-DESIGN11-004",
+      "retainedId": "IS2206-RELATIONAL-003",
+      "reason": "Both characterise conceptual modelling as implementation-independent information requirements."
+    },
+    {
+      "course": "IS2206",
+      "removedId": "IS2206-EVOLUTION-017",
+      "retainedId": "IS2206-EVOLUTION-024",
+      "reason": "Both define a database as a shared controlled resource serving multiple applications."
+    },
+    {
+      "course": "IS2206",
+      "removedId": "IS2206-ARCH-007",
+      "retainedId": "IS2206-ARCH-019",
+      "reason": "Both identify physical data independence after storage changes without logical changes."
+    },
+    {
+      "course": "IS2208",
+      "removedId": "IS2208-LEVELS-004",
+      "retainedId": "IS2208-LEVELS-016",
+      "reason": "Both give the timer-and-thermostat conditions for zone heating."
+    },
+    {
+      "course": "IS2208",
+      "removedId": "IS2208-DYNAMIC-003",
+      "retainedId": "IS2208-DYNAMIC-024",
+      "reason": "Both state that the static folder contains CSS and JavaScript assets."
+    },
+    {
+      "course": "IS2208",
+      "removedId": "IS2208-DYNAMIC-002",
+      "retainedId": "IS2208-DYNAMIC-023",
+      "reason": "Both state that the templates folder holds HTML templates."
+    },
+    {
+      "course": "IS2208",
+      "removedId": "IS2208-FLASK-009",
+      "retainedId": "IS2208-FLASK-024",
+      "reason": "Both explain conflicts from duplicate Flask endpoint names."
+    },
+    {
+      "course": "IS2208",
+      "removedId": "IS2208-FLASK-003",
+      "retainedId": "IS2208-FLASK-019",
+      "reason": "Both explain virtual-environment dependency isolation."
+    },
+    {
+      "course": "IS2208",
+      "removedId": "IS2208-LEVELS-009",
+      "retainedId": "IS2208-LEVELS-025",
+      "reason": "Both explain architecture knowledge selecting branches, states and interfaces for tests."
+    },
+    {
+      "course": "IS2208",
+      "removedId": "IS2208-DYNAMIC-006",
+      "retainedId": "IS2208-DYNAMIC-021",
+      "reason": "Both explain escaping untrusted markup into safe display text."
+    },
+    {
+      "course": "IS2208",
+      "removedId": "IS2208-DYNAMIC-008",
+      "retainedId": "IS2208-DYNAMIC-017",
+      "reason": "Both explain matching integer-converted Flask route segments."
+    },
+    {
+      "course": "IS2208",
+      "removedId": "IS2208-TESTFIRST-020",
+      "retainedId": "IS2208-PYTEST-005",
+      "reason": "Both use the same 20/21/22 boundary tests for the same age rule."
+    },
+    {
+      "course": "IS2208",
+      "removedId": "IS2208-LEVELS-007",
+      "retainedId": "IS2208-LEVELS-022",
+      "reason": "Both explain top-down diagnosis using a failing whole-system symptom."
+    },
+    {
+      "course": "IS2208",
+      "removedId": "IS2208-TESTING-012",
+      "retainedId": "IS2208-TESTING-019",
+      "reason": "Both identify shared assumptions causing common-mode failure."
+    },
+    {
+      "course": "IS2208",
+      "removedId": "IS2208-PYTEST-010",
+      "retainedId": "IS2208-DYNAMIC-016",
+      "reason": "Both state that an unconstrained Flask path segment is a string."
+    },
+    {
+      "course": "IS2208",
+      "removedId": "IS2208-TESTING-023",
+      "retainedId": "IS2208-TESTING-013",
+      "reason": "Both explain unsafe results from correct software using stale operational data."
+    },
+    {
+      "course": "IS2208",
+      "removedId": "IS2208-FORMS-014",
+      "retainedId": "IS2208-CONTEXT13-006",
+      "reason": "Both test server-side Jinja rendering into the HTML received by the browser."
+    },
+    {
+      "course": "IS2208",
+      "removedId": "IS2208-CONTRACTS-006",
+      "retainedId": "IS2208-CONTRACTS-011",
+      "reason": "Both require ValueError for a negative radicand under an even real-root contract."
+    },
+    {
+      "course": "IS2208",
+      "removedId": "IS2208-FLASK-006",
+      "retainedId": "IS2208-FLASK-021",
+      "reason": "Both define a route decorator as a mapping from a URL to a Python view."
+    },
+    {
+      "course": "EC2204",
+      "removedId": "EC2204-MARKETS-013",
+      "retainedId": "EC2204-MARKETS-008",
+      "reason": "Both define technical efficiency/inefficiency through inputs needed for a fixed output."
+    },
+    {
+      "course": "EC2204",
+      "removedId": "EC2204-MARKETS-019",
+      "retainedId": "EC2204-MARKETS-007",
+      "reason": "Both explain Hayek using information dispersed across people."
+    },
+    {
+      "course": "EC2204",
+      "removedId": "EC2204-MARKETS-023",
+      "retainedId": "EC2204-MARKETS-014",
+      "reason": "Both explain why mixed economies combine market coordination with government intervention."
+    },
+    {
+      "course": "EC2204",
+      "removedId": "EC2204-MARKETS-021",
+      "retainedId": "EC2204-MARKETS-010",
+      "reason": "Both state that efficiency does not imply equitable distribution."
+    },
+    {
+      "course": "EC2204",
+      "removedId": "EC2204-MARKETS-024",
+      "retainedId": "EC2204-MARKETS-011",
+      "reason": "Both use the pencil example to explain dispersed-knowledge coordination."
+    },
+    {
+      "course": "EC2204",
+      "removedId": "EC2204-SAMPLE-045",
+      "retainedId": "EC2204-WEALTH-001",
+      "reason": "Both define shareholder wealth through discounted future returns."
+    },
+    {
+      "course": "EC2204",
+      "removedId": "EC2204-SAMPLE-030",
+      "retainedId": "EC2204-WEALTH-022",
+      "reason": "Both interpret positive NPV as adding wealth beyond the required return."
+    },
+    {
+      "course": "EC2204",
+      "removedId": "EC2204-STRUCTURE-014",
+      "retainedId": "EC2204-WELFARE10-008",
+      "reason": "Both identify long-run monopolistic-competition tangency/price equal to AC as zero economic profit."
+    },
+    {
+      "course": "EC2204",
+      "removedId": "EC2204-STRUCTURE-003",
+      "retainedId": "EC2204-WELFARE10-001",
+      "reason": "Both distinguish horizontal competitive-firm demand from market demand."
+    },
+    {
+      "course": "EC2204",
+      "removedId": "EC2204-PESTLE-006",
+      "retainedId": "EC2204-SAMPLE-005",
+      "reason": "Both classify changing population age structure as Social."
+    },
+    {
+      "course": "EC2204",
+      "removedId": "EC2204-PESTLE-022",
+      "retainedId": "EC2204-SAMPLE-005",
+      "reason": "Both classify an ageing population changing customer needs as Social."
+    },
+    {
+      "course": "EC2204",
+      "removedId": "EC2204-SAMPLE-010",
+      "retainedId": "EC2204-SAMPLE-012",
+      "reason": "Both describe an unprioritised PESTLE list causing analysis paralysis."
+    },
+    {
+      "course": "EC2204",
+      "removedId": "EC2204-DEMAND-013",
+      "retainedId": "EC2204-DEMAND-017",
+      "reason": "Both predict a leftward supply shift from higher input costs."
+    },
+    {
+      "course": "EC2204",
+      "removedId": "EC2204-SURPLUS-014",
+      "retainedId": "EC2204-SURPLUS-021",
+      "reason": "Both identify buyer uncertainty about seller-known quality as information asymmetry."
+    },
+    {
+      "course": "EC2204",
+      "removedId": "EC2204-PESTLE-005",
+      "retainedId": "EC2204-SAMPLE-004",
+      "reason": "Both predict dearer imports following domestic-currency depreciation."
+    },
+    {
+      "course": "EC2204",
+      "removedId": "EC2204-PESTLE-004",
+      "retainedId": "EC2204-SAMPLE-003",
+      "reason": "Both identify inflation eroding household real purchasing power."
+    },
+    {
+      "course": "EC2204",
+      "removedId": "EC2204-EQUILIBRIUM-023",
+      "retainedId": "EC2204-EQUILIBRIUM-015",
+      "reason": "Both state that simultaneous demand and supply decreases leave the price effect ambiguous."
+    },
+    {
+      "course": "EC2204",
+      "removedId": "EC2204-EQUILIBRIUM-022",
+      "retainedId": "EC2204-BUTTER-004",
+      "reason": "Both state that higher demand and lower supply raise price; retain the richer butter example including quantity ambiguity."
+    },
+    {
+      "course": "EC2204",
+      "removedId": "EC2204-SELLERS-016",
+      "retainedId": "EC2204-WELFARE10-002",
+      "reason": "Both state that MC crosses AC at minimum AC; retain the version explaining why."
+    },
+    {
+      "course": "EC2204",
+      "removedId": "EC2204-SELLERS-002",
+      "retainedId": "EC2204-WEALTH-009",
+      "reason": "Both explain positive accounting profit coexisting with negative economic profit after opportunity cost."
+    },
+    {
+      "course": "EC2204",
+      "removedId": "EC2204-WEALTH-010",
+      "retainedId": "EC2204-SAMPLE-058",
+      "reason": "Both ask for expanding output when MR exceeds MC; retain the applied numerical comparison."
+    },
+    {
+      "course": "EC2204",
+      "removedId": "EC2204-STRUCTURE-007",
+      "retainedId": "EC2204-PORTER12-005",
+      "reason": "Both identify a medicine patent as a legal entry barrier."
+    },
+    {
+      "course": "EC2204",
+      "removedId": "EC2204-SAMPLE-015",
+      "retainedId": "EC2204-SAMPLE-019",
+      "reason": "Both classify geopolitical and trade-policy risk for overseas operations as Political."
+    },
+    {
+      "course": "EC2204",
+      "removedId": "EC2204-SAMPLE-017",
+      "retainedId": "EC2204-SAMPLE-001",
+      "reason": "Both classify government spending and fiscal/public-finance policy as Political."
+    },
+    {
+      "course": "EC2204",
+      "removedId": "EC2204-PESTLE-016",
+      "retainedId": "EC2204-SAMPLE-011",
+      "reason": "Both classify exchange-rate movements as an Economic PESTLE factor."
+    }
+  ]
+}

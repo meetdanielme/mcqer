@@ -992,81 +992,6 @@
           "source": "IS2206 Lecture 3 and reviewed notes"
         },
         {
-          "id": "IS2206-EVOLUTION-015",
-          "stem": "In an object-oriented database, what may be stored with an object’s attributes?",
-          "options": [
-            {
-              "id": "A",
-              "text": "A separate spreadsheet formula"
-            },
-            {
-              "id": "B",
-              "text": "Methods describing its behaviour"
-            },
-            {
-              "id": "C",
-              "text": "Only printed reports"
-            },
-            {
-              "id": "D",
-              "text": "SQL permissions only"
-            }
-          ],
-          "correctOptionId": "B",
-          "explanation": "Objects can combine state with operations and references to other objects.",
-          "source": "IS2206 Lecture 3 and reviewed notes"
-        },
-        {
-          "id": "IS2206-EVOLUTION-016",
-          "stem": "Why did object-relational databases emerge?",
-          "options": [
-            {
-              "id": "A",
-              "text": "To remove tables from every database"
-            },
-            {
-              "id": "B",
-              "text": "To replace all data with program code"
-            },
-            {
-              "id": "C",
-              "text": "To prevent the use of SQL"
-            },
-            {
-              "id": "D",
-              "text": "To retain relational tables while supporting more complex object-like data features"
-            }
-          ],
-          "correctOptionId": "D",
-          "explanation": "They extend the relational model rather than discarding its established strengths.",
-          "source": "IS2206 Lecture 3 and reviewed notes"
-        },
-        {
-          "id": "IS2206-EVOLUTION-017",
-          "stem": "What does it mean that a database supports multiple applications?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Only one user can open the database"
-            },
-            {
-              "id": "B",
-              "text": "Every application keeps an unrelated copy"
-            },
-            {
-              "id": "C",
-              "text": "The database contains executable apps only"
-            },
-            {
-              "id": "D",
-              "text": "Different authorised programs can use the same controlled data resource"
-            }
-          ],
-          "correctOptionId": "D",
-          "explanation": "Shared data reduce isolation and support consistent organisational use.",
-          "source": "IS2206 Lecture 3 and reviewed notes"
-        },
-        {
           "id": "IS2206-EVOLUTION-018",
           "stem": "When is redundancy controlled rather than wasteful duplication?",
           "options": [
@@ -1324,31 +1249,6 @@
           "source": "Lectures 3–4 notes"
         },
         {
-          "id": "IS2206-ARCH-003",
-          "stem": "Which level defines the complete logical structure of organisational data and its relationships?",
-          "options": [
-            {
-              "id": "A",
-              "text": "External level"
-            },
-            {
-              "id": "B",
-              "text": "Conceptual level"
-            },
-            {
-              "id": "C",
-              "text": "Internal level"
-            },
-            {
-              "id": "D",
-              "text": "Operating-system level"
-            }
-          ],
-          "correctOptionId": "B",
-          "explanation": "The conceptual schema represents entities, attributes, relationships, constraints and legal values across the organisation.",
-          "source": "Lectures 3–4 notes"
-        },
-        {
           "id": "IS2206-ARCH-004",
           "stem": "Which task belongs primarily to the internal level?",
           "options": [
@@ -1424,31 +1324,6 @@
           "source": "Lecture 4 notes"
         },
         {
-          "id": "IS2206-ARCH-007",
-          "stem": "A DBA moves database files to a new server without changing the user-facing application. Which benefit is illustrated?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Fixed querying"
-            },
-            {
-              "id": "B",
-              "text": "Physical data independence"
-            },
-            {
-              "id": "C",
-              "text": "Data duplication"
-            },
-            {
-              "id": "D",
-              "text": "Program–data dependence"
-            }
-          ],
-          "correctOptionId": "B",
-          "explanation": "Changes to physical storage can often be isolated from external views and application logic.",
-          "source": "Lecture 4 notes"
-        },
-        {
           "id": "IS2206-ARCH-008",
           "stem": "Which sequence correctly orders the data hierarchy from largest to smallest?",
           "options": [
@@ -1472,31 +1347,6 @@
           "correctOptionId": "A",
           "explanation": "The lecture hierarchy is Database, File, Record, Field, Byte, Bit.",
           "source": "Lecture 4 notes and slides, slide 3"
-        },
-        {
-          "id": "IS2206-ARCH-009",
-          "stem": "In the data hierarchy, what does a record normally represent?",
-          "options": [
-            {
-              "id": "A",
-              "text": "One binary digit"
-            },
-            {
-              "id": "B",
-              "text": "One character encoded as bits"
-            },
-            {
-              "id": "C",
-              "text": "One complete instance or row, such as one student"
-            },
-            {
-              "id": "D",
-              "text": "The full collection of organisational data"
-            }
-          ],
-          "correctOptionId": "C",
-          "explanation": "A record groups related fields for one entity instance, corresponding broadly to a relational row.",
-          "source": "Lecture 4 notes"
         },
         {
           "id": "IS2206-ARCH-010",
@@ -1596,31 +1446,6 @@
           ],
           "correctOptionId": "C",
           "explanation": "The conceptual schema captures the complete logical structure and relationships.",
-          "source": "IS2206 Lectures 3–4 and reviewed notes"
-        },
-        {
-          "id": "IS2206-ARCH-014",
-          "stem": "Which decision belongs most directly to the internal level?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Which fields a cashier may see"
-            },
-            {
-              "id": "B",
-              "text": "Whether Customer relates to Order"
-            },
-            {
-              "id": "C",
-              "text": "What a manager calls a report"
-            },
-            {
-              "id": "D",
-              "text": "How an index is stored to speed retrieval"
-            }
-          ],
-          "correctOptionId": "D",
-          "explanation": "The internal level concerns physical storage and access structures.",
           "source": "IS2206 Lectures 3–4 and reviewed notes"
         },
         {
@@ -2006,31 +1831,6 @@
           "source": "Lectures 4–5 notes"
         },
         {
-          "id": "IS2206-DBMS-005",
-          "stem": "Which DBMS component checks whether a user has permission to perform a requested operation?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Buffer manager"
-            },
-            {
-              "id": "B",
-              "text": "Authorisation control"
-            },
-            {
-              "id": "C",
-              "text": "Integrity checker"
-            },
-            {
-              "id": "D",
-              "text": "Query output formatter"
-            }
-          ],
-          "correctOptionId": "B",
-          "explanation": "Authorisation control verifies identity and privileges before allowing the request to continue.",
-          "source": "Lecture 5 notes"
-        },
-        {
           "id": "IS2206-DBMS-006",
           "stem": "A student’s date of birth is entered as a date that would make the student an infant. Which DBMS component should reject it?",
           "options": [
@@ -2128,31 +1928,6 @@
           ],
           "correctOptionId": "B",
           "explanation": "DDL defines database structures and associated integrity or security constraints.",
-          "source": "Lecture 5 notes"
-        },
-        {
-          "id": "IS2206-DBMS-010",
-          "stem": "Which SQL sub-language is primarily concerned with granting or revoking access privileges?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Data Control Language (DCL)"
-            },
-            {
-              "id": "B",
-              "text": "Data Manipulation Language (DML)"
-            },
-            {
-              "id": "C",
-              "text": "Data Definition Language (DDL)"
-            },
-            {
-              "id": "D",
-              "text": "Query Optimisation Language (QOL)"
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "DCL controls access to stored data and manages user privileges.",
           "source": "Lecture 5 notes"
         },
         {
@@ -2710,31 +2485,6 @@
           ],
           "correctOptionId": "A",
           "explanation": "A column represents one attribute, so a consistent type lets the DBMS enforce valid values and operations.",
-          "source": "Lecture 6 notes"
-        },
-        {
-          "id": "IS2206-RELATIONAL-008",
-          "stem": "Why is storing a person’s current age often a poor design choice?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Age can never be represented numerically."
-            },
-            {
-              "id": "B",
-              "text": "Age changes over time and would need repeated updates."
-            },
-            {
-              "id": "C",
-              "text": "Age cannot be used in a query."
-            },
-            {
-              "id": "D",
-              "text": "Age always violates user permissions."
-            }
-          ],
-          "correctOptionId": "B",
-          "explanation": "A date of birth is stable, whereas a stored age becomes outdated and introduces maintenance problems.",
           "source": "Lecture 6 notes"
         },
         {
@@ -5398,31 +5148,6 @@
           "source": "IS2206 Lecture 11, 13 October 2026 — notes and transcript"
         },
         {
-          "id": "IS2206-DESIGN11-004",
-          "stem": "Which description best fits a conceptual data model?",
-          "options": [
-            {
-              "id": "A",
-              "text": "A vendor-specific table-storage configuration"
-            },
-            {
-              "id": "B",
-              "text": "An information model that does not commit to physical storage details"
-            },
-            {
-              "id": "C",
-              "text": "A list of disk sectors used by the DBMS"
-            },
-            {
-              "id": "D",
-              "text": "A DBMS-specific index configuration"
-            }
-          ],
-          "correctOptionId": "B",
-          "explanation": "Conceptual modelling represents the information and relationships needed by users independently of storage.",
-          "source": "IS2206 Lecture 11, 13 October 2026 — notes and transcript"
-        },
-        {
           "id": "IS2206-DESIGN11-005",
           "stem": "Which description best fits logical database design?",
           "options": [
@@ -6889,5 +6614,18 @@
       ],
       "id": "a1366129-0710-4181-a6a2-f05cf47b0f3a"
     }
+  ],
+  "retiredQuestionIds": [
+    "IS2206-ARCH-003",
+    "IS2206-ARCH-007",
+    "IS2206-ARCH-009",
+    "IS2206-ARCH-014",
+    "IS2206-DBMS-005",
+    "IS2206-DBMS-010",
+    "IS2206-DESIGN11-004",
+    "IS2206-EVOLUTION-015",
+    "IS2206-EVOLUTION-016",
+    "IS2206-EVOLUTION-017",
+    "IS2206-RELATIONAL-008"
   ]
 }

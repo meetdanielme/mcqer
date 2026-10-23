@@ -85,81 +85,6 @@
           "source": "EC2204 Lecture 1 notes"
         },
         {
-          "id": "EC2204-PESTLE-004",
-          "stem": "If inflation rises faster than wages, which mechanism is most likely to reduce demand for non-essential goods?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Higher real household income"
-            },
-            {
-              "id": "B",
-              "text": "Lower real household purchasing power"
-            },
-            {
-              "id": "C",
-              "text": "A stronger legal framework"
-            },
-            {
-              "id": "D",
-              "text": "Greater production efficiency"
-            }
-          ],
-          "correctOptionId": "B",
-          "explanation": "When prices rise faster than wages, real income falls and households have less purchasing power.",
-          "source": "EC2204 Lecture 1 notes"
-        },
-        {
-          "id": "EC2204-PESTLE-005",
-          "stem": "A depreciation of the euro most directly makes which outcome more likely for an Irish importer?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Imported inputs become cheaper"
-            },
-            {
-              "id": "B",
-              "text": "Imported inputs become more expensive"
-            },
-            {
-              "id": "C",
-              "text": "Exports become more expensive to foreign buyers"
-            },
-            {
-              "id": "D",
-              "text": "Interest rates automatically fall to zero"
-            }
-          ],
-          "correctOptionId": "B",
-          "explanation": "A weaker euro raises the euro cost of goods priced in foreign currencies.",
-          "source": "EC2204 Lecture 1 notes"
-        },
-        {
-          "id": "EC2204-PESTLE-006",
-          "stem": "Which example is a social PESTLE factor?",
-          "options": [
-            {
-              "id": "A",
-              "text": "A change in population age structure"
-            },
-            {
-              "id": "B",
-              "text": "A new corporation-tax rate"
-            },
-            {
-              "id": "C",
-              "text": "A binding data-protection rule"
-            },
-            {
-              "id": "D",
-              "text": "A fall in the exchange rate"
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "Demographics, culture, tastes and lifestyles belong to the social category.",
-          "source": "EC2204 Lecture 1 notes"
-        },
-        {
           "id": "EC2204-PESTLE-007",
           "stem": "Which response shows the strongest PESTLE analysis?",
           "options": [
@@ -385,31 +310,6 @@
           "source": "EC2204 Lecture 1 notes and linked PESTLE materials"
         },
         {
-          "id": "EC2204-PESTLE-016",
-          "stem": "Which PESTLE category most directly includes exchange-rate movements?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Social"
-            },
-            {
-              "id": "B",
-              "text": "Legal"
-            },
-            {
-              "id": "C",
-              "text": "Economic"
-            },
-            {
-              "id": "D",
-              "text": "Political"
-            }
-          ],
-          "correctOptionId": "C",
-          "explanation": "Exchange rates are macroeconomic variables because they affect import costs, export competitiveness and purchasing power.",
-          "source": "EC2204 Lectures 1–2 and reviewed module notes"
-        },
-        {
           "id": "EC2204-PESTLE-017",
           "stem": "A general election creates uncertainty about future tax policy before any law changes. Which category is most direct?",
           "options": [
@@ -532,31 +432,6 @@
           ],
           "correctOptionId": "A",
           "explanation": "Flooding is a physical climate or environmental event; reporting rules are primarily legal.",
-          "source": "EC2204 Lectures 1–2 and reviewed module notes"
-        },
-        {
-          "id": "EC2204-PESTLE-022",
-          "stem": "An ageing population changes the types of services customers need. Which PESTLE factor is most direct?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Economic"
-            },
-            {
-              "id": "B",
-              "text": "Technological"
-            },
-            {
-              "id": "C",
-              "text": "Legal"
-            },
-            {
-              "id": "D",
-              "text": "Social"
-            }
-          ],
-          "correctOptionId": "D",
-          "explanation": "Population age is a demographic feature and therefore a social factor.",
           "source": "EC2204 Lectures 1–2 and reviewed module notes"
         },
         {
@@ -860,31 +735,6 @@
           "source": "EC2204 — Sample MCQs, question 9"
         },
         {
-          "id": "EC2204-SAMPLE-010",
-          "stem": "A PESTLE exercise produces such a long list of possible external developments that managers cannot decide which issues to act on. Which disadvantage of PESTLE does this best illustrate?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Risk of analysis paralysis"
-            },
-            {
-              "id": "B",
-              "text": "Overemphasis on internal capabilities"
-            },
-            {
-              "id": "C",
-              "text": "High software costs"
-            },
-            {
-              "id": "D",
-              "text": "Ignoring the external environment"
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "Too many findings without priorities can produce analysis paralysis.",
-          "source": "EC2204 — Sample MCQs, question 10"
-        },
-        {
           "id": "EC2204-SAMPLE-011",
           "stem": "An Irish SME bakery is considering expanding into the UK. The management team is particularly concerned that changes in the euro–sterling exchange rate could alter the cost of ingredients and other imported inputs. Which PESTLE factor should it examine most directly?",
           "options": [
@@ -985,31 +835,6 @@
           "source": "EC2204 — Sample MCQs, question 14"
         },
         {
-          "id": "EC2204-SAMPLE-015",
-          "stem": "A pharmaceutical company is also assessing the risks associated with political stability, geopolitical developments and trade policy in the countries connected to its new supply chain. Which PESTLE category captures these issues?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Technological"
-            },
-            {
-              "id": "B",
-              "text": "Environmental"
-            },
-            {
-              "id": "C",
-              "text": "Social"
-            },
-            {
-              "id": "D",
-              "text": "Political"
-            }
-          ],
-          "correctOptionId": "D",
-          "explanation": "Political stability, geopolitical risk and trade policy are Political factors.",
-          "source": "EC2204 — Sample MCQs, question 15"
-        },
-        {
           "id": "EC2204-SAMPLE-016",
           "stem": "An IT company is considering a major new investment in Ireland. Its managers want to understand how rapid developments in AI, digitalisation, payment systems and cybersecurity could affect the competitiveness of the investment. Which PESTLE category should they focus on?",
           "options": [
@@ -1033,31 +858,6 @@
           "correctOptionId": "D",
           "explanation": "AI, digitalisation and cybersecurity are Technological factors.",
           "source": "EC2204 — Sample MCQs, question 16"
-        },
-        {
-          "id": "EC2204-SAMPLE-017",
-          "stem": "An IT company is deciding whether to increase its investment in Ireland. One part of its external-environment assessment considers government spending, corporate and personal tax, fiscal risks and political stability. Which PESTLE category does this describe?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Social"
-            },
-            {
-              "id": "B",
-              "text": "Legal"
-            },
-            {
-              "id": "C",
-              "text": "Economic"
-            },
-            {
-              "id": "D",
-              "text": "Political"
-            }
-          ],
-          "correctOptionId": "D",
-          "explanation": "Tax policy, government spending and political stability are Political in the lecture framework.",
-          "source": "EC2204 — Sample MCQs, question 17"
         },
         {
           "id": "EC2204-SAMPLE-018",
@@ -1364,31 +1164,6 @@
           "correctOptionId": "C",
           "explanation": "Implicit opportunity costs can exceed the positive accounting profit.",
           "source": "EC2204 — Sample MCQs, question 33"
-        },
-        {
-          "id": "EC2204-WEALTH-010",
-          "stem": "If marginal revenue exceeds marginal cost at the current output, what does the covered decision rule suggest?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Reduce output"
-            },
-            {
-              "id": "B",
-              "text": "Increase output"
-            },
-            {
-              "id": "C",
-              "text": "Keep output fixed regardless of conditions"
-            },
-            {
-              "id": "D",
-              "text": "Close immediately"
-            }
-          ],
-          "correctOptionId": "B",
-          "explanation": "Producing an additional unit adds more revenue than cost while MR exceeds MC.",
-          "source": "EC2204 Lecture 2 notes"
         },
         {
           "id": "EC2204-WEALTH-011",
@@ -1891,31 +1666,6 @@
           "source": "EC2204 — Sample MCQs, question 28"
         },
         {
-          "id": "EC2204-SAMPLE-030",
-          "stem": "What does a positive NPV indicate?",
-          "options": [
-            {
-              "id": "A",
-              "text": "The project fails to recover its initial cost in present-value terms"
-            },
-            {
-              "id": "B",
-              "text": "The project exactly earns the required return"
-            },
-            {
-              "id": "C",
-              "text": "The project adds value after allowing for the required return"
-            },
-            {
-              "id": "D",
-              "text": "The project's accounting profit must be zero"
-            }
-          ],
-          "correctOptionId": "C",
-          "explanation": "Positive NPV means value is added above the required return.",
-          "source": "EC2204 — Sample MCQs, question 30"
-        },
-        {
           "id": "EC2204-SAMPLE-031",
           "stem": "A project has an NPV of −€4,500. What decision follows from the standard NPV rule?",
           "options": [
@@ -2239,31 +1989,6 @@
           "correctOptionId": "B",
           "explanation": "Q = €100,000/(€50 − €30) = 5,000 units.",
           "source": "EC2204 — Sample MCQs, question 44"
-        },
-        {
-          "id": "EC2204-SAMPLE-045",
-          "stem": "Which statement best captures the shareholder wealth-maximisation model?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Shareholder wealth is determined only by the firm’s fixed costs"
-            },
-            {
-              "id": "B",
-              "text": "The objective is to maximise sales regardless of costs"
-            },
-            {
-              "id": "C",
-              "text": "Shareholder wealth is related to the present value of expected future cash returns"
-            },
-            {
-              "id": "D",
-              "text": "The objective is to maximise current-period accounting profit only"
-            }
-          ],
-          "correctOptionId": "C",
-          "explanation": "Shareholder value is linked to discounted expected future cash returns.",
-          "source": "EC2204 — Sample MCQs, question 45"
         }
       ]
     },
@@ -2572,31 +2297,6 @@
           "source": "EC2204 Lectures 3–4 notes and I, Pencil"
         },
         {
-          "id": "EC2204-MARKETS-013",
-          "stem": "Which outcome demonstrates technical inefficiency?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Producing the same output with more inputs than necessary."
-            },
-            {
-              "id": "B",
-              "text": "An unequal but waste-free allocation."
-            },
-            {
-              "id": "C",
-              "text": "A price increase after demand rises."
-            },
-            {
-              "id": "D",
-              "text": "A consumer paying less than willingness to pay."
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "Technical efficiency concerns avoiding wasted inputs.",
-          "source": "EC2204 Lectures 3–4 notes and I, Pencil"
-        },
-        {
           "id": "EC2204-MARKETS-014",
           "stem": "Why might government intervention coexist with market allocation in a mixed economy?",
           "options": [
@@ -2722,31 +2422,6 @@
           "source": "EC2204 Lectures 3–5 and reviewed module notes"
         },
         {
-          "id": "EC2204-MARKETS-019",
-          "stem": "Why is decentralised knowledge important in Hayek’s argument?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Prices contain no information"
-            },
-            {
-              "id": "B",
-              "text": "Consumers know production costs perfectly"
-            },
-            {
-              "id": "C",
-              "text": "Useful information about local conditions is spread across many people"
-            },
-            {
-              "id": "D",
-              "text": "All relevant information is held by one planner"
-            }
-          ],
-          "correctOptionId": "C",
-          "explanation": "Markets can coordinate dispersed local knowledge that no single authority fully possesses.",
-          "source": "EC2204 Lectures 3–5 and reviewed module notes"
-        },
-        {
           "id": "EC2204-MARKETS-020",
           "stem": "What is a Pareto improvement?",
           "options": [
@@ -2769,31 +2444,6 @@
           ],
           "correctOptionId": "C",
           "explanation": "Pareto improvement is defined by improving someone’s position with no loss to others.",
-          "source": "EC2204 Lectures 3–5 and reviewed module notes"
-        },
-        {
-          "id": "EC2204-MARKETS-021",
-          "stem": "Can an outcome be technically efficient but viewed as unfair?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Yes, production efficiency does not determine how output or income is distributed"
-            },
-            {
-              "id": "B",
-              "text": "No, efficiency and fairness are identical"
-            },
-            {
-              "id": "C",
-              "text": "Only in a command economy"
-            },
-            {
-              "id": "D",
-              "text": "Only when output is zero"
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "Efficiency concerns resource use; equity concerns distribution and fairness.",
           "source": "EC2204 Lectures 3–5 and reviewed module notes"
         },
         {
@@ -2820,56 +2470,6 @@
           "correctOptionId": "A",
           "explanation": "Central planning can struggle to match the detail and speed of local knowledge.",
           "source": "EC2204 Lectures 3–5 and reviewed module notes"
-        },
-        {
-          "id": "EC2204-MARKETS-023",
-          "stem": "Why does a mixed economy retain both markets and government activity?",
-          "options": [
-            {
-              "id": "A",
-              "text": "A mixed economy bans private ownership"
-            },
-            {
-              "id": "B",
-              "text": "Government sets every retail price"
-            },
-            {
-              "id": "C",
-              "text": "Markets are used only for public goods"
-            },
-            {
-              "id": "D",
-              "text": "Markets coordinate many choices, while intervention may address goals or failures markets do not handle well"
-            }
-          ],
-          "correctOptionId": "D",
-          "explanation": "Mixed systems combine decentralised exchange with public rules, services and corrective intervention.",
-          "source": "EC2204 Lectures 3–5 and reviewed module notes"
-        },
-        {
-          "id": "EC2204-MARKETS-024",
-          "stem": "A pencil requires many specialised contributors, none of whom knows the entire process. What coordinating role does the market example emphasise?",
-          "options": [
-            {
-              "id": "A",
-              "text": "A single central planner must possess every production detail"
-            },
-            {
-              "id": "B",
-              "text": "Every contributor must perform all production stages"
-            },
-            {
-              "id": "C",
-              "text": "Prices and exchange can connect dispersed knowledge"
-            },
-            {
-              "id": "D",
-              "text": "Specialisation prevents any coordinated production"
-            }
-          ],
-          "correctOptionId": "C",
-          "explanation": "The example illustrates coordination among specialised contributors without one person knowing the whole process.",
-          "source": "EC2204 Lectures 3–4, I, Pencil discussion"
         },
         {
           "id": "EC2204-MARKETS-025",
@@ -3425,31 +3025,6 @@
           ],
           "correctOptionId": "D",
           "explanation": "More sellers make more output available at each price.",
-          "source": "EC2204 Lectures 3–5 notes and supply-and-demand materials"
-        },
-        {
-          "id": "EC2204-DEMAND-013",
-          "stem": "An input price rises. What is the likely supply effect?",
-          "options": [
-            {
-              "id": "A",
-              "text": "There is a movement down the demand curve only."
-            },
-            {
-              "id": "B",
-              "text": "Supply shifts left."
-            },
-            {
-              "id": "C",
-              "text": "Supply shifts right."
-            },
-            {
-              "id": "D",
-              "text": "Demand shifts left."
-            }
-          ],
-          "correctOptionId": "B",
-          "explanation": "Higher input cost reduces the quantity firms are willing to supply at each output price.",
           "source": "EC2204 Lectures 3–5 notes and supply-and-demand materials"
         },
         {
@@ -4459,56 +4034,6 @@
           "source": "EC2204 Lectures 3–5 and reviewed module notes"
         },
         {
-          "id": "EC2204-EQUILIBRIUM-022",
-          "stem": "Demand shifts right while supply shifts left. Which result is certain?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Equilibrium quantity rises"
-            },
-            {
-              "id": "B",
-              "text": "Equilibrium quantity falls"
-            },
-            {
-              "id": "C",
-              "text": "Equilibrium price falls"
-            },
-            {
-              "id": "D",
-              "text": "Equilibrium price rises"
-            }
-          ],
-          "correctOptionId": "D",
-          "explanation": "Both shifts raise price, but their effects on quantity oppose each other.",
-          "source": "EC2204 Lectures 3–5 and reviewed module notes"
-        },
-        {
-          "id": "EC2204-EQUILIBRIUM-023",
-          "stem": "Demand and supply both fall. In the standard model, which change cannot be determined without knowing their relative sizes?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Whether both curves shifted left"
-            },
-            {
-              "id": "B",
-              "text": "The direction of the equilibrium price change"
-            },
-            {
-              "id": "C",
-              "text": "Whether either change is a non-price shift"
-            },
-            {
-              "id": "D",
-              "text": "The direction of equilibrium quantity, which must rise"
-            }
-          ],
-          "correctOptionId": "B",
-          "explanation": "Quantity falls, but one shift puts downward and the other upward pressure on price.",
-          "source": "EC2204 Lecture 3, comparative statics"
-        },
-        {
           "id": "EC2204-EQUILIBRIUM-024",
           "stem": "At a price of €12, quantity demanded is 80 and quantity supplied is 62. What is the size of the shortage?",
           "options": [
@@ -4991,31 +4516,6 @@
           ],
           "correctOptionId": "B",
           "explanation": "Non-price rationing can consume resources and misallocate goods.",
-          "source": "EC2204 Lectures 4–5 notes"
-        },
-        {
-          "id": "EC2204-SURPLUS-014",
-          "stem": "What market problem arises when sellers know much more about product quality than buyers?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Technical efficiency"
-            },
-            {
-              "id": "B",
-              "text": "Perfect information"
-            },
-            {
-              "id": "C",
-              "text": "Consumer surplus maximisation"
-            },
-            {
-              "id": "D",
-              "text": "Information asymmetry"
-            }
-          ],
-          "correctOptionId": "D",
-          "explanation": "Unequal information can distort choice and exchange.",
           "source": "EC2204 Lectures 4–5 notes"
         },
         {
@@ -6085,31 +5585,6 @@
           "source": "EC2204 Sellers and Incentives slides; Lectures 7–8; slide 3; new practice example"
         },
         {
-          "id": "EC2204-SELLERS-002",
-          "stem": "Is it possible for accounting profit to be positive and economic profit to be negative?",
-          "options": [
-            {
-              "id": "A",
-              "text": "No, accounting and economic profit are identical."
-            },
-            {
-              "id": "B",
-              "text": "Yes, when total explicit and implicit opportunity costs exceed revenue even though explicit costs alone do not."
-            },
-            {
-              "id": "C",
-              "text": "No, economic profit must always exceed accounting profit."
-            },
-            {
-              "id": "D",
-              "text": "Yes, simply because fixed costs are a small proportion of total costs."
-            }
-          ],
-          "correctOptionId": "B",
-          "explanation": "Accounting profit subtracts explicit costs. Economic profit also subtracts implicit opportunity costs.",
-          "source": "EC2204 — Sample MCQs, question 93"
-        },
-        {
           "id": "EC2204-SELLERS-003",
           "stem": "In the production function A×f(K,L), what do K and L represent?",
           "options": [
@@ -6433,31 +5908,6 @@
           "correctOptionId": "C",
           "explanation": "Adding units that cost less than the current average lowers that average.",
           "source": "EC2204 — Sample MCQs, question 96"
-        },
-        {
-          "id": "EC2204-SELLERS-016",
-          "stem": "At what point does MC cross ATC in the standard smooth cost-curve diagram?",
-          "options": [
-            {
-              "id": "A",
-              "text": "The minimum of ATC"
-            },
-            {
-              "id": "B",
-              "text": "The maximum of total revenue"
-            },
-            {
-              "id": "C",
-              "text": "The minimum of market demand"
-            },
-            {
-              "id": "D",
-              "text": "Where fixed cost is zero"
-            }
-          ],
-          "correctOptionId": "A",
-          "explanation": "MC below ATC lowers it and MC above ATC raises it, so the crossing identifies the minimum.",
-          "source": "EC2204 Sellers and Incentives slides; Lectures 7–8; slide 17"
         },
         {
           "id": "EC2204-SELLERS-017",
@@ -6866,31 +6316,6 @@
           "source": "EC2204 — Sample MCQs, question 97"
         },
         {
-          "id": "EC2204-STRUCTURE-003",
-          "stem": "What distinguishes an individual firm’s demand from market demand in perfect competition?",
-          "options": [
-            {
-              "id": "A",
-              "text": "The firm’s curve has no price dimension"
-            },
-            {
-              "id": "B",
-              "text": "The firm’s curve is horizontal at market price even though market demand need not be"
-            },
-            {
-              "id": "C",
-              "text": "Both curves must be horizontal"
-            },
-            {
-              "id": "D",
-              "text": "Market demand is determined by the firm’s fixed costs"
-            }
-          ],
-          "correctOptionId": "B",
-          "explanation": "The slide’s perfectly elastic curve refers to the individual seller, not the entire market.",
-          "source": "EC2204 Market Structure deck (39 slides); slide-grounded coverage; slide 6"
-        },
-        {
           "id": "EC2204-STRUCTURE-004",
           "stem": "Why can persistent profits attract entry in a competitive model?",
           "options": [
@@ -6964,31 +6389,6 @@
           "correctOptionId": "C",
           "explanation": "Market power means influence over price, not independence from demand.",
           "source": "EC2204 Market Structure deck (39 slides); slide-grounded coverage; slides 11, 16–17"
-        },
-        {
-          "id": "EC2204-STRUCTURE-007",
-          "stem": "A pharmaceutical company holds a patent for a drug. What does the patent primarily represent in market-structure terms?",
-          "options": [
-            {
-              "id": "A",
-              "text": "A reduction in fixed costs"
-            },
-            {
-              "id": "B",
-              "text": "A natural monopoly"
-            },
-            {
-              "id": "C",
-              "text": "A legal barrier to entry that can create market power"
-            },
-            {
-              "id": "D",
-              "text": "Perfectly competitive pricing"
-            }
-          ],
-          "correctOptionId": "C",
-          "explanation": "Patent protection restricts entry for the protected invention.",
-          "source": "EC2204 — Sample MCQs, question 101"
         },
         {
           "id": "EC2204-STRUCTURE-008",
@@ -7143,31 +6543,6 @@
             "title": "Firm revenue and cost curves",
             "html": "<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{margin:0;padding:12px;background:#fff;color:#17283b;font-family:Arial,sans-serif}svg{display:block;width:100%;height:auto;max-width:720px;margin:auto}text{font-family:Arial,sans-serif;font-size:24px;fill:#17283b}.note{font-size:13px;color:#526274;max-width:720px;margin:8px auto}table{border-collapse:collapse;width:100%;max-width:660px;margin:auto;font-size:17px}th,td{padding:14px;border:1px solid #b8c7d4;text-align:left}th{background:#eef4f9}</style></head><body><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 720 510\" role=\"img\" aria-label=\"Illustrative firm curves: AR=105−Q; MR=105−2Q; AC=15+1350/Q+0.5Q; MC=15+Q. The chart illustrates the final equilibrium, not market measurements.\"><defs><clipPath id=\"plot\"><rect x=\"80\" y=\"45\" width=\"550\" height=\"340\"/></clipPath></defs><path d=\"M80.0 45V385\" stroke=\"#e2e8f0\"/><text x=\"80.0\" y=\"411\" text-anchor=\"middle\">0</text><path d=\"M171.66666666666666 45V385\" stroke=\"#e2e8f0\"/><text x=\"171.66666666666666\" y=\"411\" text-anchor=\"middle\">15</text><path d=\"M263.3333333333333 45V385\" stroke=\"#e2e8f0\"/><text x=\"263.3333333333333\" y=\"411\" text-anchor=\"middle\">30</text><path d=\"M355.0 45V385\" stroke=\"#e2e8f0\"/><text x=\"355.0\" y=\"411\" text-anchor=\"middle\">45</text><path d=\"M446.66666666666663 45V385\" stroke=\"#e2e8f0\"/><text x=\"446.66666666666663\" y=\"411\" text-anchor=\"middle\">60</text><path d=\"M538.3333333333334 45V385\" stroke=\"#e2e8f0\"/><text x=\"538.3333333333334\" y=\"411\" text-anchor=\"middle\">75</text><path d=\"M630.0 45V385\" stroke=\"#e2e8f0\"/><text x=\"630.0\" y=\"411\" text-anchor=\"middle\">90</text><path d=\"M80 385.0H630\" stroke=\"#e2e8f0\"/><text x=\"68\" y=\"390.0\" text-anchor=\"end\">0</text><path d=\"M80 317.0H630\" stroke=\"#e2e8f0\"/><text x=\"68\" y=\"322.0\" text-anchor=\"end\">30</text><path d=\"M80 249.0H630\" stroke=\"#e2e8f0\"/><text x=\"68\" y=\"254.0\" text-anchor=\"end\">60</text><path d=\"M80 181.0H630\" stroke=\"#e2e8f0\"/><text x=\"68\" y=\"186.0\" text-anchor=\"end\">90</text><path d=\"M80 113.0H630\" stroke=\"#e2e8f0\"/><text x=\"68\" y=\"118.0\" text-anchor=\"end\">120</text><path d=\"M80 45.0H630\" stroke=\"#e2e8f0\"/><text x=\"68\" y=\"50.0\" text-anchor=\"end\">150</text><g clip-path=\"url(#plot)\"><path d=\"M80.00 147.00 L81.83 147.68 L83.67 148.36 L85.50 149.04 L87.33 149.72 L89.17 150.40 L91.00 151.08 L92.83 151.76 L94.67 152.44 L96.50 153.12 L98.33 153.80 L100.17 154.48 L102.00 155.16 L103.83 155.84 L105.67 156.52 L107.50 157.20 L109.33 157.88 L111.17 158.56 L113.00 159.24 L114.83 159.92 L116.67 160.60 L118.50 161.28 L120.33 161.96 L122.17 162.64 L124.00 163.32 L125.83 164.00 L127.67 164.68 L129.50 165.36 L131.33 166.04 L133.17 166.72 L135.00 167.40 L136.83 168.08 L138.67 168.76 L140.50 169.44 L142.33 170.12 L144.17 170.80 L146.00 171.48 L147.83 172.16 L149.67 172.84 L151.50 173.52 L153.33 174.20 L155.17 174.88 L157.00 175.56 L158.83 176.24 L160.67 176.92 L162.50 177.60 L164.33 178.28 L166.17 178.96 L168.00 179.64 L169.83 180.32 L171.67 181.00 L173.50 181.68 L175.33 182.36 L177.17 183.04 L179.00 183.72 L180.83 184.40 L182.67 185.08 L184.50 185.76 L186.33 186.44 L188.17 187.12 L190.00 187.80 L191.83 188.48 L193.67 189.16 L195.50 189.84 L197.33 190.52 L199.17 191.20 L201.00 191.88 L202.83 192.56 L204.67 193.24 L206.50 193.92 L208.33 194.60 L210.17 195.28 L212.00 195.96 L213.83 196.64 L215.67 197.32 L217.50 198.00 L219.33 198.68 L221.17 199.36 L223.00 200.04 L224.83 200.72 L226.67 201.40 L228.50 202.08 L230.33 202.76 L232.17 203.44 L234.00 204.12 L235.83 204.80 L237.67 205.48 L239.50 206.16 L241.33 206.84 L243.17 207.52 L245.00 208.20 L246.83 208.88 L248.67 209.56 L250.50 210.24 L252.33 210.92 L254.17 211.60 L256.00 212.28 L257.83 212.96 L259.67 213.64 L261.50 214.32 L263.33 215.00 L265.17 215.68 L267.00 216.36 L268.83 217.04 L270.67 217.72 L272.50 218.40 L274.33 219.08 L276.17 219.76 L278.00 220.44 L279.83 221.12 L281.67 221.80 L283.50 222.48 L285.33 223.16 L287.17 223.84 L289.00 224.52 L290.83 225.20 L292.67 225.88 L294.50 226.56 L296.33 227.24 L298.17 227.92 L300.00 228.60 L301.83 229.28 L303.67 229.96 L305.50 230.64 L307.33 231.32 L309.17 232.00 L311.00 232.68 L312.83 233.36 L314.67 234.04 L316.50 234.72 L318.33 235.40 L320.17 236.08 L322.00 236.76 L323.83 237.44 L325.67 238.12 L327.50 238.80 L329.33 239.48 L331.17 240.16 L333.00 240.84 L334.83 241.52 L336.67 242.20 L338.50 242.88 L340.33 243.56 L342.17 244.24 L344.00 244.92 L345.83 245.60 L347.67 246.28 L349.50 246.96 L351.33 247.64 L353.17 248.32 L355.00 249.00 L356.83 249.68 L358.67 250.36 L360.50 251.04 L362.33 251.72 L364.17 252.40 L366.00 253.08 L367.83 253.76 L369.67 254.44 L371.50 255.12 L373.33 255.80 L375.17 256.48 L377.00 257.16 L378.83 257.84 L380.67 258.52 L382.50 259.20 L384.33 259.88 L386.17 260.56 L388.00 261.24 L389.83 261.92 L391.67 262.60 L393.50 263.28 L395.33 263.96 L397.17 264.64 L399.00 265.32 L400.83 266.00 L402.67 266.68 L404.50 267.36 L406.33 268.04 L408.17 268.72 L410.00 269.40 L411.83 270.08 L413.67 270.76 L415.50 271.44 L417.33 272.12 L419.17 272.80 L421.00 273.48 L422.83 274.16 L424.67 274.84 L426.50 275.52 L428.33 276.20 L430.17 276.88 L432.00 277.56 L433.83 278.24 L435.67 278.92 L437.50 279.60 L439.33 280.28 L441.17 280.96 L443.00 281.64 L444.83 282.32 L446.67 283.00 L448.50 283.68 L450.33 284.36 L452.17 285.04 L454.00 285.72 L455.83 286.40 L457.67 287.08 L459.50 287.76 L461.33 288.44 L463.17 289.12 L465.00 289.80 L466.83 290.48 L468.67 291.16 L470.50 291.84 L472.33 292.52 L474.17 293.20 L476.00 293.88 L477.83 294.56 L479.67 295.24 L481.50 295.92 L483.33 296.60 L485.17 297.28 L487.00 297.96 L488.83 298.64 L490.67 299.32 L492.50 300.00 L494.33 300.68 L496.17 301.36 L498.00 302.04 L499.83 302.72 L501.67 303.40 L503.50 304.08 L505.33 304.76 L507.17 305.44 L509.00 306.12 L510.83 306.80 L512.67 307.48 L514.50 308.16 L516.33 308.84 L518.17 309.52 L520.00 310.20 L521.83 310.88 L523.67 311.56 L525.50 312.24 L527.33 312.92 L529.17 313.60 L531.00 314.28 L532.83 314.96 L534.67 315.64 L536.50 316.32 L538.33 317.00 L540.17 317.68 L542.00 318.36 L543.83 319.04 L545.67 319.72 L547.50 320.40 L549.33 321.08 L551.17 321.76 L553.00 322.44 L554.83 323.12 L556.67 323.80 L558.50 324.48 L560.33 325.16 L562.17 325.84 L564.00 326.52 L565.83 327.20 L567.67 327.88 L569.50 328.56 L571.33 329.24 L573.17 329.92 L575.00 330.60 L576.83 331.28 L578.67 331.96 L580.50 332.64 L582.33 333.32 L584.17 334.00 L586.00 334.68 L587.83 335.36 L589.67 336.04 L591.50 336.72 L593.33 337.40 L595.17 338.08 L597.00 338.76 L598.83 339.44 L600.67 340.12 L602.50 340.80 L604.33 341.48 L606.17 342.16 L608.00 342.84 L609.83 343.52 L611.67 344.20 L613.50 344.88 L615.33 345.56 L617.17 346.24 L619.00 346.92 L620.83 347.60 L622.67 348.28 L624.50 348.96 L626.33 349.64 L628.17 350.32 L630.00 351.00\" stroke=\"#155b9f\" stroke-width=\"3\" fill=\"none\"/><path d=\"M80.00 147.00 L81.83 148.36 L83.67 149.72 L85.50 151.08 L87.33 152.44 L89.17 153.80 L91.00 155.16 L92.83 156.52 L94.67 157.88 L96.50 159.24 L98.33 160.60 L100.17 161.96 L102.00 163.32 L103.83 164.68 L105.67 166.04 L107.50 167.40 L109.33 168.76 L111.17 170.12 L113.00 171.48 L114.83 172.84 L116.67 174.20 L118.50 175.56 L120.33 176.92 L122.17 178.28 L124.00 179.64 L125.83 181.00 L127.67 182.36 L129.50 183.72 L131.33 185.08 L133.17 186.44 L135.00 187.80 L136.83 189.16 L138.67 190.52 L140.50 191.88 L142.33 193.24 L144.17 194.60 L146.00 195.96 L147.83 197.32 L149.67 198.68 L151.50 200.04 L153.33 201.40 L155.17 202.76 L157.00 204.12 L158.83 205.48 L160.67 206.84 L162.50 208.20 L164.33 209.56 L166.17 210.92 L168.00 212.28 L169.83 213.64 L171.67 215.00 L173.50 216.36 L175.33 217.72 L177.17 219.08 L179.00 220.44 L180.83 221.80 L182.67 223.16 L184.50 224.52 L186.33 225.88 L188.17 227.24 L190.00 228.60 L191.83 229.96 L193.67 231.32 L195.50 232.68 L197.33 234.04 L199.17 235.40 L201.00 236.76 L202.83 238.12 L204.67 239.48 L206.50 240.84 L208.33 242.20 L210.17 243.56 L212.00 244.92 L213.83 246.28 L215.67 247.64 L217.50 249.00 L219.33 250.36 L221.17 251.72 L223.00 253.08 L224.83 254.44 L226.67 255.80 L228.50 257.16 L230.33 258.52 L232.17 259.88 L234.00 261.24 L235.83 262.60 L237.67 263.96 L239.50 265.32 L241.33 266.68 L243.17 268.04 L245.00 269.40 L246.83 270.76 L248.67 272.12 L250.50 273.48 L252.33 274.84 L254.17 276.20 L256.00 277.56 L257.83 278.92 L259.67 280.28 L261.50 281.64 L263.33 283.00 L265.17 284.36 L267.00 285.72 L268.83 287.08 L270.67 288.44 L272.50 289.80 L274.33 291.16 L276.17 292.52 L278.00 293.88 L279.83 295.24 L281.67 296.60 L283.50 297.96 L285.33 299.32 L287.17 300.68 L289.00 302.04 L290.83 303.40 L292.67 304.76 L294.50 306.12 L296.33 307.48 L298.17 308.84 L300.00 310.20 L301.83 311.56 L303.67 312.92 L305.50 314.28 L307.33 315.64 L309.17 317.00 L311.00 318.36 L312.83 319.72 L314.67 321.08 L316.50 322.44 L318.33 323.80 L320.17 325.16 L322.00 326.52 L323.83 327.88 L325.67 329.24 L327.50 330.60 L329.33 331.96 L331.17 333.32 L333.00 334.68 L334.83 336.04 L336.67 337.40 L338.50 338.76 L340.33 340.12 L342.17 341.48 L344.00 342.84 L345.83 344.20 L347.67 345.56 L349.50 346.92 L351.33 348.28 L353.17 349.64 L355.00 351.00 L356.83 352.36 L358.67 353.72 L360.50 355.08 L362.33 356.44 L364.17 357.80 L366.00 359.16 L367.83 360.52 L369.67 361.88 L371.50 363.24 L373.33 364.60 L375.17 365.96 L377.00 367.32 L378.83 368.68 L380.67 370.04 L382.50 371.40 L384.33 372.76 L386.17 374.12 L388.00 375.48 L389.83 376.84 L391.67 378.20 L393.50 379.56 L395.33 380.92 L397.17 382.28 L399.00 383.64 L400.83 385.00 L402.67 386.36 L404.50 387.72 L406.33 389.08 L408.17 390.44 L410.00 391.80 L411.83 393.16 L413.67 394.52 L415.50 395.88 L417.33 397.24 L419.17 398.60 L421.00 399.96 L422.83 401.32 L424.67 402.68 L426.50 404.04 L428.33 405.40 L430.17 406.76 L432.00 408.12 L433.83 409.48 L435.67 410.84 L437.50 412.20 L439.33 413.56 L441.17 414.92 L443.00 416.28 L444.83 417.64 L446.67 419.00 L448.50 420.36 L450.33 421.72 L452.17 423.08 L454.00 424.44 L455.83 425.80 L457.67 427.16 L459.50 428.52 L461.33 429.88 L463.17 431.24 L465.00 432.60 L466.83 433.96 L468.67 435.32 L470.50 436.68 L472.33 438.04 L474.17 439.40 L476.00 440.76 L477.83 442.12 L479.67 443.48 L481.50 444.84 L483.33 446.20 L485.17 447.56 L487.00 448.92 L488.83 450.28 L490.67 451.64 L492.50 453.00 L494.33 454.36 L496.17 455.72 L498.00 457.08 L499.83 458.44 L501.67 459.80 L503.50 461.16 L505.33 462.52 L507.17 463.88 L509.00 465.24 L510.83 466.60 L512.67 467.96 L514.50 469.32 L516.33 470.68 L518.17 472.04 L520.00 473.40 L521.83 474.76 L523.67 476.12 L525.50 477.48 L527.33 478.84 L529.17 480.20 L531.00 481.56 L532.83 482.92 L534.67 484.28 L536.50 485.64 L538.33 487.00 L540.17 488.36 L542.00 489.72 L543.83 491.08 L545.67 492.44 L547.50 493.80 L549.33 495.16 L551.17 496.52 L553.00 497.88 L554.83 499.24 L556.67 500.60 L558.50 501.96 L560.33 503.32 L562.17 504.68 L564.00 506.04 L565.83 507.40 L567.67 508.76 L569.50 510.12 L571.33 511.48 L573.17 512.84 L575.00 514.20 L576.83 515.56 L578.67 516.92 L580.50 518.28 L582.33 519.64 L584.17 521.00 L586.00 522.36 L587.83 523.72 L589.67 525.08 L591.50 526.44 L593.33 527.80 L595.17 529.16 L597.00 530.52 L598.83 531.88 L600.67 533.24 L602.50 534.60 L604.33 535.96 L606.17 537.32 L608.00 538.68 L609.83 540.04 L611.67 541.40 L613.50 542.76 L615.33 544.12 L617.17 545.48 L619.00 546.84 L620.83 548.20 L622.67 549.56 L624.50 550.92 L626.33 552.28 L628.17 553.64 L630.00 555.00\" stroke=\"#b44721\" stroke-width=\"3\" fill=\"none\" stroke-dasharray=\"8 5\"/><path d=\"M81.83 -9849.34 L83.67 -4749.68 L85.50 -3050.02 L87.33 -2200.36 L89.17 -1690.70 L91.00 -1351.04 L92.83 -1108.52 L94.67 -926.72 L96.50 -785.39 L98.33 -672.40 L100.17 -580.01 L102.00 -503.08 L103.83 -438.04 L105.67 -382.33 L107.50 -334.10 L109.33 -291.94 L111.17 -254.78 L113.00 -221.79 L114.83 -192.30 L116.67 -165.80 L118.50 -141.85 L120.33 -120.12 L122.17 -100.30 L124.00 -82.16 L125.83 -65.50 L127.67 -50.15 L129.50 -35.96 L131.33 -22.81 L133.17 -10.58 L135.00 0.80 L136.83 11.43 L138.67 21.37 L140.50 30.69 L142.33 39.44 L144.17 47.67 L146.00 55.43 L147.83 62.74 L149.67 69.66 L151.50 76.20 L153.33 82.40 L155.17 88.28 L157.00 93.86 L158.83 99.17 L160.67 104.22 L162.50 109.03 L164.33 113.62 L166.17 118.00 L168.00 122.18 L169.83 126.18 L171.67 130.00 L173.50 133.66 L175.33 137.17 L177.17 140.53 L179.00 143.75 L180.83 146.85 L182.67 149.82 L184.50 152.67 L186.33 155.42 L188.17 158.06 L190.00 160.60 L191.83 163.05 L193.67 165.40 L195.50 167.68 L197.33 169.87 L199.17 171.98 L201.00 174.01 L202.83 175.98 L204.67 177.88 L206.50 179.71 L208.33 181.49 L210.17 183.20 L212.00 184.85 L213.83 186.45 L215.67 188.00 L217.50 189.50 L219.33 190.95 L221.17 192.35 L223.00 193.71 L224.83 195.03 L226.67 196.30 L228.50 197.53 L230.33 198.73 L232.17 199.89 L234.00 201.01 L235.83 202.10 L237.67 203.16 L239.50 204.18 L241.33 205.17 L243.17 206.13 L245.00 207.07 L246.83 207.97 L248.67 208.85 L250.50 209.70 L252.33 210.53 L254.17 211.33 L256.00 212.11 L257.83 212.87 L259.67 213.60 L261.50 214.31 L263.33 215.00 L265.17 215.67 L267.00 216.32 L268.83 216.95 L270.67 217.56 L272.50 218.16 L274.33 218.73 L276.17 219.29 L278.00 219.84 L279.83 220.36 L281.67 220.87 L283.50 221.37 L285.33 221.85 L287.17 222.31 L289.00 222.77 L290.83 223.20 L292.67 223.63 L294.50 224.04 L296.33 224.44 L298.17 224.83 L300.00 225.20 L301.83 225.56 L303.67 225.91 L305.50 226.25 L307.33 226.58 L309.17 226.90 L311.00 227.21 L312.83 227.51 L314.67 227.79 L316.50 228.07 L318.33 228.34 L320.17 228.60 L322.00 228.85 L323.83 229.09 L325.67 229.32 L327.50 229.54 L329.33 229.76 L331.17 229.97 L333.00 230.17 L334.83 230.36 L336.67 230.54 L338.50 230.72 L340.33 230.89 L342.17 231.05 L344.00 231.21 L345.83 231.36 L347.67 231.50 L349.50 231.63 L351.33 231.76 L353.17 231.88 L355.00 232.00 L356.83 232.11 L358.67 232.21 L360.50 232.31 L362.33 232.41 L364.17 232.49 L366.00 232.58 L367.83 232.65 L369.67 232.72 L371.50 232.79 L373.33 232.85 L375.17 232.91 L377.00 232.96 L378.83 233.00 L380.67 233.04 L382.50 233.08 L384.33 233.11 L386.17 233.14 L388.00 233.17 L389.83 233.18 L391.67 233.20 L393.50 233.21 L395.33 233.22 L397.17 233.22 L399.00 233.22 L400.83 233.21 L402.67 233.21 L404.50 233.19 L406.33 233.18 L408.17 233.16 L410.00 233.13 L411.83 233.11 L413.67 233.08 L415.50 233.04 L417.33 233.01 L419.17 232.96 L421.00 232.92 L422.83 232.87 L424.67 232.82 L426.50 232.77 L428.33 232.72 L430.17 232.66 L432.00 232.59 L433.83 232.53 L435.67 232.46 L437.50 232.39 L439.33 232.32 L441.17 232.24 L443.00 232.16 L444.83 232.08 L446.67 232.00 L448.50 231.91 L450.33 231.82 L452.17 231.73 L454.00 231.64 L455.83 231.54 L457.67 231.45 L459.50 231.34 L461.33 231.24 L463.17 231.14 L465.00 231.03 L466.83 230.92 L468.67 230.81 L470.50 230.69 L472.33 230.58 L474.17 230.46 L476.00 230.34 L477.83 230.22 L479.67 230.09 L481.50 229.96 L483.33 229.84 L485.17 229.71 L487.00 229.57 L488.83 229.44 L490.67 229.30 L492.50 229.17 L494.33 229.03 L496.17 228.89 L498.00 228.74 L499.83 228.60 L501.67 228.45 L503.50 228.30 L505.33 228.15 L507.17 228.00 L509.00 227.85 L510.83 227.70 L512.67 227.54 L514.50 227.38 L516.33 227.22 L518.17 227.06 L520.00 226.90 L521.83 226.74 L523.67 226.57 L525.50 226.40 L527.33 226.24 L529.17 226.07 L531.00 225.90 L532.83 225.72 L534.67 225.55 L536.50 225.38 L538.33 225.20 L540.17 225.02 L542.00 224.84 L543.83 224.66 L545.67 224.48 L547.50 224.30 L549.33 224.12 L551.17 223.93 L553.00 223.75 L554.83 223.56 L556.67 223.37 L558.50 223.18 L560.33 222.99 L562.17 222.80 L564.00 222.60 L565.83 222.41 L567.67 222.21 L569.50 222.02 L571.33 221.82 L573.17 221.62 L575.00 221.42 L576.83 221.22 L578.67 221.02 L580.50 220.82 L582.33 220.61 L584.17 220.41 L586.00 220.20 L587.83 220.00 L589.67 219.79 L591.50 219.58 L593.33 219.37 L595.17 219.16 L597.00 218.95 L598.83 218.74 L600.67 218.52 L602.50 218.31 L604.33 218.10 L606.17 217.88 L608.00 217.66 L609.83 217.45 L611.67 217.23 L613.50 217.01 L615.33 216.79 L617.17 216.57 L619.00 216.35 L620.83 216.12 L622.67 215.90 L624.50 215.68 L626.33 215.45 L628.17 215.23 L630.00 215.00\" stroke=\"#207446\" stroke-width=\"3\" fill=\"none\"/><path d=\"M80.00 351.00 L81.83 350.32 L83.67 349.64 L85.50 348.96 L87.33 348.28 L89.17 347.60 L91.00 346.92 L92.83 346.24 L94.67 345.56 L96.50 344.88 L98.33 344.20 L100.17 343.52 L102.00 342.84 L103.83 342.16 L105.67 341.48 L107.50 340.80 L109.33 340.12 L111.17 339.44 L113.00 338.76 L114.83 338.08 L116.67 337.40 L118.50 336.72 L120.33 336.04 L122.17 335.36 L124.00 334.68 L125.83 334.00 L127.67 333.32 L129.50 332.64 L131.33 331.96 L133.17 331.28 L135.00 330.60 L136.83 329.92 L138.67 329.24 L140.50 328.56 L142.33 327.88 L144.17 327.20 L146.00 326.52 L147.83 325.84 L149.67 325.16 L151.50 324.48 L153.33 323.80 L155.17 323.12 L157.00 322.44 L158.83 321.76 L160.67 321.08 L162.50 320.40 L164.33 319.72 L166.17 319.04 L168.00 318.36 L169.83 317.68 L171.67 317.00 L173.50 316.32 L175.33 315.64 L177.17 314.96 L179.00 314.28 L180.83 313.60 L182.67 312.92 L184.50 312.24 L186.33 311.56 L188.17 310.88 L190.00 310.20 L191.83 309.52 L193.67 308.84 L195.50 308.16 L197.33 307.48 L199.17 306.80 L201.00 306.12 L202.83 305.44 L204.67 304.76 L206.50 304.08 L208.33 303.40 L210.17 302.72 L212.00 302.04 L213.83 301.36 L215.67 300.68 L217.50 300.00 L219.33 299.32 L221.17 298.64 L223.00 297.96 L224.83 297.28 L226.67 296.60 L228.50 295.92 L230.33 295.24 L232.17 294.56 L234.00 293.88 L235.83 293.20 L237.67 292.52 L239.50 291.84 L241.33 291.16 L243.17 290.48 L245.00 289.80 L246.83 289.12 L248.67 288.44 L250.50 287.76 L252.33 287.08 L254.17 286.40 L256.00 285.72 L257.83 285.04 L259.67 284.36 L261.50 283.68 L263.33 283.00 L265.17 282.32 L267.00 281.64 L268.83 280.96 L270.67 280.28 L272.50 279.60 L274.33 278.92 L276.17 278.24 L278.00 277.56 L279.83 276.88 L281.67 276.20 L283.50 275.52 L285.33 274.84 L287.17 274.16 L289.00 273.48 L290.83 272.80 L292.67 272.12 L294.50 271.44 L296.33 270.76 L298.17 270.08 L300.00 269.40 L301.83 268.72 L303.67 268.04 L305.50 267.36 L307.33 266.68 L309.17 266.00 L311.00 265.32 L312.83 264.64 L314.67 263.96 L316.50 263.28 L318.33 262.60 L320.17 261.92 L322.00 261.24 L323.83 260.56 L325.67 259.88 L327.50 259.20 L329.33 258.52 L331.17 257.84 L333.00 257.16 L334.83 256.48 L336.67 255.80 L338.50 255.12 L340.33 254.44 L342.17 253.76 L344.00 253.08 L345.83 252.40 L347.67 251.72 L349.50 251.04 L351.33 250.36 L353.17 249.68 L355.00 249.00 L356.83 248.32 L358.67 247.64 L360.50 246.96 L362.33 246.28 L364.17 245.60 L366.00 244.92 L367.83 244.24 L369.67 243.56 L371.50 242.88 L373.33 242.20 L375.17 241.52 L377.00 240.84 L378.83 240.16 L380.67 239.48 L382.50 238.80 L384.33 238.12 L386.17 237.44 L388.00 236.76 L389.83 236.08 L391.67 235.40 L393.50 234.72 L395.33 234.04 L397.17 233.36 L399.00 232.68 L400.83 232.00 L402.67 231.32 L404.50 230.64 L406.33 229.96 L408.17 229.28 L410.00 228.60 L411.83 227.92 L413.67 227.24 L415.50 226.56 L417.33 225.88 L419.17 225.20 L421.00 224.52 L422.83 223.84 L424.67 223.16 L426.50 222.48 L428.33 221.80 L430.17 221.12 L432.00 220.44 L433.83 219.76 L435.67 219.08 L437.50 218.40 L439.33 217.72 L441.17 217.04 L443.00 216.36 L444.83 215.68 L446.67 215.00 L448.50 214.32 L450.33 213.64 L452.17 212.96 L454.00 212.28 L455.83 211.60 L457.67 210.92 L459.50 210.24 L461.33 209.56 L463.17 208.88 L465.00 208.20 L466.83 207.52 L468.67 206.84 L470.50 206.16 L472.33 205.48 L474.17 204.80 L476.00 204.12 L477.83 203.44 L479.67 202.76 L481.50 202.08 L483.33 201.40 L485.17 200.72 L487.00 200.04 L488.83 199.36 L490.67 198.68 L492.50 198.00 L494.33 197.32 L496.17 196.64 L498.00 195.96 L499.83 195.28 L501.67 194.60 L503.50 193.92 L505.33 193.24 L507.17 192.56 L509.00 191.88 L510.83 191.20 L512.67 190.52 L514.50 189.84 L516.33 189.16 L518.17 188.48 L520.00 187.80 L521.83 187.12 L523.67 186.44 L525.50 185.76 L527.33 185.08 L529.17 184.40 L531.00 183.72 L532.83 183.04 L534.67 182.36 L536.50 181.68 L538.33 181.00 L540.17 180.32 L542.00 179.64 L543.83 178.96 L545.67 178.28 L547.50 177.60 L549.33 176.92 L551.17 176.24 L553.00 175.56 L554.83 174.88 L556.67 174.20 L558.50 173.52 L560.33 172.84 L562.17 172.16 L564.00 171.48 L565.83 170.80 L567.67 170.12 L569.50 169.44 L571.33 168.76 L573.17 168.08 L575.00 167.40 L576.83 166.72 L578.67 166.04 L580.50 165.36 L582.33 164.68 L584.17 164.00 L586.00 163.32 L587.83 162.64 L589.67 161.96 L591.50 161.28 L593.33 160.60 L595.17 159.92 L597.00 159.24 L598.83 158.56 L600.67 157.88 L602.50 157.20 L604.33 156.52 L606.17 155.84 L608.00 155.16 L609.83 154.48 L611.67 153.80 L613.50 153.12 L615.33 152.44 L617.17 151.76 L619.00 151.08 L620.83 150.40 L622.67 149.72 L624.50 149.04 L626.33 148.36 L628.17 147.68 L630.00 147.00\" stroke=\"#7544a5\" stroke-width=\"3\" fill=\"none\"/></g><path d=\"M80 40V385H645\" stroke=\"#17283b\" fill=\"none\" stroke-width=\"2\"/><text x=\"82\" y=\"23\">Price / cost / revenue (€ per unit)</text><text x=\"355\" y=\"442\" text-anchor=\"middle\">Output / quantity (units)</text><path d=\"M85 466h28\" stroke=\"#155b9f\" stroke-width=\"3\"/><text x=\"121\" y=\"471\">Demand / AR</text><path d=\"M395 466h28\" stroke=\"#b44721\" stroke-width=\"3\" stroke-dasharray=\"8 5\"/><text x=\"431\" y=\"471\">MR</text><path d=\"M85 493h28\" stroke=\"#207446\" stroke-width=\"3\"/><text x=\"121\" y=\"498\">AC</text><path d=\"M395 493h28\" stroke=\"#7544a5\" stroke-width=\"3\"/><text x=\"431\" y=\"498\">MC</text></svg><p class=\"note\">Illustrative firm curves: AR=105−Q; MR=105−2Q; AC=15+1350/Q+0.5Q; MC=15+Q. The chart illustrates the final equilibrium, not market measurements.</p></body></html>"
           }
-        },
-        {
-          "id": "EC2204-STRUCTURE-014",
-          "stem": "What does long-run zero economic profit mean for monopolistic competition in the deck?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Price must be zero"
-            },
-            {
-              "id": "B",
-              "text": "Price equals average total cost at the chosen output"
-            },
-            {
-              "id": "C",
-              "text": "Every owner receives no normal return"
-            },
-            {
-              "id": "D",
-              "text": "Output must be at the minimum of ATC"
-            }
-          ],
-          "correctOptionId": "B",
-          "explanation": "P=ATC removes economic profit but does not imply minimum ATC in this model.",
-          "source": "EC2204 Market Structure deck (39 slides); slide-grounded coverage; slides 23–24"
         },
         {
           "id": "EC2204-STRUCTURE-015",
@@ -8851,5 +8226,32 @@
         }
       ]
     }
+  ],
+  "retiredQuestionIds": [
+    "EC2204-DEMAND-013",
+    "EC2204-EQUILIBRIUM-022",
+    "EC2204-EQUILIBRIUM-023",
+    "EC2204-MARKETS-013",
+    "EC2204-MARKETS-019",
+    "EC2204-MARKETS-021",
+    "EC2204-MARKETS-023",
+    "EC2204-MARKETS-024",
+    "EC2204-PESTLE-004",
+    "EC2204-PESTLE-005",
+    "EC2204-PESTLE-006",
+    "EC2204-PESTLE-016",
+    "EC2204-PESTLE-022",
+    "EC2204-SAMPLE-010",
+    "EC2204-SAMPLE-015",
+    "EC2204-SAMPLE-017",
+    "EC2204-SAMPLE-030",
+    "EC2204-SAMPLE-045",
+    "EC2204-SELLERS-002",
+    "EC2204-SELLERS-016",
+    "EC2204-STRUCTURE-003",
+    "EC2204-STRUCTURE-007",
+    "EC2204-STRUCTURE-014",
+    "EC2204-SURPLUS-014",
+    "EC2204-WEALTH-010"
   ]
 }

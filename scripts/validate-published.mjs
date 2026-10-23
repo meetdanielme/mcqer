@@ -4,6 +4,8 @@ import { fileURLToPath } from 'node:url';
 import { validateImport } from '../src/data.js';
 import { validateManifest } from '../src/published.js';
 
+import { validatePublishedImages } from './question-images.mjs';
+
 const directory = join(resolve(dirname(fileURLToPath(import.meta.url)), '..'), 'public', 'questions');
 const manifest = JSON.parse(await readFile(join(directory, 'manifest.json'), 'utf8'));
 const manifestIssues = validateManifest(manifest);
@@ -14,6 +16,7 @@ for (const file of manifest.files) {
   const document = JSON.parse(await readFile(join(directory, file), 'utf8'));
   const issues = validateImport(document);
   if (issues.length) throw new Error(file + ': ' + issues.join(' '));
+  await validatePublishedImages(document, dirname(directory));
   const code = document.course.code.trim().toLowerCase();
   if (codes.has(code)) throw new Error('Duplicate published course code: ' + code);
   codes.add(code);

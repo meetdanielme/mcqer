@@ -21,7 +21,8 @@ export default defineConfig({
     },
     workbox: {
       // Keep the app, question index and every bank in one versioned offline snapshot.
-      globPatterns: ['**/*.{html,js,css,woff,woff2,png,json,md}'],
+      globPatterns: ['**/*.{html,js,css,woff,woff2,png,jpg,jpeg,webp,json,md}'],
+      maximumFileSizeToCacheInBytes: 20 * 1024 * 1024,
       cleanupOutdatedCaches: true,
       clientsClaim: true,
       navigateFallback: 'index.html',

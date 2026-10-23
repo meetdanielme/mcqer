@@ -1,3 +1,6 @@
+import { validateArtifact } from './artifacts.js';
+import { validateImage } from './images.js';
+
 export const STORAGE_KEY = 'mcqer-data-v1';
 const hasText = value => typeof value === 'string' && value.trim().length > 0;
 
@@ -36,6 +39,14 @@ export function validateImport(data) {
       if (ids.some(id => !hasText(id)) || new Set(ids).size !== ids.length || question.options.some(option => !hasText(option?.text))) errors.push(qpath + '.options need unique ids and non-empty text.');
       if (!hasText(question.correctOptionId) || !ids.includes(question.correctOptionId.trim())) errors.push(qpath + '.correctOptionId must match an option id.');
       if (!hasText(question.explanation)) errors.push(qpath + '.explanation is required.');
+      if (question.artifact !== undefined) {
+        const issue = validateArtifact(question.artifact);
+        if (issue) errors.push(qpath + '.artifact ' + issue);
+      }
+      if (question.image !== undefined) {
+        const issue = validateImage(question.image);
+        if (issue) errors.push(qpath + '.image ' + issue);
+      }
       if (question.source !== undefined && typeof question.source !== 'string') errors.push(qpath + '.source must be a string.');
     });
   });

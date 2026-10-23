@@ -3,6 +3,8 @@ import { resolve, dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { mergeQuestionDocuments, validateManifest } from '../src/published.js';
 
+import { publishImages } from './question-images.mjs';
+
 const inputPath = process.argv[2];
 if (!inputPath) {
   console.error('Usage: pnpm publish:questions path/to/notion-ai-export.json');
@@ -24,7 +26,7 @@ if (manifestIssues.length) throw new Error(manifestIssues.join(' '));
 let existing;
 try { existing = JSON.parse(await readFile(outputPath, 'utf8')); }
 catch (error) { if (error.code !== 'ENOENT') throw error; }
-const merged = mergeQuestionDocuments(existing, input);
+const merged = await publishImages(mergeQuestionDocuments(existing, input), join(root, 'public'));
 if (!manifest.files.includes(filename)) manifest.files.push(filename);
 manifest.files.sort();
 await writeFile(outputPath, JSON.stringify(merged, null, 2) + '\n');

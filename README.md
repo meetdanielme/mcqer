@@ -45,3 +45,9 @@ pnpm preview --base /mcqer/
 ```
 
 Open `/mcqer/` on the preview server, wait for the offline indicator, then switch the browser’s network settings offline and reload. The service worker is scoped to this app’s base path.
+
+## Images and HTML charts
+
+Use **Add question** to upload an optional PNG/JPEG/WebP image or a self-contained HTML chart. Add a description, preview the chart, then save the question. Practice displays media above the answer choices with an enlarge control. Existing text-only questions continue to work.
+
+Personal questions and media use IndexedDB; existing localStorage questions migrate automatically. Backups embed images and HTML. Shared images are stored in `public/questions/images/` and cached with the app; published HTML charts are included in question JSON. See [IMPORT_FORMAT.md](IMPORT_FORMAT.md) for the optional fields, limits and Notion prompt. HTML charts must include their own styles and chart code to work offline; CDN dependencies are blocked.

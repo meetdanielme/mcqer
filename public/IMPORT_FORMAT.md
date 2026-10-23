@@ -65,6 +65,44 @@ git commit -m "Publish new MCQs"
 git push
 ```
 
-The command validates and merges the file into `public/questions/`. GitHub Pages deploys the updated bank after the push. Ask Codex to run these steps if you prefer. Everyone opening or refreshing the site then receives the published questions. Browser-only changes and drafts remain on that device until published.
+The command validates and merges the file into `public/questions/`. GitHub Pages deploys the updated bank after the push. Ask Codex to run these steps if you prefer. The app downloads the updated bank and offers a reload prompt; choose Reload to update when you finish practicing. Browser-only changes and drafts remain on that device until published.
 
 This format is for MCQs only. No flashcard fields are used.
+
+## Optional question images
+
+Add an `image` object to a question. Both fields are required when an image is present:
+
+```json
+"image": {
+  "src": "questions/images/demand-curve.png",
+  "alt": "A demand curve shifting to the right against an unchanged supply curve"
+}
+```
+
+For shared images, place the file in `public/questions/images/` and use the base-relative `questions/images/filename.png` path (no leading slash). File names may contain letters, numbers, hyphens and underscores. PNG, JPEG and WebP are supported, up to 1 MB per image. The publication validator checks that files exist and match their declared image type. Commit the referenced files along with the question JSON; they are cached for offline use.
+
+For portable imports, `image.src` can instead contain a complete `data:image/png;base64,...`, `data:image/jpeg;base64,...` or `data:image/webp;base64,...` value. The publishing command extracts embedded images into files automatically. External image URLs and SVG image files are not supported. Use an HTML chart for inline SVG instead.
+
+The Add question form accepts image uploads, resizes large images to at most 1600 pixels, and asks for a description. Downloaded backups embed all question images, including shared images, so restoring them does not depend on the original site.
+
+## Optional HTML charts
+
+Add an `artifact` object to a question:
+
+```json
+"artifact": {
+  "title": "Supply and demand equilibrium",
+  "html": "<svg viewBox=\"0 0 400 200\" role=\"img\" aria-label=\"Supply and demand chart\"><path d=\"M40 20V170H380 M60 40L340 150 M60 150L340 40\" stroke=\"navy\" fill=\"none\"/></svg>"
+}
+```
+
+Both `title` and `html` are required. HTML is limited to 512 KB per question. You can also upload a `.html` or `.htm` file when adding a question. Images and HTML charts may appear together on the same question; both fields are optional for existing text-only questions.
+
+Charts run in an isolated iframe with inline scripts and styles enabled. They cannot access MCQer storage or the parent page. Network requests, remote scripts, external stylesheets, nested frames, plugins and form submissions are blocked. Bundle any chart library into the HTML, or prefer inline SVG; CDN-based Chart.js, Plotly, D3 or Mermaid imports will not work. Use responsive sizing such as `viewBox` for SVG.
+
+Suggested Notion prompt:
+
+> Produce a downloadable, self-contained HTML chart for this MCQ. Prefer accessible inline SVG with a viewBox, a clear title, and readable labels. Include all CSS and any JavaScript inline. Do not use CDN libraries, external images, web fonts, imports, fetch calls or other network dependencies. Keep it under 512 KB and make it usable on a narrow mobile screen. Do not reveal the correct answer in labels or descriptions. For a JSON import, put the complete HTML string in artifact.html and its description in artifact.title on the relevant question.
+
+HTML charts are embedded in imports, published question JSON and backups, so they work offline once the question bank is available offline. Review charts visually and check their correctness before publication.

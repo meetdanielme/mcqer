@@ -8225,6 +8225,387 @@
           "source": "EC2204 Tutorial 1, 22 October 2026; “Europe is running out of butter”, CNNMoney (London), 9 August 2017 (abridged), original tutorial handout."
         }
       ]
+    },
+    {
+      "title": "Absolute & Comparative Advantage, PPFs & Trade",
+      "description": "Week 7 Lecture #13: opportunity cost, comparative advantage, PPFs, specialisation and terms of trade; with the OpenStax §33.3 extension on intra-industry trade, economies of scale, variety and dynamic comparative advantage.",
+      "questions": [
+        {
+          "id": "EC2204-TRADE-001",
+          "stem": "A country can produce more of both goods than its trading partner. What determines which good it should specialise in under the comparative-advantage framework?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Which good has the higher maximum output in the country with greater productivity."
+            },
+            {
+              "id": "B",
+              "text": "Which good each country can produce at the lower opportunity cost."
+            },
+            {
+              "id": "C",
+              "text": "Which good has the higher domestic price before trade."
+            },
+            {
+              "id": "D",
+              "text": "Which country has the higher output in every activity."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Comparative advantage is determined by relative opportunity costs, not by absolute output alone. A country can have absolute advantage in both goods while each country still has a comparative advantage in one.",
+          "source": "EC2204 Week 7 Lecture #13, PDF pp. 2–3 and 6–9"
+        },
+        {
+          "id": "EC2204-TRADE-002",
+          "stem": "Ireland can produce at most 16 software units or 40 food units, while Portugal can produce at most 8 software units or 32 food units. Which country has comparative advantage in software?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ireland, because its opportunity cost is 2.5 food units per software unit, below Portugal’s 4."
+            },
+            {
+              "id": "B",
+              "text": "Portugal, because its maximum software output is lower."
+            },
+            {
+              "id": "C",
+              "text": "Both countries, because Ireland has absolute advantage in software."
+            },
+            {
+              "id": "D",
+              "text": "Neither country, because their maximum food outputs differ."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Ireland’s opportunity cost of one software unit is 40 ÷ 16 = 2.5 food units. Portugal’s is 32 ÷ 8 = 4 food units, so Ireland gives up less food when producing software.",
+          "source": "EC2204 Week 7 Lecture #13, PDF pp. 6–9"
+        },
+        {
+          "id": "EC2204-TRADE-003",
+          "stem": "Using the same production limits—Ireland: 16 software or 40 food; Portugal: 8 software or 32 food—which country has comparative advantage in food?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ireland, because it can produce more food in total."
+            },
+            {
+              "id": "B",
+              "text": "Ireland, because its opportunity cost of food is 0.4 software per food unit."
+            },
+            {
+              "id": "C",
+              "text": "Portugal, because its opportunity cost of food is 0.25 software per food unit, below Ireland’s 0.4."
+            },
+            {
+              "id": "D",
+              "text": "Neither, because the two opportunity costs must be equal."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Portugal gives up 8 ÷ 32 = 0.25 software units to produce one food unit, compared with Ireland’s 16 ÷ 40 = 0.4. The lower opportunity cost gives Portugal comparative advantage in food.",
+          "source": "EC2204 Week 7 Lecture #13, PDF pp. 8–9"
+        },
+        {
+          "id": "EC2204-TRADE-004",
+          "stem": "On a production possibilities frontier with software on the horizontal axis and food on the vertical axis, what does the magnitude of the slope represent?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The number of software units gained from one extra unit of food."
+            },
+            {
+              "id": "B",
+              "text": "Total output from producing both goods at once."
+            },
+            {
+              "id": "C",
+              "text": "The market price of software relative to food."
+            },
+            {
+              "id": "D",
+              "text": "The food units forgone for one additional software unit, given the stated resources and technology."
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "With software on the horizontal axis and food on the vertical axis, the magnitude of the PPF slope measures food sacrificed per additional software unit—the opportunity cost of software.",
+          "source": "EC2204 Week 7 Lecture #13, PDF pp. 4–5"
+        },
+        {
+          "id": "EC2204-TRADE-005",
+          "stem": "What assumption about opportunity cost is represented by a straight-line production possibilities frontier?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Opportunity cost remains constant as production moves along the frontier."
+            },
+            {
+              "id": "B",
+              "text": "Opportunity cost falls to zero at every point on the frontier."
+            },
+            {
+              "id": "C",
+              "text": "Both goods can be produced without trade-offs."
+            },
+            {
+              "id": "D",
+              "text": "Technology and resources increase whenever output changes."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "A straight-line PPF assumes constant opportunity cost: the amount of the other good sacrificed for an additional unit does not change along the line.",
+          "source": "EC2204 Week 7 Lecture #13, PDF p. 5"
+        },
+        {
+          "id": "EC2204-TRADE-006",
+          "stem": "Ireland gives up 2.5 food units to produce one software unit, while Portugal gives up 4. If five software units are exchanged for 18 food units, why can this terms-of-trade rate benefit both countries?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The rate is below both opportunity costs, so both countries produce more food."
+            },
+            {
+              "id": "B",
+              "text": "The rate is 3.6 food per software—between 2.5 and 4—so each can trade at a rate better than its own production trade-off."
+            },
+            {
+              "id": "C",
+              "text": "The rate equals Ireland’s opportunity cost, so Portugal necessarily gains more."
+            },
+            {
+              "id": "D",
+              "text": "The rate is above both opportunity costs, so both countries must lose."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Eighteen food divided by five software is 3.6 food per software. Because 3.6 lies between Ireland’s 2.5 and Portugal’s 4, Ireland receives more food per software than it would obtain through its own trade-off, while Portugal gives up less food per software than its own production cost.",
+          "source": "EC2204 Week 7 Lecture #13, PDF p. 12"
+        },
+        {
+          "id": "EC2204-TRADE-007",
+          "stem": "In a trade illustration, Ireland moves from a self-sufficiency bundle of (10 software, 15 food) to (11, 18), while Portugal moves from (5 software, 12 food) to (5, 14). What conclusion follows from these stated bundles?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only Ireland benefits, because Portugal’s software consumption is unchanged."
+            },
+            {
+              "id": "B",
+              "text": "Neither benefits, because Portugal does not increase both goods."
+            },
+            {
+              "id": "C",
+              "text": "Both can be better off: Ireland consumes more of both goods and Portugal keeps the same software while consuming more food."
+            },
+            {
+              "id": "D",
+              "text": "The bundles prove that both countries produced both goods after specialising."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Compared with their stated self-sufficiency bundles, Ireland gains one software and three food units. Portugal keeps software consumption unchanged and gains two food units, so neither bundle is worse and each improves in at least one good.",
+          "source": "EC2204 Week 7 Lecture #13, PDF pp. 10–11"
+        },
+        {
+          "id": "EC2204-TRADE-008",
+          "stem": "After specialisation and trade, Ireland consumes 11 software units and 18 food units; producing 11 software units domestically would leave capacity for only 12.5 food units. How is the post-trade bundle possible?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Trade separates consumption from domestic production, allowing the country to consume beyond its own PPF."
+            },
+            {
+              "id": "B",
+              "text": "The PPF measures imports, so the bundle is still domestic production."
+            },
+            {
+              "id": "C",
+              "text": "Comparative advantage removes the resource constraint from the PPF."
+            },
+            {
+              "id": "D",
+              "text": "The example assumes Ireland’s technology changes after the exchange."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The PPF limits what Ireland can produce with its own resources and technology. Specialisation and exchange allow it to consume a bundle that lies beyond that domestic production frontier.",
+          "source": "EC2204 Week 7 Lecture #13, PDF pp. 10–11"
+        },
+        {
+          "id": "EC2204-TRADE-009",
+          "stem": "A simplified model says GenAI can produce 20 drafts or 4 judgement cases per hour, while a human can produce 5 drafts or 2 judgement cases. Which producer has comparative advantage in judgement cases?",
+          "options": [
+            {
+              "id": "A",
+              "text": "GenAI, because it has the higher maximum output in both tasks."
+            },
+            {
+              "id": "B",
+              "text": "GenAI, because it gives up 5 drafts per judgement case, more than the human."
+            },
+            {
+              "id": "C",
+              "text": "Neither, because the human has lower absolute output."
+            },
+            {
+              "id": "D",
+              "text": "The human, because one judgement case costs 2.5 drafts for the human but 5 drafts for GenAI."
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The human’s opportunity cost of one judgement case is 5 ÷ 2 = 2.5 drafts. GenAI’s is 20 ÷ 4 = 5 drafts, so the human has the lower opportunity cost in judgement cases even though GenAI has absolute advantage in both tasks.",
+          "source": "EC2204 Week 7 Lecture #13, PDF pp. 14–16"
+        },
+        {
+          "id": "EC2204-TRADE-010",
+          "stem": "What is the main limitation of using the lecture’s simplified GenAI–human comparative-advantage example to predict employment outcomes?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Comparative advantage cannot apply to tasks performed by people and technology."
+            },
+            {
+              "id": "B",
+              "text": "The model shows potential gains from specialisation, but employment and who gains also depend on factors such as wages, costs, quality, demand and institutions."
+            },
+            {
+              "id": "C",
+              "text": "Absolute advantage guarantees that GenAI replaces every human task."
+            },
+            {
+              "id": "D",
+              "text": "The model proves that specialisation creates equal gains for every worker."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The slides explicitly treat the example as simplified. Comparative advantage can identify potential gains from specialisation, but it does not guarantee job security or equal gains; real outcomes also depend on wages, AI costs, quality, demand, task redesign and institutions.",
+          "source": "EC2204 Week 7 Lecture #13, PDF pp. 17–19"
+        },
+        {
+          "id": "EC2204-TRADE-011",
+          "stem": "What is intra-industry trade?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A country exports every product it makes and imports no goods from the same industries."
+            },
+            {
+              "id": "B",
+              "text": "Trade that occurs only between countries with very different opportunity costs."
+            },
+            {
+              "id": "C",
+              "text": "A country both imports and exports goods from the same industry."
+            },
+            {
+              "id": "D",
+              "text": "Trade in intermediate goods that never cross a national border."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Intra-industry trade is trade in goods within the same industry between countries; a country may both export and import goods from that industry.",
+          "source": "OpenStax, Principles of Economics 3e, §33.3, “The Prevalence of Intra-Industry Trade between Similar Economies”"
+        },
+        {
+          "id": "EC2204-TRADE-012",
+          "stem": "How can splitting a product’s value chain across firms or countries create gains from intra-industry trade?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It lets firms specialise in particular stages or products, supporting learning and distinctive skills."
+            },
+            {
+              "id": "B",
+              "text": "It ensures every country produces the complete finished product independently."
+            },
+            {
+              "id": "C",
+              "text": "It eliminates the need to exchange components or information."
+            },
+            {
+              "id": "D",
+              "text": "It makes workers’ skills identical across all firms."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "A value chain is the sequence of stages involved in producing a good. Dividing stages among specialised firms and locations can support learning, innovation and product-specific skills.",
+          "source": "OpenStax, Principles of Economics 3e, §33.3, “Gains from Specialization and Learning”"
+        },
+        {
+          "id": "EC2204-TRADE-013",
+          "stem": "An OpenStax example shows average cost falling from $30 at 30 toaster ovens to $10 at 150, then remaining $10 at 200. What does the example illustrate?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Average cost must fall every time output rises, without limit."
+            },
+            {
+              "id": "B",
+              "text": "The firm has constant average cost at all production levels."
+            },
+            {
+              "id": "C",
+              "text": "The largest plant necessarily has a higher average cost than the smallest."
+            },
+            {
+              "id": "D",
+              "text": "Economies of scale reduce average cost up to a point; beyond that point, added scale need not reduce it further."
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The example shows average cost declining as production rises through 150 units, then staying at $10 at 200 units. Economies of scale operate up to a point, not necessarily indefinitely.",
+          "source": "OpenStax, Principles of Economics 3e, §33.3, Figure 33.5"
+        },
+        {
+          "id": "EC2204-TRADE-014",
+          "stem": "Why can international trade allow consumers to benefit from large-scale production without losing all product choice?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Trade prevents firms from growing large enough to lower average costs."
+            },
+            {
+              "id": "B",
+              "text": "Large producers in different countries can sell into wider markets, while competition among them can preserve variety and encourage responsiveness."
+            },
+            {
+              "id": "C",
+              "text": "Economies of scale remove competition, so variety is guaranteed by a single producer."
+            },
+            {
+              "id": "D",
+              "text": "Consumers must choose only between domestically produced varieties."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "OpenStax explains that international trade can combine the lower average costs of large-scale production with competition and variety because producers in different countries can serve wider markets.",
+          "source": "OpenStax, Principles of Economics 3e, §33.3, “Economies of Scale, Competition, Variety”"
+        },
+        {
+          "id": "EC2204-TRADE-015",
+          "stem": "What does dynamic comparative advantage mean in the context of intra-industry trade?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A country’s comparative advantage is permanently fixed by its climate and geography."
+            },
+            {
+              "id": "B",
+              "text": "Comparative advantage disappears whenever firms trade within the same industry."
+            },
+            {
+              "id": "C",
+              "text": "Comparative advantage can change over time as learning, specialised skills and value-chain organisation evolve."
+            },
+            {
+              "id": "D",
+              "text": "Only a country’s absolute output can change over time."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The section broadens the comparative-advantage framework: specialised learning, new skills and changes in value chains can alter relative productivity and comparative advantage over time.",
+          "source": "OpenStax, Principles of Economics 3e, §33.3, “Dynamic Comparative Advantage”"
+        }
+      ]
     }
   ],
   "retiredQuestionIds": [

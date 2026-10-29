@@ -1,0 +1,396 @@
+{
+  "version": 1,
+  "course": {
+    "code": "AC3302/AC2206",
+    "title": "Investment Appraisal"
+  },
+  "chapters": [
+    {
+      "title": "Part IA: Time Value of Money",
+      "description": "Valuation principle, timelines, compounding, discounting and present value.",
+      "questions": [
+        {
+          "id": "AC3302-TVM-001",
+          "stem": "Why is a euro received today generally worth more than a euro received one year from today, assuming a positive interest rate?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A euro received today can be invested to earn a return."
+            },
+            {
+              "id": "B",
+              "text": "A euro received in the future cannot be spent."
+            },
+            {
+              "id": "C",
+              "text": "Inflation must always be zero today."
+            },
+            {
+              "id": "D",
+              "text": "Future cash flows have no financial value."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Money received today can be invested and earn a return before the later date. This is the basic time value of money.",
+          "source": "Part 1A, 3.3 The Time Value of Money; sample test Q1"
+        },
+        {
+          "id": "AC3302-TVM-002",
+          "stem": "On a standard cash-flow timeline, what does date 0 represent?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The end of the first year."
+            },
+            {
+              "id": "B",
+              "text": "The beginning of the second year."
+            },
+            {
+              "id": "C",
+              "text": "Today, the beginning of the first period."
+            },
+            {
+              "id": "D",
+              "text": "The date on which the final cash flow is received."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Date 0 is today. Date 1 is the end of the first period, date 2 the end of the second, and so on.",
+          "source": "Part 1A, Timelines; sample test Q2"
+        },
+        {
+          "id": "AC3302-TVM-003",
+          "stem": "You deposit €1,500 today in an account paying 4% interest per year, compounded annually. How much will be in the account after two years?",
+          "options": [
+            {
+              "id": "A",
+              "text": "€1,560.00"
+            },
+            {
+              "id": "B",
+              "text": "€1,620.00"
+            },
+            {
+              "id": "C",
+              "text": "€1,622.40"
+            },
+            {
+              "id": "D",
+              "text": "€1,650.00"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "FV = PV(1 + r)^n = €1,500 × 1.04^2 = €1,622.40.",
+          "source": "Part 1A, Rule 2: Compounding; sample test Q3"
+        },
+        {
+          "id": "AC3302-TVM-004",
+          "stem": "What is the present value of €2,420 to be received in two years if the annual discount rate is 10%?",
+          "options": [
+            {
+              "id": "A",
+              "text": "€2,000.00"
+            },
+            {
+              "id": "B",
+              "text": "€2,200.00"
+            },
+            {
+              "id": "C",
+              "text": "€2,420.00"
+            },
+            {
+              "id": "D",
+              "text": "€2,662.00"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "PV = FV/(1 + r)^n = €2,420 / 1.10^2 = €2,000.",
+          "source": "Part 1A, Rule 3: Discounting; sample test Q4"
+        },
+        {
+          "id": "AC3302-TVM-005",
+          "stem": "Two investments have the same total amount of positive cash flows, but one pays more of its cash flows earlier. With a positive discount rate, which statement is generally correct?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The investments must have the same present value."
+            },
+            {
+              "id": "B",
+              "text": "The investment with earlier cash flows generally has the higher present value."
+            },
+            {
+              "id": "C",
+              "text": "The investment with later cash flows always has the higher present value."
+            },
+            {
+              "id": "D",
+              "text": "Timing does not affect present value."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Earlier cash flows are discounted for fewer periods, so with a positive discount rate they generally have a higher present value, all else equal.",
+          "source": "Part 1A, Rule 3: Discounting; sample test Q5"
+        },
+        {
+          "id": "AC3302-TVM-006",
+          "stem": "Which statement best describes compound interest?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Interest is calculated only on the original amount in every period."
+            },
+            {
+              "id": "B",
+              "text": "The interest rate must increase each year."
+            },
+            {
+              "id": "C",
+              "text": "Interest is earned on the original amount and on interest already accumulated."
+            },
+            {
+              "id": "D",
+              "text": "It applies only when an investment lasts for one year."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Under compound interest, previously accumulated interest also earns interest in later periods ('interest on interest').",
+          "source": "Part 1A, Rule 2: Compound Interest; sample test Q6"
+        },
+        {
+          "id": "AC3302-TVM-007",
+          "stem": "In a standard present-value calculation, the discount rate is most closely related to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "The number of cash flows in the investment."
+            },
+            {
+              "id": "B",
+              "text": "The accounting profit reported last year."
+            },
+            {
+              "id": "C",
+              "text": "The face value of the future cash flow."
+            },
+            {
+              "id": "D",
+              "text": "The return available on an investment of comparable risk."
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The discount rate reflects the return available on comparable-risk investments and converts future cash flows into present-value terms.",
+          "source": "Part 1A, Discount Factors and Rates; sample test Q7"
+        },
+        {
+          "id": "AC3302-TVM-008",
+          "stem": "Why must cash flows occurring at different dates be converted to the same point in time before they are compared or added?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Cash flows at different dates must always be negative."
+            },
+            {
+              "id": "B",
+              "text": "Interest rates can be applied only to the first cash flow."
+            },
+            {
+              "id": "C",
+              "text": "Every cash flow must be converted to a future value, never a present value."
+            },
+            {
+              "id": "D",
+              "text": "Amounts at different dates are not directly comparable because of the time value of money."
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "A euro today and a euro received later are not equivalent. Cash flows must be compounded or discounted to a common date first (Rule 1).",
+          "source": "Part 1A, Rule 1: Comparing and Combining Values; sample test Q10"
+        },
+        {
+          "id": "AC3302-TVM-009",
+          "stem": "All else equal, what happens to the present value of a fixed positive cash flow when the discount rate increases?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It increases."
+            },
+            {
+              "id": "B",
+              "text": "It decreases."
+            },
+            {
+              "id": "C",
+              "text": "It remains unchanged."
+            },
+            {
+              "id": "D",
+              "text": "It becomes equal to the future value."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "PV = C/(1 + r)^n. A higher discount rate increases the denominator, which reduces the present value of a positive future cash flow.",
+          "source": "Part 1A, Rule 3: Discounting; sample test Q11"
+        },
+        {
+          "id": "AC3302-TVM-010",
+          "stem": "A company invests €2,500 today at 8% interest compounded annually. What is the future value after three years?",
+          "options": [
+            {
+              "id": "A",
+              "text": "€2,700.00"
+            },
+            {
+              "id": "B",
+              "text": "€3,000.00"
+            },
+            {
+              "id": "C",
+              "text": "€3,149.28"
+            },
+            {
+              "id": "D",
+              "text": "€3,200.00"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "FV = €2,500 × 1.08^3 = €3,149.28 (rounded to two decimal places).",
+          "source": "Part 1A, Rule 2: Compounding; sample test Q12"
+        }
+      ]
+    },
+    {
+      "title": "Part IB: Cash-Flow Valuation",
+      "description": "Streams of cash flows, annuities, perpetuities and growing cash flows.",
+      "questions": [
+        {
+          "id": "AC3302-CFV-001",
+          "stem": "A project pays €1,000 at the end of Year 1 and €1,000 at the end of Year 2. If the annual discount rate is 10%, what is the present value of the two payments?",
+          "options": [
+            {
+              "id": "A",
+              "text": "€1,900.00"
+            },
+            {
+              "id": "B",
+              "text": "€1,826.45"
+            },
+            {
+              "id": "C",
+              "text": "€1,735.54"
+            },
+            {
+              "id": "D",
+              "text": "€2,000.00"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Discount each cash flow separately and add: €1,000/1.10 + €1,000/1.10^2 = €909.09 + €826.45 = €1,735.54.",
+          "source": "Part 1B, 4.1 Valuing a Stream of Cash Flows; sample test Q8"
+        },
+        {
+          "id": "AC3302-CFV-002",
+          "stem": "Which of the following best describes an ordinary annuity?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Equal payments made at the end of each period for a finite number of periods."
+            },
+            {
+              "id": "B",
+              "text": "Equal payments made forever, with no final payment."
+            },
+            {
+              "id": "C",
+              "text": "One payment made immediately."
+            },
+            {
+              "id": "D",
+              "text": "Payments that must increase by the same percentage every period."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "An ordinary annuity is equal payments at regular intervals, made at the end of each period, for a fixed number of periods.",
+          "source": "Part 1B, 4.3 Annuities; sample test Q9"
+        },
+        {
+          "id": "AC3302-CFV-003",
+          "stem": "What is the present value of an ordinary annuity paying €300 at the end of each year for four years, if the annual discount rate is 10%?",
+          "options": [
+            {
+              "id": "A",
+              "text": "€1,200.00"
+            },
+            {
+              "id": "B",
+              "text": "€1,000.00"
+            },
+            {
+              "id": "C",
+              "text": "€950.96"
+            },
+            {
+              "id": "D",
+              "text": "€820.00"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "PV = €300/1.10 + €300/1.10^2 + €300/1.10^3 + €300/1.10^4, which is approximately €950.96 (equivalently (300/0.10)[1 − 1/1.10^4]).",
+          "source": "Part 1B, Present Value of an Annuity; sample test Q13"
+        },
+        {
+          "id": "AC3302-CFV-004",
+          "stem": "A level perpetuity pays €400 at the end of every year, with the first payment one year from today. If the annual discount rate is 8%, what is its present value?",
+          "options": [
+            {
+              "id": "A",
+              "text": "€3,200"
+            },
+            {
+              "id": "B",
+              "text": "€4,000"
+            },
+            {
+              "id": "C",
+              "text": "€4,800"
+            },
+            {
+              "id": "D",
+              "text": "€5,000"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "For a level perpetuity with the first payment one period from now, PV = C/r = €400 / 0.08 = €5,000.",
+          "source": "Part 1B, 4.2 Perpetuities; sample test Q14"
+        },
+        {
+          "id": "AC3302-CFV-005",
+          "stem": "A growing perpetuity has a next-period cash flow of €600, a discount rate of 10%, and a constant growth rate of 4%. Assuming the rate exceeds the growth rate, what is its present value?",
+          "options": [
+            {
+              "id": "A",
+              "text": "€6,000"
+            },
+            {
+              "id": "B",
+              "text": "€10,000"
+            },
+            {
+              "id": "C",
+              "text": "€15,000"
+            },
+            {
+              "id": "D",
+              "text": "€60,000"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "PV = C1/(r − g) = €600 / (0.10 − 0.04) = €10,000. The formula requires r > g.",
+          "source": "Part 1B, 4.4 Growing Cash Flows; sample test Q15"
+        }
+      ]
+    }
+  ]
+}

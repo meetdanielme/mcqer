@@ -1,1 +1,28 @@
-{"name":"mcqer","private":true,"version":"0.1.0","type":"module","scripts":{"dev":"vite --host 127.0.0.1","build":"vite build","preview":"vite preview --host 127.0.0.1","test":"node --test","publish:questions":"node scripts/publish-questions.mjs","validate:questions":"node scripts/validate-published.mjs"},"dependencies":{"@fontsource/fira-sans":"^5.3.0","@fontsource/merriweather":"^5.3.0","lucide-react":"^0.468.0","react":"^19.0.0","react-dom":"^19.0.0"},"devDependencies":{"vite":"^6.0.0","vite-plugin-pwa":"^2.0.0","workbox-window":"^7.4.1"}}
+{
+  "name": "mcqer",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test tests/*.test.js",
+    "publish:questions": "node scripts/publish-questions.mjs",
+    "validate:questions": "node scripts/validate-published.mjs",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "@fontsource/fira-sans": "^5.3.0",
+    "@fontsource/merriweather": "^5.3.0",
+    "lucide-react": "^0.468.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "vite": "^6.0.0",
+    "vite-plugin-pwa": "^2.0.0",
+    "workbox-window": "^7.4.1"
+  }
+}

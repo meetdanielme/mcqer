@@ -34,6 +34,7 @@ export function validateImport(data) {
   data.chapters.forEach((chapter, ci) => {
     const path = 'chapters[' + ci + ']';
     if (!chapter || !hasText(chapter.title)) { errors.push(path + '.title is required.'); return; }
+    if (chapter.description !== undefined && typeof chapter.description !== 'string') errors.push(path + '.description must be a string.');
     const title = chapter.title.trim().toLowerCase();
     if (titles.has(title)) errors.push(path + '.title is duplicated.');
     titles.add(title);

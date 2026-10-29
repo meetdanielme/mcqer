@@ -76,3 +76,5 @@ body:has(.mobile-menu[open]){overflow:hidden}
 .artifact-dialog iframe{height:75dvh}
 .image-upload .question-artifact{margin:0}
 @media(max-width:700px){.image-dialog,.artifact-dialog{padding:12px}.image-thumbnail img{max-height:280px}.question-artifact iframe{height:300px}.artifact-dialog iframe{height:75dvh}}
+
+.modal::backdrop{background:#092b4c80}.modal{border:0;border-top:5px solid #ffb500}.study-tools{margin:24px 0;padding:20px;border:1px solid #d7e0e8;border-radius:5px}.study-tools label{display:flex;align-items:center;gap:10px;margin:12px 0;flex-wrap:wrap}.study-tools input[type=search]{flex:1;min-width:160px;padding:10px}.study-tools input[type=number]{width:90px;padding:8px}.study-actions{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:20px}

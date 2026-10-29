@@ -1,0 +1,6 @@
+import React, { useEffect, useRef } from 'react';
+export function Modal({ children, onClose }) {
+  const ref = useRef(null);
+  useEffect(() => { const dialog = ref.current; dialog.showModal(); return () => dialog.close(); }, []);
+  return <dialog ref={ref} className="modal" aria-labelledby="modal-title" onClose={onClose} onClick={event => { if (event.target === event.currentTarget) { const r = event.currentTarget.getBoundingClientRect(); if (event.clientX < r.left || event.clientX > r.right || event.clientY < r.top || event.clientY > r.bottom) onClose(); } }}>{children}</dialog>;
+}

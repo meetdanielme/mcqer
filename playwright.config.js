@@ -1,0 +1,2 @@
+import { defineConfig } from '@playwright/test';
+export default defineConfig({ testDir: './e2e', outputDir: '/tmp/mcqer-playwright', use: { baseURL: 'http://127.0.0.1:4174/mcqer/', launchOptions: process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH ? { executablePath: process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH } : {} }, webServer: { command: 'pnpm build --base /mcqer/ && pnpm preview --base /mcqer/ --port 4174 --strictPort', url:'http://127.0.0.1:4174/mcqer/', reuseExistingServer: false }, workers: 1 });

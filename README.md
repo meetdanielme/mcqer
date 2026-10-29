@@ -59,3 +59,13 @@ Question IDs and identical stems (after normalising whitespace and typography, w
 The [23 October duplicate review](docs/question-deduplication-2026-10-23.json) records 111 manually reviewed removals and the retained equivalent for each. Different calculations, contrasting rules and materially different applications remain available; all nine HTML visuals were retained. Reworded semantic matches require review rather than automatic deletion.
 
 Published course files preserve `retiredQuestionIds`. Republishing an older bank cannot restore those IDs, and the app excludes retired shared questions and older copies of canonical shared IDs from the visible bank, including copies imported under another chapter. Personal additions are preserved. Updating the app applies this cleanup without asking users to clear their saved data.
+
+## Study tools
+
+Search question text, choices, or sources; filter bookmarks; and start a mixed session across the current course. The question limit and shuffle settings apply to chapter sessions too. Set the limit to zero for all matching questions. Answer shuffling preserves answer IDs.
+
+Checking an answer locks that submission, including when returning with Previous. Reloading resumes the active session. Try again starts a fresh attempt. Review mistakes includes questions answered incorrectly in any of the last 5,000 submissions. Bookmarks, attempts, and the current session stay on this device in local storage; course backups currently export question content only. Storage failures show a warning. Report an issue opens a GitHub issue draft with the course, question ID, and prompt; review it before submitting.
+
+## Browser regression tests
+
+Run `pnpm exec playwright install chromium` once, then `pnpm test:e2e`. The suite builds and starts a separate production preview on port 4174 and checks locked answers, resume, bookmarks, dialogs, question persistence, backups, mobile offline use, and updates during practice. If using an installed system Chromium, run `PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH=/usr/bin/chromium pnpm test:e2e`. Browser outputs are written under `/tmp/mcqer-playwright`. GitHub Pages CI runs these checks before deployment.

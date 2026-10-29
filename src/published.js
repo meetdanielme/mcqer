@@ -10,14 +10,14 @@ export function validateManifest(manifest) {
   return errors;
 }
 
-export async function loadPublishedDocuments(baseUrl, fetcher = fetch) {
+export async function loadPublishedDocuments(baseUrl, fetcher = fetch, onErrors = () => {}) {
   const root = baseUrl.endsWith('/') ? baseUrl : baseUrl + '/';
   const manifestResponse = await fetcher(root + 'questions/manifest.json', { cache: 'no-store' });
   if (!manifestResponse.ok) throw new Error('Could not load the published question index.');
   const manifest = await manifestResponse.json();
   const errors = validateManifest(manifest);
   if (errors.length) throw new Error(errors.join(' '));
-  const documents = await Promise.all(manifest.files.map(async file => {
+  const results = await Promise.allSettled(manifest.files.map(async file => {
     const response = await fetcher(root + 'questions/' + file, { cache: 'no-store' });
     if (!response.ok) throw new Error('Could not load published questions: ' + file);
     const document = await response.json();
@@ -25,6 +25,9 @@ export async function loadPublishedDocuments(baseUrl, fetcher = fetch) {
     if (issues.length) throw new Error(file + ': ' + issues.join(' '));
     return document;
   }));
+  const failures = results.filter(result => result.status === 'rejected').map(result => result.reason.message);
+  onErrors(failures);
+  const documents = results.filter(result => result.status === 'fulfilled').map(result => result.value);
   const codes = documents.map(document => document.course.code.trim().toLowerCase());
   if (new Set(codes).size !== codes.length) throw new Error('Published courses contain duplicate codes.');
   return documents;
@@ -55,6 +58,8 @@ export function mergeQuestionDocuments(existing, incoming) {
   if (previousIssues.length) throw new Error('Existing file is invalid: ' + previousIssues.join(' '));
   if (existing.course.code.trim().toLowerCase() !== incoming.course.code.trim().toLowerCase()) throw new Error('Course codes do not match.');
   const chapters = existing.chapters.map(chapter => ({ ...chapter, questions: [...chapter.questions] }));
+  const incomingIds = new Set(incoming.chapters.flatMap(chapter => chapter.questions.map(question => question.id.trim())));
+  for (let i = 0; i < chapters.length; i++) chapters[i] = { ...chapters[i], questions: chapters[i].questions.filter(question => !incomingIds.has(question.id.trim())) };
   for (const chapter of incoming.chapters) {
     const index = chapters.findIndex(item => item.title.trim().toLowerCase() === chapter.title.trim().toLowerCase());
     if (index < 0) { chapters.push(chapter); continue; }

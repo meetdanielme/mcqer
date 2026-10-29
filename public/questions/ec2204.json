@@ -1989,6 +1989,106 @@
           "correctOptionId": "B",
           "explanation": "Q = €100,000/(€50 − €30) = 5,000 units.",
           "source": "EC2204 — Sample MCQs, question 44"
+        },
+        {
+          "id": "EC2204-WEALTH-026",
+          "stem": "An investment pays €550 at the end of Year 1 and €726 at the end of Year 2, with no other payments. At a 10% annual discount rate, what is the combined present value?",
+          "options": [
+            {
+              "id": "A",
+              "text": "€1,100"
+            },
+            {
+              "id": "B",
+              "text": "€1,160"
+            },
+            {
+              "id": "C",
+              "text": "€1,276"
+            },
+            {
+              "id": "D",
+              "text": "€1,054.55"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Discount each payment for its own time period: €550/1.10 + €726/1.10² = €500 + €600 = €1,100. Discounting the total for just one period misstates timing.",
+          "source": "EC2204 Lecture #2 — PV, FV, NPV and profit; illustrative calculation variation. https://app.notion.com/p/3adba34e944c815ca6b4f223c97d97c8"
+        },
+        {
+          "id": "EC2204-WEALTH-027",
+          "stem": "A project costs €1,000 today and pays €660 at the end of each of Years 1 and 2. There are no other cash flows. At a 10% required return, what are its NPV and the standard investment decision?",
+          "options": [
+            {
+              "id": "A",
+              "text": "€320; accept"
+            },
+            {
+              "id": "B",
+              "text": "−€145.45; reject"
+            },
+            {
+              "id": "C",
+              "text": "€200; accept"
+            },
+            {
+              "id": "D",
+              "text": "€145.45; accept"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "NPV = −€1,000 + €660/1.10 + €660/1.10² = €145.45 after rounding. The positive NPV supports acceptance under the standard rule.",
+          "source": "EC2204 Lecture #2 — PV, FV, NPV and profit; illustrative calculation variation. https://app.notion.com/p/3adba34e944c815ca6b4f223c97d97c8"
+        },
+        {
+          "id": "EC2204-WEALTH-028",
+          "stem": "You invest €800 for three years at 5% interest compounded annually, with no withdrawals. What is the future value, rounded to cents?",
+          "options": [
+            {
+              "id": "A",
+              "text": "€926.10"
+            },
+            {
+              "id": "B",
+              "text": "€920.00"
+            },
+            {
+              "id": "C",
+              "text": "€840.00"
+            },
+            {
+              "id": "D",
+              "text": "€691.07"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "FV = €800 × 1.05³ = €926.10. €920 uses simple interest rather than annual compounding.",
+          "source": "EC2204 Lecture #2 — PV, FV, NPV and profit; illustrative calculation variation. https://app.notion.com/p/3adba34e944c815ca6b4f223c97d97c8"
+        },
+        {
+          "id": "EC2204-WEALTH-029",
+          "stem": "A firm charges €35 per unit, incurs €21 variable cost per unit and has €42,000 fixed costs. Assuming every unit produced is sold, what output gives zero profit?",
+          "options": [
+            {
+              "id": "A",
+              "text": "1,200 units"
+            },
+            {
+              "id": "B",
+              "text": "2,000 units"
+            },
+            {
+              "id": "C",
+              "text": "3,000 units"
+            },
+            {
+              "id": "D",
+              "text": "5,000 units"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Contribution per unit is €35 − €21 = €14. Break-even output is €42,000/€14 = 3,000 units.",
+          "source": "EC2204 Lecture #2 — PV, FV, NPV and profit; illustrative calculation variation. https://app.notion.com/p/3adba34e944c815ca6b4f223c97d97c8"
         }
       ]
     },
@@ -4186,6 +4286,81 @@
             "title": "Demand and supply schedules",
             "html": "<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{margin:0;padding:12px;background:#fff;color:#17283b;font-family:Arial,sans-serif}svg{display:block;width:100%;height:auto;max-width:720px;margin:auto}text{font-family:Arial,sans-serif;font-size:24px;fill:#17283b}.note{font-size:13px;color:#526274;max-width:720px;margin:8px auto}table{border-collapse:collapse;width:100%;max-width:660px;margin:auto;font-size:17px}th,td{padding:14px;border:1px solid #b8c7d4;text-align:left}th{background:#eef4f9}</style></head><body><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 720 510\" role=\"img\" aria-label=\"Illustrative market: demand P=30−0.2Q; original S₀: P=0.1Q; replacement S₁: P=6+0.1Q. Intersections are not marked.\"><defs><clipPath id=\"plot\"><rect x=\"80\" y=\"45\" width=\"550\" height=\"340\"/></clipPath></defs><path d=\"M80.0 45V385\" stroke=\"#e2e8f0\"/><text x=\"80.0\" y=\"411\" text-anchor=\"middle\">0</text><path d=\"M171.66666666666666 45V385\" stroke=\"#e2e8f0\"/><text x=\"171.66666666666666\" y=\"411\" text-anchor=\"middle\">25</text><path d=\"M263.3333333333333 45V385\" stroke=\"#e2e8f0\"/><text x=\"263.3333333333333\" y=\"411\" text-anchor=\"middle\">50</text><path d=\"M355.0 45V385\" stroke=\"#e2e8f0\"/><text x=\"355.0\" y=\"411\" text-anchor=\"middle\">75</text><path d=\"M446.66666666666663 45V385\" stroke=\"#e2e8f0\"/><text x=\"446.66666666666663\" y=\"411\" text-anchor=\"middle\">100</text><path d=\"M538.3333333333334 45V385\" stroke=\"#e2e8f0\"/><text x=\"538.3333333333334\" y=\"411\" text-anchor=\"middle\">125</text><path d=\"M630.0 45V385\" stroke=\"#e2e8f0\"/><text x=\"630.0\" y=\"411\" text-anchor=\"middle\">150</text><path d=\"M80 385.0H630\" stroke=\"#e2e8f0\"/><text x=\"68\" y=\"390.0\" text-anchor=\"end\">0</text><path d=\"M80 328.3333333333333H630\" stroke=\"#e2e8f0\"/><text x=\"68\" y=\"333.3333333333333\" text-anchor=\"end\">5</text><path d=\"M80 271.6666666666667H630\" stroke=\"#e2e8f0\"/><text x=\"68\" y=\"276.6666666666667\" text-anchor=\"end\">10</text><path d=\"M80 215.0H630\" stroke=\"#e2e8f0\"/><text x=\"68\" y=\"220.0\" text-anchor=\"end\">15</text><path d=\"M80 158.33333333333334H630\" stroke=\"#e2e8f0\"/><text x=\"68\" y=\"163.33333333333334\" text-anchor=\"end\">20</text><path d=\"M80 101.66666666666663H630\" stroke=\"#e2e8f0\"/><text x=\"68\" y=\"106.66666666666663\" text-anchor=\"end\">25</text><path d=\"M80 45.0H630\" stroke=\"#e2e8f0\"/><text x=\"68\" y=\"50.0\" text-anchor=\"end\">30</text><g clip-path=\"url(#plot)\"><path d=\"M80.00 45.00 L81.83 46.13 L83.67 47.27 L85.50 48.40 L87.33 49.53 L89.17 50.67 L91.00 51.80 L92.83 52.93 L94.67 54.07 L96.50 55.20 L98.33 56.33 L100.17 57.47 L102.00 58.60 L103.83 59.73 L105.67 60.87 L107.50 62.00 L109.33 63.13 L111.17 64.27 L113.00 65.40 L114.83 66.53 L116.67 67.67 L118.50 68.80 L120.33 69.93 L122.17 71.07 L124.00 72.20 L125.83 73.33 L127.67 74.47 L129.50 75.60 L131.33 76.73 L133.17 77.87 L135.00 79.00 L136.83 80.13 L138.67 81.27 L140.50 82.40 L142.33 83.53 L144.17 84.67 L146.00 85.80 L147.83 86.93 L149.67 88.07 L151.50 89.20 L153.33 90.33 L155.17 91.47 L157.00 92.60 L158.83 93.73 L160.67 94.87 L162.50 96.00 L164.33 97.13 L166.17 98.27 L168.00 99.40 L169.83 100.53 L171.67 101.67 L173.50 102.80 L175.33 103.93 L177.17 105.07 L179.00 106.20 L180.83 107.33 L182.67 108.47 L184.50 109.60 L186.33 110.73 L188.17 111.87 L190.00 113.00 L191.83 114.13 L193.67 115.27 L195.50 116.40 L197.33 117.53 L199.17 118.67 L201.00 119.80 L202.83 120.93 L204.67 122.07 L206.50 123.20 L208.33 124.33 L210.17 125.47 L212.00 126.60 L213.83 127.73 L215.67 128.87 L217.50 130.00 L219.33 131.13 L221.17 132.27 L223.00 133.40 L224.83 134.53 L226.67 135.67 L228.50 136.80 L230.33 137.93 L232.17 139.07 L234.00 140.20 L235.83 141.33 L237.67 142.47 L239.50 143.60 L241.33 144.73 L243.17 145.87 L245.00 147.00 L246.83 148.13 L248.67 149.27 L250.50 150.40 L252.33 151.53 L254.17 152.67 L256.00 153.80 L257.83 154.93 L259.67 156.07 L261.50 157.20 L263.33 158.33 L265.17 159.47 L267.00 160.60 L268.83 161.73 L270.67 162.87 L272.50 164.00 L274.33 165.13 L276.17 166.27 L278.00 167.40 L279.83 168.53 L281.67 169.67 L283.50 170.80 L285.33 171.93 L287.17 173.07 L289.00 174.20 L290.83 175.33 L292.67 176.47 L294.50 177.60 L296.33 178.73 L298.17 179.87 L300.00 181.00 L301.83 182.13 L303.67 183.27 L305.50 184.40 L307.33 185.53 L309.17 186.67 L311.00 187.80 L312.83 188.93 L314.67 190.07 L316.50 191.20 L318.33 192.33 L320.17 193.47 L322.00 194.60 L323.83 195.73 L325.67 196.87 L327.50 198.00 L329.33 199.13 L331.17 200.27 L333.00 201.40 L334.83 202.53 L336.67 203.67 L338.50 204.80 L340.33 205.93 L342.17 207.07 L344.00 208.20 L345.83 209.33 L347.67 210.47 L349.50 211.60 L351.33 212.73 L353.17 213.87 L355.00 215.00 L356.83 216.13 L358.67 217.27 L360.50 218.40 L362.33 219.53 L364.17 220.67 L366.00 221.80 L367.83 222.93 L369.67 224.07 L371.50 225.20 L373.33 226.33 L375.17 227.47 L377.00 228.60 L378.83 229.73 L380.67 230.87 L382.50 232.00 L384.33 233.13 L386.17 234.27 L388.00 235.40 L389.83 236.53 L391.67 237.67 L393.50 238.80 L395.33 239.93 L397.17 241.07 L399.00 242.20 L400.83 243.33 L402.67 244.47 L404.50 245.60 L406.33 246.73 L408.17 247.87 L410.00 249.00 L411.83 250.13 L413.67 251.27 L415.50 252.40 L417.33 253.53 L419.17 254.67 L421.00 255.80 L422.83 256.93 L424.67 258.07 L426.50 259.20 L428.33 260.33 L430.17 261.47 L432.00 262.60 L433.83 263.73 L435.67 264.87 L437.50 266.00 L439.33 267.13 L441.17 268.27 L443.00 269.40 L444.83 270.53 L446.67 271.67 L448.50 272.80 L450.33 273.93 L452.17 275.07 L454.00 276.20 L455.83 277.33 L457.67 278.47 L459.50 279.60 L461.33 280.73 L463.17 281.87 L465.00 283.00 L466.83 284.13 L468.67 285.27 L470.50 286.40 L472.33 287.53 L474.17 288.67 L476.00 289.80 L477.83 290.93 L479.67 292.07 L481.50 293.20 L483.33 294.33 L485.17 295.47 L487.00 296.60 L488.83 297.73 L490.67 298.87 L492.50 300.00 L494.33 301.13 L496.17 302.27 L498.00 303.40 L499.83 304.53 L501.67 305.67 L503.50 306.80 L505.33 307.93 L507.17 309.07 L509.00 310.20 L510.83 311.33 L512.67 312.47 L514.50 313.60 L516.33 314.73 L518.17 315.87 L520.00 317.00 L521.83 318.13 L523.67 319.27 L525.50 320.40 L527.33 321.53 L529.17 322.67 L531.00 323.80 L532.83 324.93 L534.67 326.07 L536.50 327.20 L538.33 328.33 L540.17 329.47 L542.00 330.60 L543.83 331.73 L545.67 332.87 L547.50 334.00 L549.33 335.13 L551.17 336.27 L553.00 337.40 L554.83 338.53 L556.67 339.67 L558.50 340.80 L560.33 341.93 L562.17 343.07 L564.00 344.20 L565.83 345.33 L567.67 346.47 L569.50 347.60 L571.33 348.73 L573.17 349.87 L575.00 351.00 L576.83 352.13 L578.67 353.27 L580.50 354.40 L582.33 355.53 L584.17 356.67 L586.00 357.80 L587.83 358.93 L589.67 360.07 L591.50 361.20 L593.33 362.33 L595.17 363.47 L597.00 364.60 L598.83 365.73 L600.67 366.87 L602.50 368.00 L604.33 369.13 L606.17 370.27 L608.00 371.40 L609.83 372.53 L611.67 373.67 L613.50 374.80 L615.33 375.93 L617.17 377.07 L619.00 378.20 L620.83 379.33 L622.67 380.47 L624.50 381.60 L626.33 382.73 L628.17 383.87 L630.00 385.00\" stroke=\"#155b9f\" stroke-width=\"3\" fill=\"none\"/><path d=\"M80.00 385.00 L81.83 384.43 L83.67 383.87 L85.50 383.30 L87.33 382.73 L89.17 382.17 L91.00 381.60 L92.83 381.03 L94.67 380.47 L96.50 379.90 L98.33 379.33 L100.17 378.77 L102.00 378.20 L103.83 377.63 L105.67 377.07 L107.50 376.50 L109.33 375.93 L111.17 375.37 L113.00 374.80 L114.83 374.23 L116.67 373.67 L118.50 373.10 L120.33 372.53 L122.17 371.97 L124.00 371.40 L125.83 370.83 L127.67 370.27 L129.50 369.70 L131.33 369.13 L133.17 368.57 L135.00 368.00 L136.83 367.43 L138.67 366.87 L140.50 366.30 L142.33 365.73 L144.17 365.17 L146.00 364.60 L147.83 364.03 L149.67 363.47 L151.50 362.90 L153.33 362.33 L155.17 361.77 L157.00 361.20 L158.83 360.63 L160.67 360.07 L162.50 359.50 L164.33 358.93 L166.17 358.37 L168.00 357.80 L169.83 357.23 L171.67 356.67 L173.50 356.10 L175.33 355.53 L177.17 354.97 L179.00 354.40 L180.83 353.83 L182.67 353.27 L184.50 352.70 L186.33 352.13 L188.17 351.57 L190.00 351.00 L191.83 350.43 L193.67 349.87 L195.50 349.30 L197.33 348.73 L199.17 348.17 L201.00 347.60 L202.83 347.03 L204.67 346.47 L206.50 345.90 L208.33 345.33 L210.17 344.77 L212.00 344.20 L213.83 343.63 L215.67 343.07 L217.50 342.50 L219.33 341.93 L221.17 341.37 L223.00 340.80 L224.83 340.23 L226.67 339.67 L228.50 339.10 L230.33 338.53 L232.17 337.97 L234.00 337.40 L235.83 336.83 L237.67 336.27 L239.50 335.70 L241.33 335.13 L243.17 334.57 L245.00 334.00 L246.83 333.43 L248.67 332.87 L250.50 332.30 L252.33 331.73 L254.17 331.17 L256.00 330.60 L257.83 330.03 L259.67 329.47 L261.50 328.90 L263.33 328.33 L265.17 327.77 L267.00 327.20 L268.83 326.63 L270.67 326.07 L272.50 325.50 L274.33 324.93 L276.17 324.37 L278.00 323.80 L279.83 323.23 L281.67 322.67 L283.50 322.10 L285.33 321.53 L287.17 320.97 L289.00 320.40 L290.83 319.83 L292.67 319.27 L294.50 318.70 L296.33 318.13 L298.17 317.57 L300.00 317.00 L301.83 316.43 L303.67 315.87 L305.50 315.30 L307.33 314.73 L309.17 314.17 L311.00 313.60 L312.83 313.03 L314.67 312.47 L316.50 311.90 L318.33 311.33 L320.17 310.77 L322.00 310.20 L323.83 309.63 L325.67 309.07 L327.50 308.50 L329.33 307.93 L331.17 307.37 L333.00 306.80 L334.83 306.23 L336.67 305.67 L338.50 305.10 L340.33 304.53 L342.17 303.97 L344.00 303.40 L345.83 302.83 L347.67 302.27 L349.50 301.70 L351.33 301.13 L353.17 300.57 L355.00 300.00 L356.83 299.43 L358.67 298.87 L360.50 298.30 L362.33 297.73 L364.17 297.17 L366.00 296.60 L367.83 296.03 L369.67 295.47 L371.50 294.90 L373.33 294.33 L375.17 293.77 L377.00 293.20 L378.83 292.63 L380.67 292.07 L382.50 291.50 L384.33 290.93 L386.17 290.37 L388.00 289.80 L389.83 289.23 L391.67 288.67 L393.50 288.10 L395.33 287.53 L397.17 286.97 L399.00 286.40 L400.83 285.83 L402.67 285.27 L404.50 284.70 L406.33 284.13 L408.17 283.57 L410.00 283.00 L411.83 282.43 L413.67 281.87 L415.50 281.30 L417.33 280.73 L419.17 280.17 L421.00 279.60 L422.83 279.03 L424.67 278.47 L426.50 277.90 L428.33 277.33 L430.17 276.77 L432.00 276.20 L433.83 275.63 L435.67 275.07 L437.50 274.50 L439.33 273.93 L441.17 273.37 L443.00 272.80 L444.83 272.23 L446.67 271.67 L448.50 271.10 L450.33 270.53 L452.17 269.97 L454.00 269.40 L455.83 268.83 L457.67 268.27 L459.50 267.70 L461.33 267.13 L463.17 266.57 L465.00 266.00 L466.83 265.43 L468.67 264.87 L470.50 264.30 L472.33 263.73 L474.17 263.17 L476.00 262.60 L477.83 262.03 L479.67 261.47 L481.50 260.90 L483.33 260.33 L485.17 259.77 L487.00 259.20 L488.83 258.63 L490.67 258.07 L492.50 257.50 L494.33 256.93 L496.17 256.37 L498.00 255.80 L499.83 255.23 L501.67 254.67 L503.50 254.10 L505.33 253.53 L507.17 252.97 L509.00 252.40 L510.83 251.83 L512.67 251.27 L514.50 250.70 L516.33 250.13 L518.17 249.57 L520.00 249.00 L521.83 248.43 L523.67 247.87 L525.50 247.30 L527.33 246.73 L529.17 246.17 L531.00 245.60 L532.83 245.03 L534.67 244.47 L536.50 243.90 L538.33 243.33 L540.17 242.77 L542.00 242.20 L543.83 241.63 L545.67 241.07 L547.50 240.50 L549.33 239.93 L551.17 239.37 L553.00 238.80 L554.83 238.23 L556.67 237.67 L558.50 237.10 L560.33 236.53 L562.17 235.97 L564.00 235.40 L565.83 234.83 L567.67 234.27 L569.50 233.70 L571.33 233.13 L573.17 232.57 L575.00 232.00 L576.83 231.43 L578.67 230.87 L580.50 230.30 L582.33 229.73 L584.17 229.17 L586.00 228.60 L587.83 228.03 L589.67 227.47 L591.50 226.90 L593.33 226.33 L595.17 225.77 L597.00 225.20 L598.83 224.63 L600.67 224.07 L602.50 223.50 L604.33 222.93 L606.17 222.37 L608.00 221.80 L609.83 221.23 L611.67 220.67 L613.50 220.10 L615.33 219.53 L617.17 218.97 L619.00 218.40 L620.83 217.83 L622.67 217.27 L624.50 216.70 L626.33 216.13 L628.17 215.57 L630.00 215.00\" stroke=\"#b44721\" stroke-width=\"3\" fill=\"none\" stroke-dasharray=\"8 5\"/><path d=\"M80.00 317.00 L81.83 316.43 L83.67 315.87 L85.50 315.30 L87.33 314.73 L89.17 314.17 L91.00 313.60 L92.83 313.03 L94.67 312.47 L96.50 311.90 L98.33 311.33 L100.17 310.77 L102.00 310.20 L103.83 309.63 L105.67 309.07 L107.50 308.50 L109.33 307.93 L111.17 307.37 L113.00 306.80 L114.83 306.23 L116.67 305.67 L118.50 305.10 L120.33 304.53 L122.17 303.97 L124.00 303.40 L125.83 302.83 L127.67 302.27 L129.50 301.70 L131.33 301.13 L133.17 300.57 L135.00 300.00 L136.83 299.43 L138.67 298.87 L140.50 298.30 L142.33 297.73 L144.17 297.17 L146.00 296.60 L147.83 296.03 L149.67 295.47 L151.50 294.90 L153.33 294.33 L155.17 293.77 L157.00 293.20 L158.83 292.63 L160.67 292.07 L162.50 291.50 L164.33 290.93 L166.17 290.37 L168.00 289.80 L169.83 289.23 L171.67 288.67 L173.50 288.10 L175.33 287.53 L177.17 286.97 L179.00 286.40 L180.83 285.83 L182.67 285.27 L184.50 284.70 L186.33 284.13 L188.17 283.57 L190.00 283.00 L191.83 282.43 L193.67 281.87 L195.50 281.30 L197.33 280.73 L199.17 280.17 L201.00 279.60 L202.83 279.03 L204.67 278.47 L206.50 277.90 L208.33 277.33 L210.17 276.77 L212.00 276.20 L213.83 275.63 L215.67 275.07 L217.50 274.50 L219.33 273.93 L221.17 273.37 L223.00 272.80 L224.83 272.23 L226.67 271.67 L228.50 271.10 L230.33 270.53 L232.17 269.97 L234.00 269.40 L235.83 268.83 L237.67 268.27 L239.50 267.70 L241.33 267.13 L243.17 266.57 L245.00 266.00 L246.83 265.43 L248.67 264.87 L250.50 264.30 L252.33 263.73 L254.17 263.17 L256.00 262.60 L257.83 262.03 L259.67 261.47 L261.50 260.90 L263.33 260.33 L265.17 259.77 L267.00 259.20 L268.83 258.63 L270.67 258.07 L272.50 257.50 L274.33 256.93 L276.17 256.37 L278.00 255.80 L279.83 255.23 L281.67 254.67 L283.50 254.10 L285.33 253.53 L287.17 252.97 L289.00 252.40 L290.83 251.83 L292.67 251.27 L294.50 250.70 L296.33 250.13 L298.17 249.57 L300.00 249.00 L301.83 248.43 L303.67 247.87 L305.50 247.30 L307.33 246.73 L309.17 246.17 L311.00 245.60 L312.83 245.03 L314.67 244.47 L316.50 243.90 L318.33 243.33 L320.17 242.77 L322.00 242.20 L323.83 241.63 L325.67 241.07 L327.50 240.50 L329.33 239.93 L331.17 239.37 L333.00 238.80 L334.83 238.23 L336.67 237.67 L338.50 237.10 L340.33 236.53 L342.17 235.97 L344.00 235.40 L345.83 234.83 L347.67 234.27 L349.50 233.70 L351.33 233.13 L353.17 232.57 L355.00 232.00 L356.83 231.43 L358.67 230.87 L360.50 230.30 L362.33 229.73 L364.17 229.17 L366.00 228.60 L367.83 228.03 L369.67 227.47 L371.50 226.90 L373.33 226.33 L375.17 225.77 L377.00 225.20 L378.83 224.63 L380.67 224.07 L382.50 223.50 L384.33 222.93 L386.17 222.37 L388.00 221.80 L389.83 221.23 L391.67 220.67 L393.50 220.10 L395.33 219.53 L397.17 218.97 L399.00 218.40 L400.83 217.83 L402.67 217.27 L404.50 216.70 L406.33 216.13 L408.17 215.57 L410.00 215.00 L411.83 214.43 L413.67 213.87 L415.50 213.30 L417.33 212.73 L419.17 212.17 L421.00 211.60 L422.83 211.03 L424.67 210.47 L426.50 209.90 L428.33 209.33 L430.17 208.77 L432.00 208.20 L433.83 207.63 L435.67 207.07 L437.50 206.50 L439.33 205.93 L441.17 205.37 L443.00 204.80 L444.83 204.23 L446.67 203.67 L448.50 203.10 L450.33 202.53 L452.17 201.97 L454.00 201.40 L455.83 200.83 L457.67 200.27 L459.50 199.70 L461.33 199.13 L463.17 198.57 L465.00 198.00 L466.83 197.43 L468.67 196.87 L470.50 196.30 L472.33 195.73 L474.17 195.17 L476.00 194.60 L477.83 194.03 L479.67 193.47 L481.50 192.90 L483.33 192.33 L485.17 191.77 L487.00 191.20 L488.83 190.63 L490.67 190.07 L492.50 189.50 L494.33 188.93 L496.17 188.37 L498.00 187.80 L499.83 187.23 L501.67 186.67 L503.50 186.10 L505.33 185.53 L507.17 184.97 L509.00 184.40 L510.83 183.83 L512.67 183.27 L514.50 182.70 L516.33 182.13 L518.17 181.57 L520.00 181.00 L521.83 180.43 L523.67 179.87 L525.50 179.30 L527.33 178.73 L529.17 178.17 L531.00 177.60 L532.83 177.03 L534.67 176.47 L536.50 175.90 L538.33 175.33 L540.17 174.77 L542.00 174.20 L543.83 173.63 L545.67 173.07 L547.50 172.50 L549.33 171.93 L551.17 171.37 L553.00 170.80 L554.83 170.23 L556.67 169.67 L558.50 169.10 L560.33 168.53 L562.17 167.97 L564.00 167.40 L565.83 166.83 L567.67 166.27 L569.50 165.70 L571.33 165.13 L573.17 164.57 L575.00 164.00 L576.83 163.43 L578.67 162.87 L580.50 162.30 L582.33 161.73 L584.17 161.17 L586.00 160.60 L587.83 160.03 L589.67 159.47 L591.50 158.90 L593.33 158.33 L595.17 157.77 L597.00 157.20 L598.83 156.63 L600.67 156.07 L602.50 155.50 L604.33 154.93 L606.17 154.37 L608.00 153.80 L609.83 153.23 L611.67 152.67 L613.50 152.10 L615.33 151.53 L617.17 150.97 L619.00 150.40 L620.83 149.83 L622.67 149.27 L624.50 148.70 L626.33 148.13 L628.17 147.57 L630.00 147.00\" stroke=\"#207446\" stroke-width=\"3\" fill=\"none\"/></g><path d=\"M80 40V385H645\" stroke=\"#17283b\" fill=\"none\" stroke-width=\"2\"/><text x=\"82\" y=\"23\">Price / cost / revenue (€ per unit)</text><text x=\"355\" y=\"442\" text-anchor=\"middle\">Output / quantity (units)</text><path d=\"M85 466h28\" stroke=\"#155b9f\" stroke-width=\"3\"/><text x=\"121\" y=\"471\">Demand</text><path d=\"M395 466h28\" stroke=\"#b44721\" stroke-width=\"3\" stroke-dasharray=\"8 5\"/><text x=\"431\" y=\"471\">S₀</text><path d=\"M85 493h28\" stroke=\"#207446\" stroke-width=\"3\"/><text x=\"121\" y=\"498\">S₁</text></svg><p class=\"note\">Illustrative market: demand P=30−0.2Q; original S₀: P=0.1Q; replacement S₁: P=6+0.1Q. Intersections are not marked.</p></body></html>"
           }
+        },
+        {
+          "id": "EC2204-EQUILIBRIUM-026",
+          "stem": "Demand is Qd=150−5P and supply is Qs=30+3P, where P is euros per unit. Which equilibrium pair is correct?",
+          "options": [
+            {
+              "id": "A",
+              "text": "P=€15; Q=75"
+            },
+            {
+              "id": "B",
+              "text": "P=€20; Q=50"
+            },
+            {
+              "id": "C",
+              "text": "P=€15; Q=45"
+            },
+            {
+              "id": "D",
+              "text": "P=€12; Q=90"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Set 150−5P=30+3P: 120=8P, so P=€15. Both schedules give Q=75.",
+          "source": "EC2204 Lecture #3 — equilibrium algebra and adjustment; illustrative calculation variation. https://app.notion.com/p/3adba34e944c814a9229fa9424179662"
+        },
+        {
+          "id": "EC2204-EQUILIBRIUM-027",
+          "stem": "A market has demand Qd=150−5P and supply Qs=30+3P. If price is held at €10, what is the market imbalance?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Excess supply of 40 units"
+            },
+            {
+              "id": "B",
+              "text": "Excess demand of 60 units"
+            },
+            {
+              "id": "C",
+              "text": "Excess supply of 100 units"
+            },
+            {
+              "id": "D",
+              "text": "Excess demand of 40 units"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "At P=10, Qd=100 and Qs=60. The shortage is Qd−Qs=40 units.",
+          "source": "EC2204 Lecture #3 — equilibrium algebra and adjustment; illustrative calculation variation. https://app.notion.com/p/3adba34e944c814a9229fa9424179662"
+        },
+        {
+          "id": "EC2204-EQUILIBRIUM-028",
+          "stem": "Supply is Qs=30+3P. Demand changes from Qd=150−5P to Qd=190−5P, with price in euros per unit. What are the new equilibrium price and quantity?",
+          "options": [
+            {
+              "id": "A",
+              "text": "P=€15; Q=75"
+            },
+            {
+              "id": "B",
+              "text": "P=€20; Q=90"
+            },
+            {
+              "id": "C",
+              "text": "P=€20; Q=50"
+            },
+            {
+              "id": "D",
+              "text": "P=€25; Q=65"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Use the new demand schedule: 190−5P=30+3P, so P=20 and Q=90. The rightward demand shift raises both equilibrium values.",
+          "source": "EC2204 Lecture #3 — equilibrium algebra and adjustment; illustrative calculation variation. https://app.notion.com/p/3adba34e944c814a9229fa9424179662"
         }
       ]
     },
@@ -5552,6 +5727,81 @@
             "title": "Two-product observations",
             "html": "<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{margin:0;padding:12px;background:#fff;color:#17283b;font-family:Arial,sans-serif}svg{display:block;width:100%;height:auto;max-width:720px;margin:auto}text{font-family:Arial,sans-serif;font-size:24px;fill:#17283b}.note{font-size:13px;color:#526274;max-width:720px;margin:8px auto}table{border-collapse:collapse;width:100%;max-width:660px;margin:auto;font-size:17px}th,td{padding:14px;border:1px solid #b8c7d4;text-align:left}th{background:#eef4f9}</style></head><body><table><thead><tr><th scope=\"col\">Observation</th><th scope=\"col\">Before</th><th scope=\"col\">After</th></tr></thead><tbody><tr><td>Price of Y</td><td>€8.00</td><td>€8.80</td></tr><tr><td>Quantity demanded of X</td><td>200 units</td><td>230 units</td></tr></tbody></table><p class=\"note\">Illustrative observations; other influences are held constant. Use initial-value percentage changes, not midpoint percentages.</p></body></html>"
           }
+        },
+        {
+          "id": "EC2204-CONSUMERS-021",
+          "stem": "Price rises from €20 to €24 and quantity demanded falls from 150 to 105 units. Using initial values as the percentage-change bases, what is signed PED and its classification?",
+          "options": [
+            {
+              "id": "A",
+              "text": "−0.67; inelastic"
+            },
+            {
+              "id": "B",
+              "text": "+1.5; elastic"
+            },
+            {
+              "id": "C",
+              "text": "−1.5; elastic"
+            },
+            {
+              "id": "D",
+              "text": "−0.3; inelastic"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Quantity changes by −45/150=−30%; price changes by 4/20=20%. PED=−30%/20%=−1.5. Its magnitude exceeds one, so demand is elastic over the stated change.",
+          "source": "EC2204 Lectures #6–7 — initial-value elasticity methods; illustrative calculation variation. https://app.notion.com/p/3adba34e944c8121ad09cf2c3b4cd8c7 ; https://app.notion.com/p/3adba34e944c8112a715ce63d7ec737b"
+        },
+        {
+          "id": "EC2204-CONSUMERS-022",
+          "stem": "The price of Y rises from €10 to €12 while quantity demanded of X falls from 80 to 72 units, other things equal. Using initial-value percentages, what is X’s cross-price elasticity with respect to Y’s price, and what relationship does it indicate?",
+          "options": [
+            {
+              "id": "A",
+              "text": "+0.5; substitutes"
+            },
+            {
+              "id": "B",
+              "text": "−2; complements"
+            },
+            {
+              "id": "C",
+              "text": "+2; substitutes"
+            },
+            {
+              "id": "D",
+              "text": "−0.5; complements"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "X quantity changes by −8/80=−10%; Y price changes by 2/10=20%. The ratio is −0.5, whose negative sign indicates complements.",
+          "source": "EC2204 Lectures #6–7 — initial-value elasticity methods; illustrative calculation variation. https://app.notion.com/p/3adba34e944c8121ad09cf2c3b4cd8c7 ; https://app.notion.com/p/3adba34e944c8112a715ce63d7ec737b"
+        },
+        {
+          "id": "EC2204-CONSUMERS-023",
+          "stem": "Income rises from €2,000 to €2,200 and quantity demanded rises from 50 to 54 units, other things equal. Using initial-value percentages, what is income elasticity and the good’s classification over this change?",
+          "options": [
+            {
+              "id": "A",
+              "text": "−0.8; inferior"
+            },
+            {
+              "id": "B",
+              "text": "+0.8; normal"
+            },
+            {
+              "id": "C",
+              "text": "+1.25; normal"
+            },
+            {
+              "id": "D",
+              "text": "+0.08; normal"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Quantity rises by 4/50=8% and income by 200/2,000=10%, giving +0.8. A positive elasticity identifies a normal good; it does not need to exceed one.",
+          "source": "EC2204 Lectures #6–7 — initial-value elasticity methods; illustrative calculation variation. https://app.notion.com/p/3adba34e944c8121ad09cf2c3b4cd8c7 ; https://app.notion.com/p/3adba34e944c8112a715ce63d7ec737b"
         }
       ]
     },
@@ -6258,6 +6508,106 @@
           "correctOptionId": "D",
           "explanation": "Compare additional benefit with additional cost. Equality adds zero net benefit and can produce tied optima.",
           "source": "EC2204 — Sample MCQs, question 95"
+        },
+        {
+          "id": "EC2204-SELLERS-021",
+          "stem": "A business earns €160,000 revenue and pays €100,000 explicit costs. Its owner’s forgone salary is €70,000, the only implicit cost. What are accounting profit and economic profit, respectively?",
+          "options": [
+            {
+              "id": "A",
+              "text": "€60,000 and €60,000"
+            },
+            {
+              "id": "B",
+              "text": "€60,000 and −€10,000"
+            },
+            {
+              "id": "C",
+              "text": "−€10,000 and €60,000"
+            },
+            {
+              "id": "D",
+              "text": "€90,000 and −€10,000"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Accounting profit = €160,000 − €100,000 = €60,000. Economic profit also deducts the €70,000 forgone salary, giving −€10,000.",
+          "source": "EC2204 Lecture #8 — costs, marginal product and output choice; illustrative calculation variation. https://app.notion.com/p/3adba34e944c811ea8fbfc99e722680a"
+        },
+        {
+          "id": "EC2204-SELLERS-022",
+          "stem": "At Q=200, fixed cost is €600 and total variable cost is €1,400. Which set gives AFC, AVC and ATC, respectively?",
+          "options": [
+            {
+              "id": "A",
+              "text": "€3, €7 and €10 per unit"
+            },
+            {
+              "id": "B",
+              "text": "€7, €3 and €10 per unit"
+            },
+            {
+              "id": "C",
+              "text": "€3, €10 and €7 per unit"
+            },
+            {
+              "id": "D",
+              "text": "€600, €1,400 and €2,000 per unit"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "AFC=600/200=€3; AVC=1,400/200=€7; ATC=(600+1,400)/200=€10 per unit. Total cost must not be confused with cost per unit.",
+          "source": "EC2204 Lecture #8 — costs, marginal product and output choice; illustrative calculation variation. https://app.notion.com/p/3adba34e944c811ea8fbfc99e722680a"
+        },
+        {
+          "id": "EC2204-SELLERS-023",
+          "stem": "With capital fixed, hiring one more worker increases output from 240 to 280 units and total cost from €1,800 to €1,920. What are that worker’s marginal product and the marginal cost per extra output unit over this interval?",
+          "options": [
+            {
+              "id": "A",
+              "text": "40 units and €120 per unit"
+            },
+            {
+              "id": "B",
+              "text": "280 units and €3 per unit"
+            },
+            {
+              "id": "C",
+              "text": "40 units and €3 per unit"
+            },
+            {
+              "id": "D",
+              "text": "120 units and €40 per unit"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The worker adds 280−240=40 units. The additional cost is €120, so marginal cost over this batch is €120/40=€3 per unit.",
+          "source": "EC2204 Lecture #8 — costs, marginal product and output choice; illustrative calculation variation. https://app.notion.com/p/3adba34e944c811ea8fbfc99e722680a"
+        },
+        {
+          "id": "EC2204-SELLERS-024",
+          "stem": "A price-taking firm can produce Q=0, 1, 2 or 3 units. Total costs are €50, €62, €80 and €106, respectively. Price is €20 per unit and the €50 fixed cost is unavoidable. Which listed output maximises short-run profit?",
+          "options": [
+            {
+              "id": "A",
+              "text": "0 units"
+            },
+            {
+              "id": "B",
+              "text": "1 unit"
+            },
+            {
+              "id": "C",
+              "text": "3 units"
+            },
+            {
+              "id": "D",
+              "text": "2 units"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Profits at Q=0,1,2,3 are −€50, −€42, −€40 and −€46. Q=2 yields the smallest loss and therefore the highest profit; producing nothing still incurs fixed cost.",
+          "source": "EC2204 Lecture #8 — costs, marginal product and output choice; illustrative calculation variation. https://app.notion.com/p/3adba34e944c811ea8fbfc99e722680a"
         }
       ]
     },
@@ -7967,6 +8317,56 @@
           "correctOptionId": "B",
           "explanation": "Five Forces uses attractiveness in an economic profitability sense. Ethical and environmental assessments require additional analysis.",
           "source": "EC2204 Lecture 12, 20 October 2026: Porter’s Five Forces and industry examples, lecture transcript."
+        },
+        {
+          "id": "EC2204-STRUCTURE-021",
+          "stem": "A single-price monopolist faces inverse demand P=120−2Q. Which pair correctly gives its total-revenue and marginal-revenue functions in the continuous linear model?",
+          "options": [
+            {
+              "id": "A",
+              "text": "TR=120Q−Q²; MR=120−2Q"
+            },
+            {
+              "id": "B",
+              "text": "TR=120−2Q; MR=120−4Q"
+            },
+            {
+              "id": "C",
+              "text": "TR=120Q−2Q²; MR=120−4Q"
+            },
+            {
+              "id": "D",
+              "text": "TR=120Q−2Q²; MR=120−2Q"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "TR=P×Q=120Q−2Q². Differentiating TR gives MR=120−4Q. For linear demand the MR slope is twice the demand slope.",
+          "source": "EC2204 Lecture #10 — linear demand, TR, MR and price; illustrative calculation variation. https://app.notion.com/p/3adba34e944c812e863ec9fbe9ceeca8"
+        },
+        {
+          "id": "EC2204-STRUCTURE-022",
+          "stem": "A single-price monopolist has P=120−2Q, MR=120−4Q and constant MC=€40. Assume it operates, can choose continuous output and has no capacity constraint. What output and selling price maximise profit?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Q=20; P=€80"
+            },
+            {
+              "id": "B",
+              "text": "Q=20; P=€40"
+            },
+            {
+              "id": "C",
+              "text": "Q=40; P=€40"
+            },
+            {
+              "id": "D",
+              "text": "Q=30; P=€60"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "MR=MC gives 120−4Q=40, so Q=20. The price comes from demand: P=120−2(20)=€80, not from the MR curve.",
+          "source": "EC2204 Lecture #10 — linear demand, TR, MR and price; illustrative calculation variation. https://app.notion.com/p/3adba34e944c812e863ec9fbe9ceeca8"
         }
       ]
     },
@@ -8604,6 +9004,256 @@
           "correctOptionId": "C",
           "explanation": "The section broadens the comparative-advantage framework: specialised learning, new skills and changes in value chains can alter relative productivity and comparative advantage over time.",
           "source": "OpenStax, Principles of Economics 3e, §33.3, “Dynamic Comparative Advantage”"
+        },
+        {
+          "id": "EC2204-TRADE-016",
+          "stem": "With fixed resources and technology, how should production points inside, on and outside a production possibilities frontier be classified, respectively?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Efficient; inefficient; attainable"
+            },
+            {
+              "id": "B",
+              "text": "Unattainable; efficient; inefficient"
+            },
+            {
+              "id": "C",
+              "text": "Inefficient; productively efficient; currently unattainable through domestic production"
+            },
+            {
+              "id": "D",
+              "text": "Inefficient; unattainable; productively efficient"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Inside points leave productive capacity inefficiently used; frontier points use it efficiently; outside points exceed domestic production possibilities under the stated resources and technology.",
+          "source": "EC2204 Lecture #14, 27 October 2026 — notes and transcript, PPFs and comparative advantage; current Ireland–Portugal example where relevant. https://app.notion.com/p/3adba34e944c819887b8ec88f26ba98d ; Materials: https://app.notion.com/p/0ad4b0a285f8455bbc94426d4dc12643"
+        },
+        {
+          "id": "EC2204-TRADE-017",
+          "stem": "Portugal specialises completely in food while Ireland shifts towards software but continues producing some food. Must Ireland also specialise completely for both countries to gain from trade?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yes; both countries must produce only one good"
+            },
+            {
+              "id": "B",
+              "text": "No; shifting production towards comparative advantage can allow gains without both specialising completely"
+            },
+            {
+              "id": "C",
+              "text": "Yes; partial specialisation eliminates opportunity cost"
+            },
+            {
+              "id": "D",
+              "text": "No; gains arise only if the countries have identical opportunity costs"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The delivered example has Portugal fully specialising and Ireland producing both goods. Reallocation towards lower-opportunity-cost activities and suitable exchange can still benefit both.",
+          "source": "EC2204 Lecture #14, 27 October 2026 — notes and transcript, PPFs and comparative advantage; current Ireland–Portugal example where relevant. https://app.notion.com/p/3adba34e944c819887b8ec88f26ba98d ; Materials: https://app.notion.com/p/0ad4b0a285f8455bbc94426d4dc12643"
+        },
+        {
+          "id": "EC2204-TRADE-018",
+          "stem": "A student claims that exchanging goods creates extra physical output even if neither country changes production. Which statement best distinguishes exchange from production gains?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Exchange automatically creates additional goods"
+            },
+            {
+              "id": "B",
+              "text": "Exchange shifts both domestic PPFs outward"
+            },
+            {
+              "id": "C",
+              "text": "Production is irrelevant once trade starts"
+            },
+            {
+              "id": "D",
+              "text": "Reallocating production can raise combined output; exchange distributes the available goods between the parties"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Trade does not create goods merely by exchanging them. In the lecture, production reallocation increases combined output and exchange lets both countries share the gains.",
+          "source": "EC2204 Lecture #14, 27 October 2026 — notes and transcript, PPFs and comparative advantage; current Ireland–Portugal example where relevant. https://app.notion.com/p/3adba34e944c819887b8ec88f26ba98d ; Materials: https://app.notion.com/p/0ad4b0a285f8455bbc94426d4dc12643"
+        },
+        {
+          "id": "EC2204-TRADE-019",
+          "stem": "With equal labour resources and straight-line PPFs, Ireland can produce 32 software or 80 food; Portugal can produce 16 software or 64 food. What are their opportunity costs of one food unit, respectively?",
+          "options": [
+            {
+              "id": "A",
+              "text": "2.5 software and 4 software"
+            },
+            {
+              "id": "B",
+              "text": "0.4 software and 0.25 software"
+            },
+            {
+              "id": "C",
+              "text": "0.25 software and 0.4 software"
+            },
+            {
+              "id": "D",
+              "text": "32 software and 16 software"
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Food opportunity cost is maximum software divided by maximum food: Ireland 32/80=0.4 software per food; Portugal 16/64=0.25. Keep the units attached to the ratio. Optional understanding practice: the lecture notes prioritise definitions, not maths, for this topic.",
+          "source": "EC2204 Lecture #14, 27 October 2026 — notes and transcript, PPFs and comparative advantage; current Ireland–Portugal example where relevant. https://app.notion.com/p/3adba34e944c819887b8ec88f26ba98d ; Materials: https://app.notion.com/p/0ad4b0a285f8455bbc94426d4dc12643"
+        },
+        {
+          "id": "EC2204-TRADE-020",
+          "stem": "Ireland’s straight-line PPF has endpoints of 32 software and 80 food. If it produces 28 software efficiently, how much food can it also produce?",
+          "options": [
+            {
+              "id": "A",
+              "text": "10 food"
+            },
+            {
+              "id": "B",
+              "text": "52 food"
+            },
+            {
+              "id": "C",
+              "text": "70 food"
+            },
+            {
+              "id": "D",
+              "text": "80 food"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "One software costs 80/32=2.5 food. At 28 software, food production is 80−2.5×28=10. Optional understanding practice: the lecture notes prioritise definitions, not maths, for this topic.",
+          "source": "EC2204 Lecture #14, 27 October 2026 — notes and transcript, PPFs and comparative advantage; current Ireland–Portugal example where relevant. https://app.notion.com/p/3adba34e944c819887b8ec88f26ba98d ; Materials: https://app.notion.com/p/0ad4b0a285f8455bbc94426d4dc12643"
+        },
+        {
+          "id": "EC2204-TRADE-021",
+          "stem": "Ireland produces (28 software,10 food) and Portugal produces (0 software,64 food). Ireland sends 10 software to Portugal in exchange for 31 food. Which pair of post-trade consumption bundles is correct?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ireland (18,31); Portugal (10,33)"
+            },
+            {
+              "id": "B",
+              "text": "Ireland (38,41); Portugal (10,33)"
+            },
+            {
+              "id": "C",
+              "text": "Ireland (18,41); Portugal (10,33)"
+            },
+            {
+              "id": "D",
+              "text": "Ireland (18,41); Portugal (10,95)"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Ireland retains 28−10=18 software and has 10+31=41 food. Portugal receives 10 software and retains 64−31=33 food. Total consumption equals total production. Optional understanding practice: the lecture notes prioritise definitions, not maths, for this topic.",
+          "source": "EC2204 Lecture #14, 27 October 2026 — notes and transcript, PPFs and comparative advantage; current Ireland–Portugal example where relevant. https://app.notion.com/p/3adba34e944c819887b8ec88f26ba98d ; Materials: https://app.notion.com/p/0ad4b0a285f8455bbc94426d4dc12643"
+        },
+        {
+          "id": "EC2204-TRADE-022",
+          "stem": "Before specialisation, Ireland produces (16 software,40 food) and Portugal (8 software,32 food). Afterwards, Ireland produces (28 software,10 food) and Portugal (0 software,64 food). How does combined output change?",
+          "options": [
+            {
+              "id": "A",
+              "text": "+12 software and −30 food"
+            },
+            {
+              "id": "B",
+              "text": "+4 software and +4 food"
+            },
+            {
+              "id": "C",
+              "text": "+28 software and +74 food"
+            },
+            {
+              "id": "D",
+              "text": "+4 software and +2 food"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Initial totals are (24 software,72 food); new totals are (28,74). Combined output increases by four software and two food. Optional understanding practice: the lecture notes prioritise definitions, not maths, for this topic.",
+          "source": "EC2204 Lecture #14, 27 October 2026 — notes and transcript, PPFs and comparative advantage; current Ireland–Portugal example where relevant. https://app.notion.com/p/3adba34e944c819887b8ec88f26ba98d ; Materials: https://app.notion.com/p/0ad4b0a285f8455bbc94426d4dc12643"
+        },
+        {
+          "id": "EC2204-TRADE-023",
+          "stem": "Ireland can produce food domestically at an opportunity cost of 2.5 food per software unit exported. Portugal offers only 2.4 food for each software unit. For an exchange of 10 software, how much less food would Ireland receive than it could produce by reallocating the equivalent resources domestically?",
+          "options": [
+            {
+              "id": "A",
+              "text": "1 food unit"
+            },
+            {
+              "id": "B",
+              "text": "0.1 food unit"
+            },
+            {
+              "id": "C",
+              "text": "24 food units"
+            },
+            {
+              "id": "D",
+              "text": "25 food units"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Exporting ten software forgoes the resources to produce 25 food domestically. The offer provides 24 food, one less than that alternative. The offered rate is below Ireland’s opportunity cost. Optional understanding practice: the lecture notes prioritise definitions, not maths, for this topic.",
+          "source": "EC2204 Lecture #14, 27 October 2026 — notes and transcript, PPFs and comparative advantage; current Ireland–Portugal example where relevant. https://app.notion.com/p/3adba34e944c819887b8ec88f26ba98d ; Materials: https://app.notion.com/p/0ad4b0a285f8455bbc94426d4dc12643"
+        },
+        {
+          "id": "EC2204-TRADE-024",
+          "stem": "Ireland’s straight-line PPF has endpoints of 32 software or 80 food. What is its maximum domestic food production at 18 software, compared with consumption of 41 food after trade?",
+          "options": [
+            {
+              "id": "A",
+              "text": "45 food domestically; 41 is inside its frontier"
+            },
+            {
+              "id": "B",
+              "text": "62 food domestically; 41 is inside its frontier"
+            },
+            {
+              "id": "C",
+              "text": "35 food domestically; 41 is beyond its domestic production frontier at that software quantity"
+            },
+            {
+              "id": "D",
+              "text": "41 food domestically; consumption must be on its frontier"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The domestic frontier is F=80−2.5S. At S=18, F=35. Trade can enable consumption of 41 food at the same software quantity without enabling that combination as domestic production. Optional understanding practice: the lecture notes prioritise definitions, not maths, for this topic.",
+          "source": "EC2204 Lecture #14, 27 October 2026 — notes and transcript, PPFs and comparative advantage; current Ireland–Portugal example where relevant. https://app.notion.com/p/3adba34e944c819887b8ec88f26ba98d ; Materials: https://app.notion.com/p/0ad4b0a285f8455bbc94426d4dc12643"
+        },
+        {
+          "id": "EC2204-TRADE-025",
+          "stem": "With equal resources, the US can produce 500 planes or 1,000 tons of shoes; China can produce 100 planes or 800 tons of shoes. Assuming straight-line PPFs, what are their opportunity costs of one plane and which has comparative advantage in planes?",
+          "options": [
+            {
+              "id": "A",
+              "text": "US 0.5 tons; China 0.125 tons; China"
+            },
+            {
+              "id": "B",
+              "text": "US 2 tons; China 8 tons; China"
+            },
+            {
+              "id": "C",
+              "text": "US 8 tons; China 2 tons; US"
+            },
+            {
+              "id": "D",
+              "text": "US 2 tons; China 8 tons; US"
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "US cost=1,000/500=2 tons per plane; China cost=800/100=8. The US sacrifices fewer shoes per plane and therefore has comparative advantage in planes. Optional understanding practice: the lecture notes prioritise definitions, not maths, for this topic.",
+          "source": "EC2204 Lecture #14, 27 October 2026 — notes and transcript, PPFs and comparative advantage; current Ireland–Portugal example where relevant. https://app.notion.com/p/3adba34e944c819887b8ec88f26ba98d ; Materials: https://app.notion.com/p/0ad4b0a285f8455bbc94426d4dc12643"
         }
       ]
     }

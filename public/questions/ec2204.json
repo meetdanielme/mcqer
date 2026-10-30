@@ -9768,6 +9768,498 @@
           "source": "Sample+2204+MCQ.docx, Q20; answers independently derived, not a supplied official key."
         }
       ]
+    },
+    {
+      "title": "Demand, Supply & Equilibrium",
+      "description": "Latest OpenStax adaptations added on 30 October 2026.",
+      "questions": [
+        {
+          "id": "EC2204-OS-MARKETS-001",
+          "stem": "Cost-saving inventions make paint cheaper to produce, while longer-lasting paint means buildings need repainting less often. With other factors unchanged, what can be predicted?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Price falls; the change in quantity is ambiguous."
+            },
+            {
+              "id": "B",
+              "text": "Price rises; quantity rises."
+            },
+            {
+              "id": "C",
+              "text": "Price is ambiguous; quantity necessarily falls."
+            },
+            {
+              "id": "D",
+              "text": "Both price and quantity necessarily rise."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Cost-saving technology shifts supply right, while less frequent repainting shifts demand left. Both changes lower equilibrium price; their effects on quantity oppose one another.",
+          "source": "OS1; adapted from OpenStax, Chapter 3, self-check 3 — https://openstax.org/books/principles-economics-3e/pages/3-self-check-questions. Principles of Economics 3e, Steven A. Greenlaw, David Shapiro and Daniel MacDonald, OpenStax (2022). CC BY-NC-SA 4.0: https://creativecommons.org/licenses/by-nc-sa/4.0/. MCQ options adapted for study."
+        },
+        {
+          "id": "EC2204-OS-MARKETS-002",
+          "stem": "Hailstorms increase the need to repaint buildings and simultaneously force several paint factories to close. Which equilibrium result is certain in the standard model?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Price falls."
+            },
+            {
+              "id": "B",
+              "text": "Price rises, while quantity may rise or fall."
+            },
+            {
+              "id": "C",
+              "text": "Quantity rises, while price may rise or fall."
+            },
+            {
+              "id": "D",
+              "text": "Quantity and price both stay unchanged."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Repainting needs shift demand right and factory closures shift supply left. Both raise equilibrium price, while their opposing quantity effects leave the quantity change uncertain.",
+          "source": "OS2; adapted from OpenStax, Chapter 3, self-check 3 — https://openstax.org/books/principles-economics-3e/pages/3-self-check-questions. Principles of Economics 3e, Steven A. Greenlaw, David Shapiro and Daniel MacDonald, OpenStax (2022). CC BY-NC-SA 4.0: https://creativecommons.org/licenses/by-nc-sa/4.0/. MCQ options adapted for study."
+        },
+        {
+          "id": "EC2204-OS-MARKETS-003",
+          "stem": "Cars become more fuel-efficient, reducing oil needed per kilometre. Holding driving and all other conditions constant, what happens in the oil market?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Supply shifts left; price rises."
+            },
+            {
+              "id": "B",
+              "text": "Demand shifts right; price rises."
+            },
+            {
+              "id": "C",
+              "text": "Demand shifts left; equilibrium price and quantity fall."
+            },
+            {
+              "id": "D",
+              "text": "The oil demand curve does not shift; only a movement along it occurs."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "With driving held constant, greater fuel efficiency reduces oil demand at every price. A leftward demand shift lowers equilibrium price and quantity, other things equal.",
+          "source": "OS3; adapted from OpenStax, Chapter 3, self-check 4 — https://openstax.org/books/principles-economics-3e/pages/3-self-check-questions. Principles of Economics 3e, Steven A. Greenlaw, David Shapiro and Daniel MacDonald, OpenStax (2022). CC BY-NC-SA 4.0: https://creativecommons.org/licenses/by-nc-sa/4.0/. MCQ options adapted for study."
+        },
+        {
+          "id": "EC2204-OS-MARKETS-004",
+          "stem": "Jet fuel becomes more expensive for airlines. With demand for flights unchanged and upward-sloping supply, what is the expected effect?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Flight supply shifts right; fares fall."
+            },
+            {
+              "id": "B",
+              "text": "Flight demand shifts left; fares fall."
+            },
+            {
+              "id": "C",
+              "text": "Flight demand shifts right; fares rise."
+            },
+            {
+              "id": "D",
+              "text": "Flight supply shifts left; fares rise and the quantity of flights falls."
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Higher jet-fuel costs reduce the supply of flights. With demand unchanged, the leftward supply shift raises fares and reduces the equilibrium quantity of flights.",
+          "source": "OS4; adapted from OpenStax, Chapter 3, self-check 5 — https://openstax.org/books/principles-economics-3e/pages/3-self-check-questions. Principles of Economics 3e, Steven A. Greenlaw, David Shapiro and Daniel MacDonald, OpenStax (2022). CC BY-NC-SA 4.0: https://creativecommons.org/licenses/by-nc-sa/4.0/. MCQ options adapted for study."
+        }
+      ]
+    },
+    {
+      "title": "Demand & Supply Elasticity",
+      "description": "Latest OpenStax adaptations added on 30 October 2026.",
+      "questions": [
+        {
+          "id": "EC2204-OS-ELASTICITY-005",
+          "stem": "OpenStax's smartphone demand table has point B at P=$70, Q=2,800 and point C at P=$80, Q=2,600. Using the midpoint method, what is the absolute PED between B and C?",
+          "options": [
+            {
+              "id": "A",
+              "text": "About 0.56, inelastic."
+            },
+            {
+              "id": "B",
+              "text": "About 1.80, elastic."
+            },
+            {
+              "id": "C",
+              "text": "About 0.50, unit elastic."
+            },
+            {
+              "id": "D",
+              "text": "About 2.00, elastic."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Absolute midpoint PED = (200/2700)/(10/75) = 0.5556, approximately 0.56. A value below one means demand is inelastic.",
+          "source": "OS5; adapted from OpenStax, Chapter 5, self-check 1 — https://openstax.org/books/principles-economics-3e/pages/5-self-check-questions. Principles of Economics 3e, Steven A. Greenlaw, David Shapiro and Daniel MacDonald, OpenStax (2022). CC BY-NC-SA 4.0: https://creativecommons.org/licenses/by-nc-sa/4.0/. MCQ options adapted for study."
+        },
+        {
+          "id": "EC2204-OS-ELASTICITY-006",
+          "stem": "Alarm-clock supply changes from P=$10, Q=80 to P=$11, Q=88. Using midpoint percentages, what is PES?",
+          "options": [
+            {
+              "id": "A",
+              "text": "0.10"
+            },
+            {
+              "id": "B",
+              "text": "0.80"
+            },
+            {
+              "id": "C",
+              "text": "1.00"
+            },
+            {
+              "id": "D",
+              "text": "1.10"
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Midpoint PES = (8/84)/(1/10.5) = 1. Quantity supplied and price change by the same percentage, so supply is unit elastic.",
+          "source": "OS6; adapted from OpenStax, Chapter 5, self-check 2 — https://openstax.org/books/principles-economics-3e/pages/5-self-check-questions. Principles of Economics 3e, Steven A. Greenlaw, David Shapiro and Daniel MacDonald, OpenStax (2022). CC BY-NC-SA 4.0: https://creativecommons.org/licenses/by-nc-sa/4.0/. MCQ options adapted for study."
+        },
+        {
+          "id": "EC2204-OS-ELASTICITY-007",
+          "stem": "A pharmaceutical firm wants to increase revenue from its hair-growth treatment. Demand has an absolute price elasticity of 1.4 at the current price. For a small price change with other conditions unchanged, which recommendation follows?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Raise price because demand is inelastic."
+            },
+            {
+              "id": "B",
+              "text": "Lower price because demand is elastic."
+            },
+            {
+              "id": "C",
+              "text": "Keep price unchanged because demand is unit elastic."
+            },
+            {
+              "id": "D",
+              "text": "Lower quantity independently of price because revenue is fixed."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "An absolute PED of 1.4 means demand is elastic. For a small price reduction, the percentage quantity increase exceeds the percentage price reduction, raising total revenue.",
+          "source": "OS7; adapted from OpenStax, Chapter 5, self-check 6 — https://openstax.org/books/principles-economics-3e/pages/5-self-check-questions. Principles of Economics 3e, Steven A. Greenlaw, David Shapiro and Daniel MacDonald, OpenStax (2022). CC BY-NC-SA 4.0: https://creativecommons.org/licenses/by-nc-sa/4.0/. MCQ options adapted for study."
+        },
+        {
+          "id": "EC2204-OS-ELASTICITY-008",
+          "stem": "Average income rises from $25,000 to $38,000 while annual bread purchases fall from 30 to 22 loaves. Using initial-value percentage changes, which result is correct?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Income elasticity is about +1.95; bread is normal."
+            },
+            {
+              "id": "B",
+              "text": "Income elasticity is about −1.95; bread is inferior."
+            },
+            {
+              "id": "C",
+              "text": "Income elasticity is about +0.51; bread is inferior."
+            },
+            {
+              "id": "D",
+              "text": "Income elasticity is about −0.51; bread is inferior."
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Using initial values, income elasticity = ((22−30)/30)/((38000−25000)/25000) = −0.5128. The negative sign identifies bread as an inferior good in this example.",
+          "source": "OS8; adapted from OpenStax, Chapter 5, self-check 8 — https://openstax.org/books/principles-economics-3e/pages/5-self-check-questions. Principles of Economics 3e, Steven A. Greenlaw, David Shapiro and Daniel MacDonald, OpenStax (2022). CC BY-NC-SA 4.0: https://creativecommons.org/licenses/by-nc-sa/4.0/. MCQ options adapted for study."
+        },
+        {
+          "id": "EC2204-OS-ELASTICITY-009",
+          "stem": "The cross-price elasticity of apple demand with respect to the orange price is +0.4. If orange prices fall by 3%, what is the approximate change in apple demand, other things equal?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A decrease of 1.2%."
+            },
+            {
+              "id": "B",
+              "text": "An increase of 1.2%."
+            },
+            {
+              "id": "C",
+              "text": "A decrease of 7.5%."
+            },
+            {
+              "id": "D",
+              "text": "An increase of 7.5%."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Percentage change in apple demand = cross-price elasticity × percentage change in orange price = 0.4 × (−3%) = −1.2%. The positive cross-price elasticity indicates substitutes.",
+          "source": "OS9; adapted from OpenStax, Chapter 5, self-check 9 — https://openstax.org/books/principles-economics-3e/pages/5-self-check-questions. Principles of Economics 3e, Steven A. Greenlaw, David Shapiro and Daniel MacDonald, OpenStax (2022). CC BY-NC-SA 4.0: https://creativecommons.org/licenses/by-nc-sa/4.0/. MCQ options adapted for study."
+        }
+      ]
+    },
+    {
+      "title": "Consumer Choice & Utility",
+      "description": "Latest OpenStax adaptations added on 30 October 2026.",
+      "questions": [
+        {
+          "id": "EC2204-OS-CONSUMERS-010",
+          "stem": "In OpenStax's José example, the budget is $56, a T-shirt costs $14 and a movie costs $7. Which proposed bundle is unaffordable?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Four T-shirts and no movies."
+            },
+            {
+              "id": "B",
+              "text": "One T-shirt and six movies."
+            },
+            {
+              "id": "C",
+              "text": "Two T-shirts and five movies."
+            },
+            {
+              "id": "D",
+              "text": "Three T-shirts and two movies."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Two T-shirts and five movies cost 2 × $14 + 5 × $7 = $63, exceeding the $56 budget. Each other listed bundle costs $56.",
+          "source": "OS10; adapted from OpenStax, §6.1, Tables 6.2–6.3 — https://openstax.org/books/principles-economics-3e/pages/6-1-consumption-choices. Principles of Economics 3e, Steven A. Greenlaw, David Shapiro and Daniel MacDonald, OpenStax (2022). CC BY-NC-SA 4.0: https://creativecommons.org/licenses/by-nc-sa/4.0/. MCQ options adapted for study."
+        },
+        {
+          "id": "EC2204-OS-CONSUMERS-011",
+          "stem": "In José's example, moving from four T-shirts and no movies to three T-shirts and two movies sacrifices 18 utils but gains 31 utils. What happens to total utility?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It falls by 13 utils."
+            },
+            {
+              "id": "B",
+              "text": "It rises by 13 utils."
+            },
+            {
+              "id": "C",
+              "text": "It rises by 49 utils."
+            },
+            {
+              "id": "D",
+              "text": "It stays unchanged because expenditure is unchanged."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The utility gain from two movies is 31 utils and the lost fourth T-shirt contributes 18 utils. The net change is 31 − 18 = +13 utils.",
+          "source": "OS11; adapted from OpenStax, §6.1, Tables 6.2–6.3 — https://openstax.org/books/principles-economics-3e/pages/6-1-consumption-choices. Principles of Economics 3e, Steven A. Greenlaw, David Shapiro and Daniel MacDonald, OpenStax (2022). CC BY-NC-SA 4.0: https://creativecommons.org/licenses/by-nc-sa/4.0/. MCQ options adapted for study."
+        }
+      ]
+    },
+    {
+      "title": "Production, Costs & Profit",
+      "description": "Latest OpenStax adaptations added on 30 October 2026.",
+      "questions": [
+        {
+          "id": "EC2204-OS-COSTS-012",
+          "stem": "A firm earns $1,000,000 revenue and incurs explicit costs of $600,000 labour, $150,000 capital and $200,000 materials. Its own land could earn $30,000 annual rent elsewhere. What are accounting profit and economic profit respectively?",
+          "options": [
+            {
+              "id": "A",
+              "text": "$20,000 and $50,000."
+            },
+            {
+              "id": "B",
+              "text": "$50,000 and $80,000."
+            },
+            {
+              "id": "C",
+              "text": "$80,000 and $50,000."
+            },
+            {
+              "id": "D",
+              "text": "$50,000 and $20,000."
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Explicit costs total $950,000, so accounting profit is $1,000,000 − $950,000 = $50,000. Deducting the $30,000 forgone rent gives economic profit of $20,000.",
+          "source": "OS12; adapted from OpenStax, Chapter 7, self-check 1 — https://openstax.org/books/principles-economics-3e/pages/7-self-check-questions. Principles of Economics 3e, Steven A. Greenlaw, David Shapiro and Daniel MacDonald, OpenStax (2022). CC BY-NC-SA 4.0: https://creativecommons.org/licenses/by-nc-sa/4.0/. MCQ options adapted for study."
+        },
+        {
+          "id": "EC2204-OS-COSTS-013",
+          "stem": "WipeOut Ski Company has fixed costs of $30. Variable cost is $70 at four units and $100 at five units. What is the marginal cost of the fifth unit?",
+          "options": [
+            {
+              "id": "A",
+              "text": "$30"
+            },
+            {
+              "id": "B",
+              "text": "$20"
+            },
+            {
+              "id": "C",
+              "text": "$26"
+            },
+            {
+              "id": "D",
+              "text": "$6"
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Marginal cost is the increase in total cost per extra unit. Fixed costs do not change, so the fifth unit costs $100 − $70 = $30.",
+          "source": "OS13; adapted from OpenStax, Chapter 7, self-check 3 — https://openstax.org/books/principles-economics-3e/pages/7-self-check-questions. Principles of Economics 3e, Steven A. Greenlaw, David Shapiro and Daniel MacDonald, OpenStax (2022). CC BY-NC-SA 4.0: https://creativecommons.org/licenses/by-nc-sa/4.0/. MCQ options adapted for study."
+        },
+        {
+          "id": "EC2204-OS-COSTS-014",
+          "stem": "WipeOut produces five units at $25 each. At that output, fixed cost is $30 and variable cost is $100. What is its profit or loss?",
+          "options": [
+            {
+              "id": "A",
+              "text": "$25 profit."
+            },
+            {
+              "id": "B",
+              "text": "$5 profit."
+            },
+            {
+              "id": "C",
+              "text": "$5 loss."
+            },
+            {
+              "id": "D",
+              "text": "$30 loss."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Revenue is 5 × $25 = $125. Total cost is $30 + $100 = $130, giving profit of −$5: a $5 loss.",
+          "source": "OS14; adapted from OpenStax, Chapter 7, self-check 4 — https://openstax.org/books/principles-economics-3e/pages/7-self-check-questions. Principles of Economics 3e, Steven A. Greenlaw, David Shapiro and Daniel MacDonald, OpenStax (2022). CC BY-NC-SA 4.0: https://creativecommons.org/licenses/by-nc-sa/4.0/. MCQ options adapted for study."
+        },
+        {
+          "id": "EC2204-OS-COSTS-015",
+          "stem": "Two painters complete 200 square feet per hour; three painters complete 275 square feet per hour. What is the marginal product of the third painter?",
+          "options": [
+            {
+              "id": "A",
+              "text": "275 square feet per hour."
+            },
+            {
+              "id": "B",
+              "text": "75 square feet per hour."
+            },
+            {
+              "id": "C",
+              "text": "About 91.7 square feet per hour."
+            },
+            {
+              "id": "D",
+              "text": "100 square feet per hour."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Marginal product is the extra output generated by the additional worker: 275 − 200 = 75 square feet per hour.",
+          "source": "OS15; adapted from OpenStax, Chapter 7, self-check 5 — https://openstax.org/books/principles-economics-3e/pages/7-self-check-questions. Principles of Economics 3e, Steven A. Greenlaw, David Shapiro and Daniel MacDonald, OpenStax (2022). CC BY-NC-SA 4.0: https://creativecommons.org/licenses/by-nc-sa/4.0/. MCQ options adapted for study."
+        }
+      ]
+    },
+    {
+      "title": "Perfect Competition",
+      "description": "Latest OpenStax adaptations added on 30 October 2026.",
+      "questions": [
+        {
+          "id": "EC2204-OS-COMPETITION-016",
+          "stem": "A price-taking raspberry farm sells at $6 per pack. Its total costs at outputs 70, 80, 90 and 100 packs are $224, $264, $324 and $404 respectively. Among these options, which outputs maximise profit?",
+          "options": [
+            {
+              "id": "A",
+              "text": "70 only."
+            },
+            {
+              "id": "B",
+              "text": "80 only."
+            },
+            {
+              "id": "C",
+              "text": "90 only."
+            },
+            {
+              "id": "D",
+              "text": "Both 80 and 90."
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Profit equals price × quantity minus total cost. Profits at 70, 80, 90 and 100 packs are $196, $216, $216 and $196 respectively. Both 80 and 90 maximise profit among the listed outputs.",
+          "source": "OS16; adapted from OpenStax, Chapter 8, self-check 3 — https://openstax.org/books/principles-economics-3e/pages/8-self-check-questions. Principles of Economics 3e, Steven A. Greenlaw, David Shapiro and Daniel MacDonald, OpenStax (2022). CC BY-NC-SA 4.0: https://creativecommons.org/licenses/by-nc-sa/4.0/. MCQ options adapted for study."
+        }
+      ]
+    },
+    {
+      "title": "Monopoly & Economies of Scale",
+      "description": "Latest OpenStax adaptations added on 30 October 2026.",
+      "questions": [
+        {
+          "id": "EC2204-OS-MONOPOLY-017",
+          "stem": "An electrical utility serves demand at lower average cost as one large provider than as several smaller providers. Splitting it into four equal firms removes these scale economies. Holding other conditions constant, which concern follows?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Average costs may rise, so creating more firms does not by itself guarantee lower prices."
+            },
+            {
+              "id": "B",
+              "text": "Average costs must fall because there are more firms."
+            },
+            {
+              "id": "C",
+              "text": "The industry automatically becomes perfectly competitive."
+            },
+            {
+              "id": "D",
+              "text": "The change removes all fixed infrastructure costs."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "When one supplier can serve the market at lower average cost than several suppliers, splitting production can remove economies of scale and raise average costs. More firms alone do not guarantee lower prices.",
+          "source": "OS17; adapted from OpenStax, Chapter 9, self-check 3 — https://openstax.org/books/principles-economics-3e/pages/9-self-check-questions. Principles of Economics 3e, Steven A. Greenlaw, David Shapiro and Daniel MacDonald, OpenStax (2022). CC BY-NC-SA 4.0: https://creativecommons.org/licenses/by-nc-sa/4.0/. MCQ options adapted for study."
+        }
+      ]
+    },
+    {
+      "title": "Oligopoly & Strategic Interdependence",
+      "description": "Latest OpenStax adaptations added on 30 October 2026.",
+      "questions": [
+        {
+          "id": "EC2204-OS-OLIGOPOLY-018",
+          "stem": "Two firms can collude or sell extra output. Payoffs (A,B) are: both collude (1000,100); A colludes/B cheats (800,200); A cheats/B colludes (1050,50); both cheat (500,20). In a one-shot game with these known payoffs, which statement identifies all pure-strategy Nash equilibria?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Both collude is the only pure-strategy Nash equilibrium."
+            },
+            {
+              "id": "B",
+              "text": "A colludes and B cheats is the only pure-strategy Nash equilibrium."
+            },
+            {
+              "id": "C",
+              "text": "A cheats and B colludes is the only pure-strategy Nash equilibrium."
+            },
+            {
+              "id": "D",
+              "text": "There are two: A colludes/B cheats, and A cheats/B colludes."
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "There are two pure-strategy Nash equilibria: (A colludes, B cheats) and (A cheats, B colludes). If B cheats, A prefers colluding (800 > 500); if A colludes, B prefers cheating (200 > 100). If B colludes, A prefers cheating (1050 > 1000); if A cheats, B prefers colluding (50 > 20). Neither firm benefits from unilaterally deviating at either outcome. The original OS18 offered both equilibria separately; its choices are clarified here to yield one best answer.",
+          "source": "OS18; adapted from OpenStax, Chapter 10, self-check 4 — https://openstax.org/books/principles-economics-3e/pages/10-self-check-questions. Principles of Economics 3e, Steven A. Greenlaw, David Shapiro and Daniel MacDonald, OpenStax (2022). CC BY-NC-SA 4.0: https://creativecommons.org/licenses/by-nc-sa/4.0/. MCQ options adapted for study; OS18 clarified for a single best answer."
+        }
+      ]
     }
   ],
   "retiredQuestionIds": [

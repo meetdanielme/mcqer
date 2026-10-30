@@ -933,6 +933,31 @@
           "correctOptionId": "C",
           "explanation": "Natural-resource availability and sustainability are Environmental factors.",
           "source": "EC2204 — Sample MCQs, question 20"
+        },
+        {
+          "id": "EC2204-SAMPLE-PESTLE-001",
+          "stem": "A Cork medical-device exporter faces a new EU product-certification rule and a simultaneous fall in sterling. Which analysis best separates the two developments?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Certification is a legal factor; sterling depreciation is an economic factor that may reduce euro receipts from UK sales."
+            },
+            {
+              "id": "B",
+              "text": "Certification is technological; sterling depreciation necessarily increases euro receipts."
+            },
+            {
+              "id": "C",
+              "text": "Certification is social; exchange-rate changes cannot affect competitiveness."
+            },
+            {
+              "id": "D",
+              "text": "Both are political factors, because governments influence each."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Product-certification requirements are legal constraints. A weaker pound can reduce the euro value of unchanged sterling receipts, so the exchange-rate change is economic.",
+          "source": "Sample+2204+MCQ.docx, Q1; answers independently derived, not a supplied official key."
         }
       ]
     },
@@ -2089,6 +2114,31 @@
           "correctOptionId": "C",
           "explanation": "Contribution per unit is €35 − €21 = €14. Break-even output is €42,000/€14 = 3,000 units.",
           "source": "EC2204 Lecture #2 — PV, FV, NPV and profit; illustrative calculation variation. https://app.notion.com/p/3adba34e944c815ca6b4f223c97d97c8"
+        },
+        {
+          "id": "EC2204-SAMPLE-NPV-002",
+          "stem": "An Irish SME pays €100,000 today for a machine generating €60,000 at the end of each of the next two years, with no scrap value. At a 10% discount rate, which conclusion is closest?",
+          "options": [
+            {
+              "id": "A",
+              "text": "NPV is approximately −€4,132; reject."
+            },
+            {
+              "id": "B",
+              "text": "NPV is approximately +€9,091, because only year two is discounted."
+            },
+            {
+              "id": "C",
+              "text": "NPV is +€20,000, because discounting is irrelevant over two years."
+            },
+            {
+              "id": "D",
+              "text": "NPV is approximately +€4,132; accept if risk and other assumptions are adequately reflected."
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "NPV = −100,000 + 60,000/1.10 + 60,000/(1.10²) = +€4,132.23. A positive NPV supports acceptance when the discount rate and cash-flow assumptions adequately reflect risk.",
+          "source": "Sample+2204+MCQ.docx, Q2; answers independently derived, not a supplied official key."
         }
       ]
     },
@@ -2820,6 +2870,56 @@
           "correctOptionId": "C",
           "explanation": "Self-regarding means pursuing one’s own objectives or welfare; it does not require selfishness.",
           "source": "EC2204 — Sample MCQs, question 54"
+        },
+        {
+          "id": "EC2204-SAMPLE-MARKETS-003",
+          "stem": "A sudden shortage of cocoa raises its price. A confectionery firm switches to recipes using less cocoa without learning why the shortage arose. Which interpretation most closely reflects Hayek’s argument?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only a central authority can coordinate a response to the shortage."
+            },
+            {
+              "id": "B",
+              "text": "Price signals remove scarcity rather than changing responses to it."
+            },
+            {
+              "id": "C",
+              "text": "Prices communicate dispersed information and induce economising without every decision-maker knowing the underlying cause."
+            },
+            {
+              "id": "D",
+              "text": "A higher cocoa price proves that demand must have increased."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Hayek’s price-system argument is that prices communicate dispersed information. The higher cocoa price encourages economising even when firms do not know the cause of scarcity.",
+          "source": "Sample+2204+MCQ.docx, Q3; answers independently derived, not a supplied official key."
+        },
+        {
+          "id": "EC2204-SAMPLE-MARKETS-004",
+          "stem": "A profitable market attracts new independent suppliers over time. Assuming demand and input costs do not change, which sequence is most consistent with competition and Smith’s market coordination?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Market supply shifts left, price rises, and profits necessarily increase indefinitely."
+            },
+            {
+              "id": "B",
+              "text": "Individual firms gain permanent pricing power simply because more firms enter."
+            },
+            {
+              "id": "C",
+              "text": "Market supply shifts right, equilibrium price falls, and above-normal economic profits tend to be competed away."
+            },
+            {
+              "id": "D",
+              "text": "Demand shifts right, price rises, and entry is discouraged."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "With demand and input costs unchanged, entry increases market supply. Equilibrium price falls and competitive pressure tends to erode above-normal economic profits.",
+          "source": "Sample+2204+MCQ.docx, Q4; answers independently derived, not a supplied official key."
         }
       ]
     },
@@ -3601,6 +3701,31 @@
           "correctOptionId": "A",
           "explanation": "The technology reduces costs. At the old price there is excess supply. The stated shift makes the diagram-based question self-contained.",
           "source": "EC2204 — Sample MCQs, question 72"
+        },
+        {
+          "id": "EC2204-SAMPLE-DEMANDSUPPLY-007",
+          "stem": "A fall in the price of a substitute raises demand for the substitute and reduces demand for takeaway pizza. At the same time, higher energy costs reduce pizza supply. Which outcome can be predicted with certainty?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Equilibrium price rises and quantity rises."
+            },
+            {
+              "id": "B",
+              "text": "Equilibrium quantity of pizza falls; the direction of the price change is ambiguous."
+            },
+            {
+              "id": "C",
+              "text": "Both equilibrium price and quantity necessarily fall."
+            },
+            {
+              "id": "D",
+              "text": "Equilibrium price falls and quantity rises."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The fall in pizza demand and the fall in pizza supply both reduce equilibrium quantity. The demand change puts downward pressure on price, while the supply change puts upward pressure on it, so the net price effect is ambiguous.",
+          "source": "Sample+2204+MCQ.docx, Q7; answers independently derived, not a supplied official key."
         }
       ]
     },
@@ -4361,6 +4486,85 @@
           "correctOptionId": "B",
           "explanation": "Use the new demand schedule: 190−5P=30+3P, so P=20 and Q=90. The rightward demand shift raises both equilibrium values.",
           "source": "EC2204 Lecture #3 — equilibrium algebra and adjustment; illustrative calculation variation. https://app.notion.com/p/3adba34e944c814a9229fa9424179662"
+        },
+        {
+          "id": "EC2204-SAMPLE-DEMANDSUPPLY-005",
+          "stem": "Aldi estimates demand Qd = 150 − 3P and supply Qs = 30 + 2P for a wine. A €5 per-bottle tax on suppliers changes supply to Qs = 30 + 2(P − 5). What are the new consumer price and equilibrium quantity?",
+          "options": [
+            {
+              "id": "A",
+              "text": "€26 and 72 bottles."
+            },
+            {
+              "id": "B",
+              "text": "€28 and 66 bottles."
+            },
+            {
+              "id": "C",
+              "text": "€24 and 78 bottles."
+            },
+            {
+              "id": "D",
+              "text": "€26 and 82 bottles."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "After the tax, Qs = 30 + 2(P − 5) = 20 + 2P. Equating supply and demand gives 150 − 3P = 20 + 2P, hence P = €26 and Q = 72. P is the consumer price; suppliers receive €21 after tax.",
+          "source": "Sample+2204+MCQ.docx, Q5; answers independently derived, not a supplied official key."
+        },
+        {
+          "id": "EC2204-SAMPLE-DEMANDSUPPLY-006",
+          "stem": "In the figure, both demand and supply shift vertically upwards by €12 at every quantity (D0→D1 and S0→S1). What happens to equilibrium?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Equilibrium price rises while equilibrium quantity remains unchanged."
+            },
+            {
+              "id": "B",
+              "text": "Equilibrium quantity rises while price is unchanged."
+            },
+            {
+              "id": "C",
+              "text": "Price falls and quantity rises."
+            },
+            {
+              "id": "D",
+              "text": "Both price and quantity are unchanged."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Raising both inverse demand and inverse supply by the same €12 leaves their intersection’s quantity unchanged and raises its price by €12. In the chart, Q remains 24 while P rises from €31.20 to €43.20.",
+          "source": "Sample+2204+MCQ.docx, Q6; answers independently derived, not a supplied official key.",
+          "image": {
+            "src": "questions/images/762c958135814e34097cf28d26383480ff529582535c3053a2423c097bf50003.png",
+            "alt": "Price (€) against quantity, with downward-sloping D0 and D1 and upward-sloping S0 and S1; D1 and S1 lie €12 above their corresponding original curves."
+          }
+        },
+        {
+          "id": "EC2204-SAMPLE-DEMANDSUPPLY-008",
+          "stem": "A market has Qd = 120 − 2P and Qs = 3P − 30. The government imposes a binding maximum price of €24. What shortage results?",
+          "options": [
+            {
+              "id": "A",
+              "text": "60 units."
+            },
+            {
+              "id": "B",
+              "text": "30 units."
+            },
+            {
+              "id": "C",
+              "text": "15 units."
+            },
+            {
+              "id": "D",
+              "text": "0 units."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "At the maximum price of €24, Qd = 120 − 2(24) = 72 and Qs = 3(24) − 30 = 42. The shortage is 72 − 42 = 30 units.",
+          "source": "Sample+2204+MCQ.docx, Q8; answers independently derived, not a supplied official key."
         }
       ]
     },
@@ -4992,6 +5196,35 @@
           "correctOptionId": "B",
           "explanation": "Steeper supply increases the area between price and supply to the left of equilibrium. The linear-curve assumption makes the original diagram-based comparison precise.",
           "source": "EC2204 — Sample MCQs, question 86"
+        },
+        {
+          "id": "EC2204-SAMPLE-CONSUMERS-012",
+          "stem": "The figure shows a competitive market. At the equilibrium, what is consumer surplus?",
+          "options": [
+            {
+              "id": "A",
+              "text": "€200."
+            },
+            {
+              "id": "B",
+              "text": "€400."
+            },
+            {
+              "id": "C",
+              "text": "€600."
+            },
+            {
+              "id": "D",
+              "text": "€800."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The graph shows equilibrium at Q = 20 and P = €40, with a demand-price intercept of €80. Consumer surplus is the triangle below demand and above price: ½ × 20 × (€80 − €40) = €400.",
+          "source": "Sample+2204+MCQ.docx, Q12; answers independently derived, not a supplied official key.",
+          "image": {
+            "src": "questions/images/8072902c03e94126098b7b7f533ded6bcc9aaf2e14d5ad1fa2b76f7335ef3fbc.png",
+            "alt": "Price (€) against quantity: downward-sloping demand from €80 at zero quantity to zero at 40; upward-sloping supply from €20 at zero to €60 at 40; dotted price line at €40."
+          }
         }
       ]
     },
@@ -5802,6 +6035,106 @@
           "correctOptionId": "B",
           "explanation": "Quantity rises by 4/50=8% and income by 200/2,000=10%, giving +0.8. A positive elasticity identifies a normal good; it does not need to exceed one.",
           "source": "EC2204 Lectures #6–7 — initial-value elasticity methods; illustrative calculation variation. https://app.notion.com/p/3adba34e944c8121ad09cf2c3b4cd8c7 ; https://app.notion.com/p/3adba34e944c8112a715ce63d7ec737b"
+        },
+        {
+          "id": "EC2204-SAMPLE-ELASTICITY-009",
+          "stem": "A supplier cuts price from €20 to €18; sales rise from 100 to 130 units. Using the original price and quantity as the base for percentage changes, which combination is closest?",
+          "options": [
+            {
+              "id": "A",
+              "text": "PED ≈ −0.81; total revenue increases."
+            },
+            {
+              "id": "B",
+              "text": "PED ≈ −1.50; total revenue falls."
+            },
+            {
+              "id": "C",
+              "text": "PED ≈ −3.00; total revenue increases."
+            },
+            {
+              "id": "D",
+              "text": "PED ≈ −3.00; total revenue falls."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The original-base quantity change is +30%, and the price change is −10%, giving PED = −3. Revenue rises from €20 × 100 = €2,000 to €18 × 130 = €2,340.",
+          "source": "Sample+2204+MCQ.docx, Q9; answers independently derived, not a supplied official key."
+        },
+        {
+          "id": "EC2204-SAMPLE-ELASTICITY-010",
+          "stem": "A restaurant raises menu prices by 8%. Quantity demanded falls by 4%, while average variable cost per meal is unchanged. Which statement is defensible?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Profit necessarily rises by exactly 4%."
+            },
+            {
+              "id": "B",
+              "text": "Demand is elastic and revenue must fall."
+            },
+            {
+              "id": "C",
+              "text": "Revenue must fall because demand slopes downward."
+            },
+            {
+              "id": "D",
+              "text": "Revenue increases approximately, but the effect on profit cannot be established without cost and quantity information."
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "Revenue changes by a factor of 1.08 × 0.96 = 1.0368, an increase of 3.68%. Option D is the best available answer because the stem does not hold fixed or other costs constant. If fixed costs were unchanged and unit variable cost were non-negative and unchanged, profit would rise: revenue increases while total variable cost falls. The exact profit change cannot be calculated from the supplied information.",
+          "source": "Sample+2204+MCQ.docx, Q10; answers independently derived, not a supplied official key."
+        },
+        {
+          "id": "EC2204-SAMPLE-ELASTICITY-011",
+          "stem": "The price of Brand A coffee increases by 12%; sales of Brand B coffee rise by 9%; sales of biscuits fall by 6%. Using the simple percentage-change method, which is correct?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Cross-price elasticity of B with respect to A is −0.75, suggesting complements."
+            },
+            {
+              "id": "B",
+              "text": "Cross-price elasticity of B with respect to A is +0.75, suggesting substitutes."
+            },
+            {
+              "id": "C",
+              "text": "Own-price elasticity of A is +1.33, implying a Giffen good."
+            },
+            {
+              "id": "D",
+              "text": "Income elasticity of biscuits is −0.50, suggesting an inferior good."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The cross-price elasticity of Brand B with respect to Brand A’s price is 9%/12% = +0.75. A positive cross-price elasticity is consistent with substitutes. The biscuit response concerns cross-price, not income, elasticity.",
+          "source": "Sample+2204+MCQ.docx, Q11; answers independently derived, not a supplied official key."
+        },
+        {
+          "id": "EC2204-SAMPLE-CONSUMERS-013",
+          "stem": "A student values successive café lunches at €16, €13, €10 and €7, and each lunch costs €9. Assuming independent marginal values and no other constraints, how many lunches maximise consumer surplus?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Three lunches."
+            },
+            {
+              "id": "B",
+              "text": "One lunch."
+            },
+            {
+              "id": "C",
+              "text": "Four lunches."
+            },
+            {
+              "id": "D",
+              "text": "Two lunches."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The first three lunches have marginal values above their €9 price, adding €7, €4 and €1 to surplus. The fourth lunch would reduce surplus by €2, so three lunches maximise it.",
+          "source": "Sample+2204+MCQ.docx, Q13; answers independently derived, not a supplied official key."
         }
       ]
     },
@@ -6608,6 +6941,85 @@
           "correctOptionId": "D",
           "explanation": "Profits at Q=0,1,2,3 are −€50, −€42, −€40 and −€46. Q=2 yields the smallest loss and therefore the highest profit; producing nothing still incurs fixed cost.",
           "source": "EC2204 Lecture #8 — costs, marginal product and output choice; illustrative calculation variation. https://app.notion.com/p/3adba34e944c811ea8fbfc99e722680a"
+        },
+        {
+          "id": "EC2204-SAMPLE-ELASTICITY-019",
+          "stem": "A Cork food producer increases the price received per unit from €10 to €14. Quantity supplied rises from 80 to 110 units per week. Using the original price and quantity as the base for percentage changes, what is the price elasticity of supply (PES), and how should it be classified?",
+          "options": [
+            {
+              "id": "A",
+              "text": "PES ≈ 0.94; supply is inelastic."
+            },
+            {
+              "id": "B",
+              "text": "PES ≈ 1.07; supply is elastic."
+            },
+            {
+              "id": "C",
+              "text": "PES ≈ 0.38; supply is inelastic."
+            },
+            {
+              "id": "D",
+              "text": "PES ≈ −0.94; supply is inelastic."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Using original values, percentage quantity change is 30/80 = 37.5% and percentage price change is 4/10 = 40%. PES = 37.5%/40% = 0.9375 ≈ 0.94, which is inelastic because it is below one.",
+          "source": "Sample+2204+MCQ.docx, Q19; answers independently derived, not a supplied official key."
+        },
+        {
+          "id": "EC2204-SAMPLE-COSTS-014",
+          "stem": "The figure shows a price-taking firm with P=MR=€14. Using its marginal cost curve, which output maximises short-run profit (assuming the firm operates)?",
+          "options": [
+            {
+              "id": "A",
+              "text": "14 units."
+            },
+            {
+              "id": "B",
+              "text": "10 units."
+            },
+            {
+              "id": "C",
+              "text": "24 units."
+            },
+            {
+              "id": "D",
+              "text": "20 units."
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "For an operating price-taking firm, the profit-maximising output is where rising MC equals P = MR. In the graph MC meets €14 at Q = 20. AVC is below price there, so operating is consistent with the stated assumption even though ATC is above price.",
+          "source": "Sample+2204+MCQ.docx, Q14; answers independently derived, not a supplied official key.",
+          "image": {
+            "src": "questions/images/e700c629b0ec87683a867f4748043bbbf5316db2e3fef790f3adf2d9bf6b557d.png",
+            "alt": "Cost and revenue in €/unit against output: rising MC and AVC, U-shaped ATC and a horizontal P = MR line at €14. Output ticks run from 0 to 30."
+          }
+        },
+        {
+          "id": "EC2204-SAMPLE-COSTS-015",
+          "stem": "A bakery’s total cost rises from €1,200 at 100 loaves to €1,260 at 110 loaves. Average total cost at 100 loaves is €12. Which statement is correct?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Average total cost at 110 loaves must exceed €12."
+            },
+            {
+              "id": "B",
+              "text": "Marginal cost over the extra ten loaves is €6 per loaf, below initial ATC, so ATC falls over that range."
+            },
+            {
+              "id": "C",
+              "text": "Fixed costs necessarily increase by €60."
+            },
+            {
+              "id": "D",
+              "text": "Marginal cost is €60 per loaf, above ATC."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The additional ten loaves cost €60, so marginal cost over that range is €60/10 = €6 per loaf. This is below initial ATC of €12. New ATC is €1,260/110 ≈ €11.45, which is lower.",
+          "source": "Sample+2204+MCQ.docx, Q15; answers independently derived, not a supplied official key."
         }
       ]
     },
@@ -8367,6 +8779,81 @@
           "correctOptionId": "A",
           "explanation": "MR=MC gives 120−4Q=40, so Q=20. The price comes from demand: P=120−2(20)=€80, not from the MR curve.",
           "source": "EC2204 Lecture #10 — linear demand, TR, MR and price; illustrative calculation variation. https://app.notion.com/p/3adba34e944c812e863ec9fbe9ceeca8"
+        },
+        {
+          "id": "EC2204-SAMPLE-STRUCTURE-016",
+          "stem": "A monopolist faces demand P = 100 − 2Q and marginal cost MC = 20 + 0.5Q. Which output–price pair maximises profit?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Q≈32 and P≈€36."
+            },
+            {
+              "id": "B",
+              "text": "Q≈40 and P≈€20."
+            },
+            {
+              "id": "C",
+              "text": "Q≈18 and P≈€64."
+            },
+            {
+              "id": "D",
+              "text": "Q≈18 and P≈€28."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "TR = (100 − 2Q)Q, so MR = 100 − 4Q. Equating MR with MC gives 100 − 4Q = 20 + 0.5Q, hence Q = 80/4.5 ≈ 17.78. Price is read from demand: P = 100 − 2(17.78) ≈ €64.44. Rounded, this is Q ≈ 18 and P ≈ €64.",
+          "source": "Sample+2204+MCQ.docx, Q16; answers independently derived, not a supplied official key."
+        },
+        {
+          "id": "EC2204-SAMPLE-STRUCTURE-017",
+          "stem": "Two supermarket chains repeatedly compete in a small town. Each has an incentive to discount if the rival maintains its price, but both would earn more if neither discounted. Which explanation is strongest?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Monopolistic competition: strategic interaction is impossible."
+            },
+            {
+              "id": "B",
+              "text": "Natural monopoly: one firm must have falling average cost at every output."
+            },
+            {
+              "id": "C",
+              "text": "Perfect competition: each chain is necessarily a price taker."
+            },
+            {
+              "id": "D",
+              "text": "An oligopoly prisoner’s dilemma: individually attractive discounting can leave both worse off."
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "The two chains are strategically interdependent. Each has an individual incentive to discount, although mutual restraint would make both better off. This is the incentive conflict in an oligopoly prisoner’s dilemma.",
+          "source": "Sample+2204+MCQ.docx, Q17; answers independently derived, not a supplied official key."
+        },
+        {
+          "id": "EC2204-SAMPLE-PORTER-018",
+          "stem": "A patented pharmaceutical product faces an approaching patent expiry, powerful hospital purchasing groups and a high-cost regulatory approval process for new entrants. Which combination best describes Porter’s forces?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Patent expiry permanently eliminates rivalry."
+            },
+            {
+              "id": "B",
+              "text": "Buyer power is high; threat of entry is constrained by regulation, while the patent expiry may intensify rivalry or substitutes."
+            },
+            {
+              "id": "C",
+              "text": "Threat of entry is automatically high because regulation is costly."
+            },
+            {
+              "id": "D",
+              "text": "Buyer power is necessarily low because hospitals are large."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Powerful purchasing groups indicate high buyer power. Costly regulatory approval constrains entry. Patent expiry can expose the product to stronger competition, especially generic entry and subsequent rivalry; it does not eliminate rivalry. The precise substitute classification depends on the industry boundary.",
+          "source": "Sample+2204+MCQ.docx, Q18; answers independently derived, not a supplied official key."
         }
       ]
     },
@@ -9254,6 +9741,31 @@
           "correctOptionId": "D",
           "explanation": "US cost=1,000/500=2 tons per plane; China cost=800/100=8. The US sacrifices fewer shoes per plane and therefore has comparative advantage in planes. Optional understanding practice: the lecture notes prioritise definitions, not maths, for this topic.",
           "source": "EC2204 Lecture #14, 27 October 2026 — notes and transcript, PPFs and comparative advantage; current Ireland–Portugal example where relevant. https://app.notion.com/p/3adba34e944c819887b8ec88f26ba98d ; Materials: https://app.notion.com/p/0ad4b0a285f8455bbc94426d4dc12643"
+        },
+        {
+          "id": "EC2204-SAMPLE-TRADE-020",
+          "stem": "A human analyst can complete 6 routine reconciliations or 3 client reviews per day; an AI system can complete 30 reconciliations or 5 reviews per day. Assume comparable output and one day each. Which allocation follows comparative advantage?",
+          "options": [
+            {
+              "id": "A",
+              "text": "AI specialises in reviews because 5 exceeds 3."
+            },
+            {
+              "id": "B",
+              "text": "There can be no gains from specialisation when AI is absolutely better at both."
+            },
+            {
+              "id": "C",
+              "text": "Human specialises in reconciliations because 6 is fewer than 30."
+            },
+            {
+              "id": "D",
+              "text": "AI specialises in reconciliations; human in reviews, despite AI’s absolute advantage in both."
+            }
+          ],
+          "correctOptionId": "D",
+          "explanation": "For one reconciliation the human sacrifices 3/6 = 0.5 reviews, while the AI sacrifices 5/30 = 1/6 of a review. The AI therefore has comparative advantage in reconciliations. For one review, the human sacrifices 2 reconciliations versus 6 for the AI, so the human has comparative advantage in reviews despite the AI’s absolute advantage in both tasks.",
+          "source": "Sample+2204+MCQ.docx, Q20; answers independently derived, not a supplied official key."
         }
       ]
     }

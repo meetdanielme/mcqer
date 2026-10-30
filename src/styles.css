@@ -79,17 +79,17 @@ body:has(.mobile-menu[open]){overflow:hidden}
 
 .modal::backdrop{background:#092b4c80}.modal{border:0;border-top:5px solid #ffb500}.study-tools{margin:24px 0;padding:20px;border:1px solid #d7e0e8;border-radius:5px}.study-tools label{display:flex;align-items:center;gap:10px;margin:12px 0;flex-wrap:wrap}.study-tools input[type=search]{flex:1;min-width:160px;padding:10px}.study-tools input[type=number]{width:90px;padding:8px}.study-actions{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:20px}
 
-/* Extend the navy header beneath the iOS standalone status bar. */
+/* Opaque iOS status bar sits above the app; retain side and bottom safe areas. */
 @media (display-mode:standalone){
   :root{background:#003c69}
   .app-shell{background:#f6f8fa;min-height:100dvh}
-  .topbar{height:calc(100px + env(safe-area-inset-top,0px));padding-top:env(safe-area-inset-top,0px);padding-left:max(32px,env(safe-area-inset-left,0px));padding-right:max(32px,env(safe-area-inset-right,0px))}
-  .workspace{min-height:calc(100dvh - 100px - env(safe-area-inset-top,0px))}
+  .topbar{height:100px;padding-left:max(32px,env(safe-area-inset-left,0px));padding-right:max(32px,env(safe-area-inset-right,0px))}
+  .workspace{min-height:calc(100dvh - 100px)}
   .main-content{padding-bottom:calc(70px + env(safe-area-inset-bottom,0px))}
-  .mobile-menu{padding-top:calc(20px + env(safe-area-inset-top,0px));padding-bottom:calc(20px + env(safe-area-inset-bottom,0px));padding-left:max(18px,env(safe-area-inset-left,0px))}
+  .mobile-menu{padding-bottom:calc(20px + env(safe-area-inset-bottom,0px));padding-left:max(18px,env(safe-area-inset-left,0px))}
 }
 @media (display-mode:standalone) and (max-width:700px){
-  .topbar{height:auto;min-height:calc(76px + env(safe-area-inset-top,0px));padding-top:calc(13px + env(safe-area-inset-top,0px));padding-left:max(18px,env(safe-area-inset-left,0px));padding-right:max(18px,env(safe-area-inset-right,0px))}
-  .workspace{min-height:calc(100dvh - 76px - env(safe-area-inset-top,0px))}
+  .topbar{height:auto;min-height:76px;padding-top:13px;padding-left:max(18px,env(safe-area-inset-left,0px));padding-right:max(18px,env(safe-area-inset-right,0px))}
+  .workspace{min-height:calc(100dvh - 76px)}
   .main-content{padding-bottom:calc(40px + env(safe-area-inset-bottom,0px));padding-left:max(18px,env(safe-area-inset-left,0px));padding-right:max(18px,env(safe-area-inset-right,0px))}
 }

@@ -43,7 +43,7 @@ function App() {
   const [studyError, setStudyError] = useState('');
   const [search, setSearch] = useState('');
   const [bookmarksOnly, setBookmarksOnly] = useState(false);
-  const [settings, setSettings] = useState({ limit: 20, shuffleQuestions: true, shuffleOptions: false });
+  const [settings, setSettings] = useState({ limit: 0, shuffleQuestions: true, shuffleOptions: false });
   const [catalogRetry, setCatalogRetry] = useState(0);
   useEffect(() => {
     try { localStorage.setItem('mcqer-study-v1', JSON.stringify({ ...study, session: practice })); setStudyError(''); }

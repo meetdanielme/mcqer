@@ -2495,27 +2495,27 @@
         },
         {
           "id": "EC2204-M-009",
-          "stem": "[M9] Price rises from €20 to €24 and quantity demanded falls from 150 to 105 units. What is signed PED and its classification? Use initial values as the percentage-change base.",
+          "stem": "[M9] Price rises from €20 to €24 and quantity demanded falls from 150 to 105 units. Using initial values to calculate percentage changes, what is the price elasticity of demand (PED), expressed as an absolute value, and is demand elastic or inelastic?",
           "options": [
             {
               "id": "A",
-              "text": "−0.67; inelastic"
+              "text": "0.67; inelastic"
             },
             {
               "id": "B",
-              "text": "+1.5; elastic"
+              "text": "1.5; inelastic"
             },
             {
               "id": "C",
-              "text": "−1.5; elastic"
+              "text": "1.5; elastic"
             },
             {
               "id": "D",
-              "text": "−0.3; inelastic"
+              "text": "0.3; inelastic"
             }
           ],
           "correctOptionId": "C",
-          "explanation": "Quantity falls 30% and price rises 20%, using initial values. PED = −30/20 = −1.5; demand is elastic.",
+          "explanation": "Using initial values, quantity demanded falls by 30%: (105 − 150) ÷ 150 × 100. Price rises by 20%: (24 − 20) ÷ 20 × 100. PED is reported as an absolute value: |−30% ÷ 20%| = 1.5. Since 1.5 is greater than 1, demand is elastic.",
           "source": "Original question M9; Consumers and Incentives lecture slides; Lectures #6–7"
         },
         {

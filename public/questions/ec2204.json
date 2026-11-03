@@ -1573,7 +1573,7 @@
         },
         {
           "id": "EC2204-QUIZ-062",
-          "stem": "[62] The textbook market has demand P = 20 − 0.5Q and supply P = 2 + 0.25Q, with price in dollars. These equations replace the diagram missing from Canvas. Which statement is correct?",
+          "stem": "[62] In a market for textbooks, demand is P = 20 − 0.5Q and supply is P = 2 + 0.25Q. Here, P is the price in dollars and Q is the number of textbooks. Which statement is correct?",
           "options": [
             {
               "id": "A",
@@ -1593,7 +1593,7 @@
             }
           ],
           "correctOptionId": "A",
-          "explanation": "20 − 0.5Q = 2 + 0.25Q gives Q = 24 and P = $8. At $6, Qd = 28 and Qs = 16, so excess demand is 12 books. The replacement uses the matching CORE textbook-market model. Source model (https://books.core-econ.org/the-economy-v1/book/text/08.html#82-the-market-and-the-equilibrium-price)",
+          "explanation": "Setting demand equal to supply gives 20 − 0.5Q = 2 + 0.25Q, so the equilibrium quantity is 24 textbooks and the equilibrium price is $8. At $6, buyers demand 28 textbooks but sellers supply only 16, creating excess demand of 12 textbooks.",
           "source": "Original question 62; Lecture #3 — Market"
         },
         {

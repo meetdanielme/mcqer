@@ -4475,31 +4475,6 @@
           "source": "Original question Q16; Market Structure lecture slides; Lectures #9–12; supplied Sample+2204+MCQ.docx (answer derived from stated data; no official key supplied)"
         },
         {
-          "id": "EC2204-Q-017",
-          "stem": "[Q17] Two supermarket chains repeatedly compete in a small town. Each has an incentive to discount if the rival maintains its price, but both would earn more if neither discounted. Which explanation is strongest?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Monopolistic competition: strategic interaction is impossible."
-            },
-            {
-              "id": "B",
-              "text": "Natural monopoly: one firm must have falling average cost at every output."
-            },
-            {
-              "id": "C",
-              "text": "Perfect competition: each chain is necessarily a price taker."
-            },
-            {
-              "id": "D",
-              "text": "An oligopoly prisoner’s dilemma: individually attractive discounting can leave both worse off."
-            }
-          ],
-          "correctOptionId": "D",
-          "explanation": "Each chain’s best response depends on its rival. Individually attractive discounting can leave both with lower payoffs, the oligopoly prisoner’s-dilemma mechanism.",
-          "source": "Original question Q17; Market Structure lecture slides; Lectures #9–12; supplied Sample+2204+MCQ.docx (answer derived from stated data; no official key supplied)"
-        },
-        {
           "id": "EC2204-Q-018",
           "stem": "[Q18] A patented pharmaceutical product faces an approaching patent expiry, powerful hospital purchasing groups and a high-cost regulatory approval process for new entrants. Which combination best describes Porter’s forces?",
           "options": [
@@ -4752,35 +4727,6 @@
           "correctOptionId": "A",
           "explanation": "Losing scale economies may raise average costs. Creating several firms does not by itself ensure lower costs or prices.",
           "source": "Original question OS17; Market Structure lecture slides; Lectures #9–12; OpenStax adaptation: https://openstax.org/books/principles-economics-3e/pages/9-self-check-questions"
-        },
-        {
-          "id": "EC2204-OS-018",
-          "stem": "[OS18] Firms A and B each choose simultaneously between keeping a collusive output limit (“collude”) and selling extra output (“cheat”). This is a one-shot game with no later punishment or reward. Each firm seeks the highest payoff for itself. The table lists payoffs as (A’s payoff, B’s payoff), in the same monetary units throughout. A Nash equilibrium is a pair of choices in which neither firm can improve its own payoff by changing its choice alone. Which option lists all pure-strategy Nash equilibria?",
-          "options": [
-            {
-              "id": "A",
-              "text": "Both collude is the only pure-strategy equilibrium"
-            },
-            {
-              "id": "B",
-              "text": "Both cheat is the only pure-strategy equilibrium"
-            },
-            {
-              "id": "C",
-              "text": "A colludes while B cheats, and A cheats while B colludes"
-            },
-            {
-              "id": "D",
-              "text": "A colludes while B cheats is the only pure-strategy equilibrium"
-            }
-          ],
-          "correctOptionId": "C",
-          "explanation": "If B colludes, A prefers cheating (1,050>1,000); if B cheats, A prefers colluding (800>500). If A colludes, B prefers cheating (200>100); if A cheats, B prefers colluding (50>20). Thus (A colludes, B cheats) and (A cheats, B colludes) are both pure-strategy Nash equilibria.",
-          "source": "Original question OS18; Market Structure lecture slides; Lectures #9–12; OpenStax adaptation: https://openstax.org/books/principles-economics-3e/pages/10-self-check-questions",
-          "artifact": {
-            "title": "Two-firm payoff matrix",
-            "html": "<style>:root{color-scheme:light dark}*{box-sizing:border-box}body{margin:0;font:14px/1.5 system-ui,sans-serif;color:#2c2c2b;background:white}section{padding:12px}h2{font-size:16px;margin:0 0 12px}p{margin:10px 0}table{border-collapse:collapse;width:100%;margin:10px 0;font-size:14px}th,td{border-bottom:1px solid #b8b8b8;padding:8px 5px;text-align:left;overflow-wrap:normal}th{font-weight:600}caption{text-align:left;font-weight:600;padding:4px 0}summary{cursor:pointer;padding:12px 0;min-height:44px}img{max-width:100%;height:auto}small{font-size:12px}@media(prefers-color-scheme:dark){body{background:#191919;color:white}th,td{border-color:#777}}</style><section><h2>Two-firm payoff matrix</h2><p>Illustrative reconstruction from the question data</p><table><thead><tr><th scope=\"col\">A: rows · B: columns</th><th scope=\"col\">B: Collude</th><th scope=\"col\">B: Cheat</th></tr></thead><tbody><tr><td>A: Collude</td><td>(1,000, 100)</td><td>(800, 200)</td></tr><tr><td>A: Cheat</td><td>(1,050, 50)</td><td>(500, 20)</td></tr></tbody></table><p>Each pair is (Firm A’s payoff, Firm B’s payoff), in the same monetary units. “Collude” means keeping the agreed output limit; “cheat” means selling extra output. The firms choose simultaneously, play only once, and each seeks its own highest payoff. There is no later punishment or reward.</p></section>"
-          }
         }
       ]
     },
@@ -5604,6 +5550,7 @@
     "EC2204-OLIG11-008",
     "EC2204-OLIG11-009",
     "EC2204-OLIG11-010",
+    "EC2204-OS-018",
     "EC2204-OS-COMPETITION-016",
     "EC2204-OS-CONSUMERS-010",
     "EC2204-OS-CONSUMERS-011",
@@ -5661,6 +5608,7 @@
     "EC2204-PORTER12-012",
     "EC2204-PORTER12-013",
     "EC2204-PORTER12-014",
+    "EC2204-Q-017",
     "EC2204-SAMPLE-001",
     "EC2204-SAMPLE-002",
     "EC2204-SAMPLE-003",

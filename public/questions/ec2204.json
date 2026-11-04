@@ -2265,7 +2265,7 @@
             }
           ],
           "correctOptionId": "D",
-          "explanation": "Quantity change: (160 − 200)/200 = −20%. Price change: (15 − 12)/12 = 25%. PED = −20/25 = −0.8. Using the midpoint method instead gives −1.0; the method must be specified.",
+          "explanation": "Using initial values, quantity change is (160 − 200)/200 = −20% and price change is (15 − 12)/12 = 25%. PED = −20/25 = −0.8.",
           "source": "Original question 74; Consumers and Incentives lecture slides; Lectures #6–7"
         },
         {
@@ -2390,7 +2390,7 @@
             }
           ],
           "correctOptionId": "D",
-          "explanation": "ΔQ = −4 and ΔP = 2. Initial-point estimate: (−4/2) × (11/56) = −0.392857, absolute value ≈ 0.39. None of the original options was correct. The midpoint/arc value is about 0.44, which was incorrectly mixed into the original point-elasticity question.",
+          "explanation": "Using initial values, quantity change is (52 − 56)/56 ≈ −7.14% and price change is (13 − 11)/11 ≈ 18.18%. The absolute price elasticity of demand is |−7.14/18.18| ≈ 0.39.",
           "source": "Original question 79; Consumers and Incentives lecture slides; Lectures #6–7"
         },
         {

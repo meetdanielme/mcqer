@@ -6529,6 +6529,34 @@
           "correctOptionId": "E",
           "explanation": "The campaigns stressed physical activity over dietary changes - a strategy long espoused by Coca-Cola that critics say was designed to protect corporate profits.",
           "source": "Core Reading 20: 'A Shadowy Industry Group Shapes Food Policy Around the World' (New York Times, 2019)"
+        },
+        {
+          "id": "MG2008-W10-023",
+          "stem": "A food company uses a familiar cartoon character in a school activity so that children associate it with its products, even though no direct sales pitch is made. Which concern is most relevant?",
+          "options": [
+            {
+              "id": "A",
+              "text": "That children will necessarily become adult shareholders in the company."
+            },
+            {
+              "id": "B",
+              "text": "That brand association may influence children’s preferences and requests to parents despite the absence of an ordinary advertisement."
+            },
+            {
+              "id": "C",
+              "text": "That the activity proves every child will buy the product immediately."
+            },
+            {
+              "id": "D",
+              "text": "That all educational activities are prohibited whenever a business is involved."
+            },
+            {
+              "id": "E",
+              "text": "That no marketing can occur unless a price is displayed."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Linking a familiar character to a brand in school can build positive associations that shape children’s preferences and what they ask their parents to buy."
         }
       ]
     },
@@ -7028,6 +7056,118 @@
           "correctOptionId": "C",
           "explanation": "More than 200 moderators, including 114 working in Dublin for outsourcing firms, signed the letter - an example of a firm keeping responsibility at arm's length.",
           "source": "Week 11 lecture slides, Part Two (Social Media / 'Big Tech') - deck on file; lecture not yet delivered at time of writing, slide 3"
+        },
+        {
+          "id": "MG2008-W11-018",
+          "stem": "When evaluating the Cambridge Analytica case, which conclusion best distinguishes the ethical issue from the evidence about its effects?",
+          "options": [
+            {
+              "id": "A",
+              "text": "If targeted messages did not change every voter’s choice, collecting personal data without meaningful consent raises no ethical concern."
+            },
+            {
+              "id": "B",
+              "text": "Concerns about privacy and consent can remain even if claims about the effectiveness of psychographic persuasion are disputed."
+            },
+            {
+              "id": "C",
+              "text": "Psychological profiles prove that every election result was determined by targeted advertising."
+            },
+            {
+              "id": "D",
+              "text": "A personality quiz cannot involve information about anyone other than the person who completed it."
+            },
+            {
+              "id": "E",
+              "text": "Collecting data is ethical whenever the resulting advertisement is personalised."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Whether people meaningfully consented to the use of their data is a separate ethical question from whether targeted messages changed how they voted."
+        },
+        {
+          "id": "MG2008-W11-019",
+          "stem": "A study finds that heavier social-media use is associated with greater reported social isolation. Which conclusion is most justified by this finding alone?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Social media has been proven to cause isolation in every user."
+            },
+            {
+              "id": "B",
+              "text": "Isolation has been proven to cause all social-media use."
+            },
+            {
+              "id": "C",
+              "text": "An association exists, but the finding alone does not establish the direction or cause of the relationship."
+            },
+            {
+              "id": "D",
+              "text": "The finding proves that people without social-media accounts cannot feel isolated."
+            },
+            {
+              "id": "E",
+              "text": "The study establishes that all online interaction damages wellbeing."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The association leaves open whether social-media use affects isolation, isolation affects social-media use, or other factors influence both."
+        },
+        {
+          "id": "MG2008-W11-020",
+          "stem": "A social-media platform offers free access but earns advertising revenue linked to users’ attention. Which ethical question follows most directly?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Whether design features that keep people engaged could favour advertising income over users’ wellbeing."
+            },
+            {
+              "id": "B",
+              "text": "Whether a free service can ever have any commercial incentives."
+            },
+            {
+              "id": "C",
+              "text": "Whether every user of a free service will necessarily become addicted."
+            },
+            {
+              "id": "D",
+              "text": "Whether the platform must charge every user before it can sell advertising."
+            },
+            {
+              "id": "E",
+              "text": "Whether advertising revenue proves that all content on the platform is accurate."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "When user attention generates revenue, a platform has an incentive to increase engagement even where its design choices could harm users’ wellbeing."
+        },
+        {
+          "id": "MG2008-W11-021",
+          "stem": "What is a balanced ethical way to assess the expansion of data centres supporting AI?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Consider only the usefulness of AI, because digital services have no physical infrastructure."
+            },
+            {
+              "id": "B",
+              "text": "Assume every data centre has the same environmental impact."
+            },
+            {
+              "id": "C",
+              "text": "Consider potential benefits alongside the energy, land and other resource demands of the infrastructure."
+            },
+            {
+              "id": "D",
+              "text": "Assume that any use of AI eliminates all environmental costs."
+            },
+            {
+              "id": "E",
+              "text": "Judge the technology solely by the number of companies using it."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "An ethical assessment weighs the benefits of AI against the energy, land and other resources its infrastructure uses."
         }
       ]
     },
